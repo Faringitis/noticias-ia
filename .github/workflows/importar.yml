@@ -1,0 +1,42 @@
+# Si Claude no pudo subir la edición a main y la dejó en una rama claude/*, esto la copia a main
+# y dispara la publicación (la página web solo se puede publicar desde main).
+name: 1b · Importar edición de rama claude
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["ediciones/**"]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Copiar ediciones nuevas a main
+        run: |
+          rama="origin/${GITHUB_REF#refs/heads/}"
+          git fetch --quiet origin "$GITHUB_REF:refs/remotes/$rama"
+          for f in $(git ls-tree --name-only -r "$rama" -- ediciones/ | grep -E '^ediciones/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$' || true); do
+            [ -f "$f" ] || { git show "$rama:$f" > "$f"; echo "Copiada $f"; }
+          done
+          git config user.name "noticias-ia-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ediciones
+          git diff --cached --quiet && exit 0
+          git commit -m "Importar edición desde ${GITHUB_REF#refs/heads/}"
+          git pull --rebase --quiet origin main
+          git push origin HEAD:main
+
+      - name: Disparar la publicación
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main

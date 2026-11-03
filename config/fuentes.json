@@ -1,0 +1,40 @@
+{
+  "_nota": "Fuentes que lee el recolector cada mañana. nivel: oficial = la empresa u organismo que anuncia; medio = periodismo serio; especialista = experto independiente; espanol = medios en español. filtrar_ia = true en feeds generales: solo entran notas que hablen de IA.",
+  "ventana_horas": 30,
+  "youtube_jon": {
+    "nombre": "Jon Hernández (La Inteligencia Artificial)",
+    "channel_id": "UCl5-lvQyfILb-l2abPk4Ntg",
+    "ventana_horas": 72
+  },
+  "feeds": [
+    {"nombre": "OpenAI", "nivel": "oficial", "url": "https://openai.com/news/rss.xml"},
+    {"nombre": "Google DeepMind", "nivel": "oficial", "url": "https://deepmind.google/blog/rss.xml"},
+    {"nombre": "Google (IA)", "nivel": "oficial", "url": "https://blog.google/innovation-and-ai/rss/"},
+    {"nombre": "Google (IA)", "nivel": "oficial", "url": "https://blog.google/technology/ai/rss/"},
+    {"nombre": "Anthropic", "nivel": "oficial", "url": "https://news.google.com/rss/search?q=site:anthropic.com+when:2d&hl=en-US&gl=US&ceid=US:en", "google_news": true, "max_notas": 30, "filtrar_ia": true},
+    {"nombre": "Meta AI", "nivel": "oficial", "url": "https://news.google.com/rss/search?q=site:ai.meta.com+when:2d&hl=en-US&gl=US&ceid=US:en", "google_news": true, "max_notas": 30, "filtrar_ia": true},
+    {"nombre": "Microsoft", "nivel": "oficial", "url": "https://news.google.com/rss/search?q=site:blogs.microsoft.com+AI+when:2d&hl=en-US&gl=US&ceid=US:en", "google_news": true, "max_notas": 30, "filtrar_ia": true},
+    {"nombre": "NVIDIA", "nivel": "oficial", "url": "https://blogs.nvidia.com/feed/", "filtrar_ia": true},
+    {"nombre": "Mistral AI", "nivel": "oficial", "url": "https://mistral.ai/rss.xml"},
+    {"nombre": "Hugging Face", "nivel": "oficial", "url": "https://huggingface.co/blog/feed.xml"},
+
+    {"nombre": "Reuters", "nivel": "medio", "url": "https://news.google.com/rss/search?q=site:reuters.com+%22artificial+intelligence%22+when:2d&hl=en-US&gl=US&ceid=US:en", "google_news": true, "max_notas": 30, "filtrar_ia": true},
+    {"nombre": "AP", "nivel": "medio", "url": "https://news.google.com/rss/search?q=site:apnews.com+%22artificial+intelligence%22+when:2d&hl=en-US&gl=US&ceid=US:en", "google_news": true, "max_notas": 30, "filtrar_ia": true},
+    {"nombre": "MIT Technology Review", "nivel": "medio", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"},
+    {"nombre": "The Verge", "nivel": "medio", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"nombre": "Ars Technica", "nivel": "medio", "url": "https://arstechnica.com/ai/feed/"},
+    {"nombre": "TechCrunch", "nivel": "medio", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"nombre": "Wired", "nivel": "medio", "url": "https://www.wired.com/feed/tag/ai/latest/rss"},
+
+    {"nombre": "Simon Willison", "nivel": "especialista", "url": "https://simonwillison.net/atom/everything/", "filtrar_ia": true},
+    {"nombre": "Import AI (Jack Clark)", "nivel": "especialista", "url": "https://importai.substack.com/feed"},
+
+    {"nombre": "Xataka", "nivel": "espanol", "url": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml"},
+    {"nombre": "El País", "nivel": "espanol", "url": "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/tag/inteligencia_artificial_a"}
+  ],
+  "palabras_ia": [
+    " ai ", "ai-", "a.i.", "artificial intelligence", "inteligencia artificial", " ia ", "llm", "gpt", "chatgpt",
+    "openai", "anthropic", "claude", "gemini", "deepmind", "llama", "mistral", "copilot", "agent", "agente",
+    "machine learning", "neural", "model", "modelo", "genai", "generative", "inference", "robot"
+  ]
+}

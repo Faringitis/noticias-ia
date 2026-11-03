@@ -1,0 +1,187 @@
+{
+  "fecha": "2026-11-03",
+  "intro": "Anthropic avisa en sus papeles para salir a la Bolsa que la IA podría pronto acelerar su propio desarrollo, la justicia europea da una primera señal sobre Gemini y la prensa, y Google cierra una semana cargada de anuncios.",
+  "noticias": [
+    {
+      "titulo": "Anthropic advierte que pronto podría cruzar el umbral de una IA que acelera su propio desarrollo",
+      "titulo_corto": "Anthropic: IA que se mejora",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "En la versión actualizada de su solicitud para salir a la Bolsa, Anthropic dice que sus próximos modelos podrían acelerar de forma dramática la investigación en IA. Aclara que ningún modelo actual cruzó ese umbral.",
+      "detalle": [
+        "Anthropic, la empresa que desarrolla Claude, presentó ante la SEC (el organismo que regula la Bolsa en Estados Unidos) una versión actualizada de su prospecto de salida a Bolsa. En la sección de riesgos explica que ya usa IA para hacer su propia investigación y que eso podría representar un riesgo de seguridad considerable.",
+        "Según el documento, sus estimaciones internas indican que podría alcanzar \"de manera inminente\" el punto que su política de seguridad define como un progreso dramáticamente acelerado atribuible a la IA. En la jerga del sector se habla de RSI (automejora recursiva): modelos que ayudan a construir modelos mejores, cada vez más rápido.",
+        "La empresa admite además que en el pasado no detectó a tiempo algunos saltos en su ritmo de desarrollo: se dio cuenta después. Por eso dice que no prevé dejar que Claude diseñe y construya por sí solo los modelos siguientes sin supervisión humana significativa, y que evalúa cambios en su política para mantener a las personas al mando.",
+        "Hay que leerlo con cuidado: Anthropic aclara que ninguno de sus modelos actuales superó ese umbral, y un prospecto de salida a Bolsa es a la vez un documento legal de riesgos y una pieza que interesa a los inversores."
+      ],
+      "por_que_importa": "Es la primera vez que un laboratorio líder pone por escrito, en un documento legal, que la IA que se acelera a sí misma podría estar cerca. Eso puede cambiar el ritmo de los avances y el debate sobre cómo regularlos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Anthropic: prospecto S-1/A ante la SEC", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Un asesor de la justicia europea dice que Gemini puede violar los derechos de la prensa",
+      "titulo_corto": "Gemini y la prensa en la UE",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "En el primer caso sobre IA generativa en el Tribunal de Justicia de la UE, el abogado general opinó que entrenar con artículos está permitido, pero que usarlos para armar respuestas puede infringir los derechos de los editores.",
+      "detalle": [
+        "Un editor de prensa húngaro (Like Company) demandó a Google por el uso de sus artículos en Gemini. La justicia húngara le preguntó al Tribunal de Justicia de la Unión Europea cómo aplicar las reglas de derechos de autor, y este 3 de noviembre el abogado general Maciej Szpunar dio su opinión.",
+        "Su postura distingue dos cosas. Entrenar un modelo con textos públicos entra, en general, en la excepción europea de \"minería de textos y datos\", y además no hubo pruebas de que se hubieran usado esos artículos para entrenar Gemini. Pero cuando el chatbot busca un artículo en la web del medio, lo reutiliza para generar su respuesta y se la entrega al usuario, el derecho del editor puede verse afectado en ciertos casos.",
+        "También aclaró que lo que se protege no son los hechos que cuenta la noticia, sino la forma concreta en que están escritos. Google respondió que Gemini aprende patrones del lenguaje para crear respuestas originales y valoró que se reconozca que el entrenamiento está permitido.",
+        "La opinión no es obligatoria: el fallo final llegará en los próximos meses, aunque los jueces suelen seguir el criterio del abogado general."
+      ],
+      "por_que_importa": "Es la primera señal judicial en Europa sobre cómo los chatbots pueden usar noticias. Si el tribunal la confirma, los asistentes que resumen la prensa podrían tener que pedir permiso o pagar en la UE.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Dataconomy", "url": "https://dataconomy.com/2026/11/03/eu-court-adviser-says-google-gemini-may-infringe-press/", "tipo": "medio"},
+        {"nombre": "Android Headlines", "url": "https://androidheadlines.com/2026/11/google-gemini-eu-copyright-warning.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Anthropic llega a la Bolsa con ingresos de casi US$17.000 millones en el trimestre",
+      "titulo_corto": "Anthropic: cifras para Bolsa",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Anthropic actualizó sus números antes de cotizar en el Nasdaq: facturó cerca de US$17.000 millones entre julio y septiembre, alrededor de un 45 % más que el trimestre anterior, y redujo sus pérdidas.",
+      "detalle": [
+        "Anthropic presentó su prospecto público para salir a la Bolsa de Nasdaq a fines de octubre, con el símbolo ANT, y ahora lo actualizó con los datos del tercer trimestre. Según los informes, los ingresos de julio a septiembre rondaron los US$16.800 millones, cerca de un 45 % más que en el trimestre anterior.",
+        "El crecimiento sigue siendo enorme, pero se desacelera: entre el primer y el segundo trimestre los ingresos se habían más que duplicado. En el primer semestre la empresa había declarado una pérdida contable de US$80.700 millones, aunque la mayor parte (unos US$72.400 millones) se debió a cambios en el valor de instrumentos financieros y no al funcionamiento del negocio.",
+        "Todavía no se conocen el precio ni la cantidad de acciones que se van a vender. Distintos medios hablan de una de las salidas a Bolsa más grandes de la historia, pero esas cifras de valuación vienen de fuentes anónimas, no del documento oficial."
+      ],
+      "por_que_importa": "Va a ser la primera vez que el público pueda invertir directamente en uno de los grandes laboratorios de IA, y sus números muestran cuánto dinero ya mueve el uso de modelos como Claude.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-02/anthropic-reduce-las-perdidas-y-mejora-los-ingresos-antes-de-la-salida-a-bolsa.html", "tipo": "medio"},
+        {"nombre": "Bernama (con datos de Reuters)", "url": "https://bernama.com/en/world/news.php?id=2626193", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "ChatGPT une sus pestañas Chat y Work, y comparte el límite de uso con Codex",
+      "titulo_corto": "ChatGPT une Chat y Work",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI avisó por mail que juntará Chat y Work en una sola experiencia. Además, ChatGPT y Codex pasarán a gastar del mismo cupo de uso, así que quien usa mucho los dos puede quedarse sin uso antes.",
+      "detalle": [
+        "OpenAI les escribió a sus usuarios para anunciar que va a fusionar las pestañas Chat y Work de ChatGPT. La idea es pasar de explorar una idea a que ChatGPT la ejecute, todo en el mismo lugar. El cambio llegará primero a un grupo de usuarios para recibir comentarios y después a todos; no dio fecha.",
+        "Codex, su herramienta para programar, va a seguir siendo una experiencia separada dentro de la aplicación de escritorio. Pero ChatGPT y Codex van a consumir del mismo cupo de uso.",
+        "La empresa asegura que a la mayoría no la va a afectar. Quienes usan mucho las dos herramientas o los modelos más caros podrían tener que esperar más seguido a que se reinicie su límite."
+      ],
+      "por_que_importa": "Si usás ChatGPT y Codex con la misma cuenta, conviene vigilar el consumo: lo que gastes programando ahora te descuenta del chat, y al revés.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/", "tipo": "medio"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "The New York Times y otros diarios demandan al navegador Brave por pasarle su contenido a empresas de IA",
+      "titulo_corto": "Diarios demandan a Brave",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Acusan a Brave de copiar sus artículos con un rastreador imposible de bloquear y de vendérselos a Anthropic, Perplexity, Mistral, xAI y Cohere. También lo acusan de saltear los muros de pago.",
+      "detalle": [
+        "The New York Times presentó una demanda en un tribunal federal de Manhattan contra Brave, la empresa del navegador centrado en la privacidad. En otra demanda parecida se sumaron el Daily News, el Chicago Tribune y el Orlando Sentinel.",
+        "Según la demanda, Brave armó un índice de más de 30.000 millones de páginas web con un rastreador sin identificar, por lo que los medios no podían bloquearlo, y distribuyó ese contenido a empresas de IA. El Times lo llama un \"proveedor y distribuidor de contenido protegido robado\".",
+        "También apuntan contra una función del navegador que permite saltear los muros de pago y contra su práctica de bloquear los anuncios de los medios mientras vende los propios. Piden que se frene esa práctica y una indemnización. Brave no respondió de inmediato."
+      ],
+      "por_que_importa": "La pelea por los derechos de autor ya no es solo contra quienes entrenan modelos: ahora también alcanza a quienes juntan y revenden los datos con los que se entrenan.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google presentó Gemini 4 Carbon, su modelo más potente, por ahora solo para expertos en ciberseguridad",
+      "titulo_corto": "Gemini 4 Carbon",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 28 de octubre, encabeza el ranking de Artificial Analysis y se destaca en ciberseguridad. Por ahora solo lo usan especialistas en seguridad; para el público no hay fecha.",
+      "detalle": [
+        "Google lo presenta como su modelo más fuerte, con capacidades de ciberseguridad de primer nivel y buen rendimiento en tareas largas. Llega dos semanas después de Gemini 4 Argon.",
+        "Según los datos que publicó Google, Carbon es el número 1 del Índice de Inteligencia de Artificial Analysis (una comparación independiente entre modelos) con 59 puntos. En pruebas de seguridad informática encuentra el 88 % de las vulnerabilidades de una de ellas y genera código seguro con el doble de éxito que Argon.",
+        "El precio inicial para desarrolladores es de US$2 por millón de tokens de entrada y US$10 por millón de salida (los tokens son los pedacitos de texto que procesa el modelo). Después del período de lanzamiento subirá al doble.",
+        "Por ahora solo acceden algunos especialistas en defensa informática y socios de confianza. Google dice que lo abrirá a desarrolladores, empresas y usuarios \"lo antes posible\", sin fecha."
+      ],
+      "por_que_importa": "Muestra hacia dónde va la competencia: los modelos más potentes ya se lanzan primero a grupos controlados porque también podrían usarse para atacar sistemas.",
+      "jon_opina": "Jon destaca que todavía no se puede probar, así que por ahora hay que confiar en las pruebas publicadas, y que su precio lo haría menos conveniente para algunas tareas.",
+      "jon_segundo": 457,
+      "fuentes": [
+        {"nombre": "Google (blog oficial)", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "tipo": "oficial"},
+        {"nombre": "Jon Hernández: resumen escrito", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+      ]
+    },
+    {
+      "titulo": "Genie 4: Google DeepMind crea mundos virtuales que se pueden recorrer y modificar en tiempo real",
+      "titulo_corto": "Genie 4 de Google",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Presentado el 27 de octubre, genera entornos interactivos con sonido propio que cambian cuando se lo pedís con palabras. Por ahora es una vista previa con lista de espera.",
+      "detalle": [
+        "Genie 4 es un \"modelo de mundo\": en vez de generar un video que solo mirás, genera un entorno que podés recorrer. Mientras lo explorás, le podés pedir con texto que cambie el clima, mueva la cámara o agregue personas y objetos.",
+        "Según Google DeepMind, mejora la física y el movimiento de las personas, y es su primer modelo de mundo en tiempo real que genera audio propio: música, sonido ambiente y hasta diálogos. Además, un agente basado en Gemini puede recibir un objetivo, dividirlo en pasos e ir adaptando el plan dentro de la simulación.",
+        "Tiene límites reconocidos: en sesiones largas los detalles visuales pueden cambiar o desaparecer, y todavía cuesta lograr física compleja, texto legible y coherencia a largo plazo. Todo lo que genera lleva una marca de agua invisible (SynthID).",
+        "Por ahora es una vista previa para probadores de confianza; después llegará a suscriptores de Google AI Ultra y a algunos desarrolladores. Hay lista de espera."
+      ],
+      "por_que_importa": "Estos simuladores podrían servir para entrenar robots en mundos virtuales antes de llevarlos al mundo real, algo muy cercano a la ingeniería.",
+      "jon_opina": "Para Jon es una de las novedades más llamativas de la semana: pasar de generar videos a crear mundos que se pueden explorar y modificar.",
+      "jon_segundo": 48,
+      "fuentes": [
+        {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation", "tipo": "oficial"},
+        {"nombre": "Jon Hernández: resumen escrito", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+      ]
+    },
+    {
+      "titulo": "Google hizo funcionar una IA en un satélite: el primer paso hacia los centros de datos espaciales",
+      "titulo_corto": "IA en órbita de Google",
+      "categoria": "Investigación",
+      "veracidad": "confirmada",
+      "breve": "Un satélite del proyecto Suncatcher recibió una pregunta desde la Tierra y respondió con el modelo Gemma 4 corriendo en un chip TPU en órbita. Es una prueba chica, pero abre un camino nuevo.",
+      "detalle": [
+        "Google anunció el 30 de octubre que su satélite de prueba del Proyecto Suncatcher, construido con la empresa Planet y lanzado el 1 de octubre en una misión de SpaceX, respondió su primera consulta de IA. Le pidieron un haiku sobre estar en el espacio y lo generó Gemma 4, un modelo abierto de Google, en un chip TPU (procesadores que Google diseña para IA) a bordo.",
+        "Ya hubo experimentos anteriores de IA en el espacio. Lo nuevo es hacerlo con un chip de los que se usan en los centros de datos. Igual tiene límites claros: el satélite lleva cuatro TPU, pero puede usar una sola por vez y durante unos 20 minutos, por falta de energía y por el calor.",
+        "La idea de fondo es que, en órbita, los paneles solares reciben mucha más energía que en la Tierra (Google estima hasta ocho veces más). Faltan resolver la refrigeración en el vacío, la radiación y los costos. El próximo paso es probar dos satélites conectados entre sí en 2027."
+      ],
+      "por_que_importa": "La IA necesita cada vez más electricidad. Llevar parte del cálculo al espacio es una de las ideas que se exploran para no saturar las redes eléctricas en la Tierra.",
+      "jon_opina": null,
+      "jon_segundo": 915,
+      "fuentes": [
+        {"nombre": "Xataka", "url": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/?p=3183584", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "OpenAI promete que sus centros de datos ayudarán a la red eléctrica en emergencias",
+      "titulo_corto": "OpenAI y la red eléctrica",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "Con el programa Grid Protectors, OpenAI trabajará con empresas eléctricas para que sus centros de datos liberen energía en emergencias y no encarezcan la luz de los vecinos. La primera prueba será en Georgia (EE. UU.).",
+      "detalle": [
+        "OpenAI anunció el Grid Protectors Program, un programa con empresas eléctricas para que sus futuros centros de datos aporten a la estabilidad de la red en lugar de sobrecargarla, y para proteger los precios de la electricidad de los consumidores.",
+        "La primera prueba será en un centro de datos que OpenAI construye en el condado de Effingham, en Georgia. Ahí la empresa promete liberar hasta 1.000 megavatios durante olas de calor o emergencias, suficiente para el aire acondicionado de unas 700.000 casas.",
+        "El anuncio llega en medio de una oposición creciente a los centros de datos para IA en varias regiones de Estados Unidos, por su enorme consumo eléctrico."
+      ],
+      "por_que_importa": "El consumo de energía se volvió uno de los mayores límites de la IA, y también un tema político: quién paga la electricidad que necesitan estos centros de datos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/grid-protectors-program", "tipo": "oficial"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {
+    "id": "_K3kpcbQVdQ",
+    "titulo": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "resumen_url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/"
+  },
+  "notas_internas": "Edición de prueba armada a mano el 03/11. openai.com, elpais.com y theverge.com bloquean la lectura automática: se usaron los resúmenes de sus feeds y otros medios. El prospecto ante la SEC es demasiado grande para leerlo entero: las citas se verificaron vía TechCrunch."
+}

@@ -1,0 +1,34 @@
+# 6:00 (Argentina): junta las noticias de las fuentes y el video de Jon, y las deja en datos/crudo/.
+name: 1 · Recolectar noticias
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 09:00 UTC = 06:00 Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-escritura
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Recolectar
+        run: python3 scripts/recolectar.py
+
+      - name: Guardar en el repositorio
+        run: |
+          git config user.name "noticias-ia-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/crudo
+          git diff --cached --quiet && exit 0
+          git commit -m "Crudo $(TZ=America/Argentina/Buenos_Aires date +%F)"
+          git pull --rebase --quiet origin main
+          git push origin HEAD:main

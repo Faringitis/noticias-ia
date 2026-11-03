@@ -1,0 +1,833 @@
+{
+  "fecha": "2026-11-03",
+  "generado": "2026-11-03T11:59-03:00",
+  "ventana_horas": 30,
+  "jon_videos": [
+    {
+      "id": "_K3kpcbQVdQ",
+      "titulo": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+      "url": "https://www.youtube.com/watch?v=_K3kpcbQVdQ",
+      "publicado_utc": "2026-11-02T19:00+00:00",
+      "es_noticias": true,
+      "ya_cubierto": false,
+      "minutos": [
+        {
+          "segundo": 0,
+          "marca": "00:00",
+          "tema": "Introducción"
+        },
+        {
+          "segundo": 48,
+          "marca": "00:48",
+          "tema": "Genie 4: Google crea mundos interactivos"
+        },
+        {
+          "segundo": 358,
+          "marca": "05:58",
+          "tema": "Crea webs con Hostinger"
+        },
+        {
+          "segundo": 457,
+          "marca": "07:37",
+          "tema": "Gemini 4 Carbon: potencia y costes"
+        },
+        {
+          "segundo": 915,
+          "marca": "15:15",
+          "tema": "Google lleva la IA al espacio"
+        },
+        {
+          "segundo": 1057,
+          "marca": "17:37",
+          "tema": "GPT-6.1 Terra: lo nuevo de OpenAI"
+        },
+        {
+          "segundo": 1213,
+          "marca": "20:13",
+          "tema": "ChatGPT Pro: límites y créditos API"
+        },
+        {
+          "segundo": 1427,
+          "marca": "23:47",
+          "tema": "Claude Max y Ultra: nuevas suscripciones"
+        },
+        {
+          "segundo": 1496,
+          "marca": "24:56",
+          "tema": "Anthropic y SpaceX: dependencia millonaria"
+        },
+        {
+          "segundo": 1622,
+          "marca": "27:02",
+          "tema": "Microsoft ofrece 60.000 bajas voluntarias"
+        },
+        {
+          "segundo": 1776,
+          "marca": "29:36",
+          "tema": "Países Bajos recorta 25.000 funcionarios"
+        },
+        {
+          "segundo": 1835,
+          "marca": "30:35",
+          "tema": "Skydance: bajas y fin del teletrabajo"
+        },
+        {
+          "segundo": 1931,
+          "marca": "32:11",
+          "tema": "IA y empleo: señales del mercado"
+        },
+        {
+          "segundo": 2058,
+          "marca": "34:18",
+          "tema": "Cisco: dos personas e IA reescriben su código"
+        },
+        {
+          "segundo": 2168,
+          "marca": "36:08",
+          "tema": "Despedida y próximo directo"
+        }
+      ],
+      "links_fuentes": [
+        {
+          "texto": "Genie 4 simula mundos",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+        },
+        {
+          "texto": "Primera versión de Genie",
+          "url": "https://sites.google.com/view/genie-2024/home?pli=1&authuser=0"
+        },
+        {
+          "texto": "Genie 2",
+          "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
+        },
+        {
+          "texto": "Genie 3",
+          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+        },
+        {
+          "texto": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "texto": "Carbon lidera los benchmarks",
+          "url": "https://artificialanalysis.ai/models"
+        },
+        {
+          "texto": "IA en un satélite",
+          "url": "https://x.com/sundarpichai/status/2116214866444943853?s=48"
+        },
+        {
+          "texto": "GPT 6.1 Terra",
+          "url": "https://openai.com/es-ES/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "texto": "Límites Pro duplicados",
+          "url": "https://x.com/thsottiaux/status/2115850175868727621?s=48"
+        },
+        {
+          "texto": "Créditos API por suscripción",
+          "url": "https://x.com/ChatGPT/status/2115601128733974859"
+        },
+        {
+          "texto": "Ultra sin límites quinquenales",
+          "url": "https://x.com/claudeai/status/2116220869479428500"
+        },
+        {
+          "texto": "Anthropic contrata servidores SpaceX",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-accounts-over-third-spacex-014451805.html"
+        },
+        {
+          "texto": "Bajas voluntarias en Microsoft",
+          "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+        },
+        {
+          "texto": "Beneficios de Microsoft aumentan",
+          "url": "https://www.comercio.tv/p/microsoft-dispara-sus-ganancias-32-y-azure-crece-48-la-inteligencia-artificial-impulsa-otro-trimestr"
+        },
+        {
+          "texto": "Holanda elimina 25000 funcionarios",
+          "url": "https://www.telegraph.co.uk/business/2026/10/27/netherlands-to-cut-25000-civil-service-jobs-in-ai-push/?ICID=continue_without_subscribing_reg_first"
+        },
+        {
+          "texto": "Skydance elimina trabajo remoto",
+          "url": "https://x.com/LayoffAI/status/2114811695218692436/photo/1"
+        },
+        {
+          "texto": "Cisco: reescritura del código",
+          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
+        },
+        {
+          "texto": "Equipo de dos personas",
+          "url": "https://x.com/choblin29/status/2116216331280457764/photo/1"
+        }
+      ],
+      "resumen_plaud_url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/",
+      "copete": "¡Buenas a todos! Google ha presentado Genie 4, su nuevo simulador de mundos, y agarraos porque es brutal: no es solo vídeo, puedes cambiar lo que pasa. Además, llega Gemini 4 Carbon, aunque todavía no podemos probarlo. Pero ojo, porque mientras la IA sigue mejorando, Microsoft ofrece bajas voluntarias a 60 000 empleados pese a disparar sus beneficios. Esto merece que le prestemos atención. ¡Esto y mucho más en el vídeo de hoy!"
+    }
+  ],
+  "notas": [
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Anthropic in London: AI and Science",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QV0g3WHluSnFnU1Y2QWlHSkx5RTZwd25fZEhkM28wZ3U2S0pFczdhQUZBOHFibVh1N2kyUWIyMjdIVUtld0EyeDg3Q2cyNWZUQi1BMFBWTWE2bmJKYkdGS0xzNGdZeHFyVVVDa0QzaENYU0xSZXc?oc=5",
+      "fecha_utc": "2026-11-02T17:49+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "- Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6WXJxdnhvVmlyaG1KLXBVU3lHWmcxMkNXSWh2dDljckRfcmFlSm4xZnhSTVl1WjRJVDBRd1hTVkE2WG9uNnFLV0h3?oc=5",
+      "fecha_utc": "2026-11-03T02:16+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Progress on provable inference for large language models",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+      "fecha_utc": "2026-11-03T04:43+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "FlashProve: an open-source library for provable inference",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GMkRLdnh0RU5YakZxeWdIVms3QU9tQVpJdHN1MFJ6RFRGcWNpenFvdThnYmFhRmRrMVBZUWJCVmtkZHZ1dlQyX19kVVBYdGJZVHRLaTN1NzJLZXV1SVJkcUtpSDZMMm1lLWNYbWgtNA?oc=5",
+      "fecha_utc": "2026-11-03T05:25+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Anthropic Residency: applications open for established technical leaders",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RZThRbzhUdFJTZGszLUcwT29wNFdIZ29fVjJTUTB4SkJFRlZRekpOOVlpM1F6eGVSN2RENmpjWUl3QWU5YWNwRHZNaF9EdlNNMTY1TUtfaTJHOHk3S2s3SXJVc3BWSVVa?oc=5",
+      "fecha_utc": "2026-11-03T12:19+00:00",
+      "resumen": "",
+      "medio": "Anthropic Alignment Science blog",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google (IA)",
+      "nivel": "oficial",
+      "titulo": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "fecha_utc": "2026-11-02T17:45+00:00",
+      "resumen": "Here are Google’s latest AI updates from October 2026"
+    },
+    {
+      "fuente": "Google (IA)",
+      "nivel": "oficial",
+      "titulo": "Advancing research and partnering with universities in Singapore",
+      "url": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/",
+      "fecha_utc": "2026-11-03T04:30+00:00",
+      "resumen": "Google is investing in new research grants and capacity-building initiatives to advance AI for science and support the next generation of scientific leaders in Singapore."
+    },
+    {
+      "fuente": "Hugging Face",
+      "nivel": "oficial",
+      "titulo": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "fecha_utc": "2026-11-03T00:00+00:00",
+      "resumen": ""
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "fecha_utc": "2026-11-03T07:00+00:00",
+      "resumen": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments […]"
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "fecha_utc": "2026-11-02T09:00+00:00",
+      "resumen": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "fecha_utc": "2026-11-02T15:00+00:00",
+      "resumen": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "fecha_utc": "2026-11-02T15:30+00:00",
+      "resumen": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "fecha_utc": "2026-11-02T18:00+00:00",
+      "resumen": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "fecha_utc": "2026-11-02T18:00+00:00",
+      "resumen": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "fecha_utc": "2026-11-03T08:00+00:00",
+      "resumen": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "Anthropic posts $17B quarterly revenue but losses continue in fresh IPO filing",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa09ReEZKQUZMUjIzWWo4RjlIdU9QWGpYZ3dlV0ZYRmo4WWlPR0tRTzgyUUR4Q0VHdGIzakJid3lRSEhBQmJTaVZQS2dXQ2NEMDhUY21tT2YwT1ZiazZlNmZ2cXNwOTkycUYxWksxbk5oSUMycXVxaHV3QTBIak1haWx0Uk84SHV1LTh1cU9rMGhtRGU2Q1E?oc=5",
+      "fecha_utc": "2026-11-02T17:06+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "Artificial intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4Qi1oeTk1Z21hMnphRDg4Q3FlR1NuQmd0RUpidzBDU3A4YVRlVlZoMnZDbFVNSXA5bWVtUU55UkFqaXBVR1JqY29Sd0Q4NUZOOWtSNFJEWmVZUQ?oc=5",
+      "fecha_utc": "2026-11-02T21:38+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "Victims of Florida plane crash include a 20-year-old copilot and tech entrepreneur and his family",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbThMQW1IZnBRT0dBUlZ6dmRaZTFMY1hkWE5nUlZhdzNZd2hvQmFhSTRpd1VIaThyTGVPUnVpbGplbDhjM1U5SE1peUt5SEQ0eEFnU0ViV1djMVF5V1J3SjJKcnBjRndRQ3pmdTV4dkpLZFVsRFhmTWpiNEh6SFh3WndlUm9qOTEtZzFSa0x5U3Y?oc=5",
+      "fecha_utc": "2026-11-02T23:11+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "UK cyber chief says the UK will face AI cyberattacks on critical infrastructure by 2028",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGx3eWwwYzBFUHZMcktMZFJxU1JEclEyZnZNTDVRNkg3c1dQeEY1WUItTTFhN3ZXZE00dm43MGgxbTR4SU1MZm9KOGpTLUxjTThXX0V1X0N3YXZmVW1BMjVwNnJ1VmY3dTFKaTc3dEZtREN3WDhYWm82UndfWEZnR3BiU0hsN2gweENzRGJxcWVmWnkwMFV2cWsycVQzbU9pNk13R1VWNVM2cWotd25maDdEZldfeF9TRkw5aQ?oc=5",
+      "fecha_utc": "2026-11-03T00:08+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "Judge cites 'weaponization' in tossing charges for ex-FBI agents accused of lying about Hunter Biden",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzdKU1huRWQtMWhVQ0p3N2NLcVk2dmUwQ0I4bVVielVBYU5CSTluTDI2NG1DRUFtQ05JMkNuTDN5c0NSYTF4cU50VHgwTDREdk5NWlNkZzVEU0FlU1hUQTNGc2MyMEdsak5aUmxRYkhONHY2cDRTVnZESkNOZlRXWmhRVG96SlhsNDRPVWZCRUcydW9zN2F4N3RpQWNTYlNYNTZxQQ?oc=5",
+      "fecha_utc": "2026-11-03T01:07+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "fecha_utc": "2026-11-02T18:05+00:00",
+      "resumen": "The tsunami of imitators is way bigger than any one model maker can stem."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+      "fecha_utc": "2026-11-02T18:32+00:00",
+      "resumen": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses."
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "fecha_utc": "2026-11-02T09:35+00:00",
+      "resumen": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…"
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "fecha_utc": "2026-11-02T13:10+00:00",
+      "resumen": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…"
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "fecha_utc": "2026-11-02T17:00+00:00",
+      "resumen": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…"
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "fecha_utc": "2026-11-03T04:18+00:00",
+      "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…"
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "fecha_utc": "2026-11-03T10:43+00:00",
+      "resumen": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…"
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Oracle taps investors for $20 billion to finance AI expansion",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OVGUyeXVqQlVYMEx3TEhEVHY5ekZLX3paamdqNUF1ek80VE9RZVhuSFl2d3dsVkF6T2JyVFdJdF8xR1FuWU5EdU9OWG03SmRoLUloaEFCc3pGLXFxN0FyOUNnVkM3T3prb1NMYXBOanNGT2RMYjNxcTZsdUEwbGs?oc=5",
+      "fecha_utc": "2026-11-02T13:22+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Merz says Germany must preserve 'digital sovereignty' in AI era",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZU5yUnVfaEJFc2dqLWdPQjZxaUJmVEJSeVlvREhHRkJhTURWT2ktdWZ3YmNrOHFFYlZwTENLVkE0aVBULWxjUWxkR3ZCQ2JoVFJrbXU3SFdMdnYzdlRZRHZreEZMSzhWVWlLWmxHcVhjQUlkV21DQkRQWVBlVFlWbmJHZ1gwX0xibEJjU1Z0NmJMdm1ackM4QnRubVhseTVkNEFnMGJn?oc=5",
+      "fecha_utc": "2026-11-02T15:37+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Law firm's AI use doesn't warrant cutting legal fees, US appeals court rules",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdS1LX2NIT2xSeTRSSk00YUVVOENZMDFvdENwZV90MkN3U1VEcDhkQ0tPX2lyTzQ4YTdIZjd5VlJqWl9yUkM4ZG9tdDVaZ01jWlFXVGVtTkJyZF9QdlpMZWl1MTc4bXNCaGNUcFp1WXRFUHFITWJtS3FubGlLU2R0MFE1c3h3aGl3SVBkaW5hYUktYVZ5cHlRNzFMbExxNUE5cXR5RUh4M0dTU1ozM2VfcEtTYWp2VmVPZjBPajBzUnp3dk5u?oc=5",
+      "fecha_utc": "2026-11-02T22:37+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Palantir forecasts strong quarterly revenue on AI demand",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHl2TXR3V1NLdWxVUGFhNHludjhnOGY2M3g4TnktS19Pakw2dkM4VjAxMHQxcDEya0NtXzlGU29qc25GdEdrQ2o1WEI1MjlSc19ZZTBvVVZwRk1XZm9SQTJ5eEdRMm5mQ1p5aVZILWdXREdNU1d3RTBfSGRRRTJYLWVaZk5oR1U1Q0NSNGJHb2h3RUk5czl6bHJKQnBaTUREOWJmZHNKU2VsNGo3bHpldmo3SjRsbUcyRWc?oc=5",
+      "fecha_utc": "2026-11-02T23:44+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Big-ticket tech deals need to keep pace with AI boom but risks remain high, financial leaders say",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2xHcnFKSzZIWm80UDJnQWMzYkctWHVoZk1GTTVDbHMxRTFJd0xNaldGNFNMMG1KelBpSUYzU1EwOU83Zk90YnFnSGtDQ2FXVlMtcUl6TFV2LUZCeTByOUFGZGN0UktWWjh4MHNndTdnTnBod1oySTY3OUFmRnNpSkFuQlNUZnV0SUFibVl5VGYxQjkzUlNWMTJZaUY5OFJBY0R2VDZjS1FObEhXX3VsM2NBTUY0WkVaOWlLbmkxVkRXc2hjeEg4Sw?oc=5",
+      "fecha_utc": "2026-11-03T02:14+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "AI investment is becoming overly concentrated, Chinese official says",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV0N3WTU2SXM0YlVCRkx0ZEo0d0pib2NjYk4yUGdXTGg2ZUl2emstQ1BxMjFaTC1BWVJ5bnpuR2dnVTlPenNWbXRxN09hNTJudXBlMVNtMmhSRVdyNnZMU1hFRmt1WjN4VzR4SS1DcUJ4YmR3N2tHdldlUl9vTXA2SVo1Nk9vVWNnMndmZVNDTkxFZW1NV1FpdVBtZGxmZ0MzdV9MUU9SRkw1ZDhjU3NxVw?oc=5",
+      "fecha_utc": "2026-11-03T02:28+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Global markets were already fragile. Big AI bets could break them",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcE4zc2x5OEJZU0pFUTJXWlF6V2c5TmZ2MmFxLW9QcHhMdFpUZ0tsNWtSTXYtUG5pckRUVTZBQnNGZkE4T1FhRHdESDRmejMzc2VOTjI3UGhjUEJiLUM1bUNHZU1qTWtMOEthVnp5QklOMDdkOWdVSk5DR0g1UFZ0ekJ5TTROejhJaXpRd1FTRVMyZlNIbG4zcA?oc=5",
+      "fecha_utc": "2026-11-03T05:08+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVFhBT1lnS0xzTk9POHBCNUlEYmh6d3JkYW9xMnNRQ2gtYWJ3MF8xWDFTVjYwSGhjUjJnTVpRYzlmMFN0RkZtRTFYQkNQRUg0RlVEMDRRTEtOZGRpUFNlQm1IbTZTeDFnRUtoSkgybVBCcXlBLXNxS2U1d0lqNmRoQVBnWDdpdHJsbmwwNkNaV2htRkVlOEJzOWNXYUN3czFQU1VBRVNrQ01mazFULWJjeUdteTBIY3UwMkkxQjlxbXJaQQ?oc=5",
+      "fecha_utc": "2026-11-03T06:34+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Google AI chatbot's use of press items may infringe copyright rules, EU court adviser says",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3A5SlVKWVF6XzVHRldMWS1qd1FqWV9sVnF6RFJiMTIzd18wZUgtc1VtOXJabjY3LThCR045bFBrVzcyUmxJUDFWajYtX1l4RkVxY0xHTUZlRUFlR2dkcmtqOXI5MzIxMS16VEVBSE1JcExxbkJrVkk1S3NGa2g5WjhVZEJXczA3S0NUOVFudElESjBaMExucVBLQzRCLUJrVU9icU9fSkkyb1FoR2NfT29hT2JSbmhaMW9Z?oc=5",
+      "fecha_utc": "2026-11-03T10:53+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "fecha_utc": "2026-11-02T13:57+00:00",
+      "resumen": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "fecha_utc": "2026-11-02T14:00+00:00",
+      "resumen": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "fecha_utc": "2026-11-02T15:00+00:00",
+      "resumen": "Two startups tackling the data center water problem are joining forces in a $16 million deal."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "fecha_utc": "2026-11-02T16:23+00:00",
+      "resumen": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\""
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "fecha_utc": "2026-11-02T16:30+00:00",
+      "resumen": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?"
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "fecha_utc": "2026-11-02T19:19+00:00",
+      "resumen": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "fecha_utc": "2026-11-02T19:25+00:00",
+      "resumen": "The website builder said that the job losses are part of a broader restructuring of its organization."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "fecha_utc": "2026-11-02T22:14+00:00",
+      "resumen": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "fecha_utc": "2026-11-02T23:13+00:00",
+      "resumen": "The one-year-old startup is now valued at $300 million."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "fecha_utc": "2026-11-03T00:35+00:00",
+      "resumen": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "fecha_utc": "2026-11-03T01:49+00:00",
+      "resumen": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "fecha_utc": "2026-11-03T03:30+00:00",
+      "resumen": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "fecha_utc": "2026-11-03T07:20+00:00",
+      "resumen": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+      "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+      "fecha_utc": "2026-11-03T14:00+00:00",
+      "resumen": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+      "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+      "fecha_utc": "2026-11-03T14:30+00:00",
+      "resumen": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door."
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "fecha_utc": "2026-11-02T17:51+00:00",
+      "resumen": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "fecha_utc": "2026-11-02T18:01+00:00",
+      "resumen": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "fecha_utc": "2026-11-02T18:56+00:00",
+      "resumen": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]"
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "fecha_utc": "2026-11-02T10:00+00:00",
+      "resumen": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "When You Should—and Shouldn’t—Use AI to Search the Web",
+      "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+      "fecha_utc": "2026-11-02T12:00+00:00",
+      "resumen": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+      "fecha_utc": "2026-11-03T11:00+00:00",
+      "resumen": "Ahead of the midterms, WIRED talked to New York City’s mayor about data centers, AI in schools, and the future of the Democratic party."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Here's Why You Shouldn't Use AI to Vote",
+      "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "fecha_utc": "2026-11-03T14:45+00:00",
+      "resumen": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day."
+    },
+    {
+      "fuente": "Import AI (Jack Clark)",
+      "nivel": "especialista",
+      "titulo": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+      "url": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+      "fecha_utc": "2026-11-02T14:30+00:00",
+      "resumen": "What do LLMs think about vision models?"
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "fecha_utc": "2026-11-02T13:31+00:00",
+      "resumen": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to try running those numbers again to see what had changed over the past year, and in doing so learned…"
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "fecha_utc": "2026-11-02T23:49+00:00",
+      "resumen": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for…"
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "fecha_utc": "2026-11-03T05:28+00:00",
+      "resumen": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags:…"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Anthropic reduce las pérdidas y mejora los ingresos antes de la salida a Bolsa",
+      "url": "https://elpais.com/economia/2026-11-02/anthropic-reduce-las-perdidas-y-mejora-los-ingresos-antes-de-la-salida-a-bolsa.html",
+      "fecha_utc": "2026-11-02T15:30+00:00",
+      "resumen": "La compañía registró una cifra de negocio de 17.000 millones de dólares en el tercer trimestre, un 47% más"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "El futuro ya no es lo que era antes",
+      "url": "https://elpais.com/internacional/2026-11-02/el-futuro-ya-no-es-lo-que-era-antes.html",
+      "fecha_utc": "2026-11-02T22:16+00:00",
+      "resumen": "El escritor Juan Gabriel Vásquez despide la primera sesión del World in Progress reflexionando sobre los riesgos que afronta la humanidad, como la inteligencia artificial"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Los editores europeos se muestran más permeables ante el ‘tsunami’ de la IA",
+      "url": "https://elpais.com/cultura/2026-11-03/los-editores-europeos-se-muestran-mas-permeables-ante-el-tsunami-de-la-ia.html",
+      "fecha_utc": "2026-11-03T04:30+00:00",
+      "resumen": "Las Conversaciones Literarias de Formentor reúnen a 28 actores clave del sector que se muestran divididos ante los desafíos que plantea la inteligencia artificial"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Merlin Properties logra oxígeno financiero en un momento de dudas de los inversores por su apuesta por los centros de datos",
+      "url": "https://elpais.com/economia/negocios/2026-11-03/los-centros-de-datos-meten-en-apuros-a-merlin.html",
+      "fecha_utc": "2026-11-03T04:30+00:00",
+      "resumen": "Los problemas de su principal cliente y la incertidumbre regulatoria en torno a estas instalaciones lastran la cotización en Bolsa de la socimi, que ha logrado captar 3.750 millones en un préstamo sindicado para reestructurar su deuda"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "EE UU ya es un Estado artificial, posliterario y fascista",
+      "url": "https://elpais.com/ideas/2026-11-03/ee-uu-ya-es-un-estado-artificial-posliterario-y-fascista.html",
+      "fecha_utc": "2026-11-03T04:30+00:00",
+      "resumen": "El país llega a una cita electoral clave mientras asistimos a un cambio de sistema: de una democracia constitucional a otra forma de Gobierno en la que los humanos están supeditados a las máquinas"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Apple logra ingresos récord apoyada en la fortaleza del iPhone y presume de su remuneración a los accionistas",
+      "url": "https://elpais.com/economia/2026-11-02/apple-eleva-sus-ingresos-un-12-y-presume-de-su-remuneracion-a-los-accionistas.html",
+      "fecha_utc": "2026-11-03T08:09+00:00",
+      "resumen": "La compañía eleva el volumen de negocio un 12% en el cuarto trimestre y supera los 479.000 millones en el conjunto del año. El nuevo CEO destaca que la empresa ha cerrado el mejor ejercicio de su historia"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Borja Ochoa (Telefónica): “Europa tiene que crecer en capacidades tecnológicas”",
+      "url": "https://elpais.com/internacional/2026-11-03/borja-ochoa-telefonica-europa-tiene-que-crecer-en-capacidades-tecnologicas.html",
+      "fecha_utc": "2026-11-03T10:36+00:00",
+      "resumen": "El presidente de la compañía defiende en el WIP la consolidación de empresas para acelerar inversiones"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Alguien ha conseguido lo que parecía imposible: un Redmi Note 12 ejecutando iOS. Con ayuda de Claude, claro",
+      "url": "https://www.xataka.com/moviles/alguien-ha-conseguido-que-parecia-imposible-redmi-note-12-ejecutando-ios-ayuda-claude-claro",
+      "fecha_utc": "2026-11-02T11:01+00:00",
+      "resumen": "A lo largo de todos estos años hemos visto mil y un ejemplos de modders intentando ejecutar iOS en teléfonos Android y viceversa. Han sido proyectos que, en su mayoría, han acabado en balde, pero en un contexto en el que existe la IA generativa (y mucho tiempo libre), ahora una oleada de aficionados se han puesto manos a la obra con resultados bastante sorprendentes. Las redes sociales se han llenado de vídeos en los que usuarios han conseguido ejecutar iOS en Android. Un clip de iOS 16 en un…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Tener tu propia IA en casa se está volviendo un lujo. Y a OpenAI no le viene nada mal",
+      "url": "https://www.xataka.com/robotica-e-ia/sam-altman-no-quiere-que-ejecutes-ia-tu-pc-subida-graficas-que-provoca-su-propia-industria-se-esta-poniendo-facil",
+      "fecha_utc": "2026-11-02T11:45+00:00",
+      "resumen": "Llevo bastante tiempo detrás de una tarjeta gráfica potente no solo para subir de calidad mis juegos en el PC, también para tener un banco de pruebas para IA local. Y es imposible. Se me antojó una RTX 5090 , después fui rebajando expectativas hasta conformarme con modelos mucho más antiguos (tengo un PC con una \"modesta\" RTX 4060 ). Pero nada, no tengo presupuesto para conseguir un equipo decente. Todo por la crisis de componentes provocada por la propia IA. Los números . Que el hardware haya…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
+      "url": "https://www.xataka.com/robotica-e-ia/sam-altman-ceo-chatgpt-bastante-terrible-que-gente-tenga-memoria-ram-su-pc-utilizandose-solo-5-tiempo",
+      "fecha_utc": "2026-11-02T12:31+00:00",
+      "resumen": "John Collison es el cofundador de la plataforma Stripe y tiene un podcast llamado Cheeky Pint en el que altos mandos de empresas tecnológicas pasan a hablar de sus cosas. Un ejemplo reciente es el de Susan Li, CFO de Meta . Sam Altman, por su parte, no necesita presentación, y hace unos días pasó por el programa de Collison para hablar de varios temas. Entre ellos, uno que parece quitarle el sueño: que cada usuario pueda montar una IA local. Apunta a un desperdicio de recursos, pero de fondo…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "El nuevo cuello de botella de la IA no son los chips ni la energía: es el dinero barato",
+      "url": "https://www.xataka.com/empresas-y-economia/nuevo-cuello-botella-ia-no-chips-energia-dinero-barato",
+      "fecha_utc": "2026-11-02T15:01+00:00",
+      "resumen": "Los inversores se han vuelto mucho más exigentes a la hora de prestar dinero a la IA , según el WSJ . Las más afectadas son empresas como CoreWeave, Nebius y Nscale, que se endeudan para construir centros de datos y alquilar su potencia de cálculo. Llevan varias semanas casi sin poder vender bonos, una de sus grandes vías para conseguir dinero. El contraste . Dos casos enseñan lo rápido que ha cambiado todo: QTS . Este operador de centros de datos estudiaba hace seis meses pedir 800 millones de…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Google por fin te da la respuesta que buscas a la primera. Y ese es exactamente el origen de sus problemas",
+      "url": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
+      "fecha_utc": "2026-11-02T16:30+00:00",
+      "resumen": "Que todas las empresas se han volcado en la IA no es algo que a estas alturas nos sorprenda, ya que basta con abrir casi cualquier app, servicio o plataforma para ver que está ahí. Los chatbots son omnipresentes, las herramientas generativas también. Y pocas empresas la han abrazado de manera tan intensa como Google, que ha llevado la IA a la mayor parte de su catálogo . Con resultados dispares. La empresa que domina, dominada . Google es un peso pesado de la inteligencia artificial. Lo es por…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "OpenAI combinará Chat y Work y hará realidad lo que muchos temían: ChatGPT y Codex compartirán los límites de uso",
+      "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
+      "fecha_utc": "2026-11-02T18:00+00:00",
+      "resumen": "Durante mucho tiempo, nuestra principal preocupación al abrir ChatGPT era conseguir una buena respuesta. Ahora hay otra pregunta que empieza a acompañar a quienes lo utilizan para algo más que conversar: cuánto margen queda antes de encontrarse con un límite . Y no porque todos los usuarios estén agotando sus cuotas, sino porque este tipo de herramientas han dejado de ser simples espacios para hacer preguntas y se han convertido en plataformas para analizar, crear y ejecutar trabajos completos.…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Shigeru Miyamoto, padre de Super Mario y Zelda: \"Si la IA llegara a encargarse de todo, siempre habrá un papel para nosotros\"",
+      "url": "https://www.xataka.com/robotica-e-ia/shigeru-miyamoto-padre-super-mario-zelda-ia-llegara-a-encargarse-todo-siempre-habra-papel-para-nosotros",
+      "fecha_utc": "2026-11-02T19:01+00:00",
+      "resumen": "El creador de 'Super Mario' y 'The Legend of Zelda' tiene 73 años y ha vivido unas cuantas revoluciones tecnológicas. Por eso cuando le preguntaron por su opinión sobre la IA generativa su respuesta fue de todo menos dramática. Miyamoto no cree que la IA pueda sustituirnos por completo, al menos no cuando se trata de talento genuino. De las máquinas de escribir a la IA. Miyamoto compareció ante la prensa hace unos días cuando le otorgaron la Orden de la Cultura , un prestigioso reconocimiento…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Google ha dado un paso clave hacia los centros de datos espaciales: acaba de ejecutar IA en órbita",
+      "url": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita",
+      "fecha_utc": "2026-11-02T20:01+00:00",
+      "resumen": "Nos hemos acostumbrado a utilizar la inteligencia artificial para tareas tan cotidianas como resolver una duda o traducir un texto. Lo hacemos desde el móvil o el ordenador, sin detenernos demasiado en los enormes recursos informáticos que hacen posible cada respuesta. Sin embargo, detrás de esa aparente sencillez hay una infraestructura física que necesita energía, refrigeración y comunicaciones para funcionar. Y mientras seguimos ampliando sus capacidades aquí en la Tierra, también se está…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Una IA ha hecho mejor a otra IA con un método inesperado: recortarle lo que le estorbaba",
+      "url": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba",
+      "fecha_utc": "2026-11-03T11:01+00:00",
+      "resumen": "Conseguir un nuevo modelo de lenguaje no es una tarea trivial. Este proceso abarca un largo plan de entrenamiento y altas capacidades de cómputo hasta afinar el LLM y conseguir que pueda procesar las consultas y resolverlas lo más efectiva y eficientemente posible. Pero ¿y si, en lugar de reentrenar un modelo para mejorarlo, otra IA pudiera retocarlo por dentro? Más o menos es lo que acaba de conseguirse. El logro . Los modelos se mejoran entrenándolos para que adquieran mayores capacidades y…"
+    }
+  ],
+  "errores": []
+}

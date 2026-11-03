@@ -1,0 +1,20 @@
+# Configuración inicial (una sola vez): después de mandarle "hola" a tu bot, correr esto.
+# El bot te contesta en Telegram con tu número de chat para guardarlo como TELEGRAM_CHAT_ID.
+name: 0 · Conectar Telegram
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  conectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Buscar mi chat y contestarme
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: python3 scripts/enviar.py --conectar-telegram
