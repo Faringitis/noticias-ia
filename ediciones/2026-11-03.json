@@ -1,0 +1,206 @@
+{
+  "fecha": "2026-11-03",
+  "intro": "Anthropic escribe en sus papeles para salir a la Bolsa que la IA podría acelerar pronto su propio desarrollo, un asesor de la justicia europea marca límites a Gemini con la prensa y ChatGPT cambia cómo cuenta sus límites de uso.",
+  "noticias": [
+    {
+      "titulo": "Anthropic advierte que podría estar cerca de una IA que acelera su propio desarrollo",
+      "titulo_corto": "Anthropic: IA que se mejora",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "En la versión actualizada de su prospecto para salir a la Bolsa, Anthropic dice que sus próximos modelos podrían acelerar de forma dramática la investigación en IA. Aclara que ninguno de sus modelos actuales cruzó ese umbral.",
+      "detalle": [
+        "Anthropic, la empresa que desarrolla Claude, presentó el 2 de noviembre ante la SEC (el organismo que regula la Bolsa en Estados Unidos) una versión corregida de su prospecto de salida a Bolsa. En la sección de riesgos cuenta que ya usa Claude para ayudar a construir sus propios modelos y que eso podría ser un riesgo de seguridad considerable si acelera mucho el ritmo de avance.",
+        "El documento dice que, según estimaciones internas y lo que esperan de modelos futuros, la empresa podría alcanzar \"de manera inminente\" lo que su política de seguridad llama \"progreso dramáticamente acelerado atribuible a la IA\". En el sector a esto se lo conoce como automejora recursiva: modelos que ayudan a crear modelos mejores, cada vez más rápido.",
+        "Anthropic reconoce además que sus mediciones llegan tarde: en el pasado no detectó algunos saltos en su velocidad de desarrollo hasta después de que ocurrieron. Por eso dice que no prevé dejar que Claude diseñe y construya por su cuenta las siguientes generaciones de modelos sin supervisión humana significativa, y que evalúa cambios en su política para mantener a las personas al mando.",
+        "Hay que leerlo con cuidado: la empresa aclara que ninguno de sus modelos actuales superó ese umbral, y un prospecto es a la vez un documento legal de riesgos y una pieza pensada para inversores."
+      ],
+      "por_que_importa": "Es la primera vez que un laboratorio líder pone por escrito, en un documento legal, que la IA que se acelera a sí misma podría estar cerca. Eso puede cambiar el ritmo de los avances y el debate sobre cómo controlarlos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Anthropic: prospecto S-1/A ante la SEC", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Un asesor de la justicia europea dice que Gemini puede violar los derechos de la prensa",
+      "titulo_corto": "Gemini y la prensa en la UE",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "El abogado general Maciej Szpunar opinó que las respuestas de Gemini pueden infringir los derechos de los editores si copian de forma reconocible sus artículos o saltean muros de pago. No es un fallo: el Tribunal de Justicia de la UE decidirá después.",
+      "detalle": [
+        "El 3 de noviembre, Maciej Szpunar, abogado general del Tribunal de Justicia de la Unión Europea (un asesor que propone cómo resolver los casos), dio su opinión en la demanda de Like Company, un grupo de medios húngaro, contra Google por su chatbot Gemini. Es el primer caso sobre IA generativa y derechos de autor que llega a ese tribunal.",
+        "Szpunar distingue entre hechos y forma: lo que protege la ley a los editores no son las noticias en sí, sino cómo están escritas y la inversión para producirlas. Según su opinión, puede haber infracción si el chatbot accede al contenido de forma indebida (por ejemplo, salteando un muro de pago) o si sus respuestas reproducen tanto el texto del artículo que el lector ya no necesita ir a la fuente.",
+        "Sobre el entrenamiento de modelos fue más favorable a Google: dijo que esas preguntas eran hipotéticas, porque no hay pruebas de que se usaran esos artículos para entrenar a Gemini, y que en general entrenar con material protegido entra en la excepción europea de minería de textos y datos (el permiso legal para analizar grandes cantidades de texto).",
+        "La opinión no es vinculante, aunque los jueces suelen seguirla. El fallo definitivo llegará más adelante."
+      ],
+      "por_que_importa": "Puede definir cuánto pueden usar los chatbots las noticias para responder en Europa, y si las empresas de IA tendrán que pagar o cambiar cómo resumen a los medios.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Il Sole 24 Ore", "url": "https://en.ilsole24ore.com/art/gemini-chatbot-risks-replacing-articles-posing-a-threat-to-publishers-rights-AJWL8w2B", "tipo": "medio"},
+        {"nombre": "Reuters (vía Bilyonaryo)", "url": "https://bnc.bilyonaryo.com/googles-gemini-ai-may-violate-copyright-by-using-news-articles-eu-court-adviser-says/world/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Anthropic facturó US$17.000 millones en el trimestre, pero su crecimiento se frenó",
+      "titulo_corto": "Anthropic: US$17.000 M",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "Según su prospecto actualizado, Anthropic ingresó unos US$17.000 millones entre julio y septiembre, un 47% más que el trimestre anterior. En el segundo trimestre había crecido 144%, y los costos de cómputo se dispararon.",
+      "detalle": [
+        "El mismo documento presentado ante la SEC trae las cuentas del tercer trimestre: ingresos de unos US$17.000 millones, contra US$11.600 millones en el segundo trimestre y US$1.400 millones un año antes. En los nueve meses hasta septiembre facturó US$33.200 millones, más de 13 veces lo de igual período de 2025.",
+        "El ritmo de crecimiento, igual, bajó: 47% frente al trimestre anterior, cuando en el segundo había sido 144%. Los gastos operativos subieron a US$17.500 millones y la empresa pasó de una ganancia operativa de US$974 millones a una pérdida de US$567 millones, sobre todo por capacidad de cómputo contratada a corto plazo, que sale más cara.",
+        "La pérdida neta del trimestre fue de US$23.300 millones, pero se explica casi toda por un cargo contable ligado a sus bonos convertibles, no por la operación. Además, Anthropic tiene compromisos firmados de compra y alquiler por unos US$895.400 millones, casi todo en cómputo e infraestructura hasta 2045.",
+        "El prospecto no fija todavía la fecha en que empezará a cotizar."
+      ],
+      "por_que_importa": "Muestra cuánto dinero mueve ya la IA y cuánto cuesta producirla: el cómputo es el gran gasto y define precios y límites de uso de herramientas como Claude.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Anthropic: prospecto S-1/A ante la SEC", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm", "tipo": "oficial"},
+        {"nombre": "Fortune", "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/", "tipo": "medio"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "ChatGPT unirá sus pestañas Chat y Work, y compartirá el límite de uso con Codex",
+      "titulo_corto": "ChatGPT une Chat y Work",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI va a fusionar las pestañas Chat y Work de la app de escritorio de ChatGPT. Con el cambio, ChatGPT y Codex pasarán a consumir del mismo cupo de uso.",
+      "detalle": [
+        "OpenAI avisó por correo a sus usuarios que juntará las pestañas Chat y Work de la aplicación de escritorio de ChatGPT en una sola. La idea es que, en el mismo lugar, uno pueda pasar de pensar una idea a que ChatGPT la ejecute: trabajar con archivos, plugins (complementos) y tareas en la web.",
+        "El cambio llegará primero a un grupo reducido de usuarios para recoger opiniones, y después al resto. No hay fecha para el lanzamiento general. Codex, la herramienta de programación de OpenAI, seguirá siendo una sección aparte dentro de la app.",
+        "El punto que más se discute es el de los límites: ChatGPT y Codex van a descontar de una misma bolsa de uso. OpenAI dice que a la mayoría no le cambiará nada, pero que algunos usuarios, según cuánto usen y con qué modelo, podrían tener que esperar más seguido a que se reinicie el cupo.",
+        "Es un movimiento parecido al de Anthropic, que en septiembre juntó el chat y Cowork de Claude en una sola pantalla."
+      ],
+      "por_que_importa": "Si usás ChatGPT para estudiar y Codex para programar, ahora ambos comparten el mismo cupo: conviene vigilar cuánto consume cada tarea.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/", "tipo": "medio"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "The New York Times y otros diarios demandan al navegador Brave por pasarle su contenido a empresas de IA",
+      "titulo_corto": "NYT demanda a Brave",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "The New York Times y otros diarios demandaron a la empresa del navegador Brave en Nueva York. La acusan de copiar sus notas sin permiso y vendérselas a empresas de IA como Anthropic y Perplexity, y de ayudar a saltear muros de pago.",
+      "detalle": [
+        "El 2 de noviembre, The New York Times presentó una demanda contra Brave en un tribunal federal de Manhattan. El mismo día, el New York Daily News, el Chicago Tribune y el Orlando Sentinel presentaron otra parecida.",
+        "Según la demanda, Brave armó un índice de más de 30.000 millones de páginas web con un rastreador (un programa que recorre la web copiando páginas) que no se identifica, lo que impide a los medios bloquearlo. Ese contenido terminaría en manos de clientes como Anthropic, Perplexity, Mistral, xAI y Cohere, que lo usan en sus productos de IA.",
+        "Los diarios también apuntan contra una función del navegador que permitiría saltear muros de pago y contra la práctica de bloquear sus anuncios mientras Brave vende publicidad propia. Piden una orden judicial para frenar estas prácticas y una indemnización, sin cifra pública. Brave no había respondido al cierre de las notas."
+      ],
+      "por_que_importa": "Se abre un nuevo frente en la pelea por quién paga por el contenido que usan los chatbots: ya no solo las empresas de IA, también quienes les venden los datos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google presentó Gemini 4 Carbon, su modelo más potente, por ahora solo para expertos en ciberseguridad",
+      "titulo_corto": "Gemini 4 Carbon",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 28 de octubre, Gemini 4 Carbon encabeza el ranking de Artificial Analysis y se destaca en ciberseguridad. Por ahora solo lo usa un grupo de defensores; para el público no hay fecha.",
+      "detalle": [
+        "Google DeepMind presentó el 28 de octubre Gemini 4 Carbon, que define como su modelo más fuerte, con capacidades de punta en ciberseguridad y en tareas largas de muchos pasos. Llega dos semanas después de Gemini 4 Argon.",
+        "Según Google, ocupa el primer puesto del índice de inteligencia de Artificial Analysis (un ranking independiente que combina varias pruebas) con 59 puntos. En pruebas de seguridad informática, sin las protecciones activadas, encontró vulnerabilidades en el 88,2% de los casos de SEC-bench Pro y las corrigió de raíz en el 71% de CWE-bench.",
+        "Justamente por ese poder, el acceso es escalonado: primero un grupo de defensores en ciberseguridad, después socios de confianza y, más adelante y sin fecha, desarrolladores, empresas y usuarios comunes. Google también lo sometió a pruebas previas con el gobierno de Estados Unidos.",
+        "El precio de lanzamiento será de US$2 por millón de tokens (fragmentos de texto) de entrada y US$10 de salida, y después subirá a US$4 y US$20."
+      ],
+      "por_que_importa": "Muestra la tendencia de lanzar los modelos más capaces primero a especialistas, por miedo a su uso en ataques informáticos. Para el usuario común, la espera será más larga.",
+      "jon_opina": null,
+      "jon_segundo": 457,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "tipo": "oficial"},
+        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+      ]
+    },
+    {
+      "titulo": "Más de 400 apps de IA comunes escondían funciones para crear deepfakes abusivos",
+      "titulo_corto": "Apps con deepfakes ocultos",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "Una investigación de Wired encontró unas 400 apps y sitios que parecían herramientas inocentes, como cursos de idiomas, pero escondían funciones para generar imágenes y videos sexuales y violentos. Estaban en las tiendas de Apple y Google.",
+      "detalle": [
+        "Wired identificó unas 400 apps y sitios web, vinculados a desarrolladores de habla china, que se presentaban como servicios comunes (clases de idiomas o entrenadores físicos con IA) pero bajo ciertas condiciones mostraban una interfaz para crear deepfakes (imágenes o videos falsos hechos con IA) sexuales y violentos.",
+        "El truco era cambiar el contenido después de que la tienda aprobara la app. Según la investigación, uno de los disparadores era descargarla desde un anuncio en Facebook o Instagram, donde la red pautaba miles de videos. Algunas llevaban cerca de un año disponibles.",
+        "Apple retiró 19 apps después de recibir los datos de Wired y explicó que cumplían las reglas al ser revisadas. Meta dijo que actuó contra más de 10.000 cuentas publicitarias ligadas a esos sitios."
+      ],
+      "por_que_importa": "Muestra que los controles de las tiendas de apps no alcanzan para frenar el uso abusivo de la IA generativa, y que cualquiera puede ser víctima de un deepfake.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Wired", "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/", "tipo": "medio"},
+        {"nombre": "9to5Mac", "url": "https://9to5mac.com/2026/11/02/ai-apps-with-hidden-sexual-and-violent-deepfake-features-made-it-into-the-app-store/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Genie 4: Google DeepMind crea mundos virtuales con sonido que se pueden modificar en tiempo real",
+      "titulo_corto": "Genie 4 de Google",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 27 de octubre, Genie 4 genera mundos que se recorren con el teclado, ahora con sonido, música y diálogos, y se pueden cambiar con instrucciones escritas. Por ahora solo para probadores y con lista de espera.",
+      "detalle": [
+        "Google DeepMind presentó el 27 de octubre Genie 4, un modelo de mundo (una IA que simula un entorno interactivo en tiempo real, no un video fijo). Se recorre con los controles normales del teclado y, mientras tanto, se le puede pedir por escrito que cambie el clima, la cámara, las personas o los objetos.",
+        "La gran novedad frente a Genie 3 es el audio: según Google, es el primer modelo de mundo en tiempo real que genera de forma nativa sonidos ambientales, música y diálogos de los personajes. También promete más realismo, movimientos más fluidos y una física más creíble.",
+        "Por ahora es una vista previa de investigación para probadores de confianza; después llegará a suscriptores de Google AI Ultra y a socios por API, con lista de espera. Google admite límites: los detalles y los objetos pueden cambiar en sesiones largas, y siguen en desarrollo la física compleja, el texto legible y la coherencia a largo plazo."
+      ],
+      "por_que_importa": "Estos simuladores sirven para entrenar robots y probar sistemas en entornos virtuales antes de llevarlos al mundo real, algo cercano a la ingeniería.",
+      "jon_opina": null,
+      "jon_segundo": 48,
+      "fuentes": [
+        {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation", "tipo": "oficial"},
+        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+      ]
+    },
+    {
+      "titulo": "Microsoft ofrece retiros voluntarios a unos 60.000 empleados mientras gasta fuerte en IA",
+      "titulo_corto": "Microsoft: 60.000 retiros",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Anunciado el 26 de octubre, Microsoft ofrece una salida voluntaria con indemnización a unos 60.000 empleados, cerca de un cuarto de su plantilla, en Estados Unidos, Canadá, India y Reino Unido.",
+      "detalle": [
+        "Microsoft anunció el 26 de octubre que ofrecerá retiros voluntarios con indemnización a unos 60.000 empleados en Estados Unidos, Canadá, India y Reino Unido. Según AP equivale a cerca del 27% de su plantilla global, que era de unas 223.000 personas a fines de junio.",
+        "La directora de personas de la empresa, Amy Coleman, lo presentó como algo nuevo para Microsoft y dijo que van a aprender de la experiencia. Según Reuters, la compañía busca contener costos y controlar la cantidad de empleados sin recurrir a despidos, mientras financia una inversión enorme en centros de datos para IA.",
+        "Los empleados tienen hasta principios de diciembre para decidir y no se sabe cuántos aceptarán. En un programa anterior de este año, más del 30% de los elegibles tomó la oferta."
+      ],
+      "por_que_importa": "Es una señal de cómo las grandes empresas reorganizan sus equipos alrededor de la IA, algo que también va a pesar en el mercado laboral para ingenieros.",
+      "jon_opina": null,
+      "jon_segundo": 1622,
+      "fuentes": [
+        {"nombre": "AP (vía Alaska's News Source)", "url": "https://www.alaskasnewssource.com/2026/10/26/microsoft-offers-60000-employees-voluntary-buyouts-ai-spending-accelerates/?outputType=amp", "tipo": "medio"},
+        {"nombre": "Reuters", "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/", "tipo": "medio"},
+        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+      ]
+    },
+    {
+      "titulo": "OpenAI promete que su centro de datos en Georgia liberará energía para la red en emergencias",
+      "titulo_corto": "OpenAI y la red eléctrica",
+      "categoria": "Hardware",
+      "veracidad": "oficial",
+      "breve": "Con su programa Grid Protectors, OpenAI dice que un futuro campus en Georgia, EE. UU., podrá reducir hasta 1.000 megavatios de consumo cuando la red eléctrica esté exigida, por ejemplo con clima extremo.",
+      "detalle": [
+        "OpenAI lanzó el 2 de noviembre el Grid Protectors Program, un plan para que sus futuros centros de datos ayuden a la red eléctrica en lugar de sobrecargarla. La prueba piloto será en un campus que planea en el condado de Effingham, Georgia.",
+        "Allí promete poder liberar hasta 1.000 megavatios (según The Verge, lo suficiente para los aires acondicionados de unas 700.000 casas) durante olas de calor o emergencias. Para lograrlo usaría, según el lugar, generación propia, baterías y controles para bajar su consumo; las condiciones se negocian con cada empresa eléctrica, en este caso Georgia Power.",
+        "El anuncio llega mientras crece la oposición de vecinos a los centros de datos por su impacto en la tarifa de luz. Los ahorros que mencionan OpenAI y Georgia Power son proyecciones de esas mismas partes, y el campus todavía está en desarrollo."
+      ],
+      "por_que_importa": "El consumo eléctrico es uno de los grandes límites de la IA; cómo se integran estos centros a la red es un problema de ingeniería y de costos para todos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/grid-protectors-program", "tipo": "oficial"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program", "tipo": "medio"},
+        {"nombre": "Unite.AI", "url": "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "_K3kpcbQVdQ", "titulo": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks", "resumen_url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/"},
+  "notas_internas": "Re-ejecución con red completa. Prospecto S-1/A de Anthropic (14 MB) leído descargándolo con curl y buscando las citas textuales (WebFetch no lo admite por tamaño); ingresos trimestrales y pérdida operativa del trimestre verificados vía Fortune y CNBC. No cargaron con WebFetch: wired.com, arstechnica.com, reuters.com, computing.net (403); se usó el texto del feed del crudo y medios secundarios. Opinión del abogado general: Reuters leído vía sindicación en Bilyonaryo + Il Sole 24 Ore. Microsoft: Reuters no cargó, se citó el link de las fuentes de Jon y el dato de Reuters salió de búsqueda; AP leído. OpenAI Grid: openai.com bloqueado, se usó el texto del feed + The Verge (feed) + Unite.AI. El resumen de Jon no tenía opiniones explícitas atribuibles, por eso jon_opina es null en todas. Descartadas: Grok Bot y sus límites (una sola fuente), Claude Code y clones de videojuegos (fuentes contradictorias sobre si Anthropic lo confirmó), satélite con IA de Google (ya había 3 noticias de Google), GPT-6.1 Terra y planes Claude Ultra (de la semana pasada, sin verificar a fondo). No se encontraron textos con instrucciones sospechosas."
+}
