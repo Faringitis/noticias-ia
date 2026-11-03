@@ -47,6 +47,9 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
    - Jon resume la semana, así que muchas de sus noticias tienen varios días. Si una noticia tiene
      más de 48 h, el `breve` dice cuándo fue ("Anunciado el 28 de octubre, ...").
    - Si hay video nuevo, completá `jon_video`; si no, dejalo en `null`.
+   - Si `errores` dice que falló YouTube, abrí con WebFetch
+     `https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg` y buscá ahí
+     el último video cuyo título empiece con "NOTICIAS IA" (su descripción trae el link "Resumen Plaud").
 
 5. **Elegir.** Leé también las últimas 3 ediciones en `ediciones/` para **no repetir** noticias. Una
    noticia repetida solo vuelve si hay una novedad real, y entonces el título lo dice ("Actualización: ...").
