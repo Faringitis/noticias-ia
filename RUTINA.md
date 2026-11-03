@@ -51,7 +51,7 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
      `https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg` y buscá ahí
      el último video cuyo título empiece con "NOTICIAS IA" (su descripción trae el link "Resumen Plaud").
 
-5. **Elegir.** Leé también las últimas 3 ediciones en `ediciones/` para **no repetir** noticias. Una
+5. **Elegir.** Leé también las últimas 3 ediciones en `ediciones/` para **no repetir** noticias (en `ejemplos/` hay una edición modelo, por si querés ver el tono y el nivel de detalle esperados). Una
    noticia repetida solo vuelve si hay una novedad real, y entonces el título lo dice ("Actualización: ...").
    Elegí **entre 6 y 10 noticias**, ordenadas de más a menos importante. Criterios:
    - Impacto real (para usuarios, para el mercado, para la ciencia) por encima de lo llamativo.
