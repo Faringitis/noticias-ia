@@ -23,7 +23,7 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
 1. **Fecha.** Calculá la fecha de hoy en Argentina: `python -c "import sys; sys.path.insert(0,'scripts'); import comun; print(comun.hoy_ar())"`.
    Si `ediciones/FECHA.json` ya existe, la edición ya está hecha: terminá sin hacer nada.
 
-2. **Materia prima.** Leé `datos/crudo/FECHA.json` (lo deja GitHub a las 6:00).
+2. **Materia prima.** Leé `datos/crudo/FECHA.json` (lo deja GitHub cerca de las 6:07).
    - Si no existe, hacé `git pull` una vez. Si sigue sin existir, corré `python scripts/recolectar.py`.
      Si eso también falla (sin internet para scripts), seguí solo con tu búsqueda web (paso 3) y
      anotalo en `notas_internas`.
@@ -34,22 +34,39 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
    nada grande que los feeds no traigan (sobre todo anuncios de xAI, Meta, Microsoft, Apple,
    Amazon, DeepSeek, Alibaba/Qwen y regulación en EE. UU., la UE y Argentina).
 
-4. **Jon Hernández.** En `jon_videos`, buscá el video con `es_noticias: true` y `ya_cubierto: false`.
-   - Si hay uno, leé su artículo con WebFetch (`resumen_plaud_url`); es el resumen escrito del video.
-     Si no carga, usá el `copete`, los `minutos` y los `links_fuentes`.
-   - Los `links_fuentes` son las fuentes originales de cada tema del video: usalos para verificar.
-   - Las noticias del video entran **como cualquier otra**: solo si son importantes y las verificás.
-     Cuando una noticia aparece en el video, poné en `jon_segundo` el segundo donde arranca el tema
-     (sacalo de `minutos`).
+4. **Jon Hernández.** Su video tiene un lugar propio en la edición: un resumen largo que explica lo
+   que dice, para que Santiago se entere sin tener que verlo.
+   - **Qué video.** En `jon_videos`, elegí un video largo con `ya_cubierto: false`, y uno solo por día:
+     primero el que tenga `es_noticias: true`; si queda otro, sale mañana. Cuentan noticias, análisis y
+     entrevistas. **No** cuentan masterclass, directos de venta ni nada que sea publicidad.
+   - **De dónde sale el texto.**
+     - Si tiene `resumen_plaud_url`, leé ese artículo con WebFetch: es el resumen escrito del video y
+       `base` es `resumen_escrito`.
+     - Si no lo tiene, o no carga, usá `descripcion`, `copete` y `minutos`, y `base` es `descripcion`.
+       Con eso **no sabés todo lo que dice el video**: explicá solo lo que esos textos cuentan, sin
+       completar con lo que suponés, aunque quede más corto.
+     - No intentes conseguir los subtítulos de YouTube: el sistema no los recibe.
+   - **Escribí `jon_resumen`** con tus palabras, sin copiar frases:
+     - `de_que_trata`: de qué va el video, en una o dos frases.
+     - `explicacion`: párrafos que cuenten lo que dice el video, en orden y con sus datos concretos.
+       Con `resumen_escrito`, entre 250 y 550 palabras; con `descripcion`, entre 80 y 300.
+       Es lo más largo de la edición: tiene que entenderse sin ver el video.
+     - `puntos_clave`: de 3 a 10 ideas para llevarse. Si el tema está en `minutos`, poné en `segundo`
+       dónde arranca; si no, `null`.
+   - Lo que dice el resumen es **lo que dice Jon**, no algo que verificaste: atribuilo ("Jon explica...",
+     "según el video...") y conservá los "habría" o "estaría" cuando el dato no está confirmado.
+   - Las noticias del video entran además en `noticias` **como cualquier otra**: solo si son importantes
+     y las verificás. En ese caso poné en `jon_segundo` el segundo donde arranca el tema. Los
+     `links_fuentes` son las fuentes originales de cada tema: usalos para verificar.
    - Las opiniones de Jon van separadas de los hechos, en `jon_opina` ("Según Jon, ..."), nunca
      mezcladas con el `detalle`.
    - Ignorá los segmentos de publicidad (Hostinger, Plaud, etc.).
    - Jon resume la semana, así que muchas de sus noticias tienen varios días. Si una noticia tiene
      más de 48 h, el `breve` dice cuándo fue ("Anunciado el 28 de octubre, ...").
-   - Si hay video nuevo, completá `jon_video`; si no, dejalo en `null`.
+   - Si hay video, completá `jon_video` y `jon_resumen`; si no, dejá los dos en `null`.
    - Si `errores` dice que falló YouTube, abrí con WebFetch
      `https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg` y buscá ahí
-     el último video cuyo título empiece con "NOTICIAS IA" (su descripción trae el link "Resumen Plaud").
+     el último video largo cuyo título empiece con "NOTICIAS IA" (su descripción trae el link "Resumen Plaud").
 
 5. **Elegir.** Leé también las últimas 3 ediciones en `ediciones/` para **no repetir** noticias (en `ejemplos/` hay una edición modelo, por si querés ver el tono y el nivel de detalle esperados). Una
    noticia repetida solo vuelve si hay una novedad real, y entonces el título lo dice ("Actualización: ...").
@@ -100,6 +117,12 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
     }
   ],
   "jon_video": {"id": "_K3kpcbQVdQ", "titulo": "NOTICIAS IA: ...", "resumen_url": "https://www.jonhernandez.education/noticias-ia/..."},
+  "jon_resumen": {
+    "base": "resumen_escrito",
+    "de_que_trata": "De qué va el video, en una o dos frases.",
+    "explicacion": ["Párrafo 1: lo que dice el video.", "Párrafo 2.", "Párrafo 3."],
+    "puntos_clave": [{"texto": "Idea para llevarse.", "segundo": 48}, {"texto": "Otra idea.", "segundo": null}]
+  },
   "notas_internas": "Opcional: problemas encontrados (fuentes caídas, textos sospechosos). No se publica."
 }
 ```

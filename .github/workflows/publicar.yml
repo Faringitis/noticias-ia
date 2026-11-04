@@ -6,10 +6,10 @@ name: 2 · Publicar y enviar
 on:
   push:
     branches: [main]
-    paths: ["ediciones/**"]
+    paths: ["ediciones/**", ".github/workflows/publicar.yml"]
   schedule:
-    - cron: "20 10 * * *"   # 07:20 Argentina: por si el aviso automático no llegó
-    - cron: "5 11 * * *"    # 08:05 Argentina: último intento; si no hay edición, respaldo
+    - cron: "23 10 * * *"   # 07:23 Argentina: por si el aviso automático no llegó
+    - cron: "7 11 * * *"    # 08:07 Argentina: último intento; si no hay edición, respaldo
   workflow_dispatch:
     inputs:
       fecha:
@@ -115,17 +115,28 @@ jobs:
           if [ "$(TZ=America/Argentina/Buenos_Aires date +%H)" -ge 8 ]; then
             python3 scripts/enviar.py --respaldo
           else
-            echo "Todavía es temprano: espero a la corrida de las 8:05."
+            echo "Todavía es temprano: espero a la corrida de las 8:07."
           fi
 
       - name: Guardar estado en el repositorio
         if: always()
         run: |
+          # Las anotaciones se ven sin iniciar sesión: si esto falla, queda el motivo a la vista.
+          trap 'echo "::error title=Guardar estado::Falló: $BASH_COMMAND"' ERR
           git config user.name "noticias-ia-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p ediciones estado
+          date -u +%FT%TZ > estado/ultima_publicacion.txt
           git add -A ediciones estado
-          git diff --cached --quiet && exit 0
-          git commit -m "Publicación ${{ steps.fecha.outputs.valor }}"
-          git pull --rebase --quiet origin main
-          git push origin HEAD:main
+          git commit -q -m "Publicación ${{ steps.fecha.outputs.valor }}"
+          for intento in 1 2 3 4; do
+            if salida=$( { git pull --rebase --quiet origin main && git push --quiet origin HEAD:main; } 2>&1 ); then
+              echo "Estado guardado."
+              exit 0
+            fi
+            echo "Intento $intento falló: $salida"
+            git rebase --abort 2>/dev/null || true
+            sleep $((intento * 10))
+          done
+          echo "::error title=No se pudo guardar el estado::$(echo "$salida" | tail -n 3 | tr '\n' ' ')"
+          exit 1

@@ -18,8 +18,16 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "Anthropic: prospecto S-1/A ante la SEC", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm", "tipo": "oficial"},
-        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/", "tipo": "medio"}
+        {
+          "nombre": "Anthropic: prospecto S-1/A ante la SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -38,8 +46,16 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "Il Sole 24 Ore", "url": "https://en.ilsole24ore.com/art/gemini-chatbot-risks-replacing-articles-posing-a-threat-to-publishers-rights-AJWL8w2B", "tipo": "medio"},
-        {"nombre": "Reuters (vía Bilyonaryo)", "url": "https://bnc.bilyonaryo.com/googles-gemini-ai-may-violate-copyright-by-using-news-articles-eu-court-adviser-says/world/", "tipo": "medio"}
+        {
+          "nombre": "Il Sole 24 Ore",
+          "url": "https://en.ilsole24ore.com/art/gemini-chatbot-risks-replacing-articles-posing-a-threat-to-publishers-rights-AJWL8w2B",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Reuters (vía Bilyonaryo)",
+          "url": "https://bnc.bilyonaryo.com/googles-gemini-ai-may-violate-copyright-by-using-news-articles-eu-court-adviser-says/world/",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -58,9 +74,21 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "Anthropic: prospecto S-1/A ante la SEC", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm", "tipo": "oficial"},
-        {"nombre": "Fortune", "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/", "tipo": "medio"},
-        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html", "tipo": "medio"}
+        {
+          "nombre": "Anthropic: prospecto S-1/A ante la SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Fortune",
+          "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -79,8 +107,16 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/", "tipo": "medio"},
-        {"nombre": "Xataka", "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso", "tipo": "medio"}
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Xataka",
+          "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -98,8 +134,16 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/", "tipo": "medio"},
-        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times", "tipo": "medio"}
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -118,8 +162,16 @@
       "jon_opina": null,
       "jon_segundo": 457,
       "fuentes": [
-        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "tipo": "oficial"},
-        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+        {
+          "nombre": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Jon Hernández",
+          "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/",
+          "tipo": "jon"
+        }
       ]
     },
     {
@@ -137,8 +189,16 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "Wired", "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/", "tipo": "medio"},
-        {"nombre": "9to5Mac", "url": "https://9to5mac.com/2026/11/02/ai-apps-with-hidden-sexual-and-violent-deepfake-features-made-it-into-the-app-store/", "tipo": "medio"}
+        {
+          "nombre": "Wired",
+          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/02/ai-apps-with-hidden-sexual-and-violent-deepfake-features-made-it-into-the-app-store/",
+          "tipo": "medio"
+        }
       ]
     },
     {
@@ -156,8 +216,16 @@
       "jon_opina": null,
       "jon_segundo": 48,
       "fuentes": [
-        {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation", "tipo": "oficial"},
-        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+        {
+          "nombre": "Google DeepMind",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Jon Hernández",
+          "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/",
+          "tipo": "jon"
+        }
       ]
     },
     {
@@ -175,9 +243,21 @@
       "jon_opina": null,
       "jon_segundo": 1622,
       "fuentes": [
-        {"nombre": "AP (vía Alaska's News Source)", "url": "https://www.alaskasnewssource.com/2026/10/26/microsoft-offers-60000-employees-voluntary-buyouts-ai-spending-accelerates/?outputType=amp", "tipo": "medio"},
-        {"nombre": "Reuters", "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/", "tipo": "medio"},
-        {"nombre": "Jon Hernández", "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/", "tipo": "jon"}
+        {
+          "nombre": "AP (vía Alaska's News Source)",
+          "url": "https://www.alaskasnewssource.com/2026/10/26/microsoft-offers-60000-employees-voluntary-buyouts-ai-spending-accelerates/?outputType=amp",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Reuters",
+          "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Jon Hernández",
+          "url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/",
+          "tipo": "jon"
+        }
       ]
     },
     {
@@ -195,12 +275,77 @@
       "jon_opina": null,
       "jon_segundo": null,
       "fuentes": [
-        {"nombre": "OpenAI", "url": "https://openai.com/index/grid-protectors-program", "tipo": "oficial"},
-        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program", "tipo": "medio"},
-        {"nombre": "Unite.AI", "url": "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/", "tipo": "medio"}
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Unite.AI",
+          "url": "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/",
+          "tipo": "medio"
+        }
       ]
     }
   ],
-  "jon_video": {"id": "_K3kpcbQVdQ", "titulo": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks", "resumen_url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/"},
-  "notas_internas": "Re-ejecución con red completa. Prospecto S-1/A de Anthropic (14 MB) leído descargándolo con curl y buscando las citas textuales (WebFetch no lo admite por tamaño); ingresos trimestrales y pérdida operativa del trimestre verificados vía Fortune y CNBC. No cargaron con WebFetch: wired.com, arstechnica.com, reuters.com, computing.net (403); se usó el texto del feed del crudo y medios secundarios. Opinión del abogado general: Reuters leído vía sindicación en Bilyonaryo + Il Sole 24 Ore. Microsoft: Reuters no cargó, se citó el link de las fuentes de Jon y el dato de Reuters salió de búsqueda; AP leído. OpenAI Grid: openai.com bloqueado, se usó el texto del feed + The Verge (feed) + Unite.AI. El resumen de Jon no tenía opiniones explícitas atribuibles, por eso jon_opina es null en todas. Descartadas: Grok Bot y sus límites (una sola fuente), Claude Code y clones de videojuegos (fuentes contradictorias sobre si Anthropic lo confirmó), satélite con IA de Google (ya había 3 noticias de Google), GPT-6.1 Terra y planes Claude Ultra (de la semana pasada, sin verificar a fondo). No se encontraron textos con instrucciones sospechosas."
+  "jon_video": {
+    "id": "_K3kpcbQVdQ",
+    "titulo": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "resumen_url": "https://www.jonhernandez.education/noticias-ia/genie-4-nuevos-modelos-ia-empleo/"
+  },
+  "notas_internas": "Re-ejecución con red completa. Prospecto S-1/A de Anthropic (14 MB) leído descargándolo con curl y buscando las citas textuales (WebFetch no lo admite por tamaño); ingresos trimestrales y pérdida operativa del trimestre verificados vía Fortune y CNBC. No cargaron con WebFetch: wired.com, arstechnica.com, reuters.com, computing.net (403); se usó el texto del feed del crudo y medios secundarios. Opinión del abogado general: Reuters leído vía sindicación en Bilyonaryo + Il Sole 24 Ore. Microsoft: Reuters no cargó, se citó el link de las fuentes de Jon y el dato de Reuters salió de búsqueda; AP leído. OpenAI Grid: openai.com bloqueado, se usó el texto del feed + The Verge (feed) + Unite.AI. El resumen de Jon no tenía opiniones explícitas atribuibles, por eso jon_opina es null en todas. Descartadas: Grok Bot y sus límites (una sola fuente), Claude Code y clones de videojuegos (fuentes contradictorias sobre si Anthropic lo confirmó), satélite con IA de Google (ya había 3 noticias de Google), GPT-6.1 Terra y planes Claude Ultra (de la semana pasada, sin verificar a fondo). No se encontraron textos con instrucciones sospechosas.",
+  "jon_resumen": {
+    "base": "resumen_escrito",
+    "de_que_trata": "Jon repasa una semana muy movida: los anuncios de Google, los cambios de modelos y planes en OpenAI y Anthropic, y las señales de que empresas y gobiernos están reorganizando el trabajo mientras avanza la automatización.",
+    "explicacion": [
+      "El video arranca con Genie 4, de Google. Jon explica la diferencia con un modelo de video: en lugar de producir una secuencia de imágenes, un simulador de mundos genera un entorno que se puede recorrer y modificar. Repasa la evolución del proyecto desde 2023 y destaca el salto en realismo y el audio propio. Según el video, estos simuladores podrían servir para entrenar robots sin repetir cada tarea miles de veces en el mundo real, y también para la realidad virtual. Por ahora hay lista de espera, y no se sabe cuándo llegará a todos ni cuánto costará.",
+      "Después pasa a Gemini 4 Carbon, que supera a otros sistemas en varias pruebas comparativas, entre ellos Opus 5.5. Jon advierte que todavía no se puede usar, así que su rendimiento depende de los resultados publicados, y que su costo podría hacerlo menos conveniente para algunas tareas. Queda por ver si esa ventaja se mantiene en el uso diario. En la misma línea menciona que Google probó una IA en un satélite, que recibió una petición y respondió desde el espacio: abre la puerta a investigar centros de datos en órbita, pero está lejos de demostrar que funcionen a gran escala.",
+      "En OpenAI, el tema es GPT-6.1 Terra, un modelo más rápido y barato que Sol, aunque menos capaz. Sirve para quien siente que Sol le sobra y Luna no le alcanza, pero suma otra opción a una oferta ya amplia. Para Jon, lo más relevante para los usuarios es que se amplían los límites de las cuentas Pro y que habrá créditos de API vinculados al precio de la suscripción.",
+      "Anthropic reorganizó sus planes Max y sumó Ultra, de 200 dólares por mes, que elimina los límites por períodos de cinco horas. El video también comenta que la empresa habría acordado gastar 3.000 millones de dólares por mes en servidores de SpaceX, lo que podría crear una fuerte dependencia entre ambas.",
+      "La parte final trata sobre el empleo. Microsoft ofrece bajas voluntarias que podrían alcanzar a unas 60.000 personas, pese al fuerte crecimiento de sus beneficios; Países Bajos planea reducir puestos administrativos, y Skydance habría ofrecido bajas y exigido cinco días de oficina. Jon suma el dato de que en Estados Unidos se habrían perdido cerca de medio millón de empleos en un año, aunque aclara que todavía no está claro si es algo pasajero ni cuánto se debe a la IA. Cierra con Cisco, que estaría probando reescribir el 98 % de su código en 24 meses con un equipo de dos personas apoyado por IA, una meta que todavía falta cumplir."
+    ],
+    "puntos_clave": [
+      {
+        "texto": "Genie 4 no genera videos: genera mundos que se pueden recorrer y modificar.",
+        "segundo": 48
+      },
+      {
+        "texto": "Gemini 4 Carbon lidera las pruebas, pero todavía no se puede usar.",
+        "segundo": 457
+      },
+      {
+        "texto": "Google respondió una consulta desde un satélite: es un experimento, no un centro de datos en órbita.",
+        "segundo": 915
+      },
+      {
+        "texto": "GPT-6.1 Terra es más rápido y barato que Sol, pero menos capaz.",
+        "segundo": 1057
+      },
+      {
+        "texto": "OpenAI amplía los límites de Pro y suma créditos de API a la suscripción.",
+        "segundo": 1213
+      },
+      {
+        "texto": "El plan Ultra de Anthropic, de 200 dólares, elimina los límites por cinco horas.",
+        "segundo": 1427
+      },
+      {
+        "texto": "Microsoft, Países Bajos y Skydance muestran distintas formas de recortar o reorganizar el trabajo.",
+        "segundo": 1622
+      },
+      {
+        "texto": "Todavía no se puede medir cuánto de la pérdida de empleo se debe a la IA.",
+        "segundo": 1931
+      },
+      {
+        "texto": "Cisco busca reescribir casi todo su código con dos personas e IA; falta ver si lo logra.",
+        "segundo": 2058
+      }
+    ]
+  }
 }

@@ -189,6 +189,9 @@ def leer_jon(cfg, fecha):
         # Primer párrafo de la descripción (el "copete" que escribe Jon), sin publicidad.
         parrafos = [x.strip() for x in desc.split("\n\n") if x.strip()]
         video["copete"] = next((x for x in parrafos if "http" not in x and len(x) > 80), "")[:1500]
+        if not resumen_url:
+            # Sin resumen escrito de Jon, la descripción es el único texto del video.
+            video["descripcion"] = desc[:4000]
         videos.append(video)
     return videos
 

@@ -1,9 +1,9 @@
-# 6:00 (Argentina): junta las noticias de las fuentes y el video de Jon, y las deja en datos/crudo/.
+# 6:07 (Argentina): junta las noticias de las fuentes y el video de Jon, y las deja en datos/crudo/.
 name: 1 · Recolectar noticias
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC = 06:00 Argentina
+    - cron: "7 9 * * *"   # 09:07 UTC = 06:07 Argentina (lejos de la hora en punto, la más cargada)
   workflow_dispatch:
 
 permissions:

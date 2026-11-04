@@ -8,10 +8,10 @@ página web con el detalle, las fuentes y, si Jon Hernández habló del tema, el
 
 | Hora | Quién | Qué hace |
 |---|---|---|
-| 6:00 | GitHub (`recolectar.yml`) | Lee unas 20 fuentes confiables y el canal de Jon Hernández. Guarda todo en `datos/crudo/`. |
+| 6:07 | GitHub (`recolectar.yml`) | Lee unas 20 fuentes confiables y el canal de Jon Hernández. Guarda todo en `datos/crudo/`. |
 | 6:40 | Claude (rutina en la nube) | Sigue [RUTINA.md](RUTINA.md): elige las 6 a 10 noticias más importantes, las verifica en su fuente original y escribe `ediciones/FECHA.json`. |
 | enseguida | GitHub (`publicar.yml`) | Controla la calidad, actualiza la página web y manda el Telegram y el mail. |
-| 7:20 y 8:05 | GitHub (`publicar.yml`) | Red de seguridad: si algo no salió, reintenta; si a las 8 no hay edición, manda los titulares sin resumir. |
+| 7:23 y 8:07 | GitHub (`publicar.yml`) | Red de seguridad: si algo no salió, reintenta; si a las 8 no hay edición, manda los titulares sin resumir. |
 
 ## Niveles de verificación
 

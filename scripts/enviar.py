@@ -22,7 +22,7 @@ import urllib.request
 
 from comun import (CRUDO, EDICIONES, ESTADO, ahora_ar, consola_utf8, fecha_larga,
                    guardar_json, hoy_ar, leer_json)
-from publicar import VERACIDAD, e, mensaje_telegram
+from publicar import BASE_JON, VERACIDAD, e, marca, mensaje_jon, mensaje_telegram, url_jon
 
 REGISTRO = ESTADO / "enviados.json"
 
@@ -91,9 +91,24 @@ def html_mail(ed):
     jon = ""
     if ed.get("jon_video"):
         v = ed["jon_video"]
-        jon = (f'<div style="padding:12px 14px;background:#fff4e6;border-radius:10px;font-size:14px;color:#1d1d1b;margin-top:6px">'
-               f'📺 <strong>Jon Hernández subió:</strong> <a href="https://www.youtube.com/watch?v={e(v["id"])}" '
-               f'style="color:#3b5bdb">{e(v["titulo"])}</a></div>')
+        r = ed.get("jon_resumen")
+        cuerpo_jon = ""
+        if r:
+            parrafos = "".join(f'<p style="margin:10px 0;line-height:1.5">{e(p)}</p>' for p in r["explicacion"])
+            puntos = ""
+            for p in r["puntos_clave"]:
+                enlace = ""
+                if p.get("segundo") is not None:
+                    enlace = (f' <a href="{e(url_jon(ed, p["segundo"]))}" style="color:#3b5bdb">'
+                              f'({marca(p["segundo"])})</a>')
+                puntos += f'<li style="margin:5px 0">{e(p["texto"])}{enlace}</li>'
+            cuerpo_jon = (f'<p style="margin:10px 0;font-weight:600;line-height:1.5">{e(r["de_que_trata"])}</p>{parrafos}'
+                          f'<div style="font-weight:700;margin-top:12px">Puntos clave</div>'
+                          f'<ul style="margin:6px 0;padding-left:20px;line-height:1.45">{puntos}</ul>'
+                          f'<div style="font-size:12px;color:#5f5e58">{e(BASE_JON[r["base"]])}</div>')
+        jon = (f'<div style="padding:12px 14px;background:#fff4e6;border-radius:10px;font-size:15px;color:#1d1d1b;margin-top:6px">'
+               f'📺 <strong>Video de Jon Hernández:</strong> <a href="https://www.youtube.com/watch?v={e(v["id"])}" '
+               f'style="color:#3b5bdb">{e(v["titulo"])}</a>{cuerpo_jon}</div>')
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
 <body style="margin:0;background:#f6f5f1">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f6f5f1"><tr><td align="center" style="padding:12px">
@@ -118,6 +133,12 @@ def texto_mail(ed):
     partes = [f"Noticias de IA · {fecha_larga(ed['fecha'])}", "", ed["intro"], ""]
     for i, n in enumerate(ed["noticias"], 1):
         partes += [f"{i}. {n['titulo']}", n["breve"], f"Ver más: {pagina}#n{i}", ""]
+    r = ed.get("jon_resumen")
+    if r and ed.get("jon_video"):
+        partes += [f"Video de Jon Hernández: {ed['jon_video']['titulo']}",
+                   f"https://www.youtube.com/watch?v={ed['jon_video']['id']}", "", r["de_que_trata"], ""]
+        partes += [x for p in r["explicacion"] for x in (p, "")]
+        partes += ["Puntos clave:"] + [f"- {p['texto']}" for p in r["puntos_clave"]]
     return "\n".join(partes)
 
 
@@ -154,7 +175,10 @@ def enviar_edicion(fecha):
     registro = leer_json(REGISTRO, {})
     hecho = registro.setdefault(fecha, {})
     fallas = []
-    for canal in canales():
+    envios = canales()
+    if "telegram" in envios and mensaje_jon(ed):
+        envios.insert(1, "telegram_jon")
+    for canal in envios:
         if canal in hecho:
             print(f"{canal}: ya se había mandado.")
             continue
@@ -162,6 +186,8 @@ def enviar_edicion(fecha):
             if canal == "telegram":
                 texto, teclado = mensaje_telegram(ed, base_url())
                 mandar_telegram(texto, teclado)
+            elif canal == "telegram_jon":
+                mandar_telegram(mensaje_jon(ed))
             else:
                 principal = ed["noticias"][0]["titulo_corto"]
                 mandar_mail(f"🤖 Noticias de IA · {fecha_larga(fecha).rsplit(' de ', 1)[0]} · {principal}",

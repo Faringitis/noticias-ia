@@ -3,6 +3,7 @@
 Uso: python scripts/validar.py AAAA-MM-DD   (o la ruta a un .json)
 Sale con código 1 si hay errores; las advertencias no frenan la publicación.
 """
+import html
 import pathlib
 import re
 import sys
@@ -14,11 +15,58 @@ CATEGORIAS = {"Modelos", "Herramientas", "Empresas", "Investigación", "Regulaci
               "Trabajo y sociedad", "Hardware", "Seguridad"}
 VERACIDAD = {"oficial", "confirmada", "sin_confirmar"}
 TIPOS_FUENTE = {"oficial", "medio", "especialista", "jon"}
+# Palabras mínimas y máximas de la explicación según de qué texto sale el resumen.
+BASES_JON = {"resumen_escrito": (250, 550), "descripcion": (80, 300)}
+
+
+def largo_telegram(texto):
+    """Largo como lo cuenta Telegram: sin las etiquetas y con cada emoji contando doble."""
+    visible = html.unescape(re.sub(r"<[^>]+>", "", texto))
+    return len(visible.encode("utf-16-le")) // 2
 
 
 def dominio(url):
     host = urllib.parse.urlparse(url).netloc.lower()
     return host[4:] if host.startswith("www.") else host
+
+
+def validar_resumen_jon(ed, E, A):
+    r = ed.get("jon_resumen")
+    if not ed.get("jon_video"):
+        if r:
+            E("Hay 'jon_resumen' pero 'jon_video' es null.")
+        return
+    if not isinstance(r, dict):
+        E("Falta 'jon_resumen': cada video de Jon lleva su resumen largo.")
+        return
+    if r.get("base") not in BASES_JON:
+        E(f"'jon_resumen.base' inválida ({r.get('base')!r}). Opciones: {', '.join(sorted(BASES_JON))}.")
+        return
+    if not isinstance(r.get("de_que_trata"), str) or not r["de_que_trata"].strip():
+        E("Falta 'jon_resumen.de_que_trata'.")
+    elif len(r["de_que_trata"]) > 400:
+        E(f"'jon_resumen.de_que_trata' tiene {len(r['de_que_trata'])} caracteres (máx. 400).")
+    parrafos = r.get("explicacion")
+    if not isinstance(parrafos, list) or not all(isinstance(x, str) and x.strip() for x in parrafos):
+        E("'jon_resumen.explicacion' tiene que ser una lista de párrafos (texto).")
+    else:
+        palabras = sum(len(x.split()) for x in parrafos)
+        minimo, maximo = BASES_JON[r["base"]]
+        if not minimo <= palabras <= maximo:
+            E(f"'jon_resumen.explicacion' tiene {palabras} palabras (entre {minimo} y {maximo}).")
+    puntos = r.get("puntos_clave")
+    if not isinstance(puntos, list) or not 3 <= len(puntos) <= 10:
+        E("'jon_resumen.puntos_clave' tiene que tener entre 3 y 10 puntos.")
+        return
+    for i, p in enumerate(puntos, 1):
+        if not isinstance(p, dict) or not isinstance(p.get("texto"), str) or not p["texto"].strip():
+            E(f"Punto clave {i}: falta 'texto'.")
+            continue
+        if len(p["texto"]) > 220:
+            E(f"Punto clave {i}: tiene {len(p['texto'])} caracteres (máx. 220).")
+        seg = p.get("segundo")
+        if seg is not None and (not isinstance(seg, int) or isinstance(seg, bool) or seg < 0):
+            E(f"Punto clave {i}: 'segundo' tiene que ser un entero ≥ 0 o null.")
 
 
 def validar(ed, nombre_archivo=None):
@@ -43,6 +91,8 @@ def validar(ed, nombre_archivo=None):
     if jon is not None:
         if not isinstance(jon, dict) or not jon.get("id") or not jon.get("titulo"):
             E("'jon_video' debe ser null o tener al menos 'id' y 'titulo'.")
+
+    validar_resumen_jon(ed, E, A)
 
     noticias = ed.get("noticias")
     if not isinstance(noticias, list) or not noticias:
@@ -121,10 +171,12 @@ def validar(ed, nombre_archivo=None):
 
     # El mensaje de Telegram tiene que entrar en un solo mensaje.
     if not errores:
-        from publicar import mensaje_telegram
+        from publicar import mensaje_jon, mensaje_telegram
         texto, _ = mensaje_telegram(ed, "https://ejemplo.github.io/noticias-ia")
-        if len(texto) > 4096:
-            E(f"El mensaje de Telegram queda de {len(texto)} caracteres (máx. 4096): acortá 'breve' o 'intro'.")
+        if largo_telegram(texto) > 4096:
+            E(f"El mensaje de Telegram queda de {largo_telegram(texto)} caracteres (máx. 4096): acortá 'breve' o 'intro'.")
+        if largo_telegram(mensaje_jon(ed) or "") > 4096:
+            E(f"El mensaje del video de Jon queda de {largo_telegram(mensaje_jon(ed))} caracteres (máx. 4096): acortá 'jon_resumen'.")
     return errores, avisos
 
 

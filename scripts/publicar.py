@@ -17,6 +17,10 @@ VERACIDAD = {
     "confirmada": ("🔵", "Confirmada", "La publican al menos dos medios serios."),
     "sin_confirmar": ("🟠", "Sin confirmar", "Una sola fuente o rumor: tomar con pinzas."),
 }
+BASE_JON = {
+    "resumen_escrito": "Basado en el resumen escrito que Jon publica de cada video de noticias.",
+    "descripcion": "Basado en la descripción y los temas del video: no incluye todo lo que se dice en él.",
+}
 TIPO_FUENTE = {"oficial": "Oficial", "medio": "Medio", "especialista": "Especialista", "jon": "Jon Hernández"}
 
 
@@ -26,6 +30,10 @@ def e(texto):
 
 def url_jon(ed, segundo):
     return f"https://www.youtube.com/watch?v={ed['jon_video']['id']}&t={int(segundo)}s"
+
+
+def marca(segundo):
+    return f"{int(segundo) // 60}:{int(segundo) % 60:02d}"
 
 
 # ------------------------------------------------------------------ Telegram
@@ -43,6 +51,8 @@ def mensaje_telegram(ed, base_url):
     if ed.get("jon_video"):
         v = ed["jon_video"]
         lineas.append(f"📺 Jon Hernández: <a href=\"https://www.youtube.com/watch?v={e(v['id'])}\">{e(v['titulo'])}</a>")
+        if ed.get("jon_resumen"):
+            lineas.append("El resumen completo del video llega en el mensaje siguiente.")
         lineas.append("")
     lineas.append("🟢 oficial · 🔵 confirmada · 🟠 sin confirmar")
     texto = "\n".join(lineas)
@@ -50,8 +60,31 @@ def mensaje_telegram(ed, base_url):
     botones = [{"text": f"{i} · {n['titulo_corto']}", "url": f"{pagina}#n{i}"}
                for i, n in enumerate(ed["noticias"], 1)]
     filas = [botones[k:k + 2] for k in range(0, len(botones), 2)]
+    if ed.get("jon_resumen"):
+        filas.append([{"text": "📺 Resumen del video de Jon", "url": f"{pagina}#jon"}])
     filas.append([{"text": "📰 Ver la edición completa", "url": pagina}])
     return texto, {"inline_keyboard": filas}
+
+
+def mensaje_jon(ed):
+    """Segundo mensaje de Telegram con el resumen largo del video, o None si no hay."""
+    r = ed.get("jon_resumen")
+    if not r or not ed.get("jon_video"):
+        return None
+    v = ed["jon_video"]
+    lineas = ["📺 <b>Video de Jon Hernández</b>",
+              f"<a href=\"https://www.youtube.com/watch?v={e(v['id'])}\">{e(v['titulo'])}</a>", "",
+              f"<i>{e(r['de_que_trata'])}</i>", ""]
+    for parrafo in r["explicacion"]:
+        lineas += [e(parrafo), ""]
+    lineas.append("<b>Puntos clave</b>")
+    for p in r["puntos_clave"]:
+        if p.get("segundo") is not None:
+            lineas.append(f"• {e(p['texto'])} <a href=\"{e(url_jon(ed, p['segundo']))}\">({marca(p['segundo'])})</a>")
+        else:
+            lineas.append(f"• {e(p['texto'])}")
+    lineas += ["", f"<i>{e(BASE_JON[r['base']])}</i>"]
+    return "\n".join(lineas)
 
 
 # ------------------------------------------------------------------ Página web
@@ -75,13 +108,36 @@ def html_noticia(ed, i, n):
         if n.get("jon_segundo") is not None and ed.get("jon_video"):
             seg = int(n["jon_segundo"])
             partes.append(f'<p><a href="{e(url_jon(ed, seg))}" target="_blank" rel="noopener">'
-                          f'▶ Verlo en su video (minuto {seg // 60}:{seg % 60:02d})</a></p>')
+                          f'▶ Verlo en su video (minuto {marca(seg)})</a></p>')
         partes.append("</div>")
     partes.append('<div class="fuentes"><strong>Fuentes</strong><ul>')
     for f in n["fuentes"]:
         partes.append(f'<li><span class="tipo">{e(TIPO_FUENTE.get(f["tipo"], f["tipo"]))}</span> '
                       f'<a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nombre"])}</a></li>')
     partes.append("</ul></div></div></details></article>")
+    return "\n".join(partes)
+
+
+def html_jon(ed):
+    v = ed["jon_video"]
+    r = ed.get("jon_resumen")
+    enlaces = [f'<a href="https://www.youtube.com/watch?v={e(v["id"])}" target="_blank" rel="noopener">Ver el video</a>']
+    if v.get("resumen_url"):
+        enlaces.append(f'<a href="{e(v["resumen_url"])}" target="_blank" rel="noopener">resumen escrito de Jon</a>')
+    partes = ['<section class="caja jon video" id="jon"><strong>Video de Jon Hernández</strong>',
+              f'<h2>{e(v["titulo"])}</h2>']
+    if r:
+        partes.append(f'<p class="intro">{e(r["de_que_trata"])}</p>')
+        partes += [f"<p>{e(p)}</p>" for p in r["explicacion"]]
+        partes.append("<h3>Puntos clave</h3><ul>")
+        for p in r["puntos_clave"]:
+            enlace = ""
+            if p.get("segundo") is not None:
+                enlace = (f' <a href="{e(url_jon(ed, p["segundo"]))}" target="_blank" rel="noopener">'
+                          f'({marca(p["segundo"])})</a>')
+            partes.append(f'<li>{e(p["texto"])}{enlace}</li>')
+        partes.append(f'</ul><p class="nota-base">{e(BASE_JON[r["base"]])}</p>')
+    partes.append(f'<p>{" · ".join(enlaces)}</p></section>')
     return "\n".join(partes)
 
 
@@ -119,12 +175,7 @@ def html_edicion(ed, anterior, siguiente):
     notas = [html_noticia(ed, i, n) for i, n in enumerate(ed["noticias"], 1)]
     pie = []
     if ed.get("jon_video"):
-        v = ed["jon_video"]
-        enlace_resumen = (f' · <a href="{e(v["resumen_url"])}" target="_blank" rel="noopener">resumen escrito</a>'
-                          if v.get("resumen_url") else "")
-        pie.append(f'<section class="caja jon video"><strong>Video de Jon Hernández</strong><p>'
-                   f'<a href="https://www.youtube.com/watch?v={e(v["id"])}" target="_blank" rel="noopener">'
-                   f'{e(v["titulo"])}</a>{enlace_resumen}</p></section>')
+        pie.append(html_jon(ed))
     leyenda = "".join(f'<li><span class="chip ver-{k}">{v[0]} {v[1]}</span> {e(v[2])}</li>' for k, v in VERACIDAD.items())
     pie.append(f'<section class="leyenda"><strong>Cómo leer las etiquetas</strong><ul>{leyenda}</ul></section>')
     cuerpo = "\n".join(nav + cab + notas + pie + nav)
@@ -180,6 +231,9 @@ def main():
         print(f"\n--- {len(texto)} caracteres. Botones:")
         for fila in teclado["inline_keyboard"]:
             print("   " + "  |  ".join(f"[{b['text']}]" for b in fila))
+        segundo = mensaje_jon(ed)
+        if segundo:
+            print(f"\n=== Segundo mensaje ===\n{segundo}\n\n--- {len(segundo)} caracteres.")
 
 
 if __name__ == "__main__":
