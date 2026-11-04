@@ -1,0 +1,167 @@
+{
+  "fecha": "2026-11-04",
+  "intro": "Google apagará el buscador en las escuelas que rechacen su IA, Apple abre Siri AI a todas las apps, Reuters revela años de alertas internas por seguridad en OpenAI y Anthropic muestra cómo probar qué modelo escribió una respuesta.",
+  "noticias": [
+    {
+      "titulo": "Google dejará sin buscador a las escuelas que no quieran usar su IA",
+      "titulo_corto": "Google: escuelas sin IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "oficial",
+      "breve": "Google apagará por defecto Gemini, NotebookLM y su buscador para alumnos de primaria y secundaria hasta que la escuela los habilite. Las escuelas que rechacen la IA también se quedarán sin Google Search, porque ya viene integrada.",
+      "detalle": [
+        "Google anunció el 3 de noviembre que el año próximo cambiará cómo funcionan sus productos para las cuentas de alumnos de primaria y secundaria (lo que en EE. UU. llaman K-12). Gemini, NotebookLM, Gemini en Classroom y Google Search van a estar completamente apagados para esos alumnos hasta que un administrador de la escuela decida activarlos.",
+        "El detalle polémico es que no se puede elegir el buscador sin la IA. Chris Phillips, vicepresidente de educación de Google, le dijo a The New York Times que la búsqueda y la IA están \"profundamente integradas\", así que la escuela que bloquee la IA también pierde Google Search: los alumnos verán un aviso de que no está disponible.",
+        "En paralelo, Google lanzó en todo el mundo el Aprendizaje Guiado en Google Classroom, una función que en lugar de dar la respuesta acompaña al alumno paso a paso. También probará esa modalidad dentro del buscador con una prueba piloto en algunas escuelas de EE. UU. a fines de noviembre.",
+        "Falta saber cuándo entra en vigor el cambio: Google dice que dará los detalles a las escuelas \"en los próximos meses\". Como muchas escuelas usan Chromebooks y Classroom, la decisión deja poco margen para quienes quieren buscar en la web sin IA."
+      ],
+      "por_que_importa": "Muestra que la IA dejó de ser un agregado opcional en el buscador más usado del mundo: ya no se puede tener uno sin el otro. Y pone en manos de las escuelas una decisión difícil sobre cómo aprenden los chicos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google (blog oficial)", "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Apple abre Siri AI a todas las apps: podrá hacer tareas de varios pasos dentro de ellas",
+      "titulo_corto": "Siri AI llega a otras apps",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Con las versiones de prueba de iOS 27.3, cualquier desarrollador puede conectar su app con Siri AI para que el asistente haga acciones dentro de ella. Los usuarios lo verían en unos meses; las apps recién podrán publicarlo en primavera de 2027.",
+      "detalle": [
+        "Apple anunció el 3 de noviembre una versión preliminar para desarrolladores de Siri AI, su nuevo asistente con IA. Desde las betas (versiones de prueba) de iOS, iPadOS, macOS, watchOS y visionOS 27.3, cualquier app puede integrarse con Siri AI. Hasta ahora solo funcionaba con un grupo chico de tipos de tareas y sobre todo con las apps de Apple.",
+        "Las apps le muestran a Siri qué contenidos y acciones tienen mediante App Intents (la forma estándar de Apple de describir qué puede hacer una app). La novedad son las \"app skills\" (habilidades): el desarrollador le enseña a Siri a encadenar varios pasos. El ejemplo de Apple: pedirle que mande tus zapatillas favoritas a tu pareja por una app de mensajería, y Siri busca el producto, encuentra el contacto y lo envía.",
+        "Por ahora funciona en inglés, francés, japonés, coreano, portugués y español, en equipos compatibles con Apple Intelligence. No está disponible para menores de 13 años ni, en iPhone, iPad y Apple Watch, en la Unión Europea.",
+        "Apple dice que llegará a los usuarios \"en unos meses\", pero las apps de la App Store recién podrán ofrecerlo desde la primavera boreal de 2027, y todavía no publicó las reglas de uso."
+      ],
+      "por_que_importa": "Si funciona, el celular pasa de tener un asistente que abre apps a uno que hace trámites completos dentro de ellas con un pedido en lenguaje natural. Es la apuesta de Apple para no quedarse atrás frente a los agentes de Google y OpenAI.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Apple Developer", "url": "https://developer.apple.com/news/?id=gdk2umrf", "tipo": "oficial"},
+        {"nombre": "9to5Mac", "url": "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según Reuters, empleados de OpenAI advirtieron durante años sobre fallas de seguridad interna",
+      "titulo_corto": "OpenAI: alertas de seguridad",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según una investigación de Reuters basada en fuentes anónimas, empleados de OpenAI avisaron a la dirección y al directorio sobre accesos demasiado abiertos y herramientas sin revisar. OpenAI dice que invierte fuerte en seguridad.",
+      "detalle": [
+        "Reuters publicó el 3 de noviembre que, según cinco personas que conocen la empresa, empleados de OpenAI vienen alertando desde antes del lanzamiento de ChatGPT (fines de 2022) sobre problemas de seguridad interna. Algunos sintieron que los directivos priorizaban no quedarse atrás frente a Google y Anthropic.",
+        "Entre las fallas que mencionan: casi todo el código estaba en un único repositorio, así que quien tenía acceso podía ver proyectos sensibles ajenos; documentación de investigación guardada en GitHub y Slack; y herramientas internas, como los entornos donde se ponen a prueba los modelos, sin revisiones de seguridad periódicas. OpenAI responde que ese repositorio no tiene todo su código ni los pesos de los modelos y que hoy el acceso a lo sensible está restringido.",
+        "La nota llega después de que, en octubre, OpenAI informara que encontró un grabador escondido en una sala de reuniones de directivos. El Departamento de Justicia de EE. UU. detuvo el 13 de octubre a un ingeniero de la empresa acusado de instalarlo.",
+        "Una vocera dijo que OpenAI es una de las organizaciones más atacadas del mundo y que la seguridad es \"un asunto de importancia nacional\". Según Reuters, en agosto la empresa pasó a una cuarta parte de sus ingenieros de producción a tareas de seguridad. Las acusaciones vienen de fuentes anónimas y no fueron confirmadas por otro medio."
+      ],
+      "por_que_importa": "Los laboratorios de IA guardan tecnología que gobiernos y competidores quieren robar. Si la seguridad interna falla, el riesgo no es solo para la empresa: también para los datos de sus usuarios y, según muchos, para la seguridad nacional.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Investing.com)", "url": "https://www.investing.com/news/economy-news/openai-employees-warned-about-operational-security-lapses-for-years-sources-say-4996239", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "AMD factura un récord de US$13.400 millones y su negocio de centros de datos casi se duplica",
+      "titulo_corto": "AMD: récord por la IA",
+      "categoria": "Hardware",
+      "veracidad": "oficial",
+      "breve": "AMD facturó US$13.400 millones entre julio y septiembre, un 45% más que hace un año. Sus ventas para centros de datos, impulsadas por sus chips de IA MI450, crecieron 97%, y espera unos US$17.000 millones para el último trimestre.",
+      "detalle": [
+        "AMD, la principal rival de Nvidia en chips para IA, presentó el 3 de noviembre los resultados de su tercer trimestre de 2026: ingresos de US$13.377 millones, un 45% más que un año antes, y una ganancia neta de US$2.428 millones.",
+        "El motor fue el negocio de centros de datos, que facturó US$8.546 millones, un 97% más. AMD lo atribuye a la demanda de sus procesadores para servidores EPYC y al lanzamiento de sus GPU (placas que hacen los cálculos de la IA) Instinct MI450. Esas GPU van en sus racks Helios, donde ya corren cargas de OpenAI y Meta, entre otros.",
+        "Para el cuarto trimestre, AMD prevé ingresos de alrededor de US$17.000 millones, lo que implicaría crecer un 66% interanual. El dato calmó parte del temor del mercado a que se frene el gasto en IA.",
+        "Hay un costo escondido: AMD registró un cargo de unos US$1.100 millones por los warrants (derechos a comprar acciones a precio fijo) que les dio a algunos clientes en sus acuerdos de chips; Reuters los vincula a los contratos con OpenAI y Meta. Cuanto más sube la acción de AMD, más le cuestan esos acuerdos en sus números."
+      ],
+      "por_que_importa": "Que un segundo fabricante crezca así da más competencia a Nvidia, lo que con el tiempo puede abaratar el cómputo para IA. También es un termómetro de que la inversión en centros de datos sigue fuerte.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AMD (comunicado oficial)", "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results", "tipo": "oficial"},
+        {"nombre": "TechPowerUp", "url": "https://www.techpowerup.com/354446/amd-reports-record-usd-13-4b-third-quarter-2026-revenue", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Anthropic presenta FlashProve, un sistema para comprobar qué modelo de IA escribió una respuesta",
+      "titulo_corto": "FlashProve de Anthropic",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "Anthropic publicó como código abierto un prototipo que genera una prueba criptográfica de que una respuesta salió de un modelo determinado, sin revelar el modelo. Es investigación: no lo usa todavía ningún laboratorio.",
+      "detalle": [
+        "Anthropic presentó el 3 de noviembre FlashProve, un prototipo de lo que llama \"inferencia demostrable\": la posibilidad de verificar que una respuesta la generó un modelo concreto, sin tener acceso a ese modelo ni computadoras para correrlo.",
+        "Funciona en dos pasos. Primero, el proveedor publica una \"huella\" de su modelo que lo identifica sin mostrar sus pesos (los números que definen lo que aprendió el modelo). Después, con cada respuesta entrega una prueba (una especie de firma criptográfica) que cualquiera puede revisar. Así se podría detectar, por ejemplo, a un proveedor que cobra por un modelo caro pero en secreto usa uno más barato.",
+        "Las pruebas las hicieron con Llama 4 Maverick, un modelo abierto de Meta. Generar la prueba cuesta entre 70 y 95 veces más tiempo de GPU que solo responder, cada prueba pesa unos 19 MB y verificarla tarda unos 17 segundos en un procesador común.",
+        "Tiene límites importantes: solo cubre respuestas de hasta 1.024 tokens (fragmentos de texto) y una forma simplificada de generar texto. Anthropic aclara que es un avance parcial, liberó el código con licencia Apache 2.0 y no tiene planes de usarlo en sus productos por ahora."
+      ],
+      "por_que_importa": "Hoy, cuando usás un modelo a través de un tercero, tenés que confiar en que es el que dice ser. Un sistema así podría volver verificable algo que hoy es pura fe, aunque todavía es demasiado caro para usarlo a escala.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Anthropic (investigación)", "url": "https://www.anthropic.com/research/provable-inference", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "OpenAI dice que las búsquedas en ChatGPT ya equivalen al 20% de las de Google",
+      "titulo_corto": "ChatGPT vs. Google",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Adam Fry, responsable de ChatGPT para consumidores, dijo el 2 de noviembre que el volumen de búsquedas en ChatGPT es cerca de un quinto del de Google. OpenAI no explicó de dónde sacó el dato de Google.",
+      "detalle": [
+        "En un encuentro con la prensa el lunes 2 de noviembre, Adam Fry, que dirige el producto de consumo de ChatGPT en OpenAI, afirmó que las búsquedas que pasan por ChatGPT ya equivalen a alrededor del 20% de las que recibe Google.",
+        "OpenAI cuenta como búsqueda cada vez que una pregunta hace que ChatGPT salga a buscar en la web. Las consultas que responde solo con lo que ya sabe no entran en la cuenta.",
+        "Hay que tomar la cifra con cuidado: es un dato de la propia empresa, y Fry no dijo de dónde sacó el volumen de búsquedas de Google, que Google no publica en detalle. Mediciones externas anteriores daban números más bajos. Fry también comentó que la mayoría de los usuarios no parece molestarse por la publicidad en ChatGPT."
+      ],
+      "por_que_importa": "Si la cifra se acerca a la realidad, \"preguntarle a ChatGPT\" ya compite en serio con \"googlearlo\", y eso cambia de dónde sacan tráfico los sitios web y cómo llega la información a la gente.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search", "tipo": "medio"},
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/11/03/chatgpt-has-hit-roughly-20-of-google-search-volume-openai-says/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Investigadores del MIT muestran que una IA puede leer y editar directamente los pesos de otra",
+      "titulo_corto": "IA que edita a otra IA",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "Un estudio preliminar del MIT muestra que GPT-6 Astra puede leer los pesos de una red neuronal para deducir qué hace, y modificarlos: retocando 0,016% de un modelo chico, su acierto en matemática pasó de 7,9% a 48,1%.",
+      "detalle": [
+        "Cuatro investigadores del MIT CSAIL publicaron el 2 de noviembre un trabajo que llaman \"programación en el espacio de pesos\". La idea: en vez de entrenar una red neuronal, que un modelo de lenguaje lea y escriba directamente sus pesos (los números que guardan lo que la red aprendió), como si fueran código.",
+        "En los experimentos, GPT-6 Astra de OpenAI adivinó a qué juego había sido entrenada una red mirando solo sus números, reparó un controlador que fallaba y hasta escribió desde cero redes para jugar videojuegos simples. El resultado más llamativo: detectó por qué el modelo chico Qwen3.5-0.8B se quedaba trabado en razonamientos en bucle, cambió el 0,016% de sus pesos y su acierto en la prueba de matemática MATH-500 subió de 7,9% a 48,1%.",
+        "Los propios autores marcan límites: el modelo editado tiene que caber en la memoria de trabajo de la IA, a veces se equivoca al leer y la técnica solo arregla defectos, no agrega habilidades (en otro modelo chico, Gemma 3 270M, casi no mejoró nada). No está revisado por pares. Simon Willison probó parte del experimento con Qwen 3.8 27B en su laptop: acertó tres de cuatro juegos, tardando cerca de una hora cada uno."
+      ],
+      "por_que_importa": "Abre una vía para entender y corregir modelos por dentro en lugar de tratarlos como cajas negras, algo clave tanto para mejorarlos como para auditarlos. Pero es muy temprano para saber si escala a modelos grandes.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "MIT CSAIL (blog de los autores)", "url": "https://rikiyat.github.io/blog/weight-space-programming/", "tipo": "oficial"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba", "tipo": "medio"},
+        {"nombre": "Simon Willison", "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Apple exigirá clasificación +18 a las apps de citas y de compañía virtual con contenido romántico",
+      "titulo_corto": "Apple: +18 a compañeros IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "oficial",
+      "breve": "Desde el 16 de noviembre, las apps de la App Store tendrán que declarar si permiten citas o si ofrecen un compañero virtual con contenido sexual o romántico. Si es así, quedan clasificadas para mayores de 18 años.",
+      "detalle": [
+        "Apple avisó a los desarrolladores el 2 de noviembre que agrega dos preguntas nuevas al cuestionario con el que se calcula la edad mínima de cada app. Una es si la app sirve para citas o relaciones entre personas reales, o si tiene un compañero virtual que conversa con contenido sexual o romántico. La otra, si comparte la ubicación real del usuario con otras personas.",
+        "Las apps que entren en la primera categoría van a tener como mínimo una clasificación de +18. Esto alcanza a las apps de compañeros de IA, como Character.AI o Replika, si ofrecen ese tipo de vínculo. Las preguntas aparecen desde el 16 de noviembre y todas las apps tienen que completarlas antes del 12 de enero de 2027.",
+        "El cambio se suma a otras medidas recientes de Apple para verificar la edad de los usuarios y dar más controles a los padres, en un momento de creciente preocupación por el vínculo de adolescentes con chatbots que simulan relaciones."
+      ],
+      "por_que_importa": "Los compañeros virtuales con IA son uno de los usos que más crece y más preocupa en adolescentes. Que la tienda de apps del iPhone los trate igual que a las apps de citas marca un criterio que otras plataformas podrían seguir.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Apple Developer", "url": "https://developer.apple.com/news/?id=yxkh08us", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "notas_internas": "No había crudo del día a las 6:40: se generó con scripts/recolectar.py (67 notas, 0 errores; el archivo de datos/crudo no se commitea). Sin video nuevo de Jon con es_noticias y ya_cubierto=false. Las búsquedas web generales devolvieron poco material fechado hoy. No se pudo leer theverge.com ni arstechnica.com: se usó el texto del feed y otras fuentes. La nota de OpenAI viene de Reuters (leída vía Investing.com) con fuentes anónimas: sin_confirmar. El cargo de US$1.100M de AMD figura en su comunicado como 'warrant liability'; el vínculo con OpenAI y Meta sale del título de Reuters en el crudo. Descartadas: ronda de Fal (US$1.300M a US$16.000M, solo TechCrunch citando a Bloomberg), bono de Meta por US$15.000M (no se encontró fuente legible), modelo de Baidu para robotaxis (sin fuente legible). No se encontraron instrucciones sospechosas en el material leído."
+}
