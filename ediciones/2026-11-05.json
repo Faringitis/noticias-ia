@@ -1,0 +1,255 @@
+{
+  "fecha": "2026-11-05",
+  "intro": "Los centros de datos fueron uno de los grandes perdedores de las elecciones de medio término en EE. UU., OpenAI muestra una IA que encontró 948 fallas graves en Linux y China frenaría la compra de los robots de ABB por SoftBank.",
+  "noticias": [
+    {
+      "titulo": "Los centros de datos para IA salieron mal parados en las elecciones de EE. UU.",
+      "titulo_corto": "Elecciones y data centers",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "En las elecciones de medio término del 3 de noviembre ganaron muchos candidatos que se oponen a construir centros de datos, y los grupos que gastaron millones a favor de la industria de la IA consiguieron poco.",
+      "detalle": [
+        "Los demócratas ganaron el control de las dos cámaras del Congreso y la oposición a los centros de datos (los galpones llenos de servidores donde se entrenan y corren los modelos de IA) fue un tema central. Según una encuesta a boca de urna de NBC citada por TechCrunch, casi el 80% se opone a que construyan uno cerca de su casa y cerca del 60% dijo que el tema pesó mucho en su voto.",
+        "El caso más fuerte es Texas, el mercado de centros de datos que más crece en el país. Ahí ganó la gobernación la demócrata Gina Hinojosa, que hizo campaña pidiendo una moratoria (una pausa) estatal a nuevos centros, y James Talarico ganó la banca de senador. En Ohio, el condado donde Meta planeaba un centro de 700.000 pies cuadrados aprobó una enmienda que prohíbe los centros de datos grandes.",
+        "Los comités de campaña financiados por la industria (los llamados super PAC) tuvieron malos resultados: según TechCrunch, dos de ellos gastaron en conjunto US$4,8 millones apoyando a una candidata al Senado por Carolina del Sur que perdió. Según Wired, la red pro-IA más grande, Leading the Future, que tenía US$100 millones para gastar, casi no movió la aguja.",
+        "Falta ver cuánto cambia en la práctica: muchos permisos dependen de municipios y condados, y algunos sindicatos de la construcción que apoyaron a los demócratas podrían resistir una moratoria."
+      ],
+      "por_que_importa": "La IA necesita muchísima electricidad y edificios nuevos; si los votantes frenan esa construcción, puede volverse más lenta y más cara, y eso termina pesando en precios y disponibilidad de los servicios.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "TechCrunch (super PAC)",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Wired",
+          "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Un sistema de IA de OpenAI encontró 948 formas de tomar el control de Linux y propuso arreglos",
+      "titulo_corto": "OpenAI y 948 fallas Linux",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "OpenAI armó un sistema automático con agentes de IA que revisó el núcleo de Linux y encontró, comprobó y propuso parches para 948 fallas que permiten a un usuario común convertirse en administrador.",
+      "detalle": [
+        "OpenAI publicó el 4 de noviembre un informe sobre un sistema que analizó el núcleo (kernel) de Linux, la base del sistema operativo de la mayoría de los servidores de internet. En una sola corrida, a mediados de octubre, partió de 2.308 posibles fallas, reprodujo 1.724 y logró 948 exploits (programas que aprovechan la falla) que dejan a un usuario sin permisos obtener control total de la máquina, lo que se llama escalada de privilegios.",
+        "Cada una de esas 948 vino con un parche candidato generado por el propio sistema. Según las cuentas de OpenAI, la corrida costó unos US$1,2 millones en uso de sus modelos, alrededor de US$1.270 por falla, mientras que pagar recompensas a investigadores humanos por lo mismo habría costado entre US$18,9 y US$66,3 millones.",
+        "La empresa dice que trabaja con los mantenedores de Linux y que ingenieros de la firma Trail of Bits revisan cada hallazgo antes de enviarlo, y que no va a publicar código de ataque.",
+        "Ojo con el número: son parches propuestos, no arreglos ya incorporados a Linux. Tampoco se sabe quién más va a poder usar este tipo de sistemas, que en manos de un atacante acortarían mucho el tiempo para aprovechar una falla nueva."
+      ],
+      "por_que_importa": "Muestra que la IA ya puede encontrar fallas de seguridad a una escala que ningún equipo humano alcanza: es una herramienta poderosa para defender sistemas, pero también obliga a parchear mucho más rápido.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Startup Fortune",
+          "url": "https://startupfortune.com/openais-ai-pipeline-turned-2308-linux-kernel-bugs-into-948-root-exploits/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "RuntimeWire",
+          "url": "https://runtimewire.com/article/openai-agents-948-linux-kernel-flaws",
+          "tipo": "especialista"
+        }
+      ]
+    },
+    {
+      "titulo": "China bloquearía la compra de la división de robots de ABB por parte de SoftBank",
+      "titulo_corto": "China frena SoftBank-ABB",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el Financial Times, el organismo de planificación económica de China le avisó a SoftBank que no aprobará la compra de la unidad de robótica industrial de ABB por unos US$5.400 millones.",
+      "detalle": [
+        "SoftBank, el grupo japonés que es uno de los grandes inversores de OpenAI, había acordado en octubre de 2025 comprar el 100% del negocio de robots de ABB, la empresa suiza de ingeniería, por unos US$5.375 millones. Según el Financial Times, que cita a personas al tanto, la Comisión Nacional de Desarrollo y Reforma de China le comunicó que no va a dar el visto bueno. Reuters también se hizo eco del reporte.",
+        "La aprobación china era clave porque China es el mayor mercado de esa división, que en 2024 facturó unos US$2.300 millones y tiene alrededor de 7.000 empleados. La Comisión Europea ya había aprobado la operación en marzo sin condiciones.",
+        "Los motivos oficiales no se conocen. Algunos reportes mencionan la preocupación de Pekín por que los datos generados por robots en China salgan del país para entrenar modelos de IA. Las acciones de SoftBank cayeron cerca de 5% en Tokio. Ni SoftBank ni ABB habían comentado públicamente al cierre de esta edición."
+      ],
+      "por_que_importa": "Los robots industriales son la apuesta de SoftBank para llevar la IA a las fábricas; que China lo frene muestra que la robótica ya se trata como un tema estratégico, igual que los chips.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "investingLive (sobre el Financial Times)",
+          "url": "https://investinglive.com/stocks/china-blocks-softbank-s-5-4-billion-abb-robotics-deal-ft-says-in-blow-to-son-s-ai-push/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "ChatGPT ya puede crear GIFs animados con su nuevo modelo de imágenes 2.6",
+      "titulo_corto": "GIFs en ChatGPT",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "OpenAI lanzó Images 2.6: ChatGPT ahora convierte un texto o una foto en un GIF animado, permite guardar imágenes de referencia para reutilizarlas y suma dos modelos más rápidos para desarrolladores.",
+      "detalle": [
+        "Con la actualización, anunciada el 4 de noviembre, se le puede pedir a ChatGPT un GIF a partir de una descripción o de una foto subida, y después ajustar la velocidad de la animación y editar cuadro por cuadro.",
+        "También se pueden guardar imágenes de referencia (por ejemplo, una foto propia, de una mascota o de un personaje) para usarlas en otras creaciones sin volver a subirlas. OpenAI agregó además marcado sobre la imagen y exportación en SVG (un formato de dibujo vectorial que se puede agrandar sin perder calidad).",
+        "Para desarrolladores llegan dos modelos por API: GPT-Image-2.6 Flare, pensado para velocidad, que según OpenAI genera imágenes en apenas seis segundos, y Sunburst, orientado a mayor calidad y coherencia entre ediciones.",
+        "El despliegue es gradual: no todas las cuentas tienen los GIFs todavía, y OpenAI no dio una fecha para que lleguen a todos."
+      ],
+      "por_que_importa": "Hacer animaciones simples deja de requerir programas de edición: sirve para presentaciones, explicar un mecanismo paso a paso o comunicar algo rápido en redes.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Foro de desarrolladores de OpenAI",
+          "url": "https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Tencent lanza Hy4, un modelo al que a propósito no le enseñó a atacar sistemas",
+      "titulo_corto": "Tencent Hy4",
+      "categoria": "Modelos",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Xataka, que cita el anuncio de Tencent, la empresa presentó la versión completa de Hy4, un modelo que puede manejar programas, entrenado con datos de ciberseguridad defensiva pero sin material para atacar.",
+      "detalle": [
+        "Hy4 es el primer modelo de la familia de Tencent que entiende imágenes y puede usar la computadora: interpreta gráficos, maneja interfaces y está preparado para trabajar con programas como Blender y herramientas CAD, además de programar. Llega después de una versión preliminar publicada en agosto.",
+        "Lo distinto es cómo lo entrenaron: según Tencent, incluyó información para encontrar y corregir vulnerabilidades, pero dejó afuera el material sobre cómo aprovecharlas para atacar. No es un filtro de respuestas sino una decisión sobre qué aprende el modelo. La empresa dice que dos de sus laboratorios de seguridad no detectaron capacidades ofensivas significativas, aunque son pruebas propias.",
+        "En rendimiento no está arriba de todo: en la prueba Terminal-Bench 4.0 (tareas en la terminal) sacó 44,4 puntos, contra 55,5 de GPT-6.1 Sol y 66,8 de Kimi K3.1 Pro, según Xataka. Tencent prometió publicar más adelante los pesos del modelo (los archivos para usarlo libremente), sin fecha."
+      ],
+      "por_que_importa": "Que el modelo pueda operar programas de diseño como los CAD es directamente útil en ingeniería, y la decisión de no enseñarle a atacar es una forma nueva de encarar la seguridad.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Xataka",
+          "url": "https://www.xataka.com/robotica-e-ia/tencent-acaba-lanzar-nueva-ia-interesante-no-solo-que-sabe-hacer-sino-que-ha-decidido-no-ensenarle",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "OpenAI comprará Pierre, una startup de herramientas para guardar y revisar código",
+      "titulo_corto": "OpenAI compra Pierre",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "OpenAI anunció que adquirirá Pierre Computer Company para reforzar Codex, su asistente de programación. Según Axios, la movida apunta a competir con GitHub, de Microsoft.",
+      "detalle": [
+        "Pierre hace Code Storage, un servicio para guardar código basado en Git (el sistema estándar para llevar el historial de cambios de un programa), y herramientas de código abierto para navegar archivos y revisar cambios, llamadas Trees y Diffs. Estas dos ya se usan dentro de la app de Codex.",
+        "OpenAI dice que integrará Code Storage en Codex una vez cerrada la compra, que los clientes actuales podrán seguir usándolo y que los proyectos de código abierto de Pierre seguirán siendo abiertos. No se informó el precio y la operación todavía necesita aprobaciones.",
+        "Axios presentó el acuerdo como un movimiento contra GitHub, el lugar donde la mayoría de los programadores guarda su código. El anuncio de OpenAI no lo menciona, y no está claro si Codex va a ofrecer alojamiento de código para el público."
+      ],
+      "por_que_importa": "OpenAI está construyendo todo el circuito del programador alrededor de su IA: escribir, guardar y revisar código en un mismo lugar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Axios",
+          "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Meta compra Conductor, una startup que coordina varios agentes de programación a la vez",
+      "titulo_corto": "Meta compra Conductor",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Meta le confirmó a TechCrunch la compra de Conductor, una herramienta para poner a trabajar varios agentes de IA en paralelo sobre un mismo proyecto. No se informó el precio.",
+      "detalle": [
+        "Conductor, fundada en 2024 y dirigida por Charlie Holtz, permite lanzar equipos de agentes de IA (programas que hacen tareas por su cuenta) en espacios de trabajo separados, cada uno ocupándose de una parte del proyecto. Los agentes no son propios: vienen de Anthropic y OpenAI, entre otros.",
+        "Axios fue el primero en informarlo y Meta se lo confirmó a TechCrunch sin dar más detalles. Holtz dijo que trabajará con Alexandr Wang, jefe de IA de Meta, y anticipó algo nuevo para principios del año próximo.",
+        "Para los usuarios actuales, las funciones principales siguen igual por ahora, pero el servicio en la nube cierra el 20 de noviembre y después se borran esos datos. Meta lanzó en agosto su propio agente de programación, Muse Code."
+      ],
+      "por_que_importa": "Las grandes empresas compiten por quedarse con las herramientas que usan los programadores; manejar varios agentes a la vez es hacia donde va el trabajo con IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Uber reveló que en su semana más activa solo 4 viajes se pidieron con un agente de IA",
+      "titulo_corto": "Uber y los agentes de IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "En la semana de Halloween, con unos 320 millones de viajes y pedidos, apenas 4 viajes y unos 500 pedidos de comida llegaron a través de asistentes de IA, según dijo Uber al presentar sus resultados.",
+      "detalle": [
+        "El director financiero de Uber, Balaji Krishnamurthy, dio los números en la presentación de resultados del tercer trimestre: en su semana de más actividad de octubre hubo 4 viajes pedidos por un agente de IA y cerca de 500 pedidos de Uber Eats, frente a unos 320 millones de viajes y pedidos en total.",
+        "El CEO, Dara Khosrowshahi, reconoció que el uso es muy incipiente, aunque espera que crezca y que los agentes terminen sumando demanda. DoorDash había contado la semana pasada algo parecido: solo unos cientos de pedidos por esa vía.",
+        "Una explicación posible es que pedir un auto en la app ya lleva unos 50 segundos, así que delegarlo en un asistente no ahorra mucho."
+      ],
+      "por_que_importa": "Es un dato concreto frente a tanta promesa sobre agentes que hacen todo por vos: para tareas que ya son fáciles, la gente todavía no los usa.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Apple estaría recortando cuánto pueden gastar sus empleados en herramientas de IA",
+      "titulo_corto": "Apple raciona la IA",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Bloomberg, Apple bajó de US$300 a US$200 diarios el tope de gasto en IA por ingeniero y planea recortes mayores, en una señal de que las empresas empiezan a racionar el uso.",
+      "detalle": [
+        "Según Bloomberg, citado por TechCrunch, en octubre Apple redujo el límite diario de gasto en IA para sus ingenieros de US$300 a US$200, y algunos equipos bajarían a US$100. Fuera de ingeniería, la empresa evaluaría un tope de apenas US$25 por día.",
+        "Durante 2026 muchas empresas empujaron a su personal a usar IA todo lo posible; ahora, con las facturas a la vista, varias empezaron a limitar los tokens (las unidades de texto por las que se cobra el uso de un modelo).",
+        "Apple no respondió a la consulta de TechCrunch y no se sabe qué herramientas usan sus equipos."
+      ],
+      "por_que_importa": "Muestra que usar IA a gran escala sale caro y que las empresas empiezan a medir si la productividad que ganan justifica el gasto.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "datos/crudo/2026-11-05.json no estaba en el repo; se generó con scripts/recolectar.py (0 errores) y no se commitea. No hubo video nuevo de Jon: el único sin cubrir es una masterclass (no cuenta) y el de noticias ya salió el 3/11. openai.com, wired.com, arstechnica.com, axios.com y businessworld.in bloquearon la lectura: OpenAI (Linux y Pierre) se verificó con el texto del feed más medios secundarios; Pierre además con resumen de búsqueda de Axios. SoftBank-ABB: solo el FT (vía investingLive y titular de Reuters en el crudo), por eso sin_confirmar. Tencent Hy4: Xataka leído + titular de Reuters en el crudo (link de Google News, no citado). Images 2.6 verificado en el foro oficial de OpenAI. No se encontraron textos sospechosos. Tencent Hy4 y Meta-Conductor quedaron sin_confirmar porque solo se pudo leer y citar un medio (Xataka y TechCrunch respectivamente; Reuters y Axios no se pudieron abrir)."
+}
