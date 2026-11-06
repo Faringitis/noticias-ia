@@ -22,8 +22,8 @@ import urllib.request
 
 from comun import (CRUDO, EDICIONES, ESTADO, ahora_ar, consola_utf8, fecha_larga,
                    guardar_json, hoy_ar, leer_json)
-from publicar import (BASE_JON, VERACIDAD, aviso_sin_video, e, marca, mensaje_jon, mensaje_telegram,
-                      ultimo_video_jon, url_jon)
+from publicar import (BASE_JON, VERACIDAD, aviso_sin_video, e, etiqueta_jon, marca, mensaje_jon,
+                      mensaje_telegram, ultimo_video_jon, url_jon, viene_de_jon)
 
 REGISTRO = ESTADO / "enviados.json"
 
@@ -82,11 +82,18 @@ def html_mail(ed):
     filas = []
     for i, n in enumerate(ed["noticias"], 1):
         emoji, etiqueta, _ = VERACIDAD[n["veracidad"]]
+        linea_jon = ""
+        if viene_de_jon(n):
+            texto_jon = e(etiqueta_jon(n))
+            if n.get("jon_segundo") is not None and ed.get("jon_video"):
+                texto_jon = f'<a href="{e(url_jon(ed, n["jon_segundo"]))}" style="color:#3b5bdb">{texto_jon}</a>'
+            linea_jon = f'<div style="margin-top:6px;font-size:14px;color:#1d1d1b">📺 {texto_jon}</div>'
         filas.append(f"""
 <div style="padding:14px 0;border-top:1px solid #e3e1d9">
   <div style="font-size:12px;color:#5f5e58">{i} · {e(n['categoria'])} · {emoji} {e(etiqueta)}</div>
   <div style="font-size:17px;font-weight:700;line-height:1.3;margin:4px 0 6px;color:#1d1d1b">{e(n['titulo'])}</div>
   <div style="font-size:15px;line-height:1.5;color:#3d3d39">{e(n['breve'])}</div>
+  {linea_jon}
   <div style="margin-top:6px"><a href="{e(pagina)}#n{i}" style="color:#3b5bdb;font-size:14px;font-weight:600;text-decoration:none">Ver más →</a></div>
 </div>""")
     jon = ""
@@ -138,7 +145,10 @@ def texto_mail(ed):
     pagina = f"{base_url()}/{ed['fecha']}.html"
     partes = [f"Noticias de IA · {fecha_larga(ed['fecha'])}", "", ed["intro"], ""]
     for i, n in enumerate(ed["noticias"], 1):
-        partes += [f"{i}. {n['titulo']}", n["breve"], f"Ver más: {pagina}#n{i}", ""]
+        partes += [f"{i}. {n['titulo']}", n["breve"]]
+        if viene_de_jon(n):
+            partes.append(etiqueta_jon(n))
+        partes += [f"Ver más: {pagina}#n{i}", ""]
     r = ed.get("jon_resumen")
     if r and ed.get("jon_video"):
         partes += [f"Video de Jon Hernández: {ed['jon_video']['titulo']}",

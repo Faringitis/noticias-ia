@@ -56,7 +56,9 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
    - Lo que dice el resumen es **lo que dice Jon**, no algo que verificaste: atribuilo ("Jon explica...",
      "según el video...") y conservá los "habría" o "estaría" cuando el dato no está confirmado.
    - Las noticias del video entran además en `noticias` **como cualquier otra**: solo si son importantes
-     y las verificás. En ese caso poné en `jon_segundo` el segundo donde arranca el tema. Los
+     y las verificás. En ese caso poné **siempre** en `jon_segundo` el segundo donde arranca el tema (sacalo de
+     `minutos`): con ese dato el informe avisa que la noticia salió del video de Jon. Si el tema no
+     figura en `minutos`, dejá `jon_segundo` en `null` y sumá una fuente de tipo `jon`. Los
      `links_fuentes` son las fuentes originales de cada tema: usalos para verificar.
    - Las opiniones de Jon van separadas de los hechos, en `jon_opina` ("Según Jon, ..."), nunca
      mezcladas con el `detalle`.
@@ -130,7 +132,7 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
    - `categoria`: una de `Modelos`, `Herramientas`, `Empresas`, `Investigación`, `Regulación`,
      `Trabajo y sociedad`, `Hardware`, `Seguridad`.
    - `tipo` de fuente: `oficial`, `medio`, `especialista` o `jon`.
-   - `jon_segundo`: entero o `null`. `jon_opina`: texto o `null`.
+   - `jon_segundo`: entero, u `null` si la noticia no sale del video. `jon_opina`: texto o `null`.
    - `titulo_corto`: máximo 28 caracteres (va en el botón de Telegram).
    - `detalle`: de 2 a 5 párrafos, en total unas 120 a 300 palabras.
 

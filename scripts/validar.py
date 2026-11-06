@@ -161,6 +161,10 @@ def validar(ed, nombre_archivo=None):
         if n.get("veracidad") == "confirmada" and len(dominios) < 2:
             E(f"{p}: dice 'confirmada' pero no tiene 2 fuentes de sitios distintos.")
 
+    if (ed.get("jon_resumen") or {}).get("base") == "resumen_escrito" and not any(
+            isinstance(n, dict) and n.get("jon_segundo") is not None for n in noticias):
+        A("Hay video de noticias de Jon, pero ninguna noticia tiene 'jon_segundo'.")
+
     # Repeticiones con ediciones anteriores (solo aviso).
     if isinstance(fecha, str):
         previos = {re.sub(r"\W+", "", x.get("titulo", "").lower())

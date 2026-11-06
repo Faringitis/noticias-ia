@@ -62,6 +62,7 @@ summary::-webkit-details-marker { display: none; }
   background: var(--texto); color: var(--tarjeta); font-size: 13px; font-weight: 700;
 }
 .chip { font-size: 13px; padding: 2px 9px; border-radius: 999px; background: var(--chip); color: var(--suave); white-space: nowrap; }
+.chip-jon { background: var(--jon); color: var(--texto); }
 .ver-oficial { color: var(--oficial); }
 .ver-confirmada { color: var(--confirmada); }
 .ver-sin_confirmar { color: var(--sin-confirmar); }

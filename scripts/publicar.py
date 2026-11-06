@@ -33,6 +33,17 @@ def url_jon(ed, segundo):
     return f"https://www.youtube.com/watch?v={ed['jon_video']['id']}&t={int(segundo)}s"
 
 
+def viene_de_jon(n):
+    """True si la noticia sale del video de Jon o él la trata en ese video."""
+    return n.get("jon_segundo") is not None or any(f.get("tipo") == "jon" for f in n["fuentes"])
+
+
+def etiqueta_jon(n):
+    if n.get("jon_segundo") is None:
+        return "Sacada del video de Jon Hernández"
+    return f"Sacada del video de Jon Hernández (minuto {marca(n['jon_segundo'])})"
+
+
 def ultimo_video_jon(fecha):
     """Última edición anterior a `fecha` que trajo un video de Jon, o None."""
     for ed in reversed(ediciones_anteriores(fecha, 30)):
@@ -62,6 +73,11 @@ def mensaje_telegram(ed, base_url):
         emoji = VERACIDAD[n["veracidad"]][0]
         lineas.append(f"{emoji} <b>{i}. {e(n['titulo'])}</b>")
         lineas.append(e(n["breve"]))
+        if viene_de_jon(n):
+            if n.get("jon_segundo") is not None and ed.get("jon_video"):
+                lineas.append(f"📺 <a href=\"{e(url_jon(ed, n['jon_segundo']))}\">{e(etiqueta_jon(n))}</a>")
+            else:
+                lineas.append(f"📺 {e(etiqueta_jon(n))}")
         lineas.append("")
     if ed.get("jon_video"):
         v = ed["jon_video"]
@@ -113,10 +129,14 @@ def mensaje_jon(ed):
 
 def html_noticia(ed, i, n):
     emoji, etiqueta, explicacion = VERACIDAD[n["veracidad"]]
+    chip_jon = ""
+    if viene_de_jon(n):
+        minuto = f' · {marca(n["jon_segundo"])}' if n.get("jon_segundo") is not None else ""
+        chip_jon = f'<span class="chip chip-jon" title="{e(etiqueta_jon(n))}">📺 Video de Jon{minuto}</span>'
     partes = [f'<article class="nota" id="n{i}"><details>',
               '<summary>',
               f'<div class="meta"><span class="num">{i}</span><span class="chip">{e(n["categoria"])}</span>'
-              f'<span class="chip ver-{e(n["veracidad"])}" title="{e(explicacion)}">{emoji} {e(etiqueta)}</span></div>',
+              f'<span class="chip ver-{e(n["veracidad"])}" title="{e(explicacion)}">{emoji} {e(etiqueta)}</span>{chip_jon}</div>',
               f'<h2>{e(n["titulo"])}</h2>',
               f'<p class="breve">{e(n["breve"])}</p>',
               '<span class="mas">Ver más</span>',
