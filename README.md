@@ -1,7 +1,7 @@
 # Noticias de IA · resumen diario automático
 
 Cada mañana, sin que nadie haga nada, llega un resumen de las noticias de inteligencia artificial
-más importantes por **Telegram** y por **mail**. Cada noticia trae un botón "ver más" que abre una
+más importantes por **Telegram** y por **mail**, con una sección aparte de IA e ingeniería mecánica. Cada noticia trae un botón "ver más" que abre una
 página web con el detalle, las fuentes y, si Jon Hernández habló del tema, el minuto exacto de su video.
 
 ## Cómo funciona (horario de Argentina)

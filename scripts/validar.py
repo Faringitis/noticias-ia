@@ -13,6 +13,8 @@ from comun import EDICIONES, consola_utf8, ediciones_anteriores, leer_json
 
 CATEGORIAS = {"Modelos", "Herramientas", "Empresas", "Investigación", "Regulación",
               "Trabajo y sociedad", "Hardware", "Seguridad"}
+CATEGORIAS_ING = {"Diseño y simulación", "Manufactura", "Robótica", "Materiales", "Energía",
+                  "Mantenimiento", "Investigación"}
 VERACIDAD = {"oficial", "confirmada", "sin_confirmar"}
 TIPOS_FUENTE = {"oficial", "medio", "especialista", "jon"}
 # Palabras mínimas y máximas de la explicación según de qué texto sale el resumen.
@@ -69,6 +71,65 @@ def validar_resumen_jon(ed, E, A):
             E(f"Punto clave {i}: 'segundo' tiene que ser un entero ≥ 0 o null.")
 
 
+def validar_noticia(n, p, jon, categorias, E, A):
+    if not isinstance(n, dict):
+        E(f"{p}: no es un objeto.")
+        return
+    for campo, maximo in (("titulo", 120), ("titulo_corto", 28), ("breve", 260), ("por_que_importa", 400)):
+        v = n.get(campo)
+        if not isinstance(v, str) or not v.strip():
+            E(f"{p}: falta '{campo}'.")
+        elif len(v) > maximo:
+            E(f"{p}: '{campo}' tiene {len(v)} caracteres (máx. {maximo}).")
+    if n.get("categoria") not in categorias:
+        E(f"{p}: 'categoria' inválida ({n.get('categoria')!r}). Opciones: {', '.join(sorted(categorias))}.")
+    if n.get("veracidad") not in VERACIDAD:
+        E(f"{p}: 'veracidad' inválida ({n.get('veracidad')!r}). Opciones: {', '.join(sorted(VERACIDAD))}.")
+
+    detalle = n.get("detalle")
+    if not isinstance(detalle, list) or not all(isinstance(x, str) and x.strip() for x in detalle):
+        E(f"{p}: 'detalle' tiene que ser una lista de párrafos (texto).")
+    else:
+        if not 2 <= len(detalle) <= 5:
+            E(f"{p}: 'detalle' tiene {len(detalle)} párrafos (entre 2 y 5).")
+        palabras = sum(len(x.split()) for x in detalle)
+        if not 80 <= palabras <= 400:
+            A(f"{p}: 'detalle' tiene {palabras} palabras (ideal 120 a 300).")
+
+    if n.get("jon_opina") is not None and not isinstance(n.get("jon_opina"), str):
+        E(f"{p}: 'jon_opina' tiene que ser texto o null.")
+    seg = n.get("jon_segundo")
+    if seg is not None:
+        if not isinstance(seg, int) or isinstance(seg, bool) or seg < 0:
+            E(f"{p}: 'jon_segundo' tiene que ser un entero ≥ 0 o null.")
+        elif not jon:
+            E(f"{p}: tiene 'jon_segundo' pero la edición no tiene 'jon_video'.")
+
+    fuentes = n.get("fuentes")
+    if not isinstance(fuentes, list) or not fuentes:
+        E(f"{p}: necesita al menos una fuente.")
+        return
+    dominios = set()
+    for j, f in enumerate(fuentes, 1):
+        if not isinstance(f, dict) or not f.get("nombre") or not f.get("url"):
+            E(f"{p}, fuente {j}: necesita 'nombre' y 'url'.")
+            continue
+        url = f["url"]
+        if not url.startswith("https://") and not url.startswith("http://"):
+            E(f"{p}, fuente {j}: la URL no empieza con http(s)://.")
+        if "news.google.com" in url:
+            E(f"{p}, fuente {j}: no citar links de Google Noticias; buscar la URL original.")
+        if f.get("tipo") not in TIPOS_FUENTE:
+            E(f"{p}, fuente {j}: 'tipo' inválido ({f.get('tipo')!r}).")
+        if f.get("tipo") != "jon":
+            dominios.add(dominio(url))
+    tipos = [f.get("tipo") for f in fuentes if isinstance(f, dict)]
+    if n.get("veracidad") == "oficial" and "oficial" not in tipos:
+        E(f"{p}: dice 'oficial' pero ninguna fuente es de tipo 'oficial'.")
+    if n.get("veracidad") == "confirmada" and len(dominios) < 2:
+        E(f"{p}: dice 'confirmada' pero no tiene 2 fuentes de sitios distintos.")
+
+
 def validar(ed, nombre_archivo=None):
     errores, avisos = [], []
     E, A = errores.append, avisos.append
@@ -103,63 +164,18 @@ def validar(ed, nombre_archivo=None):
         A(f"Hay {len(noticias)} noticias (lo ideal es entre 6 y 10).")
 
     for i, n in enumerate(noticias, 1):
-        p = f"Noticia {i}"
-        if not isinstance(n, dict):
-            E(f"{p}: no es un objeto.")
-            continue
-        for campo, maximo in (("titulo", 120), ("titulo_corto", 28), ("breve", 260), ("por_que_importa", 400)):
-            v = n.get(campo)
-            if not isinstance(v, str) or not v.strip():
-                E(f"{p}: falta '{campo}'.")
-            elif len(v) > maximo:
-                E(f"{p}: '{campo}' tiene {len(v)} caracteres (máx. {maximo}).")
-        if n.get("categoria") not in CATEGORIAS:
-            E(f"{p}: 'categoria' inválida ({n.get('categoria')!r}). Opciones: {', '.join(sorted(CATEGORIAS))}.")
-        if n.get("veracidad") not in VERACIDAD:
-            E(f"{p}: 'veracidad' inválida ({n.get('veracidad')!r}). Opciones: {', '.join(sorted(VERACIDAD))}.")
+        validar_noticia(n, f"Noticia {i}", jon, CATEGORIAS, E, A)
 
-        detalle = n.get("detalle")
-        if not isinstance(detalle, list) or not all(isinstance(x, str) and x.strip() for x in detalle):
-            E(f"{p}: 'detalle' tiene que ser una lista de párrafos (texto).")
-        else:
-            if not 2 <= len(detalle) <= 5:
-                E(f"{p}: 'detalle' tiene {len(detalle)} párrafos (entre 2 y 5).")
-            palabras = sum(len(x.split()) for x in detalle)
-            if not 80 <= palabras <= 400:
-                A(f"{p}: 'detalle' tiene {palabras} palabras (ideal 120 a 300).")
-
-        if n.get("jon_opina") is not None and not isinstance(n.get("jon_opina"), str):
-            E(f"{p}: 'jon_opina' tiene que ser texto o null.")
-        seg = n.get("jon_segundo")
-        if seg is not None:
-            if not isinstance(seg, int) or isinstance(seg, bool) or seg < 0:
-                E(f"{p}: 'jon_segundo' tiene que ser un entero ≥ 0 o null.")
-            elif not jon:
-                E(f"{p}: tiene 'jon_segundo' pero la edición no tiene 'jon_video'.")
-
-        fuentes = n.get("fuentes")
-        if not isinstance(fuentes, list) or not fuentes:
-            E(f"{p}: necesita al menos una fuente.")
-            continue
-        dominios = set()
-        for j, f in enumerate(fuentes, 1):
-            if not isinstance(f, dict) or not f.get("nombre") or not f.get("url"):
-                E(f"{p}, fuente {j}: necesita 'nombre' y 'url'.")
-                continue
-            url = f["url"]
-            if not url.startswith("https://") and not url.startswith("http://"):
-                E(f"{p}, fuente {j}: la URL no empieza con http(s)://.")
-            if "news.google.com" in url:
-                E(f"{p}, fuente {j}: no citar links de Google Noticias; buscar la URL original.")
-            if f.get("tipo") not in TIPOS_FUENTE:
-                E(f"{p}, fuente {j}: 'tipo' inválido ({f.get('tipo')!r}).")
-            if f.get("tipo") != "jon":
-                dominios.add(dominio(url))
-        tipos = [f.get("tipo") for f in fuentes if isinstance(f, dict)]
-        if n.get("veracidad") == "oficial" and "oficial" not in tipos:
-            E(f"{p}: dice 'oficial' pero ninguna fuente es de tipo 'oficial'.")
-        if n.get("veracidad") == "confirmada" and len(dominios) < 2:
-            E(f"{p}: dice 'confirmada' pero no tiene 2 fuentes de sitios distintos.")
+    ingenieria = ed.get("noticias_ingenieria") or []
+    if not isinstance(ingenieria, list):
+        E("'noticias_ingenieria' tiene que ser una lista.")
+        ingenieria = []
+    elif len(ingenieria) > 5:
+        E(f"Hay {len(ingenieria)} noticias de ingeniería (máx. 5).")
+    elif not ingenieria:
+        A("Hoy no hay noticias de IA e ingeniería mecánica.")
+    for i, n in enumerate(ingenieria, 1):
+        validar_noticia(n, f"Noticia de ingeniería {i}", jon, CATEGORIAS_ING, E, A)
 
     if (ed.get("jon_resumen") or {}).get("base") == "resumen_escrito" and not any(
             isinstance(n, dict) and n.get("jon_segundo") is not None for n in noticias):
@@ -168,17 +184,21 @@ def validar(ed, nombre_archivo=None):
     # Repeticiones con ediciones anteriores (solo aviso).
     if isinstance(fecha, str):
         previos = {re.sub(r"\W+", "", x.get("titulo", "").lower())
-                   for e in ediciones_anteriores(fecha, 3) for x in e.get("noticias", [])}
-        for i, n in enumerate(noticias, 1):
+                   for e in ediciones_anteriores(fecha, 3)
+                   for x in e.get("noticias", []) + e.get("noticias_ingenieria", [])}
+        for n in noticias + ingenieria:
             if isinstance(n, dict) and re.sub(r"\W+", "", str(n.get("titulo", "")).lower()) in previos:
-                A(f"Noticia {i}: el título es igual a uno de una edición anterior.")
+                A(f"'{n.get('titulo')}': el título es igual a uno de una edición anterior.")
 
     # El mensaje de Telegram tiene que entrar en un solo mensaje.
     if not errores:
-        from publicar import mensaje_jon, mensaje_telegram
+        from publicar import mensaje_ingenieria, mensaje_jon, mensaje_telegram
         texto, _ = mensaje_telegram(ed, "https://ejemplo.github.io/noticias-ia")
         if largo_telegram(texto) > 4096:
             E(f"El mensaje de Telegram queda de {largo_telegram(texto)} caracteres (máx. 4096): acortá 'breve' o 'intro'.")
+        mensaje_ing = mensaje_ingenieria(ed, "https://ejemplo.github.io/noticias-ia")
+        if mensaje_ing and largo_telegram(mensaje_ing[0]) > 4096:
+            E("El mensaje de ingeniería supera los 4096 caracteres: acortá los 'breve'.")
         if largo_telegram(mensaje_jon(ed) or "") > 4096:
             E(f"El mensaje del video de Jon queda de {largo_telegram(mensaje_jon(ed))} caracteres (máx. 4096): acortá 'jon_resumen'.")
     return errores, avisos

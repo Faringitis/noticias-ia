@@ -82,6 +82,7 @@ details[open] .mas::after { font-size: 14px; content: "Ver menos ▴"; }
 .fuentes ul { margin: 6px 0 0; padding-left: 0; list-style: none; }
 .fuentes li { margin: 6px 0; overflow-wrap: anywhere; }
 .tipo { font-size: 12px; padding: 1px 7px; border-radius: 6px; background: var(--chip); color: var(--suave); margin-right: 4px; }
+.seccion { font-size: 21px; margin: 26px 0 12px; scroll-margin-top: 12px; }
 .video { margin-top: 20px; scroll-margin-top: 12px; }
 .video h3 { font-size: 16px; margin: 16px 0 4px; }
 .video ul { margin: 6px 0; padding-left: 20px; }

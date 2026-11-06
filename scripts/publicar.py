@@ -18,6 +18,7 @@ VERACIDAD = {
     "confirmada": ("🔵", "Confirmada", "La publican al menos dos medios serios."),
     "sin_confirmar": ("🟠", "Sin confirmar", "Una sola fuente o rumor: tomar con pinzas."),
 }
+SECCION_ING = "IA e Ingeniería Mecánica"
 BASE_JON = {
     "resumen_escrito": "Basado en el resumen escrito que Jon publica de cada video de noticias.",
     "descripcion": "Basado en la descripción y los temas del video: no incluye todo lo que se dice en él.",
@@ -64,26 +65,32 @@ def marca(segundo):
 
 # ------------------------------------------------------------------ Telegram
 
+def lineas_noticia(ed, i, n):
+    """Título, descripción y marca de Jon de una noticia en un mensaje de Telegram."""
+    lineas = [f"{VERACIDAD[n['veracidad']][0]} <b>{i}. {e(n['titulo'])}</b>", e(n["breve"])]
+    if viene_de_jon(n):
+        if n.get("jon_segundo") is not None and ed.get("jon_video"):
+            lineas.append(f"📺 <a href=\"{e(url_jon(ed, n['jon_segundo']))}\">{e(etiqueta_jon(n))}</a>")
+        else:
+            lineas.append(f"📺 {e(etiqueta_jon(n))}")
+    return lineas + [""]
+
+
 def mensaje_telegram(ed, base_url):
     """Devuelve (texto en HTML de Telegram, teclado de botones)."""
     pagina = f"{base_url.rstrip('/')}/{ed['fecha']}.html"
     fecha = fecha_larga(ed["fecha"]).rsplit(" de ", 1)[0]  # sin el año
     lineas = [f"🤖 <b>Noticias de IA</b> · {e(fecha)}", "", f"<i>{e(ed['intro'])}</i>", ""]
     for i, n in enumerate(ed["noticias"], 1):
-        emoji = VERACIDAD[n["veracidad"]][0]
-        lineas.append(f"{emoji} <b>{i}. {e(n['titulo'])}</b>")
-        lineas.append(e(n["breve"]))
-        if viene_de_jon(n):
-            if n.get("jon_segundo") is not None and ed.get("jon_video"):
-                lineas.append(f"📺 <a href=\"{e(url_jon(ed, n['jon_segundo']))}\">{e(etiqueta_jon(n))}</a>")
-            else:
-                lineas.append(f"📺 {e(etiqueta_jon(n))}")
-        lineas.append("")
+        lineas += lineas_noticia(ed, i, n)
+    ingenieria = ed.get("noticias_ingenieria")
+    if ingenieria:
+        lineas += [f"⚙️ {SECCION_ING}: {len(ingenieria)} más en el mensaje siguiente.", ""]
     if ed.get("jon_video"):
         v = ed["jon_video"]
         lineas.append(f"📺 Jon Hernández: <a href=\"https://www.youtube.com/watch?v={e(v['id'])}\">{e(v['titulo'])}</a>")
         if ed.get("jon_resumen"):
-            lineas.append("El resumen completo del video llega en el mensaje siguiente.")
+            lineas.append("El resumen completo del video llega en un mensaje aparte.")
         lineas.append("")
     previa = None if ed.get("jon_video") else ultimo_video_jon(ed["fecha"])
     if previa:
@@ -96,6 +103,8 @@ def mensaje_telegram(ed, base_url):
     botones = [{"text": f"{i} · {n['titulo_corto']}", "url": f"{pagina}#n{i}"}
                for i, n in enumerate(ed["noticias"], 1)]
     filas = [botones[k:k + 2] for k in range(0, len(botones), 2)]
+    if ingenieria:
+        filas.append([{"text": f"⚙️ {SECCION_ING}", "url": f"{pagina}#ingenieria"}])
     if ed.get("jon_resumen"):
         filas.append([{"text": "📺 Resumen del video de Jon", "url": f"{pagina}#jon"}])
     elif previa:
@@ -104,8 +113,23 @@ def mensaje_telegram(ed, base_url):
     return texto, {"inline_keyboard": filas}
 
 
+def mensaje_ingenieria(ed, base_url):
+    """Mensaje aparte con las noticias de ingeniería: (texto, teclado), o None si no hay."""
+    ingenieria = ed.get("noticias_ingenieria")
+    if not ingenieria:
+        return None
+    pagina = f"{base_url.rstrip('/')}/{ed['fecha']}.html"
+    lineas = [f"⚙️ <b>{SECCION_ING}</b>", ""]
+    for i, n in enumerate(ingenieria, 1):
+        lineas += lineas_noticia(ed, i, n)
+    botones = [{"text": f"{i} · {n['titulo_corto']}", "url": f"{pagina}#m{i}"}
+               for i, n in enumerate(ingenieria, 1)]
+    filas = [botones[k:k + 2] for k in range(0, len(botones), 2)]
+    return "\n".join(lineas).rstrip(), {"inline_keyboard": filas}
+
+
 def mensaje_jon(ed):
-    """Segundo mensaje de Telegram con el resumen largo del video, o None si no hay."""
+    """Mensaje aparte de Telegram con el resumen largo del video, o None si no hay."""
     r = ed.get("jon_resumen")
     if not r or not ed.get("jon_video"):
         return None
@@ -127,13 +151,13 @@ def mensaje_jon(ed):
 
 # ------------------------------------------------------------------ Página web
 
-def html_noticia(ed, i, n):
+def html_noticia(ed, i, n, prefijo="n"):
     emoji, etiqueta, explicacion = VERACIDAD[n["veracidad"]]
     chip_jon = ""
     if viene_de_jon(n):
         minuto = f' · {marca(n["jon_segundo"])}' if n.get("jon_segundo") is not None else ""
         chip_jon = f'<span class="chip chip-jon" title="{e(etiqueta_jon(n))}">📺 Video de Jon{minuto}</span>'
-    partes = [f'<article class="nota" id="n{i}"><details>',
+    partes = [f'<article class="nota" id="{prefijo}{i}"><details>',
               '<summary>',
               f'<div class="meta"><span class="num">{i}</span><span class="chip">{e(n["categoria"])}</span>'
               f'<span class="chip ver-{e(n["veracidad"])}" title="{e(explicacion)}">{emoji} {e(etiqueta)}</span>{chip_jon}</div>',
@@ -215,6 +239,9 @@ def html_edicion(ed, anterior, siguiente):
            f'<p class="intro">{e(ed["intro"])}</p>',
            '<button type="button" id="todo" class="boton">Abrir todas</button></header>']
     notas = [html_noticia(ed, i, n) for i, n in enumerate(ed["noticias"], 1)]
+    if ed.get("noticias_ingenieria"):
+        notas.append(f'<h2 class="seccion" id="ingenieria">⚙️ {SECCION_ING}</h2>')
+        notas += [html_noticia(ed, i, n, "m") for i, n in enumerate(ed["noticias_ingenieria"], 1)]
     pie = []
     if ed.get("jon_video"):
         pie.append(html_jon(ed))
@@ -279,9 +306,12 @@ def main():
         print(f"\n--- {len(texto)} caracteres. Botones:")
         for fila in teclado["inline_keyboard"]:
             print("   " + "  |  ".join(f"[{b['text']}]" for b in fila))
-        segundo = mensaje_jon(ed)
-        if segundo:
-            print(f"\n=== Segundo mensaje ===\n{segundo}\n\n--- {len(segundo)} caracteres.")
+        ingenieria = mensaje_ingenieria(ed, args.base_url)
+        if ingenieria:
+            print(f"\n=== Mensaje de ingeniería ===\n{ingenieria[0]}\n\n--- {len(ingenieria[0])} caracteres.")
+        jon = mensaje_jon(ed)
+        if jon:
+            print(f"\n=== Mensaje de Jon ===\n{jon}\n\n--- {len(jon)} caracteres.")
 
 
 if __name__ == "__main__":

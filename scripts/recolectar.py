@@ -89,7 +89,9 @@ def habla_de_ia(texto, palabras):
     return any(p in t for p in palabras)
 
 
-def leer_fuente(fuente, desde, palabras):
+def leer_fuente(fuente, desde, palabras, palabras_ing):
+    if fuente.get("ventana_horas"):
+        desde = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=fuente["ventana_horas"])
     datos = descargar(fuente["url"])
     notas = []
     for it in items_de_feed(datos):
@@ -102,6 +104,8 @@ def leer_fuente(fuente, desde, palabras):
         resumen = "" if fuente.get("google_news") else limpiar(it["resumen"], 500)
         if fuente.get("filtrar_ia") and not habla_de_ia(f"{titulo} {resumen}", palabras):
             continue
+        if fuente.get("filtrar_ing") and not habla_de_ia(f"{titulo} {resumen}", palabras_ing):
+            continue
         nota = {
             "fuente": fuente["nombre"],
             "nivel": fuente["nivel"],
@@ -110,6 +114,8 @@ def leer_fuente(fuente, desde, palabras):
             "fecha_utc": it["fecha"].astimezone(dt.timezone.utc).isoformat(timespec="minutes"),
             "resumen": resumen,
         }
+        if fuente.get("seccion"):
+            nota["seccion"] = fuente["seccion"]
         if fuente.get("google_news"):
             nota["medio"] = medio
             nota["aviso"] = "Link de Google Noticias: buscar la URL original antes de citar."
@@ -205,10 +211,11 @@ def main():
     cfg = leer_json(CONFIG / "fuentes.json")
     desde = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=cfg["ventana_horas"])
     palabras = [p.lower() for p in cfg["palabras_ia"]]
+    palabras_ing = [p.lower() for p in cfg["palabras_ingenieria"]]
 
     notas, errores, resumen_fuentes = [], [], []
     with cf.ThreadPoolExecutor(8) as ex:
-        tareas = {ex.submit(leer_fuente, f, desde, palabras): f for f in cfg["feeds"]}
+        tareas = {ex.submit(leer_fuente, f, desde, palabras, palabras_ing): f for f in cfg["feeds"]}
         for t in cf.as_completed(tareas):
             f = tareas[t]
             try:
@@ -241,7 +248,8 @@ def main():
         "generado": ahora_ar().isoformat(timespec="minutes"),
         "ventana_horas": cfg["ventana_horas"],
         "jon_videos": videos,
-        "notas": unicas,
+        "notas": [n for n in unicas if not n.get("seccion")],
+        "notas_ingenieria": [n for n in unicas if n.get("seccion") == "ingenieria"],
         "errores": errores,
     }
     destino = CRUDO / f"{args.fecha}.json"

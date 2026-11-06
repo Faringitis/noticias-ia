@@ -22,8 +22,9 @@ import urllib.request
 
 from comun import (CRUDO, EDICIONES, ESTADO, ahora_ar, consola_utf8, fecha_larga,
                    guardar_json, hoy_ar, leer_json)
-from publicar import (BASE_JON, VERACIDAD, aviso_sin_video, e, etiqueta_jon, marca, mensaje_jon,
-                      mensaje_telegram, ultimo_video_jon, url_jon, viene_de_jon)
+from publicar import (BASE_JON, SECCION_ING, VERACIDAD, aviso_sin_video, e, etiqueta_jon, marca,
+                      mensaje_ingenieria, mensaje_jon, mensaje_telegram, ultimo_video_jon, url_jon,
+                      viene_de_jon)
 
 REGISTRO = ESTADO / "enviados.json"
 
@@ -77,25 +78,30 @@ def conectar_telegram():
 
 # ------------------------------------------------------------------ Mail
 
-def html_mail(ed):
-    pagina = f"{base_url()}/{ed['fecha']}.html"
-    filas = []
-    for i, n in enumerate(ed["noticias"], 1):
-        emoji, etiqueta, _ = VERACIDAD[n["veracidad"]]
-        linea_jon = ""
-        if viene_de_jon(n):
-            texto_jon = e(etiqueta_jon(n))
-            if n.get("jon_segundo") is not None and ed.get("jon_video"):
-                texto_jon = f'<a href="{e(url_jon(ed, n["jon_segundo"]))}" style="color:#3b5bdb">{texto_jon}</a>'
-            linea_jon = f'<div style="margin-top:6px;font-size:14px;color:#1d1d1b">📺 {texto_jon}</div>'
-        filas.append(f"""
+def fila_mail(ed, pagina, prefijo, i, n):
+    emoji, etiqueta, _ = VERACIDAD[n["veracidad"]]
+    linea_jon = ""
+    if viene_de_jon(n):
+        texto_jon = e(etiqueta_jon(n))
+        if n.get("jon_segundo") is not None and ed.get("jon_video"):
+            texto_jon = f'<a href="{e(url_jon(ed, n["jon_segundo"]))}" style="color:#3b5bdb">{texto_jon}</a>'
+        linea_jon = f'<div style="margin-top:6px;font-size:14px;color:#1d1d1b">📺 {texto_jon}</div>'
+    return f"""
 <div style="padding:14px 0;border-top:1px solid #e3e1d9">
   <div style="font-size:12px;color:#5f5e58">{i} · {e(n['categoria'])} · {emoji} {e(etiqueta)}</div>
   <div style="font-size:17px;font-weight:700;line-height:1.3;margin:4px 0 6px;color:#1d1d1b">{e(n['titulo'])}</div>
   <div style="font-size:15px;line-height:1.5;color:#3d3d39">{e(n['breve'])}</div>
   {linea_jon}
-  <div style="margin-top:6px"><a href="{e(pagina)}#n{i}" style="color:#3b5bdb;font-size:14px;font-weight:600;text-decoration:none">Ver más →</a></div>
-</div>""")
+  <div style="margin-top:6px"><a href="{e(pagina)}#{prefijo}{i}" style="color:#3b5bdb;font-size:14px;font-weight:600;text-decoration:none">Ver más →</a></div>
+</div>"""
+
+
+def html_mail(ed):
+    pagina = f"{base_url()}/{ed['fecha']}.html"
+    filas = [fila_mail(ed, pagina, "n", i, n) for i, n in enumerate(ed["noticias"], 1)]
+    if ed.get("noticias_ingenieria"):
+        filas.append(f'<div style="font-size:19px;font-weight:700;color:#1d1d1b;margin-top:18px;padding-bottom:10px">⚙️ {SECCION_ING}</div>')
+        filas += [fila_mail(ed, pagina, "m", i, n) for i, n in enumerate(ed["noticias_ingenieria"], 1)]
     jon = ""
     if ed.get("jon_video"):
         v = ed["jon_video"]
@@ -144,11 +150,17 @@ def html_mail(ed):
 def texto_mail(ed):
     pagina = f"{base_url()}/{ed['fecha']}.html"
     partes = [f"Noticias de IA · {fecha_larga(ed['fecha'])}", "", ed["intro"], ""]
-    for i, n in enumerate(ed["noticias"], 1):
-        partes += [f"{i}. {n['titulo']}", n["breve"]]
-        if viene_de_jon(n):
-            partes.append(etiqueta_jon(n))
-        partes += [f"Ver más: {pagina}#n{i}", ""]
+    def agregar(noticias, prefijo):
+        for i, n in enumerate(noticias, 1):
+            partes.extend([f"{i}. {n['titulo']}", n["breve"]])
+            if viene_de_jon(n):
+                partes.append(etiqueta_jon(n))
+            partes.extend([f"Ver más: {pagina}#{prefijo}{i}", ""])
+
+    agregar(ed["noticias"], "n")
+    if ed.get("noticias_ingenieria"):
+        partes += [SECCION_ING.upper(), ""]
+        agregar(ed["noticias_ingenieria"], "m")
     r = ed.get("jon_resumen")
     if r and ed.get("jon_video"):
         partes += [f"Video de Jon Hernández: {ed['jon_video']['titulo']}",
@@ -196,8 +208,11 @@ def enviar_edicion(fecha):
     hecho = registro.setdefault(fecha, {})
     fallas = []
     envios = canales()
-    if "telegram" in envios and mensaje_jon(ed):
-        envios.insert(1, "telegram_jon")
+    if "telegram" in envios:
+        if mensaje_jon(ed):
+            envios.insert(1, "telegram_jon")
+        if mensaje_ingenieria(ed, base_url()):
+            envios.insert(1, "telegram_ing")
     for canal in envios:
         if canal in hecho:
             print(f"{canal}: ya se había mandado.")
@@ -206,6 +221,8 @@ def enviar_edicion(fecha):
             if canal == "telegram":
                 texto, teclado = mensaje_telegram(ed, base_url())
                 mandar_telegram(texto, teclado)
+            elif canal == "telegram_ing":
+                mandar_telegram(*mensaje_ingenieria(ed, base_url()))
             elif canal == "telegram_jon":
                 mandar_telegram(mensaje_jon(ed))
             else:

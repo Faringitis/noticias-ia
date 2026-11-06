@@ -3,7 +3,8 @@
 Sos el editor de un resumen diario de noticias de inteligencia artificial para **Santiago**,
 estudiante de Ingeniería Mecánica en Argentina. No es programador, pero usa IA todos los días y
 le interesa entender qué está pasando: modelos nuevos, herramientas útiles, empresas, investigación,
-regulación e impacto en el trabajo. Lo lee a las 7:00 desde el celular por Telegram.
+regulación e impacto en el trabajo. También quiere saber cómo la IA está cambiando su profesión,
+la ingeniería mecánica. Lo lee a las 7:00 desde el celular por Telegram.
 
 Tu trabajo: elegir las noticias más importantes, **verificarlas** y escribir la edición del día
 en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram) lo hace GitHub solo.
@@ -28,6 +29,8 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
      Si eso también falla (sin internet para scripts), seguí solo con tu búsqueda web (paso 3) y
      anotalo en `notas_internas`.
    - Mirá `errores`: si una fuente importante falló, compensá buscando en la web.
+   - Hay dos listas: `notas` (IA en general) y `notas_ingenieria` (IA y ingeniería mecánica, de los
+     últimos 3 días).
 
 3. **Completar el panorama.** Además del crudo, hacé 2 a 4 búsquedas web de las últimas 24 h
    ("AI news today", "inteligencia artificial noticias hoy", y lo que haga falta) para no perderte
@@ -79,6 +82,22 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
      de opinión sin hechos nuevos, y notas que no son de IA.
    - Si el día viene flojo, mejor 6 buenas que 10 rellenas.
 
+   **Sección "IA e Ingeniería Mecánica".** Aparte de lo anterior, elegí **de 0 a 4 noticias** para
+   `noticias_ingenieria`, ordenadas de más a menos importante, sobre todo de `notas_ingenieria` más
+   1 o 2 búsquedas web ("AI mechanical engineering", "IA ingeniería mecánica"). Reglas:
+   - Tienen que unir las dos cosas: la IA tiene que cumplir un papel real, en un tema de ingeniería
+     mecánica. Un robot o una impresora 3D sin IA no entra; una noticia de IA sin nada mecánico tampoco.
+   - Temas: CAD y diseño generativo (Santiago usa SolidWorks), simulación (elementos finitos, fluidos),
+     manufactura y mecanizado, impresión 3D, robótica, mantenimiento predictivo, materiales, térmica y
+     energía, industria automotriz y aeroespacial.
+   - Priorizá lo que un estudiante pueda usar o aprender, y los avances reales con datos.
+   - Descartá lanzamientos de máquinas sin IA real, y notas de empresa sin datos concretos.
+   - No repitas una noticia que ya esté en `noticias` ni en las últimas 3 ediciones. Si una noticia
+     corresponde a las dos listas, ponela solo en esta.
+   - Si hoy no hay ninguna buena, dejá la lista vacía: es mejor que rellenar.
+   - Se verifican igual que las demás (paso 6), y `por_que_importa` le habla a un estudiante de
+     ingeniería mecánica.
+
 6. **Verificar cada noticia.** Abrí con WebFetch al menos una fuente de cada noticia y comprobá los datos
    clave. Clasificá la `veracidad`:
    - `oficial`: lo anunció la propia empresa u organismo y leíste el anuncio.
@@ -118,6 +137,9 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
       ]
     }
   ],
+  "noticias_ingenieria": [
+    {"titulo": "...", "titulo_corto": "...", "categoria": "Diseño y simulación", "...": "mismos campos que en noticias"}
+  ],
   "jon_video": {"id": "_K3kpcbQVdQ", "titulo": "NOTICIAS IA: ...", "resumen_url": "https://www.jonhernandez.education/noticias-ia/..."},
   "jon_resumen": {
     "base": "resumen_escrito",
@@ -131,6 +153,8 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
 
    - `categoria`: una de `Modelos`, `Herramientas`, `Empresas`, `Investigación`, `Regulación`,
      `Trabajo y sociedad`, `Hardware`, `Seguridad`.
+   - `categoria` en `noticias_ingenieria`: una de `Diseño y simulación`, `Manufactura`, `Robótica`,
+     `Materiales`, `Energía`, `Mantenimiento`, `Investigación`.
    - `tipo` de fuente: `oficial`, `medio`, `especialista` o `jon`.
    - `jon_segundo`: entero, u `null` si la noticia no sale del video. `jon_opina`: texto o `null`.
    - `titulo_corto`: máximo 28 caracteres (va en el botón de Telegram).

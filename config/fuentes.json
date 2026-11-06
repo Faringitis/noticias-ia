@@ -1,5 +1,5 @@
 {
-  "_nota": "Fuentes que lee el recolector cada mañana. nivel: oficial = la empresa u organismo que anuncia; medio = periodismo serio; especialista = experto independiente; espanol = medios en español. filtrar_ia = true en feeds generales: solo entran notas que hablen de IA.",
+  "_nota": "Fuentes que lee el recolector cada mañana. nivel: oficial = la empresa u organismo que anuncia; medio = periodismo serio; especialista = experto independiente; espanol = medios en español. filtrar_ia = true en feeds generales: solo entran notas que hablen de IA. filtrar_ing = true: solo entran notas de ingeniería. seccion = ingenieria: va a la sección IA e Ingeniería Mecánica.",
   "ventana_horas": 30,
   "youtube_jon": {
     "nombre": "Jon Hernández (La Inteligencia Artificial)",
@@ -30,7 +30,29 @@
     {"nombre": "Import AI (Jack Clark)", "nivel": "especialista", "url": "https://importai.substack.com/feed"},
 
     {"nombre": "Xataka", "nivel": "espanol", "url": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml"},
-    {"nombre": "El País", "nivel": "espanol", "url": "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/tag/inteligencia_artificial_a"}
+    {"nombre": "El País", "nivel": "espanol", "url": "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/tag/inteligencia_artificial_a"},
+
+    {"nombre": "The Robot Report", "nivel": "medio", "url": "https://www.therobotreport.com/feed/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "IEEE Spectrum", "nivel": "medio", "url": "https://spectrum.ieee.org/feeds/feed.rss", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "engineering.com", "nivel": "medio", "url": "https://www.engineering.com/feed/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "Manufacturing Dive", "nivel": "medio", "url": "https://www.manufacturingdive.com/feeds/news/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "TCT Magazine", "nivel": "medio", "url": "https://www.tctmagazine.com/feed/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "3DPrint.com", "nivel": "especialista", "url": "https://3dprint.com/feed/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "MIT Ingeniería Mecánica", "nivel": "oficial", "url": "https://news.mit.edu/rss/topic/mechanical-engineering", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "TechXplore Ingeniería", "nivel": "medio", "url": "https://techxplore.com/rss-feed/engineering-news/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "TechXplore IA", "nivel": "medio", "url": "https://techxplore.com/rss-feed/machine-learning-ai-news/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ing": true},
+    {"nombre": "ScienceDaily Ingeniería", "nivel": "medio", "url": "https://www.sciencedaily.com/rss/matter_energy/engineering.xml", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "SOLIDWORKS Blog", "nivel": "oficial", "url": "https://blogs.solidworks.com/solidworksblog/feed", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "Engineers Rule", "nivel": "especialista", "url": "https://www.engineersrule.com/feed/", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "filtrar_ia": true},
+    {"nombre": "Google Noticias (ingeniería mecánica)", "nivel": "medio", "url": "https://news.google.com/rss/search?q=%22mechanical+engineering%22+AI+when:3d&hl=en-US&gl=US&ceid=US:en", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "google_news": true, "filtrar_ia": true},
+    {"nombre": "Google Noticias (CAD y simulación)", "nivel": "medio", "url": "https://news.google.com/rss/search?q=AI+(CAD+OR+%22generative+design%22+OR+%22digital+twin%22+OR+%22predictive+maintenance%22)+engineering+when:3d&hl=en-US&gl=US&ceid=US:en", "seccion": "ingenieria", "ventana_horas": 72, "max_notas": 12, "google_news": true, "filtrar_ia": true},
+    {"nombre": "Google Noticias (en español)", "nivel": "medio", "url": "https://news.google.com/rss/search?q=%22ingenier%C3%ADa+mec%C3%A1nica%22+%22inteligencia+artificial%22+when:7d&hl=es-419&gl=AR&ceid=AR:es-419", "seccion": "ingenieria", "ventana_horas": 168, "max_notas": 12, "google_news": true, "filtrar_ia": true}
+  ],
+  "palabras_ingenieria": [
+    "3d-print", "3d print", "additive", "manufactur", "mechanical", " cad ", "simulation", "digital twin",
+    "robot", "materials", "turbine", "thermal", "cooling", "predictive maintenance", "factory", "machining",
+    "cnc", "welding", "aerospace", "automotive", "solidworks", "ansys", "finite element", " cfd ", "actuator",
+    "mecánic", "manufactura", "fabricación", "gemelo digital"
   ],
   "palabras_ia": [
     " ai ", "ai-", "a.i.", "artificial intelligence", "inteligencia artificial", " ia ", "llm", "gpt", "chatgpt",
