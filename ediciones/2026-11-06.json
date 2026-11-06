@@ -1,0 +1,197 @@
+{
+  "fecha": "2026-11-06",
+  "intro": "Las acciones ligadas a la IA se desplomaron en Wall Street y ya ponen en duda la salida a Bolsa de Anthropic. Además: OpenAI lanza un modelo para ciberseguridad y Claude ahora puede leer tus cuentas bancarias.",
+  "noticias": [
+    {
+      "titulo": "Desplome en Wall Street: el S&P 500 cae 4,4% arrastrado por las empresas de IA",
+      "titulo_corto": "Desplome de acciones de IA",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El jueves 5 de noviembre el S&P 500 perdió 4,4%, su peor día desde abril de 2025, y el Nasdaq 5,5%. AMD cayó más de 17% y Nvidia más de 9%, por el miedo a que se frene la construcción de centros de datos para IA.",
+      "detalle": [
+        "Según Associated Press, el S&P 500 (el índice de las 500 empresas más grandes de EE. UU.) cerró el 5 de noviembre en 7.353,73 puntos, con una baja de 4,4%: su peor jornada desde los aranceles del llamado \"Día de la Liberación\" de Trump, en abril de 2025. El Dow Jones cayó 3,4% y el Nasdaq, donde pesan más las tecnológicas, 5,5%. El Nasdaq quedó casi 12% por debajo de su récord del mes pasado, lo que técnicamente se llama una corrección (una caída de más de 10%).",
+        "Las más golpeadas fueron las empresas que viven del auge de la IA: AMD bajó 17,3%, CoreWeave (que alquila chips de IA en la nube) 9,8%, Nvidia 9,3% y GE Vernova, que vende equipos de energía para centros de datos, 7,5%. La ola siguió en Asia: el índice Kospi de Corea del Sur perdió 5,3%.",
+        "AP y Xataka coinciden en las causas: los inversores temen que la construcción de centros de datos se frene porque pedir prestado está caro y porque, tras el avance demócrata en las elecciones de medio término, podrían llegar pausas o más trabas para esas obras. También pesa la vieja sospecha de que las acciones de IA están infladas, como una burbuja. Algunos analistas citados por Xataka atribuyen parte de la caída a ventas de grandes fondos que reducían posiciones, más que a un cambio de fondo."
+      ],
+      "por_que_importa": "Las empresas de IA dependen de que los inversores sigan financiando centros de datos gigantes. Si el mercado duda, puede haber menos plata para nuevos modelos y salidas a Bolsa más difíciles, como la de Anthropic.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía NBC Bay Area)", "url": "https://www.nbcbayarea.com/news/national-international/november-5-stock-market/4170982/", "tipo": "medio"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según Reuters, el rechazo a la IA podría demorar la salida a Bolsa de Anthropic",
+      "titulo_corto": "Anthropic podría demorarse",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Reuters, posibles inversores dudan de que Anthropic pueda empezar la semana que viene la presentación de su salida a Bolsa y cotizar en noviembre. Piden un precio más bajo que los US$1,5 billones de valuación que se venían mencionando.",
+      "detalle": [
+        "Reuters publicó en exclusiva, citando a posibles inversores, que la gira de presentación a inversores (el roadshow, donde la empresa sale a vender sus acciones antes de empezar a cotizar) estaba prevista para arrancar la semana del 9 de noviembre, con el precio fijado la semana siguiente. Esos inversores ahora dudan de que los plazos se cumplan.",
+        "Los motivos: la fuerte caída de las acciones tecnológicas después de las elecciones, la incertidumbre geopolítica y el rechazo político creciente a los centros de datos, con votaciones en varios estados para limitarlos. Según la agencia, algunos inversores ven la valuación de US$1,5 billones (millones de millones) como el techo, cuando en algún momento se habló de hasta US$2 billones, y creen que Anthropic tendría que ofrecer un descuento por sus pérdidas trimestrales y sus grandes compromisos de gasto.",
+        "También quieren ver los ingresos de octubre, que Anthropic dejó en blanco en su prospecto actualizado, para saber si el crecimiento se recuperó tras la desaceleración del tercer trimestre. Anthropic no quiso comentar. Por ahora no hay ninguna demora anunciada: es lo que dicen fuentes anónimas a un solo medio."
+      ],
+      "por_que_importa": "Sería una de las salidas a Bolsa más grandes de la historia y un termómetro de cuánto confía el mercado en las empresas de IA. Una demora sería una señal de que el entusiasmo se está enfriando.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Investing.com)", "url": "https://www.investing.com/news/stock-market-news/exclusiveai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-5006110", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "OpenAI lanza GPT-6 Cyber, un modelo para encontrar y arreglar fallas de seguridad",
+      "titulo_corto": "GPT-6 Cyber de OpenAI",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "OpenAI presentó GPT-6 Cyber, el modelo detrás de las 948 fallas de Linux que mostró el miércoles. Busca vulnerabilidades y propone arreglos, pero solo lo pueden usar algunos equipos de seguridad aprobados.",
+      "detalle": [
+        "El 5 de noviembre OpenAI anunció GPT-6 Cyber, una versión especializada en ciberseguridad pensada para encontrar vulnerabilidades explotables (fallas que un atacante podría usar) y desarrollar los parches, sin salirse de los límites que le fija quien lo usa. Según CyberScoop, OpenAI dice que es un gran salto respecto de GPT-5.6 Cyber y que supera a GPT-6 Astra en la mayoría de las tareas de ciberseguridad.",
+        "Es el modelo que usó OpenAI en la revisión del núcleo de Linux que contamos ayer. Además, según la empresa, encontró al menos 81 fallas nuevas en Firefox y una vulnerabilidad crítica en Brotli, una herramienta de compresión muy usada; todas fueron informadas a sus responsables y corregidas. Según The Verge, en las pruebas se salió de los límites permitidos menos del 1% de las veces, menos que la versión anterior.",
+        "Por ahora solo acceden algunos clientes de Daybreak Red, el nivel más restringido del programa de OpenAI para profesionales de seguridad. La empresa sumó controles de identidad, más monitoreo y consultas obligatorias para los pedidos más riesgosos. TechCrunch recoge críticas: defensores dicen que el acceso limitado les ata las manos mientras los atacantes usan modelos abiertos sin restricciones. Todas las cifras de rendimiento son de OpenAI."
+      ],
+      "por_que_importa": "Muestra que la IA ya puede encontrar fallas graves en programas que usa medio mundo. Es una herramienta poderosa para defender sistemas, pero en malas manos serviría para atacar, y por eso se discute quién debería usarla.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CyberScoop", "url": "https://cyberscoop.com/openai-gpt-6-cyber-security-model/", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Claude ahora se conecta a tus cuentas bancarias para analizar en qué gastás",
+      "titulo_corto": "Claude Finanzas Personales",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Anthropic lanzó Personal Finance: conectás tus cuentas y tarjetas a Claude y le preguntás a dónde se fue tu plata. Es de solo lectura, no mueve dinero, y por ahora es una beta para suscriptores pagos en EE. UU.",
+      "detalle": [
+        "La función usa Plaid, un servicio que hace de puente entre apps y bancos, para que Claude lea las cuentas y tarjetas que el usuario conecta. Con eso puede sumar los gastos de todas las cuentas y ordenarlos por categoría (alquiler y servicios, comida, compras), detectar cobros duplicados, comisiones inesperadas o facturas que suben de a poco, y explicar conceptos como la tasa de interés anual o calcular cuánto interés pagaste en el último año.",
+        "Según TechCrunch, Claude ve el nombre del banco, el tipo de cuenta, los últimos cuatro dígitos, saldos, límites de crédito y hasta dos años de movimientos. Anthropic asegura que no puede mover, administrar ni invertir dinero, que esas conversaciones no se usan para entrenar sus modelos y que Claude no tiene publicidad ni ofrece productos financieros propios.",
+        "La beta arranca esta semana solo en EE. UU., para los planes Pro, Max y Ultra. TechCrunch señala que es una respuesta a ChatGPT, que lanzó herramientas parecidas en mayo. No se sabe cuándo podría llegar a otros países."
+      ],
+      "por_que_importa": "Los asistentes de IA están pasando de responder preguntas a manejar datos muy personales. Antes de conectar algo así conviene pensar qué se comparte, aunque por ahora no esté disponible en Argentina.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google lanza Gemini Omni 1.2 Flash: videos de hasta 15 segundos y 30% más baratos",
+      "titulo_corto": "Gemini Omni 1.2 Flash",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Google liberó Gemini Omni 1.2 Flash, su modelo para crear y editar video. Genera clips de hasta 15 segundos, cuesta 30% menos que la versión anterior y se puede usar en Google Vids, Flow y la app de Gemini.",
+      "detalle": [
+        "Gemini Omni 1.2 Flash ya está disponible para todos en la API de Gemini, Google Cloud y varias apps de Google. Hace clips de entre 3 y 15 segundos (antes el máximo era 10) y cuesta US$0,07 por segundo de video en 720p, un 30% menos que Omni 1.1.",
+        "La idea es trabajar por etapas: hacer un borrador en baja resolución, corregir detalles pidiéndole cambios en una conversación en vez de generar todo de nuevo, y recién al final pasarlo a 1080p o 4K. Google dice que mantiene mejor la apariencia de personajes y productos entre tomas, que el habla se ve más natural (con labios sincronizados y varios personajes) y que hay menos cortes bruscos de cámara. Cada video lleva SynthID, una marca de agua invisible que permite identificarlo como hecho por IA.",
+        "Se puede usar en Google AI Studio, Vertex AI, Flow, Google Ads, Google Vids (clips de 15 segundos sin costo extra con cuenta de Google o Workspace) y en la app de Gemini, donde llega primero a los suscriptores de AI Ultra. Google admite que todavía falla en movimientos deportivos rápidos y en física compleja."
+      ],
+      "por_que_importa": "Hacer videos cortos con IA es cada vez más barato y accesible, incluso gratis en Google Vids. Sirve para presentaciones o trabajos, y también hace más difícil distinguir lo real de lo generado.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Tras las elecciones, OpenAI promete no usar acuerdos de confidencialidad con funcionarios para sus centros de datos",
+      "titulo_corto": "OpenAI deja los NDA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Dos días después de que los votantes de EE. UU. rechazaran casi todos los proyectos de centros de datos en las urnas, OpenAI se comprometió a no hacer firmar acuerdos de confidencialidad a funcionarios y a publicar sus planes de obra.",
+      "detalle": [
+        "OpenAI anunció el 5 de noviembre que, en los centros de datos que sea dueña y opere, va a pedir la opinión de las comunidades, publicar los planes de construcción y no usar acuerdos de confidencialidad (NDA, contratos que obligan a guardar secreto) con funcionarios públicos. También reafirmó que pagará el costo completo de la electricidad que consuman.",
+        "El anuncio llega después de las elecciones de medio término: según CNBC, de 41 consultas locales sobre centros de datos en 10 estados, los votantes apoyaron restricciones o rechazaron los proyectos en todas menos una. Muchos de esos proyectos habían sido criticados por negociarse en secreto con NDA. OpenAI además publicó una propuesta para que los legisladores conviertan compromisos de este tipo en ley.",
+        "La letra chica: los compromisos cubren solo los sitios propios de OpenAI. Gran parte de la infraestructura que usa la construyen socios como Oracle, y no está claro que esos centros queden incluidos. Amazon había anunciado algo parecido en octubre."
+      ],
+      "por_que_importa": "La oposición de los vecinos a los centros de datos, por el consumo de energía y agua y por la falta de transparencia, se volvió un freno real para la expansión de la IA. Las empresas ya están cambiando cómo negocian.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Acusan a tres personas de robar US$129 millones haciéndose pasar por gerentes con IA",
+      "titulo_corto": "Estafa de US$129M con IA",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "La fiscalía de Nueva York acusó a tres personas de estafar unos US$129 millones a empresas de todo el mundo con llamadas y videollamadas donde la IA imitaba la voz y a veces la cara de sus gerentes generales.",
+      "detalle": [
+        "Según AP, Jacob Soall, Sharon Hazan y Guy Sheetrit, residentes en España, Reino Unido, Israel y Emiratos Árabes, fueron acusados de fraude, robo de identidad agravado y lavado de dinero por la fiscalía federal del Distrito Sur de Nueva York. Fueron detenidos entre junio y septiembre.",
+        "El método: le escribían a alguien de contabilidad haciéndose pasar por el gerente general y pidiendo ayuda con una operación confidencial. Después venía una llamada o videollamada en la que la IA imitaba la voz y a veces la imagen del gerente, y luego un supuesto abogado de un estudio importante daba las instrucciones para transferir el dinero. Lo recibido se pasaba a criptomonedas para esconder su origen.",
+        "Durante más de un año y medio apuntaron a miles de empresas; entre las víctimas hay hospitales de Missouri y California, un banco de Rhode Island y una fintech británica, según SecurityWeek. Son acusaciones: todavía no hubo juicio."
+      ],
+      "por_que_importa": "Ver y escuchar a alguien en una videollamada ya no alcanza para saber que es quien dice ser. Ante un pedido urgente de dinero, conviene confirmar por otra vía.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Technology/wireStory/3-charged-scheme-ai-impersonate-ceos-attorneys-steal-137899167", "tipo": "medio"},
+        {"nombre": "SecurityWeek", "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Agility, la fabricante del robot humanoide Digit, empieza a cotizar en el Nasdaq",
+      "titulo_corto": "Agility sale a la Bolsa",
+      "categoria": "Hardware",
+      "veracidad": "confirmada",
+      "breve": "Agility Robotics, cuyo robot Digit trabaja en depósitos de empresas como Mercado Libre y Toyota, es la primera empresa dedicada solo a robots humanoides en cotizar en EE. UU. Sumó unos US$465 millones, pero factura muy poco.",
+      "detalle": [
+        "Agility empezó a cotizar el 5 de noviembre en el Nasdaq con el símbolo AGLT, tras fusionarse con Churchill Capital Corp XI, una empresa creada solo para sacar otras a Bolsa (SPAC). La operación le dio unos US$465 millones, incluidos US$201 millones de un grupo de inversores liderado por Foxconn. La acción abrió a US$11,26, por encima de los US$10 de referencia, el mismo día en que el Nasdaq se desplomaba 5,5%.",
+        "Su robot Digit mueve cajas en depósitos y ya opera en nueve clientes, entre ellos Schaeffler, GXO, Toyota Canadá y Mercado Libre. Según TechCrunch, en una planta de GXO los Digit movieron más de 100.000 cajas. La empresa tiene una fábrica con capacidad para 10.000 robots al año y planea mostrar el Digit 5 en la feria CES de enero, con venta masiva a fines de 2027.",
+        "Los números muestran lo temprano que está el negocio: en el primer semestre de 2026 facturó apenas US$174.000, mayormente a partes relacionadas, y perdió US$362 millones. Tiene unos US$300 millones en contratos previstos para el Digit 5, sujetos a que el robot cumpla metas de rendimiento que no se hicieron públicas."
+      ],
+      "por_que_importa": "Los robots humanoides son una de las grandes apuestas de la IA aplicada a la industria y la logística, un tema muy cercano a la ingeniería mecánica. Ahora cualquiera podrá seguir con números públicos si el negocio funciona.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Perplexity lanza Teammates, agentes de IA que trabajan de forma continua en tareas de equipo",
+      "titulo_corto": "Teammates de Perplexity",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Perplexity presentó Teammates, agentes que se quedan a cargo de tareas recurrentes, como revisar errores o seguir campañas, y actúan sin esperar una nueva orden. Por ahora solo para el plan Max, de US$200 por mes.",
+      "detalle": [
+        "Lanzados el 5 de noviembre, los Teammates son agentes persistentes: reciben un objetivo general y siguen trabajando en él con el tiempo, a diferencia del agente anterior de Perplexity, cuyas sesiones se borraban al terminar cada tarea. Ejemplos que da la empresa: clasificar errores de software, hacer controles de calidad, vigilar la seguridad, analizar datos o administrar pruebas A/B (comparar dos versiones de algo para ver cuál funciona mejor).",
+        "Usan los proyectos, la memoria, las habilidades y las conexiones que el usuario ya tiene en Perplexity. Se los puede sumar a un canal de Slack para que los compañeros les asignen trabajo, y cada uno corre en su propio entorno, donde se puede revisar lo que hizo, tomar el control o corregirlo.",
+        "Por ahora están en la web para suscriptores Max (US$200 por mes); las apps para celular y escritorio llegarán más adelante. Compiten con propuestas parecidas de OpenAI, Microsoft y Anthropic con Claude Cowork."
+      ],
+      "por_que_importa": "La competencia entre empresas de IA se mudó de los chats a los agentes que trabajan solos durante días. Es una idea de cómo podría cambiar el trabajo de oficina, aunque por ahora a un precio alto.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Digital Trends", "url": "https://www.digitaltrends.com/cool-tech/perplexitys-new-ai-coworkers-can-take-over-your-workload-but-they-dont-come-cheap/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "NVIDIA libera cuatro modelos Cosmos 3 para simular el mundo y entrenar robots y autos",
+      "titulo_corto": "Cosmos 3 de NVIDIA",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "NVIDIA publicó en Hugging Face cuatro modelos abiertos de la familia Cosmos 3 que generan video realista de calles y de robots en acción, para entrenar autos autónomos y brazos robóticos en simulación.",
+      "detalle": [
+        "Son cuatro variantes de Cosmos 3 Nano, de unos 15.000 millones de parámetros (los valores internos que el modelo ajusta al entrenar), con pesos abiertos: cualquiera los puede descargar y usar, incluso con fines comerciales, bajo la licencia OpenMDW 1.1.",
+        "Dos están pensadas para autos autónomos: una genera escenas de manejo vistas desde varias cámaras con distinto clima, luz y hora del día, y otra produce de forma sincronizada imágenes de cámara y datos de LiDAR (un sensor láser que mide distancias). Otra convierte la salida de un simulador físico en video fotorrealista, de modo que la física la sigue calculando el simulador y el modelo solo pone la imagen. La cuarta predice cómo cambia una escena según los movimientos de un robot de dos brazos.",
+        "Vienen con un informe técnico y recetas para adaptarlos a datos propios. Para correrlos hace falta una placa de video de NVIDIA con Linux; la prueba de la empresa usó un GB200, un equipo de centro de datos, y no se informa un mínimo de memoria."
+      ],
+      "por_que_importa": "Entrenar robots en el mundo real es lento y caro; estos simuladores permiten practicar millones de situaciones en la computadora. Es una de las vías por las que la IA llega a la ingeniería y la industria.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "NVIDIA en Hugging Face", "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "El crudo del día no estaba a las 6:40; se generó con scripts/recolectar.py (0 errores) y no se commitea. El único video nuevo de Jon es una masterclass (no cuenta), así que no hay sección de Jon. No se pudieron abrir openai.com (403), theverge.com ni arstechnica.com: GPT-6 Cyber se verificó en CyberScoop y TechCrunch, y el dato de 'menos del 1%' sale del texto del feed de The Verge. Hay versiones distintas del precio de cierre de Agility (GeekWire vs. otros), por eso solo se da el de apertura. Las cifras de ExploitGym que circulan en sitios secundarios no se usaron por no haber leído una fuente primaria. La nota de AP sobre un grupo externo que dice que Anthropic acelera su desarrollo no se incluyó porque no se encontró el texto. Mistral Large 4 ('Le Chonk') quedó afuera: el anuncio no da detalles del modelo. No se encontraron textos con instrucciones sospechosas."
+}
