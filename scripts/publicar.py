@@ -10,7 +10,8 @@ import html
 import os
 import shutil
 
-from comun import EDICIONES, RAIZ, SITIO, consola_utf8, fecha_larga, leer_json
+from comun import (EDICIONES, RAIZ, SITIO, consola_utf8, ediciones_anteriores, fecha_larga,
+                   leer_json)
 
 VERACIDAD = {
     "oficial": ("🟢", "Oficial", "La anunció la propia empresa u organismo."),
@@ -30,6 +31,20 @@ def e(texto):
 
 def url_jon(ed, segundo):
     return f"https://www.youtube.com/watch?v={ed['jon_video']['id']}&t={int(segundo)}s"
+
+
+def ultimo_video_jon(fecha):
+    """Última edición anterior a `fecha` que trajo un video de Jon, o None."""
+    for ed in reversed(ediciones_anteriores(fecha, 30)):
+        if ed.get("jon_video"):
+            return ed
+    return None
+
+
+def aviso_sin_video(previa):
+    """Texto para los días en que Jon no subió un video nuevo."""
+    fecha = fecha_larga(previa["fecha"]).split(" ", 1)[1].rsplit(" de ", 1)[0]
+    return f"Jon Hernández no subió un video nuevo. El último salió en el resumen del {fecha}:"
 
 
 def marca(segundo):
@@ -54,6 +69,11 @@ def mensaje_telegram(ed, base_url):
         if ed.get("jon_resumen"):
             lineas.append("El resumen completo del video llega en el mensaje siguiente.")
         lineas.append("")
+    previa = None if ed.get("jon_video") else ultimo_video_jon(ed["fecha"])
+    if previa:
+        lineas.append(f"📺 {e(aviso_sin_video(previa))} "
+                      f"<a href=\"{base_url.rstrip('/')}/{previa['fecha']}.html#jon\">{e(previa['jon_video']['titulo'])}</a>")
+        lineas.append("")
     lineas.append("🟢 oficial · 🔵 confirmada · 🟠 sin confirmar")
     texto = "\n".join(lineas)
 
@@ -62,6 +82,8 @@ def mensaje_telegram(ed, base_url):
     filas = [botones[k:k + 2] for k in range(0, len(botones), 2)]
     if ed.get("jon_resumen"):
         filas.append([{"text": "📺 Resumen del video de Jon", "url": f"{pagina}#jon"}])
+    elif previa:
+        filas.append([{"text": "📺 Último video de Jon", "url": f"{base_url.rstrip('/')}/{previa['fecha']}.html#jon"}])
     filas.append([{"text": "📰 Ver la edición completa", "url": pagina}])
     return texto, {"inline_keyboard": filas}
 
@@ -176,6 +198,12 @@ def html_edicion(ed, anterior, siguiente):
     pie = []
     if ed.get("jon_video"):
         pie.append(html_jon(ed))
+    else:
+        previa = ultimo_video_jon(ed["fecha"])
+        if previa:
+            pie.append(f'<section class="caja jon video"><strong>Video de Jon Hernández</strong><p>'
+                       f'{e(aviso_sin_video(previa))} <a href="{previa["fecha"]}.html#jon">'
+                       f'{e(previa["jon_video"]["titulo"])}</a></p></section>')
     leyenda = "".join(f'<li><span class="chip ver-{k}">{v[0]} {v[1]}</span> {e(v[2])}</li>' for k, v in VERACIDAD.items())
     pie.append(f'<section class="leyenda"><strong>Cómo leer las etiquetas</strong><ul>{leyenda}</ul></section>')
     cuerpo = "\n".join(nav + cab + notas + pie + nav)

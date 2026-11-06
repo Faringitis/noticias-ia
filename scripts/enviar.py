@@ -22,7 +22,8 @@ import urllib.request
 
 from comun import (CRUDO, EDICIONES, ESTADO, ahora_ar, consola_utf8, fecha_larga,
                    guardar_json, hoy_ar, leer_json)
-from publicar import BASE_JON, VERACIDAD, e, marca, mensaje_jon, mensaje_telegram, url_jon
+from publicar import (BASE_JON, VERACIDAD, aviso_sin_video, e, marca, mensaje_jon, mensaje_telegram,
+                      ultimo_video_jon, url_jon)
 
 REGISTRO = ESTADO / "enviados.json"
 
@@ -109,6 +110,11 @@ def html_mail(ed):
         jon = (f'<div style="padding:12px 14px;background:#fff4e6;border-radius:10px;font-size:15px;color:#1d1d1b;margin-top:6px">'
                f'📺 <strong>Video de Jon Hernández:</strong> <a href="https://www.youtube.com/watch?v={e(v["id"])}" '
                f'style="color:#3b5bdb">{e(v["titulo"])}</a>{cuerpo_jon}</div>')
+    elif ultimo_video_jon(ed["fecha"]):
+        previa = ultimo_video_jon(ed["fecha"])
+        jon = (f'<div style="padding:12px 14px;background:#fff4e6;border-radius:10px;font-size:15px;color:#1d1d1b;margin-top:6px">'
+               f'📺 {e(aviso_sin_video(previa))} <a href="{e(base_url())}/{previa["fecha"]}.html#jon" '
+               f'style="color:#3b5bdb">{e(previa["jon_video"]["titulo"])}</a></div>')
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
 <body style="margin:0;background:#f6f5f1">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f6f5f1"><tr><td align="center" style="padding:12px">
@@ -139,6 +145,10 @@ def texto_mail(ed):
                    f"https://www.youtube.com/watch?v={ed['jon_video']['id']}", "", r["de_que_trata"], ""]
         partes += [x for p in r["explicacion"] for x in (p, "")]
         partes += ["Puntos clave:"] + [f"- {p['texto']}" for p in r["puntos_clave"]]
+    elif ultimo_video_jon(ed["fecha"]):
+        previa = ultimo_video_jon(ed["fecha"])
+        partes += [aviso_sin_video(previa), previa["jon_video"]["titulo"],
+                   f"{base_url()}/{previa['fecha']}.html#jon"]
     return "\n".join(partes)
 
 

@@ -6,7 +6,7 @@ name: 2 · Publicar y enviar
 on:
   push:
     branches: [main]
-    paths: ["ediciones/**", ".github/workflows/publicar.yml"]
+    paths: ["ediciones/**", "scripts/publicar.py", "sitio/**", ".github/workflows/publicar.yml"]
   schedule:
     - cron: "23 10 * * *"   # 07:23 Argentina: por si el aviso automático no llegó
     - cron: "7 11 * * *"    # 08:07 Argentina: último intento; si no hay edición, respaldo
