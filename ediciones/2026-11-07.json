@@ -1,0 +1,276 @@
+{
+  "fecha": "2026-11-07",
+  "intro": "OpenAI consigue US$11.000 millones pero a un valor menor al que buscaba, y datos de Ramp muestran que las empresas frenaron el gasto en IA. Además: los demócratas preparan leyes de IA y crecen las protestas contra los centros de datos en Europa.",
+  "noticias": [
+    {
+      "titulo": "Según Bloomberg, OpenAI consiguió US$11.000 millones a un valor de US$1,25 billones, menos de lo que buscaba",
+      "titulo_corto": "OpenAI: ronda más chica",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Bloomberg, OpenAI cerró una primera parte de US$11.000 millones de una ronda que la valúa en US$1,25 billones. Buscaba US$30.000 millones a US$1,4 billones, pero achicó la meta tras la caída de las acciones de IA.",
+      "detalle": [
+        "Bloomberg informó el viernes 6 de noviembre, citando a personas al tanto de la operación, que OpenAI ya recibió unos US$11.000 millones como primer tramo de una nueva ronda de inversión que valúa a la empresa en US$1,25 billones (millones de millones). El resto de la ronda podría llevar el total a unos US$20.000 millones y cerraría en las próximas semanas. OpenAI no quiso hacer comentarios, y TechCrunch y The Verge repitieron el dato de Bloomberg.",
+        "La cifra queda por debajo de lo que la empresa pretendía: según Bloomberg, a fines de septiembre OpenAI buscaba US$30.000 millones o más con una valuación de US$1,4 billones. La meta se recortó en medio de la fuerte caída de las acciones ligadas a la IA de esta semana y del temor a que, tras el triunfo demócrata en las elecciones de medio término, se traben las obras de centros de datos. Como referencia, en marzo OpenAI había recaudado US$122.000 millones a una valuación de US$852.000 millones.",
+        "El mismo día, Bloomberg contó que los posibles compradores de acciones en la salida a Bolsa de Anthropic hablan de una valuación de alrededor de US$1,1 billones, lejos de los cerca de US$2 billones que se mencionaban un mes atrás. No se sabe todavía quiénes pusieron la plata en la ronda de OpenAI."
+      ],
+      "por_que_importa": "Es una señal de que los inversores siguen apostando por la IA, pero ya no a cualquier precio. Si cuesta más conseguir plata, las empresas pueden tener que cobrar más o crecer más despacio.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Bloomberg (vía Yahoo Finanzas)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/openai-completes-11-billion-portion-205841010.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Datos de Ramp: las empresas usan cada vez más IA, pero el gasto casi dejó de crecer",
+      "titulo_corto": "Se frena el gasto en IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según datos de la empresa de tarjetas corporativas Ramp publicados por TechCrunch, el gasto de las empresas en IA creció solo 1,5% en agosto y septiembre, mientras el uso seguía subiendo. Las rebajas de precios y los controles de costos explican buena parte.",
+      "detalle": [
+        "Ramp, una empresa que maneja tarjetas y gastos de miles de compañías en EE. UU., mide cuánto pagan sus clientes por tokens (las unidades de texto que procesan los modelos de IA y por las que se cobra). Según su economista Ara Kharazian, ese gasto creció 42% entre junio y julio, pero apenas 1,5% sumando agosto y septiembre. Entre fines de septiembre y el 23 de octubre volvió a subir 8,9%, aunque la cantidad de tokens usados creció mucho más rápido que lo pagado.",
+        "Las causas que se mencionan: en septiembre OpenAI bajó a la mitad el precio de GPT-6 Sol y GPT-6 Luna para programadores, y Anthropic rebajó Fable 5.1 y Opus 5.5 (según la propia empresa, eso le restó unos US$600 millones de crecimiento de ingresos). Además, las empresas ponen topes por empleado, bloquean los modelos más caros para tareas largas y mandan el trabajo a modelos más baratos o abiertos.",
+        "El gasto está muy concentrado: la empresa mediana paga entre US$12 y US$15 por empleado al mes, mientras que el 1% que más usa IA ronda los US$10.000, y fue justamente ese grupo el que frenó. Hay que tomarlo con cuidado: los datos cubren solo a clientes de Ramp, que tienden a ser empresas tecnológicas, y no incluyen herramientas gratuitas."
+      ],
+      "por_que_importa": "Los precios de la IA están bajando y las empresas aprenden a usarla con más cuidado. Eso es bueno para el usuario, pero complica a las compañías que necesitan mostrar ingresos en alza para justificar sus valuaciones.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Según Reuters, los demócratas preparan una ola de leyes sobre IA para cuando controlen el Congreso",
+      "titulo_corto": "Demócratas y leyes de IA",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Reuters, desde enero los demócratas presentarían proyectos para que los centros de datos no encarezcan la luz, exigir pruebas independientes a los modelos más avanzados y aclarar cuándo una empresa de IA responde por daños.",
+      "detalle": [
+        "Tras ganar las elecciones de medio término del martes, los demócratas tomarán el control de las dos cámaras del Congreso de EE. UU. en enero. Reuters habló con legisladores, asesores y activistas, que anticipan tres ejes: proteger a los consumidores de subas en la factura de electricidad por culpa de los centros de datos, obligar a que expertos independientes evalúen los modelos de IA más potentes contra estándares de seguridad, y precisar cuándo las empresas pueden ser responsables si sus sistemas causan daño.",
+        "Chuck Schumer, que sería el líder de la mayoría en el Senado, dijo que el costo de la energía de los centros de datos será una prioridad. La diputada Zoe Lofgren, que aspira a presidir el comité de Ciencia, habló de regulaciones responsables sin frenar la innovación, y el diputado Greg Casar pidió que los ejecutivos de IA declaren bajo juramento. También planean citar a audiencias a empresas como OpenAI y Anthropic.",
+        "El límite es Donald Trump: sigue siendo presidente y rechazó varias veces las reglas obligatorias para la IA, así que podría vetar las leyes. Un analista de Raymond James citado por Reuters cree, igual, que la probabilidad de que salga alguna ley es más alta de lo que el mercado espera, por ejemplo agregando reglas de IA a leyes de presupuesto que hay que aprobar sí o sí."
+      ],
+      "por_que_importa": "EE. UU. pasó dos años sin reglas nacionales para la IA. Si eso cambia, afectará cómo se prueban y lanzan los modelos que usamos todos, incluso fuera de ese país.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Reuters (vía Yahoo Finanzas)",
+          "url": "https://ca.finance.yahoo.com/news/democrats-planning-flood-ai-bills-111226869.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Google se queda con el proyecto de centro de datos de Crusoe en Wyoming e invertirá US$17.000 millones",
+      "titulo_corto": "Google compra en Wyoming",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "Google anunció una inversión de US$17.000 millones en su primer centro de datos en Wyoming, y Crusoe confirmó que le vendió ese proyecto inconcluso. Google dice que pagará toda la energía que use, con celdas de combustible a gas y captura de carbono.",
+      "detalle": [
+        "En su blog, Google anunció el 5 de noviembre una inversión de US$17.000 millones en un campus de centros de datos en el condado de Laramie, cerca de Cheyenne, Wyoming. Al día siguiente, Crusoe (una empresa que construye centros de datos para IA) confirmó que le vendió a Google ese proyecto, que había empezado en 2025 y que pensaba llevar hasta 10 gigavatios. No se informó el precio de la venta.",
+        "Según TechCrunch, Google había mostrado preocupación por los costos y los plazos de obra bajo la gestión de Crusoe, que además no había logrado tener a Google como cliente del sitio. Crusoe sigue construyendo otro centro de datos para Google en Texas.",
+        "Google dice que pagará el 100% de la electricidad que consuma. Contrató con la eléctrica AEP una planta de 702 megavatios de celdas de combustible (equipos que generan electricidad a partir de gas natural sin quemarlo) con captura y almacenamiento bajo tierra del carbono, y también usará generadores a gas de empresas locales. El centro se va a enfriar con aire para no gastar agua. No dio fechas de obra ni de apertura."
+      ],
+      "por_que_importa": "Muestra lo difícil que es construir los enormes centros de datos que pide la IA: hace falta energía, equipos y aceptación de los vecinos, y no cualquier empresa puede hacerlo a tiempo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Google",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Protestas en Europa contra los centros de datos: en Ámsterdam entraron a una obra de Microsoft",
+      "titulo_corto": "Protestas en Europa",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "El 6 y 7 de noviembre hay protestas en varios países europeos que piden frenar los grandes centros de datos. En Ámsterdam, más de 100 personas entraron a la obra de un centro de datos para Microsoft; hubo al menos un detenido.",
+      "detalle": [
+        "El viernes 6 de noviembre, más de 100 manifestantes cortaron un portón y entraron a la obra de un centro de datos en las afueras de Ámsterdam que tendrá a Microsoft como único inquilino. Treparon grúas y pintaron grafitis, y la policía antidisturbios intervino; al menos una persona fue detenida. La protesta, que la alcaldía había prohibido, la organizó el grupo neerlandés Geef Tegengas. Los activistas dicen que el centro, de 78 megavatios, consumirá tanta electricidad como todos los hogares de Ámsterdam.",
+        "Es parte de dos días de acciones coordinadas por la coalición Stop Dirty Data Centres, que pide una moratoria (una pausa) en la construcción de grandes centros de datos en Europa hasta que se discuta para qué se usan. Según El País, hay actos convocados en 15 países, entre ellos España, Reino Unido, Francia, Alemania y Polonia. Los reclamos van desde la suba de la luz y el uso de agua hasta el clima y el uso de la IA en la guerra.",
+        "Microsoft respondió que respeta el derecho a manifestarse en forma pacífica, pero que no acepta acciones ilegales que pongan en riesgo a trabajadores y vecinos."
+      ],
+      "por_que_importa": "El rechazo a los centros de datos ya no es solo de EE. UU.: si se extiende, puede demorar la infraestructura que necesitan los servicios de IA en todo el mundo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Gizmodo",
+          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/tecnologia/2026-11-07/llega-la-primera-movilizacion-europea-contra-los-centros-de-datos-no-queremos-ser-el-patio-trasero-de-nadie.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Meta suma Spaces a su asistente Muse: miniaplicaciones a medida que se crean pidiéndolas",
+      "titulo_corto": "Spaces en Meta Muse",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Meta presentó Spaces, una función de su agente de IA Muse que arma pequeñas aplicaciones a pedido, como un planificador de viaje o un registro de regalos, y las mantiene actualizadas solas.",
+      "detalle": [
+        "Muse es la nueva generación de agentes de IA de Meta, que según Mark Zuckerberg ya tenía 10 millones de usuarios en EE. UU. y Canadá a menos de dos meses de su lanzamiento. Con Spaces, el usuario describe en el chat lo que necesita y Muse arma un espacio propio para ese objetivo: un planificador de vacaciones, un organizador de casamiento, una lista de recetas para una reunión familiar o un tablero de proyectos.",
+        "Cada espacio aparece en la barra lateral de la app y funciona como una conversación enfocada en un tema. Se pueden conectar aplicaciones de terceros y el espacio se actualiza en segundo plano, por ejemplo cuando sale una fecha nueva de un recital o cambia un precio. Zuckerberg contó que él armó un juego, un registro de eventos y un panel para controlar su casa.",
+        "Meta no detalló en qué países está disponible Spaces. La función llega un día después de Muse Voice, que permite hablar por video con el agente, solo en EE. UU."
+      ],
+      "por_que_importa": "Los asistentes de IA están pasando de responder preguntas a armar herramientas personales a pedido, sin saber programar. Es una tendencia que también siguen OpenAI y otras empresas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Amazon permite comprar mandándole mensajes de texto a Alexa",
+      "titulo_corto": "Alexa por mensaje de texto",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Amazon lanzó en EE. UU. una función para hablar por SMS con su asistente de compras Alexa: se le describe un producto o se le manda una foto, y busca, compara, sigue precios y compra.",
+      "detalle": [
+        "Desde el 6 de noviembre, algunos clientes de Amazon en EE. UU. reciben un mensaje que los invita a activar la función, y el resto puede anotarse en una lista de espera; la empresa dice que se va a extender a millones de usuarios en las próximas semanas, antes de la temporada de compras de fin de año.",
+        "Por mensaje de texto, en lenguaje común, se le puede pedir a Alexa que busque un producto, lo agregue al carrito y lo compre. También maneja listas, avisa cambios de precio, compara productos, consulta el estado de un pedido y busca artículos parecidos a partir de una foto, por ejemplo de la ropa que tiene puesta otra persona. Con el tiempo, debería aprender los gustos del usuario y sugerir compras.",
+        "La novedad llega después de que, en septiembre, Amazon bloqueara a Muse, el agente de Meta, para que no pudiera consultar su sitio. Es decir, Amazon prefiere que sus clientes compren con su propio agente y no con los de otras empresas."
+      ],
+      "por_que_importa": "Las grandes tiendas compiten por ser el agente que compra por vos. Quién controle ese agente decide qué productos te muestra y a quién le comprás.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "OpenAI muestra cómo GPT-6 Astra diseñó un aparato completo y anuncia una investigación con Mazda",
+      "titulo_corto": "Astra diseña hardware",
+      "categoria": "Diseño y simulación",
+      "veracidad": "confirmada",
+      "breve": "Anunciado el 3 de noviembre: dos empleados de OpenAI usaron GPT-6 Astra para diseñar en menos de una semana un aparato con carcasa, placa electrónica y firmware. Además, Mazda prueba el modelo para buscar formas de frente con menos resistencia al aire.",
+      "detalle": [
+        "Según OpenAI, dos personas de la empresa armaron como proyecto paralelo un dispositivo para hablar con Codex, su herramienta de programación. El objetivo era que el modelo hiciera todo sin que los humanos editaran el diseño: GPT-6 definió los requisitos, y Astra diseñó la carcasa, eligió los componentes, ubicó las piezas en la placa de circuito impreso, escribió el firmware (el programa interno del aparato) y la interfaz. Tardaron menos de una semana, y un fabricante produjo un lote chico de prototipos en menos de un mes.",
+        "No salió perfecto: OpenAI reconoce que el modelo no siempre tuvo en cuenta las restricciones de fabricación, las tolerancias ni el ensamblado, y hicieron falta varias rondas de revisión de ingenieros. En BenchCAD 2.0, una prueba que mide si un modelo puede reconstruir piezas y ensambles en 3D, Astra sacó 0,594 y un modelo interno más nuevo, 0,875.",
+        "En paralelo, OpenAI trabaja con los ingenieros de aerodinámica y seguridad en choques de Mazda: Astra propone formas para el frente del auto y simula el flujo de aire para encontrar diseños con menos arrastre, que después los ingenieros evalúan por estética y costo. No se informaron resultados medidos. Con el equipo de carreras Chip Ganassi prueban pasar escaneos 3D de piezas a modelos CAD editables y planos 2D."
+      ],
+      "por_que_importa": "Muestra hacia dónde va el trabajo de un ingeniero mecánico: la IA ya puede proponer diseños, planos y simulaciones, pero todavía hace falta alguien que sepa de tolerancias y fabricación para revisarlos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/openai-gpt-6-hardware-design-prototype",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Analytics India Magazine",
+          "url": "https://analyticsindiamag.com/ai-news/openais-codex-helps-in-aerodynamic-engineering-for-mazda",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Una red neuronal sugiere parámetros para imprimir en 3D piezas de titanio con la resistencia buscada",
+      "titulo_corto": "IA para imprimir titanio",
+      "categoria": "Manufactura",
+      "veracidad": "sin_confirmar",
+      "breve": "Según un estudio difundido por TechXplore, investigadores de Turquía, Pakistán, EE. UU. e Italia entrenaron una red neuronal que predice la resistencia de piezas de titanio impresas por láser y propone los ajustes de la máquina para lograrla.",
+      "detalle": [
+        "El trabajo, publicado en la revista International Journal of Precision Engineering and Manufacturing y supervisado desde la Universidad Técnica de Estambul, se enfoca en la aleación Ti-6Al-4V impresa con fusión selectiva por láser (SLM: un láser funde polvo de titanio capa por capa). Encontrar los ajustes correctos de la impresora suele exigir muchas pruebas caras.",
+        "Los autores juntaron 201 resultados de experimentos ya publicados, con seis parámetros de proceso (potencia del láser, velocidad de barrido, espesor de capa, separación entre pasadas, tamaño del punto del láser y tamaño del polvo) y tres resultados: límite de fluencia, resistencia máxima a la tracción y alargamiento a la rotura. Compararon varios métodos de aprendizaje automático y la red neuronal fue la más consistente. Con una técnica llamada SHAP muestran cuánto pesa cada parámetro en la predicción.",
+        "Además armaron un programa con interfaz gráfica que funciona al revés: el usuario pone la resistencia y ductilidad que quiere y recibe ajustes sugeridos para probar. Los autores aclaran que no reemplaza los ensayos ni la certificación, sino que achica el rango de prueba, y que falta validarlo con datos de máquinas específicas. El artículo no da cifras de precisión."
+      ],
+      "por_que_importa": "Es un ejemplo concreto de cómo se usa el aprendizaje automático en manufactura aditiva: con datos de ensayos se puede predecir propiedades mecánicas y ahorrar pruebas. Es una técnica que un estudiante puede aprender y replicar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechXplore",
+          "url": "https://techxplore.com/news/2026-11-ai-recipes-3d-titanium.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "El MIT enseña a los robots a darse cuenta de cuándo recuerdan mal un objeto",
+      "titulo_corto": "Robots que dudan (MIT)",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Investigadores del MIT crearon UQ-DAAAM, un sistema que mide cuán seguro está un robot de lo que guardó en su memoria sobre cada objeto y, si duda, lo vuelve a mirar desde otros ángulos. Según TechXplore, aclaró cerca del 92% de los objetos.",
+      "detalle": [
+        "Muchos robots describen lo que ven con modelos de visión y lenguaje (IA que mira una imagen y la describe con palabras) y guardan esas descripciones en un mapa 3D. El problema es que esas descripciones pueden fallar según el ángulo: un robot podría anotar un desfibrilador como si fuera un matafuego y después no encontrarlo en una emergencia.",
+        "El equipo de Luca Carlone en el MIT calcula un puntaje de incertidumbre para cada objeto: combina la confianza del propio modelo con cuánto coinciden las descripciones tomadas desde distintos puntos de vista. Si el puntaje es alto, el sistema elige nuevas vistas que ayuden a aclarar la duda y un modelo de lenguaje une todas las descripciones en una sola. Todo corre en una fracción de segundo con el robot en movimiento.",
+        "Según TechXplore, resolvió las ambigüedades de alrededor del 92% de los objetos con unas dos descripciones extra por objeto y mejoró 5% la precisión frente a los mejores métodos anteriores. El trabajo está en arXiv (todavía sin revisión de pares) y se presentará en la conferencia NeurIPS; por ahora se probó en un tipo de robot móvil."
+      ],
+      "por_que_importa": "Para que un robot trabaje en una fábrica o un hospital, tiene que saber cuándo no está seguro. Es un tema central en robótica móvil y en la combinación de sensores con IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "arXiv (paper del MIT)",
+          "url": "https://arxiv.org/abs/2606.08277",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechXplore",
+          "url": "https://techxplore.com/news/2026-11-chimney-squirrel-robot-fuzzy-memory.html",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "El crudo del día no estaba a las 6:40; se generó con scripts/recolectar.py (0 errores, 0 videos de Jon) y no se commitea. No hay video nuevo de Jon, así que no hay sección. No se pudieron abrir theverge.com, wired.com, arstechnica.com ni openai.com: lo de The Verge sale del texto de su feed; el anuncio de OpenAI sobre ingeniería física se verificó en Interesting Engineering y Analytics India Magazine. La ronda de OpenAI se apoya en Bloomberg (vía Yahoo) y la de los demócratas en Reuters (vía Yahoo), por eso van como sin_confirmar y atribuidas. El dato de 15 países de las protestas sale del copete de El País en el crudo. Quedaron afuera: la compra de Lumentum por Marvell (anunciada el 2 de noviembre, vieja), la nota de Wired sobre modelos chinos y hacking (no se pudo leer ni encontrar otra fuente), el supuesto espionaje a Jensen Huang (la historia del NYT es de fines de octubre), y Siemens NVH y el modelo de tensiones de Concordia (sin IA). No se encontraron textos con instrucciones sospechosas."
+}
