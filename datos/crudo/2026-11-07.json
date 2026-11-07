@@ -1,0 +1,1079 @@
+{
+  "fecha": "2026-11-07",
+  "generado": "2026-11-07T12:37-03:00",
+  "ventana_horas": 30,
+  "jon_videos": [],
+  "notas": [
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Teaching AI to build scientific models",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rLVltMFY0UFlmby1uSWtsdF9VZHpwWmNqUWZ3dFpTUDZKd2ZfZTVZRHl0aE5OdGxvLUt0OXc3WXZvLWdjSkNQZEpvSk9jNVJYUWlZZGpHZ0Q5Z2hQNFpDZ3JjZl9DUGROYXc0NWE4aWZfYnREX1ZMT3VGT3RaUQ?oc=5",
+      "fecha_utc": "2026-11-06T19:03+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Project EVE: Claude plays MMORPGs",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
+      "fecha_utc": "2026-11-06T20:52+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "The components of agent memory",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5",
+      "fecha_utc": "2026-11-06T21:21+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Anthropic Residency: applications open for established technical leaders",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RZThRbzhUdFJTZGszLUcwT29wNFdIZ29fVjJTUTB4SkJFRlZRekpOOVlpM1F6eGVSN2RENmpjWUl3QWU5YWNwRHZNaF9EdlNNMTY1TUtfaTJHOHk3S2s3SXJVc3BWSVVa?oc=5",
+      "fecha_utc": "2026-11-07T12:40+00:00",
+      "resumen": "",
+      "medio": "Anthropic Alignment Science blog",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "- Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uRjVaNUxPTVlWNXFDX21fSklJRUtEWGM5NFZUY1ZzQl9KODF5ZFQ4Nkk1WVZVd0U4ektTandIQzNoRVJ1MXZySnVOTHo3aWtFeko2Z1lrM0F5bmxL?oc=5",
+      "fecha_utc": "2026-11-07T13:17+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Hugging Face",
+      "nivel": "oficial",
+      "titulo": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "fecha_utc": "2026-11-06T14:00+00:00",
+      "resumen": ""
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "fecha_utc": "2026-11-06T16:00+00:00",
+      "resumen": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]"
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3NGMHFJQlQwNk4yNzFPblZsOHRFS0FBcmc0b3JxbGRoSnUzUC00WGctejhmNllYa094VGFmMHJrSWYyaUhBRlFERkdKbktXSmRkcWhhc21JVUp5Z29kbFVtTE11YjZnc3ZkZU5jM3BvbmRqUVVyUDBveF9OTmJXd1poLVI1LVhlRUVfUjhzczh2b2t3cnZuTUc4UDExWXFmVWlQZ2R4MHVQaGllbnljdlR2UQ?oc=5",
+      "fecha_utc": "2026-11-06T19:16+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMUlicGFDcFJmWW5nQnZ3R2wzY25vSzFIczhmanhycWtxaDVsOGhrSW9sUkFoN29MaTJKX1pKbmEwSl8wVVZhX1RpZ0JFTUMycHQwSXo1ejh0YVpSRkJkdkxZTVBUQ2dySDFFYlhBSEhZTFJpeElqZXU5MEJQQURwb0RHZU16YV8tczNyUVo0NF8?oc=5",
+      "fecha_utc": "2026-11-06T21:18+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "AP",
+      "nivel": "medio",
+      "titulo": "From high-flying AI stocks to tariff-hit alcohol companies, the midterms shook up Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVGE5cWdNNmdGUVUta195UWctb3dsWEp2d0ZDRE5FQU02SDRwckpqa25JM2QxNk1wOTV5aXF4NDJiZnRZRzlCcm85RzNjOEltYktuc1NDQ2Y2UzJOc2VMQm5HaFZUR2FGdkNDMVhoazNkN1FTYTBVdWRDQjItS2c2ZUVoemlwVVg4X3Z6cVhtTEx4NWtVbjhSMm5NR1loaXVaUkNFOTVB?oc=5",
+      "fecha_utc": "2026-11-07T14:32+00:00",
+      "resumen": "",
+      "medio": "AP News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "Could potential AI clones of GTA VI force a quicker official port?",
+      "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+      "fecha_utc": "2026-11-06T16:19+00:00",
+      "resumen": "A former Rockstar tech director thinks the developer is facing new time pressures."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "fecha_utc": "2026-11-06T17:43+00:00",
+      "resumen": "Meta won't force Facebook page owners to allow AI training on linked content."
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "fecha_utc": "2026-11-06T10:00+00:00",
+      "resumen": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…"
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "US consumer sentiment improves in November; worries about AI bubble emerge",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2hxVzJrd2JjSnRZanJBcnVQVWx2a1dWaDNpVjVhLVZUenl0THYtUzJVMmViV0VmbTEwd1Bvd2xKRDNjbGRySXhsbDZuakRXcWFjQVpHR1RtYW16akJfdFNscU9zelF4VUlmenY4Vzh2aUpLZXUxcFA4QW9jSmJia0lrWUhqT2g0cVp0V3ZuMmg4WW5jSm1GUnRiMl83TDBPSHNnSS1TVnVGTTUwOFNGY1lVX1J5dw?oc=5",
+      "fecha_utc": "2026-11-06T15:31+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "OpenAI to press ahead with data-center expansion despite midterm sweep, CFO tells CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRFVIUW5SSGZmTGw2cnZmN0tEbE5zWGZVekdqazlncUFkSVo2Q3ZOMFlyS2xEbHY3NVhOalJzeFRCTWIxR2xydFdUaVQxZ3RMbk9yRzN1UEt6VnZHd0FycnVPTVhhWmx6QUhHeF92MVVqWFpQYWdaVEpia1c1Qk5qYXFpYTRWS3JMUkV6eXFUM1drV1RqdDJ3VkNKb3lELWhwbl9DU1Z5V0h3d3pHNmxIcWZQd3o3aV8yUU1OSkdmTF9KVENvRU5XQ0MyYV9UX0NsUEEyTA?oc=5",
+      "fecha_utc": "2026-11-06T18:06+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Google acquires Wyoming data center site from AI infrastructure firm Crusoe",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmdYV3dXUTRhWEJ2UTJxUXBMMmxVX292SEdXZlVJNmJIa0lzNVNRT0J3QjJhc0VnN2lYUnQybkNkd0JsRV8xUTc1Qk1nZllyQUx0RnJTTENFVEhJdXUyYW9SQXVodjFLT1RmSDF3UE1PODFDRnkzVnhkaEpVSDdwSDJRV2Y5dDZOTXF2cUoxUWlVVnBXWklYRjNpNGp0N2x1N0I1bFgtMFl3eldkdHZxUUlZRVdzQQ?oc=5",
+      "fecha_utc": "2026-11-06T20:03+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Democrats planning flood of AI bills when they take control of Congress",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5",
+      "fecha_utc": "2026-11-06T21:56+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
+      "fecha_utc": "2026-11-06T23:19+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "IMF's Georgieva says any slowdown in AI-driven growth would be factor for central banks",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVpUdVhKa3ZpUXBuSDdMV0tXM3JyVDFhWmpjOU95Mld1cWlMeGhPSmJ3Ym5WeHVQSkpLLW5iQngzVUVyeHg5Y19ucWF0SUpVNkxUOU5DNTFYN0dBN2hGWi1DVDNUQU9xMEtIVFlQSG1FSlU1NEUxeV9FeUNyV05CMXRVU3V3MmdSVFBEc2pjbE9WMFN3ZU1PS252VXVHemM5YkpmeFd4OVpFZ3pIZnN4TlpILWZfckU3R3VqTGs4RE84dw?oc=5",
+      "fecha_utc": "2026-11-06T23:53+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "SoftBank, ABB explore China carve-out to salvage robotics deal, Bloomberg News reports",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFSmU5eEM2WVdpQUtfY2U1SXJ0VkxJSWV6RXpDVnEtR0dHdzZQWnlmd2ZnRjZjdnZndzlOMzJqUjNwNmN1Y2tGQVBSUkdualpEdnNaRWRVbzV2cnR2YnJYaVR2amdURkZ4WHdGbENYN2QyYUd6UjlDTGZVUTVFQ0lKdExaZkNrM2NJYlhSZXRjY0N1aFNjcGJqVjM5ZlpfaHg2OXdCWmF0OHYwd0FndXo1dXI?oc=5",
+      "fecha_utc": "2026-11-07T09:55+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "fecha_utc": "2026-11-06T13:00+00:00",
+      "resumen": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Underdog shows off a 32MB speech model in new demo",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "fecha_utc": "2026-11-06T13:02+00:00",
+      "resumen": "Despite its small size, Underdog's new model can generate both speech and music."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "fecha_utc": "2026-11-06T14:10+00:00",
+      "resumen": "Amazon said that the feature will roll out to millions of users in coming weeks."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "fecha_utc": "2026-11-06T15:54+00:00",
+      "resumen": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "After the midterms, is the AI industry in for a rough two years?",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "fecha_utc": "2026-11-06T17:23+00:00",
+      "resumen": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]"
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "How a Blue Wave midterm might reshape the AI industry",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "fecha_utc": "2026-11-06T18:00+00:00",
+      "resumen": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]"
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "fecha_utc": "2026-11-06T18:44+00:00",
+      "resumen": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "fecha_utc": "2026-11-06T18:44+00:00",
+      "resumen": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "fecha_utc": "2026-11-06T22:53+00:00",
+      "resumen": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "fecha_utc": "2026-11-07T01:40+00:00",
+      "resumen": "The deal highlights the challenges of developing massive AI data centers."
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Amazon will let you text Alexa your shopping list",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "fecha_utc": "2026-11-06T14:00+00:00",
+      "resumen": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "How Akai and Moog are embracing vibe-coded mods",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "fecha_utc": "2026-11-06T16:34+00:00",
+      "resumen": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people can […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Big Tech lost big in the 2026 election",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "fecha_utc": "2026-11-06T16:38+00:00",
+      "resumen": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "fecha_utc": "2026-11-06T17:00+00:00",
+      "resumen": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "fecha_utc": "2026-11-06T18:10+00:00",
+      "resumen": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "fecha_utc": "2026-11-06T20:02+00:00",
+      "resumen": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "fecha_utc": "2026-11-06T23:00+00:00",
+      "resumen": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "fecha_utc": "2026-11-06T23:46+00:00",
+      "resumen": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "fecha_utc": "2026-11-07T12:30+00:00",
+      "resumen": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "fecha_utc": "2026-11-07T15:00+00:00",
+      "resumen": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]"
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "fecha_utc": "2026-11-06T16:00+00:00",
+      "resumen": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "fecha_utc": "2026-11-06T18:43+00:00",
+      "resumen": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "fecha_utc": "2026-11-07T11:00+00:00",
+      "resumen": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved."
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "fecha_utc": "2026-11-06T17:13+00:00",
+      "resumen": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in…"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "El mercado laboral estadounidense supera de largo las previsiones en octubre tras crear 165.000 puestos de trabajo",
+      "url": "https://elpais.com/economia/2026-11-06/el-mercado-laboral-estadounidense-supera-de-largo-las-previsiones-en-octubre-tras-crear-165000-puestos-de-trabajo.html",
+      "fecha_utc": "2026-11-06T13:58+00:00",
+      "resumen": "La tasa de desempleo se reduce una décima hasta el 4,1% y está a tres meses de encadenar el mejor periodo para el empleo desde los años de posguerra del siglo pasado"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Un polo de innovación en salud en Ciudad de México busca tecnificar la industria",
+      "url": "https://elpais.com/mexico/economia/2026-11-07/un-polo-de-innovacion-en-salud-en-ciudad-de-mexico-busca-tecnificar-la-industria.html",
+      "fecha_utc": "2026-11-07T01:53+00:00",
+      "resumen": "Con una inversión de 245 millones de dólares, el Distrito Tlalpan del Tecnológico de Monterrey buscar conectar gobiernos, investigación científica e industria, cuando México intenta optimizar sus cadenas productivas"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Un profesor buscado por la Audiencia Nacional recluta soldados y espías españoles para Rusia",
+      "url": "https://elpais.com/espana/2026-11-07/un-profesor-buscado-por-la-audiencia-nacional-recluta-soldados-y-espias-espanoles-para-rusia.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "Un estudio advierte de la creación en Vietnam de una granja de cuentas de Internet para influir en la campaña electoral del 29-N"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Un lector: “Prevenir no consiste en adivinar el futuro, sino en analizar los riesgos del presente”",
+      "url": "https://elpais.com/opinion/2026-11-07/un-lector-prevenir-no-consiste-en-adivinar-el-futuro-sino-en-analizar-los-riesgos-del-presente.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "Las cartas de este sábado abordan cómo reducir el peligro de accidentes, la angustia que causan las noticias, padres que increpan a docentes en huelga y la responsabilidad de dimitir como gobernante"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Karl Deisseroth, Nobel de Medicina: “Los modelos avanzados de inteligencia artificial podrían leer la actividad cerebral de las personas”",
+      "url": "https://elpais.com/ciencia/2026-11-07/karl-deisseroth-nobel-de-medicina-los-modelos-avanzados-de-inteligencia-artificial-podrian-leer-la-actividad-cerebral-de-las-personas.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "El inventor de la optogenética para controlar el cerebro con luz explica cómo esta técnica acerca mejores tratamientos contra las enfermedades mentales"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Llega la primera movilización europea contra los centros de datos: “No queremos ser el patio trasero de nadie”",
+      "url": "https://elpais.com/tecnologia/2026-11-07/llega-la-primera-movilizacion-europea-contra-los-centros-de-datos-no-queremos-ser-el-patio-trasero-de-nadie.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "España es uno de los 15 países en los que hay convocados este sábado diversos actos para exigir una moratoria en la construcción de estas infraestructuras"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "La salud receta un nuevo contrato social",
+      "url": "https://elpais.com/extra/eventos/2026-11-07/la-salud-receta-un-nuevo-contrato-social.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "De la medicina reactiva a la predictiva: cómo el análisis de datos en tiempo real puede transformar la atención sanitaria"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Burlas con IA, injerencias rusas y extremismo: campañas tóxicas al servicio de los algoritmos",
+      "url": "https://elpais.com/ideas/2026-11-07/burlas-con-ia-injerencias-rusas-y-extremismo-campanas-toxicas-al-servicio-de-los-algoritmos.html",
+      "fecha_utc": "2026-11-07T04:30+00:00",
+      "resumen": "Las redes sociales son un elemento clave cuando llegan unas elecciones. El grupo de WhatsApp con el que Lula organizó a sus votantes y los vídeos con inteligencia artificial que usurparon la imagen del senador James Talarico demuestran que se usan tanto para movilizar al electorado como para intentar manipular"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "‘Sherpas’ de la vanguardia digital",
+      "url": "https://elpais.com/extra/eventos/2026-11-07/un-faro-de-la-vanguardia-digital.html",
+      "fecha_utc": "2026-11-07T04:31+00:00",
+      "resumen": "En el marco del décimo aniversario de Retina, expertos analizan un periodo vertiginoso de evolución tecnológica. Entre el poder de las ‘big techs’, la pugna geopolítica entre EE UU y China, la búsqueda de soberanía estratégica en Europa y el despegue de la computación cuántica, el debate se centra en dirigir la capacidad transformadora de la inteligencia artificial hacia un progreso ético y regulado"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Fulgor, desplomes y ruinas en la IA",
+      "url": "https://elpais.com/economia/2026-11-07/fulgor-desplomes-y-ruinas-en-la-ia.html",
+      "fecha_utc": "2026-11-07T04:45+00:00",
+      "resumen": "La caída de una compañía encierra el peligro de arrastrar a otras del sector, con riesgo de propagación global"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Carlos Serrano: “La economía mexicana está en etapa de recuperación”",
+      "url": "https://elpais.com/mexico/economia/2026-11-07/carlos-serrano-la-economia-mexicana-esta-en-etapa-de-recuperacion.html",
+      "fecha_utc": "2026-11-07T09:30+00:00",
+      "resumen": "El economista en jefe de BBVA prevé que el PIB del país crezca hasta un 2,1% en 2026, impulsado por la inversión y las exportaciones, pero advierte del impacto de la inseguridad, la incertidumbre jurídica y la estrechez fiscal"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
+      "url": "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+      "fecha_utc": "2026-11-06T11:01+00:00",
+      "resumen": "Los modelos de inteligencia artificial son cada vez más capaces y se está viendo que se usan para atacar dispositivos que, hasta ahora, no estaban en el punto de mira bien por pereza o por los motivos que fueran. Esto presiona a las empresas a reforzar sus defensas, y OpenAI ha respondido con una versión especializada de su último modelo. Se llama GPT-6 Cyber y es la nueva herramienta \"crítica\" de la compañía. En corto . Hace nada lo vimos con Hugging Face y PHP. En julio de este año, un modelo…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Claude ya puede decirte en qué se te va el dinero del banco. Lo que no puede es tocar ni un euro",
+      "url": "https://www.xataka.com/robotica-e-ia/claude-puede-decirte-que-se-te-va-dinero-banco-que-no-puede-tocar-euro",
+      "fecha_utc": "2026-11-06T15:01+00:00",
+      "resumen": "Si la IA sabe de todo, y se supone que da mejores consejos que muchos humanos... ¿por qué no preguntarle cómo sacarle más ventaja a nuestro dinero? No es algo extraño, ya que las dudas monetarias son uno de los tipos de consulta habituales en los chatbots con IA (un 11 % de las consultas). Así que en Anthropic han pensado: ¿por qué no creamos una herramienta específica para Claude? El asistente personal financiero . Anthropic sigue la senda de OpenAI, que ya en mayo presentó una herramienta…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Se han evaporado 2,5 billones de dólares de la bolsa de EEUU y en el punto de mira está el estallido de las neoclouds",
+      "url": "https://www.xataka.com/empresas-y-economia/se-han-evaporado-2-5-billones-dolares-bolsa-eeuu-punto-mira-esta-estallido-neoclouds",
+      "fecha_utc": "2026-11-06T15:31+00:00",
+      "resumen": "Estos días se ha hablado bastante de las neoclouds, pero estas últimas horas, con el guantazo que se han pegado las empresas relacionadas con la IA , la conversación ha subido de tono. El motivo es que, el mismo día en el que el Nasdaq cerraba con números preocupantes, Bloomberg contó que Microsoft, uno de los principales clientes de las neoclouds, estaba empezando a perder la confianza y a revisar con lupa varios proyectos. Y el mercado, que ya estaba nervioso, ha respondido con terror. En…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "India anuncia planes para desarrollar GPU nacionales en 24 meses mientras busca dar salida comercial a sus chips RISC-V",
+      "url": "https://www.xataka.com/robotica-e-ia/india-anuncia-planes-para-desarrollar-gpu-nacionales-24-meses-busca-dar-salida-comercial-a-sus-chips-risc-v",
+      "fecha_utc": "2026-11-06T20:31+00:00",
+      "resumen": "India lleva años consolidando su posición en la industria tecnológica mundial, especialmente en el desarrollo de software y la prestación de servicios informáticos. Sin embargo, cuando miramos hacia la infraestructura que permite ejecutar los sistemas de inteligencia artificial más exigentes, encontramos una realidad diferente. El país necesita recurrir a proveedores internacionales para acceder a una parte fundamental de esa tecnología: los chips especializados en realizar cálculos de forma…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChatGPT está creciendo más en España es como buscador",
+      "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
+      "fecha_utc": "2026-11-07T09:00+00:00",
+      "resumen": "¿Tú para qué usas ChatGPT? Si me preguntas a mí, te diré que para casi todo: desde preguntarle por qué me ha salido una uña torcida a un mail en inglés rápido pasando por la generación de una imagen o que me revise un texto en busca de incongruencias gramaticales. La pregunta puede ser extensiva a otros chatbots (aunque a título personal, uso ciertos modelos para ciertas tareas concretas), pero ha sido OpenAI quien ha reflejado toda la actividad de su IA en siete áreas diferentes, no tanto para…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Lituania tiene 2,9 millones de habitantes pero compite con China fabricando láseres para chips de IA en serie",
+      "url": "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
+      "fecha_utc": "2026-11-07T13:01+00:00",
+      "resumen": "Hace unos días la empresa LITILIT inauguró en Vilna (Lituania) una fábrica de láseres de femtosegundo que, según la compañía , tiene la mayor capacidad potencial del mundo de producción de láseres de femtosegundo. Así, promete producir 1.000 láseres durante el primer año y alcanzar los 3.000 cuando esté a plena capacidad. Parece poco, pero no lo es. Lo llamativo aquí no es tanto la tecnología en sí, sino la forma de producción: hasta la fecha, la elaboración de estos equipos era casi artesanal,…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "La fiebre de la IA está creando otro problema, necesitamos toneladas de metal para poder darle electricidad",
+      "url": "https://www.xataka.com/energia/fiebre-ia-esta-creando-otro-problema-necesitamos-toneladas-metal-para-poder-darle-electricidad",
+      "fecha_utc": "2026-11-07T13:31+00:00",
+      "resumen": "Vivimos en un mundo cada vez más interdependiente. Y un buen ejemplo es el impacto que está teniendo el auge de la inteligencia artificial sobre el mercado mundial de los metales básicos. La expansión de esta tecnología, ya de por sí voraz, en un contexto tan movido como el actual, está transformando la demanda y la competencia global por algunos materiales estratégicos, como el aluminio , el cobre o el litio. Es lo que pone de manifiesto el último análisis de Wood Mackenzie sobre el panorama…"
+    }
+  ],
+  "notas_ingenieria": [
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "A $1T Anthropic IPO Would Be 3.6% Above Its May Round",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOG1KSk1YZlRWbmQ3Mm5SWnBSM0RENG5zTDNBalg2djl3Q1NmWTQtRHlyZUVJdjVVWnVRUzYxejF0cDJQbEJLeXRmUWZkd1Y1cWJnd1g3WVFSSzI4aV9HdWdFeFQ4WTQtRmk2T2FrN00xNVBDYVdqWmJ1d3ROUXlUZ0tmSV9IZw?oc=5",
+      "fecha_utc": "2026-11-06T00:36+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "FourWeekMBA",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "TDK Showcases Technologies Enabling the AI Ecosystem At electronica 2026",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHM3aktueGlVN0VLaFkwSDh4YVN4NWIwNTZKUzMwS1VmV0c5dU5BRGJ4NHBuQkpQbmE5NmxGWVhzWDVtNE9pY01vNWY1TlhlUDFqbUs3My10a0k4WlFGd3hqbHQxdWV3dVoxeGhSUlFjeDFoZktZSTdMU3lSNlMxZHZ3VG9EV0tQY2U0OG5zUGpsTXd4ZFhGZnd0MFhIRjRTVzRyTmRYMm0xQzlWTnVLNEZNS0JRUQ?oc=5",
+      "fecha_utc": "2026-11-06T05:18+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "NewswireToday",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "AI-Enabled Aircraft MRO: Why Predictive Maintenance Lead Time Matters",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fMGZzMXhVSnVnaXlSR2ozY3ZraWVaakZYVW1ZY2puRzZaaDRaTlhaeVRhWG9pWDdrb3FrU1kyMU83MnpxLWRoUWRXVE93UTdJaEZ2elJPalhvOVJSN3c?oc=5",
+      "fecha_utc": "2026-11-06T06:49+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "LTTS",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "EXL Acquires Aimpoint Digital to Scale Enterprise AI",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORkYxQUpRVURVTGZQUVQ0bGRtOXV3ZkxmalBJVUZidW9pSDc2QXBya2pPYlJvOTBtNmtyZmk0X3lNUFplMC00bUNBVHNTZlFld3JId3k1Rk1La1RGcXFDSGxRNl9zS0JabFpaUGVWYlRjTHAwN3VXSERBYl8ydWNSYThNNmZLNWE2Snc?oc=5",
+      "fecha_utc": "2026-11-06T08:48+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "varindia",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "AI In CAD Statistics By Market Size And Tools (2026)",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vMnpVeC01bXQ1VUQtQjlhS2JMU0RaTTgyenhUWXlXNDZfcG5vM3l1enNUcFdfQkJMOXBwQXhMeDhBZ1ZSQ3hPYWcteG9paEJfcEdYRE5RTjMzWnlLUmVSaUdQLUNHdU16Tmc?oc=5",
+      "fecha_utc": "2026-11-06T09:06+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Sci-Tech Today",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "UK Sovereign AI Backs Chemistry Lab’s 8-Figure Seed Round",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVZVYmNubmRoZUQ0MDI1aHB2SXdIckRFdzhoUFl2U3M1aFZEUFBlZHJYV3J3UnMyU0tWRkk2UGNSeUozbzJrbWVLMVEyajVmR0JaY1h3VUsyUHhpTk9vUFViUTMwcTQtYm9ETGtNdklIaTFKQXBQd1RHY2VmbUFiUF9TRW04RzJZY3ZmaQ?oc=5",
+      "fecha_utc": "2026-11-06T11:59+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "FourWeekMBA",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "This AI Data Center Unfolds Its Own Solar Panels",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZG9MYmFpaU9NYXQ1a0Q5cldMYlNQcl9JWmRqV0MwT29QVDJUVU1SMnpYZGRnQXpPQVZJX0h5TXVqN1dfMUVlVXVIT3RsaU5PQ3ZSRktPN3U2OUNqZnIxc09IbWhuZDFDV0EzTkIzcmhsaVhYZ2ZQeUFxZ2p2ckM0QU9abWsyNS0xQ1RuQmRDRUc5d1g0?oc=5",
+      "fecha_utc": "2026-11-06T13:17+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Interesting Engineering",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Canadian University Offers Fully-Funded Master’s and PhD Opportunities in AI Research",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVU9rbUNlUjVVSGFxQkgzOVZUakdGdTNkQTVWMmJUQkstMUhhTHUzT21BcnNwcU9QWXBpc0RFVW9ERGpXbkNJMl9rRUZGSktIQzZ6OWliV0VZRG04VkdrYmNpSTFPb1VibDQ2RGdRSlFFblVNSDdvX2tkMGRjV1pGSzF6SHBESUk3Zk90OWdKWVhlTlpTTXJCNkljZTBULVh0dXg0MWlsN3AwcGYxMEZfSmkwbDZiVGRyUS1KaNIBwgFBVV95cUxPeG04YnZSaUZsMmpvd1R1bjVLS09URGdIaFJ1TGNEZklmdXkwVUpZa012R2tFaVc0ZlMxcU9QVWZqZTV2TkgwMGk2R0h6U20wNEVaYXJvR3ZaY182ZzJCamFKOFB0RWhWU2x2aWJPeGdFOUcwcEQ1QkpnVjVFSFNJRUpkd0YycldJZ2t2bXlxSUxQVkU4SzZRRWduV2s4WmJvSUhIX043ejY0dGNHTVRzZU9CX21ONlZnNk5KRHhJbUtmUQ?oc=5",
+      "fecha_utc": "2026-11-06T13:22+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "ProPakistani",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Sparc AI Inc. (SPAI.CN) Stock Price, News, Quote & History",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSURkOTZtVkRPVWF6X1Vsb3F5Tk5abC0ySzdKa0dGSnZSNHBRYjBKd25SN01rTGJwU0dyTy1GYThNOGhvS2hkX1dsMElOR1QwTGpNMVJn?oc=5",
+      "fecha_utc": "2026-11-06T13:53+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Yahoo! Finance Canada",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "ADIPEC 2026: Extending offshore asset life in the AI era",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYks3Njd3bk92cm94TnpnOGI4RFVmTEdpclgycEt3QjBZQ3FyNVItVHpNYjN6SzdDUHhxTmVWMzByTTZQRl9ZTm9Ca0FQdzdZazA2VXZTN0lodTRKckt5NGswRWI4eTdJdzlFRlpGTTN6TFQ1Smw0dlNaOWwzWXREUG1KMjdiaU9oQXJOd3llMUU0Zk5Dc0lIU3hJYjRuelBiREtBVi10a1hMRGllcXYxMXJ0cTBCdw?oc=5",
+      "fecha_utc": "2026-11-06T19:03+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Offshore Magazine",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "OpenAI Said to Close ~$11B at $1.25T, Round May Reach $20B",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZUNWaF9BaGlxVVdIdXR1UnM0ZkxsbGZVaVJsWDBBLTJjbkVkcHdYNlBWYXRMdkozXy1fWUpVc0VUU0dkcENuVXFiRlNGdWZ1bjVLRnZ4WU5CRXBab3NFa2pibjBsaG56SzRjenVJYUVrRnpTVjdsSVlwckUzZWtJekhqSnNuTUxv?oc=5",
+      "fecha_utc": "2026-11-06T22:55+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "FourWeekMBA",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Generative Bionics to build Physical AI Data Factory",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbDVRTmtSTlQ2TFA4WXJ5cXA4bzdiNjQ4UFNLVThhajJfbXRndElzVlBxZExnOXZ4eTRYaHp4LUpldVZYdFJHcUp5TncyV0pWNDFxOUxWVktYLS1IWVlTeThrb3QwWG5KamV5bkE5MjJnS3l6WklHRk8yMWZfSFREbmY5VDVLV0otMUNmS0hUQlVwbHZUTFFz?oc=5",
+      "fecha_utc": "2026-11-06T23:06+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Data Centre Solutions",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Aborda Walter Mata el uso de la inteligencia artificial en congreso internacional en Perú",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SOG1IWjBDX1pyd1lEeUl5VW51NmZYYkhsYXVXMUhZWXBBelJZcm1ZRzUyZ2hFdEUzRG5yMDRCU2RkYzNDQzQ3eGdLSm5DQVU?oc=5",
+      "fecha_utc": "2026-11-02T18:24+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "El Comentario",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Trujillo: Google Lab de la UCV integra inteligencia artificial y juegos serios en la formación universitaria",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPekpFNWFLM2cydkVoSFFJdFhrWm9FRXRUamJ3M2o0WHI2dU5SandoMVR2RVNTeUFxV053MERmdnFUYjB1N0VHLTNteFdnNjN5TmhzMGZvUzZkSl9uc0I2REJRbXNNcjhQbWxCenVkTmYxMjFXVDNKVEl6d2stODZ3dTBBQlVoSUZocEJGSUpCOHM?oc=5",
+      "fecha_utc": "2026-11-03T20:43+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Universidad César Vallejo",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "OpenAI logra que GPT-6 y Astra diseñen un dispositivo funcional en menos de una semana",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLUFpempsdlZqbld4cVdTQXZ6d1MwdUZWZi10YXFsU2plZm1RcElMSWtpY0tnazdTa2NGcms0Vjh2SjV1ZHk5OWF0VHNQR0FDakhkZVB5NXlvSEFiZXNQaFFtQ0FzSk1uVm5wM3MzQTNGNWNKXzIxclhpZGcyaGRXdURsMXBXRll3WkdPeWM1MnRRdHlXY2R3dE1yMFJ3T2paNW1PTlE4WUpfdkM3VmpTaEtocVZuNXg1MTlWb3hwOGpmQW0xUU1uREpSdTRiY1lSZHdYcFI1WEtZUktuTC1GT1N30gHiAUFVX3lxTFAtQWl6amx2VmpuV3hxV1NBdnp3UzB1RlZmLXRhcWxTamVmbVFwSUxJa2ljS2drN1NrY0ZyazRWOHZKNXVkeTk5YXRUc1BHQUNqSGRlUHk1eW9IQWJlc1BoUW1DQXNKTW5WbnAzczNBM0Y1Y0pfMjFyWGlkZzJoZFd1RGwxcFdGWXdaR095YzUydFF0eVdjZHd0TXIwUndPalo1bU9OUThZSl92QzdWalNoS2hxVm41eDUxOVZveHA4amZBbTFRTW5ESlJ1NGJjWVJkd1hwUjVYS1lSS25MLUZPU3c?oc=5",
+      "fecha_utc": "2026-11-06T01:00+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Infobae",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Primer curso PUCP sobre \"Magnifica Humanitas\": una reflexión interdisciplinar acerca del impacto de la IA",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUlFtR0tqSzBGanRURHBIZWxsa0U0WlNUS0VpMWpsRVBCOWVoMDFVUllGNDlzdDlNeElwSE44R0dlNV9DTU5DNnB1N3dGVjEwZ2Y4eUwxTWtLQmg0OU1KSTJydVNVLXpmaGZrOWwyTWFxQTA3T3ZqZm5wQmtGOG9kZkFyallCU1ZxYlFBM18yWEh4QWl3WnBkV0FWQUhYYVV6RklEYnpnMVo0TVFxYzF3UEsteEFOcXBWZlRmbnNYbzc?oc=5",
+      "fecha_utc": "2026-11-06T06:49+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "PuntoEdu PUCP",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Oportunidades de cooperación estratégica entre Vietnam e Italia en el desarrollo de la robótica y la tecnología de inteligencia artificial.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQejd4LXRMRmZkNVNXaHNmMmpKOVlBMHUyeTF0cl82RUVFR0VUUUJ1S3o5Z2VmbVBFeWx0ampmMFpLdjlXby00MkhQSHhGTExONUxwOTY1aHlnRURHRmJoX0RERnc1TDZITFlRZTBVLVY2TFdtZk9PVXJtVmx5emgtMXk0dFlKVFB4VjBjRjU4VHFfdXhBODM2Qk9nOHJubDFsY3JXZ3NYUE4?oc=5",
+      "fecha_utc": "2026-11-06T12:44+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Vietnam.vn",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "OpenAI y GPT-6 Astra diseñan dispositivo en menos de 7 días",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ1VIRkZqNk54MzExMmo1ZGhPM2ZhV1RWZkNfYl9LWnQ2RzFYUGZNTmhIb285TFZkTDlpdHR0TGNna2tubzhLNEFUWXJ5RXMyQUYzVTNHZzNFY3lpTE5wcjJrbG9hSVNKRzY3aE9fMmlvVDh1UWV3R3l2dWNxcThBUlBrQXZ4NVdkQXc0ejRIb1lFdkJDUk5TUXNTZk41dmFfUldHLTNVNW0xcUFIYTdkYzliTUdNVmVqWWYzWmFJeEdqdWstRkpxY2x0ekRXTUZ1bi1uUw?oc=5",
+      "fecha_utc": "2026-11-06T14:26+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "ITSitio",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Dassault Systèmes advances industrial AI at 3DEXPERIENCE FORUM Vietnam 2026",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMjdVU3JKUll5SEpoYmNaUDQ5bGtZWHExQ2llSzcxR2pfVTNvaGd1YjlTN0ZxcDN5b25MaW5ncWUxT2RsZkZVaHI0cGJJQXdZQ083a2lUVkI1ampFWEM3eEpLNDM4bGt1NF9iUFowWnYxVzZxV0JJTGVUNi1QY2pQbm1pc1pUS3RyTlBUZTRDVndvam8wVlBBMHgtOHRSS2UwQ2hRWjdHWDNQZw?oc=5",
+      "fecha_utc": "2026-11-05T01:00+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Vietnam Investment Review - VIR",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "This robotics concept helps explain the jaggedness of frontier capabilities",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FSV9WNVUwTkkyNm02QndOZ0NLeGhpVk5UaFk2TFYwWnBMN1B3VlZEWEhDWmFpaVVaaDBUbFdUV01hSzRjbGRWZko4WndOR0RteVh6RHIzaU92cE50TzdKODF3eW1uUWNQR1lRdHRtQlkzUFFiQ3ZDMg?oc=5",
+      "fecha_utc": "2026-11-05T15:16+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Understanding AI | Timothy B. Lee",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Q&A: How is American manufacturing evolving with AI and robotics?",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkZuSVNDSkRjNV83c0F6YVduMjBWU0VfQ0dSTHNVd1ZqZTE4OW9LZTZ1TTFxcnM1WmdLRkhEbTRZdjc0TjBaUkQ3ZGw1cGZDV3dqRWhQVWFyWU5vSTc5SWRleVB3c0NQSS1TdFZ1Y0xZNEVjRXZzUGEtb1BWdzR3ajhJYWVBajMtdmNEZ0ppRUh3NDFRWWZVWmJn?oc=5",
+      "fecha_utc": "2026-11-05T18:40+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "The Pennsylvania State University",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "AI Under the Hood: How Technology Is Transforming the Automotive Aftermarket",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdm9QWHZ3el9YVUcwU3YxdXB2Nks2Zk5jQjJfQjJFak5ZN2s0bFFwRDg2cWh5LTVQVXpDbWFwWUhuWEFsRGJDWVBpNS1KamQ0ek80SUNsWjNUT3ZlUW00YXB0VXRjVHo5b19Vc3ByS3UyQVhidHpoVVg2c2N4YzI0b0ppNGtRZ19VVThwUUY0MjNhYm1IaUR3eGY1ZkViWGluYzJETUE3d0JycERSVDVaMUxwY9IBvgFBVV95cUxNOEZnUlpPM0h3d3dpVnltWVUtdkRJOE85dHVIUFBab0hMdURxOWZlVUN0MzI0RENqQTFyWjNLU2wzVE9LUTBNNk1wenFZQlZkVkJnRzB1S3VHZjdab0pCd1ZRaGJPRzItaHN0emhjaG4tU29ES0tBSzJNd0Jpdl9hY1VzRUkxcmtCeDZjQnF2RkM1Zk5qbFNFNzBBV2VEc01LQkpCdHdfMEgxOVpEcjlvUHFtLUZWdS1GcDkxMDd3?oc=5",
+      "fecha_utc": "2026-11-05T19:11+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "USBE and Information Technology",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "NVIDIA AI Day Puts Mexico’s AI Infrastructure in Focus",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFSb2NmTnJFQzhUZHQ2OFpoSy1fSkFkMS1OSUxtdlBidUR4N2lsb2xVbTFSVExITkd1Z1lWT1NiY2Y4ZlJfQlA5dW9XUWZVdmdsdE15emtXWER0Si11N1VSUHZKc3RGd0ZsNDU4S2N1MzJxN0FYYmdPdTlXUXp1UUZwZnVIcUNvbkdhQ3JTRTBmLTVBWXh5Sm9meGI?oc=5",
+      "fecha_utc": "2026-11-05T20:10+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Mexico Business News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Angel Robotics Replaces Two Independent Directors",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOEtDNnpqM3YzZ3JBTHQ0QVZmeFAyamtvZkk1b0FweFMydENvNmxZTFJ6UG9qZDBkS05TdndMc1huX2xoNXpYcV9PNU5RcGVlRFN4ZlRaSlhNNGJtaEpTanh3UTJqSkdxaUVGZmtWZkxaOWVwU05UTEdsLW1JSUwxZUFhMzNEQ1JOV21XbHdxVFdIcDVSOGZEMkxiSXhVcjJLY1VZ?oc=5",
+      "fecha_utc": "2026-11-06T02:44+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "TipRanks",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Sirena Technologies to Set Up Robotics Labs at Two Goa Engineering Colleges",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTFAxaTNaNzlicVl3cFVBdTJYdUJCVmFRZ2RPOHNzWjhaVGRyZWNmamFjMTVKbmc1b24yYm1wb3J0ZzR4OFNwUlpERkdyTDZVMENHcldjdXdHOE04RHV4NXVLakxHWFhJeDBEdjRpN09Tck1IUnZCbC1tNzFmSjh1RUEyTUlrdlY0cFRFejRpOHgwMy1WbWJvMXVUWm03eXBwRjMtUU5fZXAySTlRdHAwY3NwQW9EUFXSAbcBQVVfeXFMT0xQMWkzWjc5YnFZd3BVQXUyWHVCQlZhUWdkTzhzc1o4WlRkcmVjZmphYzE1Sm5nNW9uMmJtcG9ydGc0eDhTcFJaREZHckw2VTBDR3JXY3V3RzhNOER1eDV1S2pMR1hYSXgwRHY0aTdPU3JNSFJ2QmwtbTcxZko4dUVBMk1Ja3ZWNHBURXo0aTh4MDMtVm1ibzF1VFptN3lwcEYzLVFOX2VwMkk5UXRwMGNzcEFvRFBV?oc=5",
+      "fecha_utc": "2026-11-06T09:56+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "SMEStreet",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Opportunities for strategic cooperation between Vietnam and Italy in the development of robotics and AI technology.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZUNZTHpweGlON1pBX0syT0J4MEpPeUNQZ0NiYnFhQ0pYc09DVkNGV24tS2xiYUFtckUwbWFwSDY1R0RJc2F4cTVpdEJzc0ZyREkyUmppdEo4UGNld0g4Y1dpMXhpOEZrcklHeFg2N1Fja3N6RE5BLTZzMkpDN1RCS3JUNHVCaVZDVG5DNzNlVmNvLWlqaC0tZ3hSbXd3R21NY3p0RlhrVkU?oc=5",
+      "fecha_utc": "2026-11-06T11:22+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Vietnam.vn",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "AI Innovator of the Year: Abhinav Tavva",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTNwU1pOQllSSUxZVWF1R1lLSndNRi1udHhGUnc5YlAxbEo1Nm1SWFNyQ0JrX3RSY2NUNDZpaW5wZUFXSDZMemlhNGs1eTF5eVBCM3AzU0NXY3VCbi1ILS1HeVhjSlJJclpDTzRRUjBTd1ZDekphQzlranYtTGc2QlJaTEUxSVNBYWozU3lWSmwyTVVEOWRDa3hRdEVZSWtKQl9ZMTFaY1dFMTJDZHc?oc=5",
+      "fecha_utc": "2026-11-06T12:18+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Imperial College London",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Chinese humanoid robots serve, dance and play football",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTZkX0ZwU2NodGxBLVRrSV81ZjYwRTUxbjhnU0NSUDQ3emZGTE9GM0xrb0MtWVNVM1FHQU1GeGQ0ZElKY1Z4Y1ZGbFA4eTlvd1NuSEotNkV4RXN2d0pGVDlvSVRRUGRiOWNXUmxXX0ZHWC1rV2VLM2JkOHFOV3FkOVpqRjdxNkEzM3lBano0UUVrZElqc2hQZUhR?oc=5",
+      "fecha_utc": "2026-11-06T13:04+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Daily Sun",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Can Stringman Tidy Up Better Than a Toddler? Plus Halloween Robot Fun",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSZU41Yi1JNmtHTEVSa0k0a1dIRjh5UVNpdXdzTjhWQ3hHSkltVzJEZ1U5aDlXaHNYaXo1OEROekJ4NDlLYnVYOXlIR0x3UVNNeVNVaUY2eEdvYTlLMVFJY1RkbWEzdw?oc=5",
+      "fecha_utc": "2026-11-06T17:01+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "IEEE Spectrum",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Best of the London Design Awards: Airwheel Smart 20inch rideable hand Ai wheel Carry On Electric Luxury Cabin Suitcase",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR1ZZT3Vtd2hDUVp2eW1leEdmOFEwcUhiNi1Wb3FZLVdhRlB4eWRJdFhYQVBQVTRFM2ttX1ZhOUVaQUpaNlBIQU1qVE1VaTZKejEwbVdvZ1Vmc0ZCQTNaX0xLQmJHYk5SckpXMW00R3R4YVBlOXpVejhPNzVYekZiUmdVLWNPamdpY1lVOEpDTVlZVlY2bGZ5QTBUSmlma3lGYjN5eDhacjE3VWJMZmVaYXI4ZHRqYno1YkJqN0I2VnN6ZDNvRnpHVm1uaUxTTE1kUl81WHRsTGszZUl5WVVMMGRwcXN6aVZHcV94aTZ0MHE?oc=5",
+      "fecha_utc": "2026-11-07T14:28+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "EIN News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "IEEE Spectrum",
+      "nivel": "medio",
+      "titulo": "IEEE Program Schools Preuniversity Educators On Tech Topics",
+      "url": "https://spectrum.ieee.org/ieee-preuniversity",
+      "fecha_utc": "2026-11-05T19:00+00:00",
+      "resumen": "Now in their third year, the IEEE TryEngineering educator sessions continue to empower preuniversity teachers with specialized professional development programs on engineering topics and classroom-tested lessons. This year’s sessions, held across the United States, have focused on educating teachers about artificial intelligence and semiconductor technology. One session was held in Egypt. In all, 54 educators learned about the engineering design process this year. They received an overview of…",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "Manufacturing Dive",
+      "nivel": "medio",
+      "titulo": "Marvell agrees to buy Lumentum in $115B stock deal",
+      "url": "https://www.manufacturingdive.com/news/marvell-lumentum-115b-stock-deal-ai-data-centers/873783/",
+      "fecha_utc": "2026-11-05T16:09+00:00",
+      "resumen": "The deal brings together \"complementary electrical and optical technologies\" needed for connectivity in artificial intelligence infrastructure, Marvell said in a news release.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TCT Magazine",
+      "nivel": "medio",
+      "titulo": "Kingston University installs Zeus Robotic Cell & strikes partnership with Rapid Fusion",
+      "url": "https://www.tctmagazine.com/kingston-university-installs-zeus-robotic-cell-strikes-partnership-with-rapid-fusion/",
+      "fecha_utc": "2026-11-05T14:21+00:00",
+      "resumen": "In addition to the installation, Rapid Fusion has also made a long-term commitment to offer work placements, potential Knowledge Transfer Partnership (KTP) opportunities, and input into the future curriculum.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore IA",
+      "nivel": "medio",
+      "titulo": "Chimney or squirrel? Clearing up a robot's fuzzy memory by comparing images from different angles",
+      "url": "https://techxplore.com/news/2026-11-chimney-squirrel-robot-fuzzy-memory.html",
+      "fecha_utc": "2026-11-05T14:00+00:00",
+      "resumen": "In an emergency, a human might someday ask a robotic assistant to fetch a wall-mounted defibrillator located down the hall. But if the robot has incorrectly labeled the defibrillator as a fire extinguisher in its stored memory, it may not know where to find the lifesaving device.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore IA",
+      "nivel": "medio",
+      "titulo": "AI helps find better recipes for 3D-printing titanium parts",
+      "url": "https://techxplore.com/news/2026-11-ai-recipes-3d-titanium.html",
+      "fecha_utc": "2026-11-06T11:20+00:00",
+      "resumen": "Engineers can 3D-print high-performance titanium parts for aircraft, medical implants and advanced machinery, but finding the right printing settings can still require costly and time-consuming trial and error. A new study shows how artificial intelligence could help narrow that search before production testing begins.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore Ingeniería",
+      "nivel": "medio",
+      "titulo": "New 3D framework models stress inside metal about six times faster in initial test",
+      "url": "https://techxplore.com/news/2026-11-3d-framework-stress-metal-faster.html",
+      "fecha_utc": "2026-11-04T22:00+00:00",
+      "resumen": "A hole in a vehicle axle or a groove in an aircraft or machine part might seem insignificant. But when subjected to repeated forces, these small features can become high-stress points where damage develops and cracks form.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore Ingeniería",
+      "nivel": "medio",
+      "titulo": "Harnessing atomic structure to advance next-generation memory storage",
+      "url": "https://techxplore.com/news/2026-11-harnessing-atomic-advance-generation-memory.html",
+      "fecha_utc": "2026-11-06T16:40+00:00",
+      "resumen": "The growth of artificial intelligence has increased demand for more efficient data storage. Instead of adding bulk to satiate this appetite, researchers at Washington University in St. Louis are working to increase memory capacity by manipulating materials' characteristics at the atomic level.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Robotics Startup Radar 2026",
+      "url": "https://www.therobotreport.com/robotics-startup-radar-2026/",
+      "fecha_utc": "2026-11-04T16:08+00:00",
+      "resumen": "The 2026 Startup Radar presents innovative young companies developing hardware, software, and business models for the next generation of commercial robotics. The post Robotics Startup Radar 2026 appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Agility Robotics begins trading on Nasdaq",
+      "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+      "fecha_utc": "2026-11-05T14:46+00:00",
+      "resumen": "Agility Robotics becomes the first U.S.-based legged humanoid company to be publicly listed. The post Agility Robotics begins trading on Nasdaq appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
+      "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+      "fecha_utc": "2026-11-05T16:25+00:00",
+      "resumen": "Chinese authorities blocked the deal over concerns about robot data being transferred overseas and used to train AI models. The post Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "How Ambi Robotics helps its customers prepare for peak season",
+      "url": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
+      "fecha_utc": "2026-11-05T16:50+00:00",
+      "resumen": "Ambi Robotics' co-founder and COO Stephen McKinley says the company is installing eight new systems at customer sites before peak season. The post How Ambi Robotics helps its customers prepare for peak season appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "How did Agility Robotics perform on its first day on the stock market?",
+      "url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+      "fecha_utc": "2026-11-05T22:48+00:00",
+      "resumen": "Humanoid developer Agility Robotics ended its first day of trading on the Nasdaq just 2% above where it started, at $11.49. The post How did Agility Robotics perform on its first day on the stock market? appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+      "url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+      "fecha_utc": "2026-11-06T20:41+00:00",
+      "resumen": "China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts. The post Industry experts discuss China blocking SoftBank acquisition of ABB Robotics appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+      "url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+      "fecha_utc": "2026-11-06T21:34+00:00",
+      "resumen": "Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years. The post Boston Dynamics built Stretch Gen 2 for reliable, consistent performance appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "How Point One turned GPS accuracy into a robotics platform",
+      "url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
+      "fecha_utc": "2026-11-06T21:47+00:00",
+      "resumen": "Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments. The post How Point One turned GPS accuracy into a robotics platform appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Robot integration brings high-precision production to midmarket manufacturers",
+      "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+      "fecha_utc": "2026-11-07T13:32+00:00",
+      "resumen": "Properly integrated industrial and collaborative robots can help midmarket manufacturers, according to a columnist. The post Robot integration brings high-precision production to midmarket manufacturers appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "What MCP could mean for infrastructure AI",
+      "url": "https://www.engineering.com/what-mcp-could-mean-for-infrastructure-ai/",
+      "fecha_utc": "2026-11-05T18:12+00:00",
+      "resumen": "Bentley’s latest AI efforts are about connecting large language models to years of engineering know-how. The post What MCP could mean for infrastructure AI appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Arrowfly’s AI Engineering Board turns big questions into practical direction",
+      "url": "https://www.engineering.com/arrowflys-ai-engineering-board-turns-big-questions-into-practical-direction/",
+      "fecha_utc": "2026-11-05T20:58+00:00",
+      "resumen": "At its inaugural meeting, the Arrowfly AI Engineering Industry Board connected perspectives across engineering, manufacturing, healthcare and research to explore what it takes to turn AI’s potential into measurable value. The post Arrowfly’s AI Engineering Board turns big questions into practical direction appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Siemens automates component model extraction for NVH",
+      "url": "https://www.engineering.com/siemens-automates-component-model-extraction-for-nvh/",
+      "fecha_utc": "2026-11-06T11:55+00:00",
+      "resumen": "The solution uses test benches and software to reduce FRF measurement time and improve repeatability across component variants. The post Siemens automates component model extraction for NVH appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Mouser offers Advantech MIC-743-AT AI inference system",
+      "url": "https://www.engineering.com/mouser-offers-advantech-mic-743-at-ai-inference-system/",
+      "fecha_utc": "2026-11-06T12:14+00:00",
+      "resumen": "Powered by NVIDIA Jetson Thor modules, the system delivers up to 2,070 TFLOPS for robotics and industrial AI applications. The post Mouser offers Advantech MIC-743-AT AI inference system appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Honeywell and RWS advance AI-powered cooling optimization",
+      "url": "https://www.engineering.com/honeywell-and-rws-advance-ai-powered-cooling-optimization/",
+      "fecha_utc": "2026-11-06T12:32+00:00",
+      "resumen": "Honeywell Technologies and Resorts World Sentosa announced a strategic co-innovation initiative that will make RWS the first tourism destination in Singapore to adopt predictive optimization technologies for district cooling. The technology is significant because cooling is one of the largest, most costly and complex energy needs for major resorts; and anticipating demand and coordinating equipment […] The post Honeywell and RWS advance AI-powered cooling optimization appeared first on…",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "3DPrint.com",
+      "nivel": "especialista",
+      "titulo": "3D Printing News Briefs, November 7, 2026: Repair, Acquisition, 3D Models, AI, & More",
+      "url": "https://3dprint.com/336334/3d-printing-news-briefs-11-7-2026/",
+      "fecha_utc": "2026-11-07T13:30+00:00",
+      "resumen": "We’re starting off this weekend’s 3D Printing News Briefs with military news, then on to business and compliance. We’ll end with a 3D model partnership. Read on for all the...",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "Engineers Rule",
+      "nivel": "especialista",
+      "titulo": "Mastering Skeletons (not the scary kind!) & Space Claims in Large Assemblies",
+      "url": "https://www.engineersrule.com/mastering-skeletons-not-the-scary-kind-space-claims-in-large-assemblies/",
+      "fecha_utc": "2026-11-04T16:09+00:00",
+      "resumen": "The use of skeletons (layout models) and space claims (envelopes) sits at the heart of advanced top-down design in SOLIDWORKS, yet it remains one of the most glaring omissions in traditional engineering curricula. The Educational Gap: Why Students Miss This Skill Most university CAD courses teach software through a bottom-up, feature-centric lens. Students learn how […]",
+      "seccion": "ingenieria"
+    }
+  ],
+  "errores": [
+    {
+      "fuente": "Import AI (Jack Clark)",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}
