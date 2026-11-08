@@ -1,0 +1,142 @@
+{
+  "fecha": "2026-11-08",
+  "intro": "Un informe independiente dice que Anthropic mejora sus modelos al doble de velocidad que hace un año, en buena parte gracias a la propia IA. Además: dudas sobre la independencia del organismo de EE. UU. que evalúa la IA y claves filtradas por Claude Code.",
+  "noticias": [
+    {
+      "titulo": "Informe independiente: Anthropic mejora sus modelos el doble de rápido que hace un año, en buena parte gracias a la IA",
+      "titulo_corto": "Anthropic acelera con IA",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Publicado el 5 de noviembre: METR, un grupo sin fines de lucro que evalúa riesgos de la IA, trabajó 11 semanas dentro de Anthropic y concluyó que sus modelos avanzan a un ritmo cercano al doble que hace un año, probablemente porque usa IA para crear IA.",
+      "detalle": [
+        "METR (Model Evaluation and Threat Research), una organización sin fines de lucro de Berkeley que se financia con donaciones, publicó el jueves 5 de noviembre su revisión del capítulo sobre \"riesgos de la investigación automatizada\" del informe de riesgos que Anthropic presentó en agosto. Según contó AP, Anthropic le dio acceso a datos internos y le permitió entrevistar a su personal durante unas 11 semanas, de mediados de agosto a fines de octubre.",
+        "La conclusión central: el ritmo de mejora de los modelos de Anthropic se aceleró a cerca del doble. Las estimaciones de METR van de 1,3 a 2,8 veces según cómo se mida, y con las cifras del informe privado de la empresa calculó alrededor de 1,97. METR dice que el informe público, que hablaba de \"menos del doble\", subestima la aceleración. Descartó con confianza que la causa sea simplemente más poder de cómputo para entrenar: su mejor hipótesis es que la IA está ayudando a mejorar la IA.",
+        "Hay límites importantes. METR aclara que la IA todavía no hace aportes totalmente autónomos en las partes más importantes del entrenamiento, aunque investigadores de Anthropic le hablaron de \"señales de vida\" en esa dirección. Además, Anthropic tachó buena parte de las cifras, lo que impide revisarlas desde afuera. El cofundador Sam McCandlish escribió que coincide con muchas conclusiones, pero que publicar qué impulsa la aceleración le daría una hoja de ruta a la competencia."
+      ],
+      "por_que_importa": "Que la IA ayude a construir IA más potente es justo el escenario que más preocupa a los expertos en seguridad: si se confirma, los avances podrían llegar más rápido de lo que la sociedad y los reguladores alcanzan a procesar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "METR", "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/", "tipo": "oficial"},
+        {"nombre": "AP (vía Click2Houston)", "url": "https://www.click2houston.com/business/2026/11/05/anthropic-is-rapidly-accelerating-ai-development-amid-slowdown-calls-outside-research-group-says/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según AP, el personal del organismo de EE. UU. que evalúa la seguridad de la IA ahora le reporta a la Casa Blanca",
+      "titulo_corto": "EE. UU.: evaluador de IA",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "Según AP, que cita a dos exfuncionarios, al personal del centro del gobierno de EE. UU. que prueba modelos de IA le pidieron reportar de manera informal a una oficina de la Casa Blanca. Críticos temen que eso le quite independencia.",
+      "detalle": [
+        "La agencia AP publicó el 8 de noviembre que los empleados del CAISSI (el centro de estándares e innovación para la \"superinteligencia\", antes llamado Centro de Estándares e Innovación en IA), una división del Departamento de Comercio, recibieron hace poco el pedido de reportar informalmente a una oficina de la Casa Blanca. El dato viene de dos exfuncionarios que hablaron en forma anónima; AP no pudo identificar qué oficina es y la Casa Blanca no respondió preguntas concretas.",
+        "El centro viene golpeado: en abril su director fue contratado y despedido en pocos días, su reemplazante renunció a los pocos meses y hoy lo dirige de forma interina el jefe del instituto del que depende. Además dejó de publicar sus investigaciones y tiene un presupuesto de unos US$10 millones por año, cerca de un octavo del de su par británico.",
+        "Los críticos temen que la Casa Blanca pueda politizar las decisiones o suavizar resultados en favor de la industria; otros creen que estar más cerca del poder podría darle más peso y fondos. En su respuesta, la Casa Blanca destacó la creación de la \"Super Intelligence Force\", un grupo encabezado por el director de Inteligencia Nacional, Jay Clayton, para coordinar la política de IA."
+      ],
+      "por_que_importa": "Este organismo es el que prueba los modelos más avanzados antes de que lleguen al público. Si pierde independencia, en EE. UU. el control de seguridad de la IA queda casi solo en manos de las propias empresas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía WRAL)", "url": "https://www.wral.com/news/ap/d3318-staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "El New York Times encontró una oficina vacía detrás de una empresa china autorizada a manejar chips de Nvidia",
+      "titulo_corto": "Nvidia y una oficina vacía",
+      "categoria": "Hardware",
+      "veracidad": "sin_confirmar",
+      "breve": "Según The New York Times, New Matrix, una de las empresas chinas que EE. UU. habilitó para manejar los chips H200 de Nvidia, tiene su oficina vacía. El mismo diario reveló un memo de inteligencia sobre un intento chino de espiar al CEO de Nvidia.",
+      "detalle": [
+        "The New York Times informó que New Matrix, una empresa china que figura en la lista de compañías autorizadas por el Departamento de Comercio de EE. UU. para recibir los chips H200 de Nvidia (aceleradores muy potentes para entrenar y usar IA), tiene en la dirección declarada solo \"un cascarón gris y hueco\". Según el diario, hay dudas de que pueda ser una fachada de un fondo de inversión chino que está en la lista negra de EE. UU. The Verge y TechCrunch repitieron la investigación.",
+        "El caso alimenta las críticas de que ni el gobierno ni Nvidia revisan bien a quién le venden. Desde este año EE. UU. permite vender los H200 a algunas empresas chinas con licencia, una decisión polémica porque esos chips pueden fortalecer a la IA de China.",
+        "En otra nota del 6 de noviembre, el mismo diario reveló un memo de inteligencia estadounidense según el cual el Ministerio de Seguridad del Estado de China reclutó a una ejecutiva de Megaspeed, una empresa de Singapur, para espiar al CEO de Nvidia, Jensen Huang. Nvidia dijo que el trato de Huang con ella no fue inusual y que la empresa no comparte información clasificada con sus clientes. Son afirmaciones de un memo que no se publicó."
+      ],
+      "por_que_importa": "Los chips son la materia prima de la IA y la pelea entre EE. UU. y China pasa por quién los consigue. Si los controles tienen agujeros así, las restricciones a la exportación pierden sentido.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Investigadores encontraron contraseñas y claves expuestas en GitHub por una opción de Claude Code",
+      "titulo_corto": "Claude Code filtró claves",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según la empresa de seguridad Apiiro, la opción \"Sí, y no volver a preguntar\" de Claude Code guarda los comandos aprobados tal cual en un archivo, y eso dejó contraseñas y claves visibles en más de mil repositorios públicos de GitHub.",
+      "detalle": [
+        "Claude Code, la herramienta de Anthropic para programar con IA desde la terminal, pide permiso antes de ejecutar ciertos comandos. Si el usuario elige \"Sí, y no volver a preguntar\", el comando aprobado se guarda textual en un archivo de configuración del proyecto (.claude/settings.local.json). El problema: si ese comando incluía una contraseña o una clave de acceso, queda escrita en texto plano.",
+        "Apiiro, una empresa de seguridad informática, revisó 104.185 copias de ese archivo en repositorios públicos de GitHub y encontró 1.122 con al menos un secreto: 1.379 claves distintas, entre ellas 379 contraseñas de bases de datos, 43 accesos SSH y 23 claves de Amazon Web Services. Sumando historiales y otros archivos, el total llega a 2.539 secretos en 1.994 repositorios. No probaron si siguen funcionando, aunque una empresa avisada confirmó que la suya estaba activa.",
+        "Según The Hacker News, que publicó el caso el 7 de noviembre, Anthropic no respondió y reportes anteriores sobre el tema habían sido cerrados de forma automática. La recomendación es cambiar cualquier clave que haya pasado por ese archivo, sacarlo del control de versiones y no escribir contraseñas directamente en los comandos."
+      ],
+      "por_que_importa": "Las herramientas que actúan solas en tu computadora también pueden guardar datos sensibles donde no esperás. Si usás agentes de IA para programar, conviene revisar qué archivos suben a internet.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Hacker News", "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Reuters: las grandes organizaciones ambientales usan IA aunque critican el impacto de los centros de datos",
+      "titulo_corto": "Ecologistas y la IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "sin_confirmar",
+      "breve": "Reuters consultó a 15 grandes organizaciones ambientales y de conservación: todas usan IA y todas dicen estar preocupadas por el consumo de energía y agua de los centros de datos que la hacen funcionar.",
+      "detalle": [
+        "La agencia Reuters entrevistó a 15 organizaciones ambientales, de conservación y de desarrollo, entre ellas Conservation International, The Nature Conservancy, Greenpeace, el Instituto Jane Goodall y BirdLife International. Todas contaron que usan IA de alguna forma y todas expresaron preocupación por el impacto ambiental de los centros de datos.",
+        "Los usos son concretos. Save the Elephants tenía unas 200.000 fotos aéreas que a nueve personas les llevó nueve meses revisar a mano; hoy un modelo de IA hace un análisis así en horas, y la comparación mostró que los conteos humanos se perdían un tercio de los elefantes. El Instituto Jane Goodall estima que digitalizar sus notas de campo sobre chimpancés llevará unos dos años con IA, en vez de 13 a 15.",
+        "Del otro lado, Reuters recuerda que la Agencia Internacional de Energía proyecta que los centros de datos consumirán unos 945 teravatios-hora por año en 2030, el doble que hoy y más o menos lo que usa Japón. Greenpeace se pregunta si hace falta construir todos esos centros, y Turquía, sede de la cumbre climática COP31, planea proponer un compromiso sobre desarrollo sostenible de la IA."
+      ],
+      "por_que_importa": "Muestra la tensión de fondo con la IA: es una herramienta útil incluso para quienes cuidan el ambiente, pero su infraestructura tiene un costo energético que ya genera rechazo social.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Star)", "url": "https://www.thestar.com.my/tech/tech-news/2026/11/07/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: ABB confirmó que China prohibió la venta de su negocio de robots en ese país a SoftBank",
+      "titulo_corto": "Actualización: ABB y China",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Confirmado el 5 de noviembre: ABB informó que el organismo chino que revisa inversiones extranjeras prohibió que SoftBank compre su negocio de robótica en China, una parte clave de la operación de unos US$5.400 millones.",
+      "detalle": [
+        "Lo que el jueves era un reporte del Financial Times ahora es oficial: ABB, la empresa suiza de ingeniería, confirmó que SoftBank le comunicó que la Oficina del Mecanismo de Trabajo para la Revisión de Seguridad de Inversiones Extranjeras de China prohibió la compra del negocio de robótica de ABB en ese país. La operación completa, acordada en octubre de 2025, tenía un valor de empresa de unos US$5.375 millones.",
+        "China es el mayor mercado de esa división: más del 90% de los robots para clientes chinos se fabrican allí, incluida una planta en Shanghái que ABB abrió en 2022 con una inversión de US$150 millones. Según el Financial Times, a las autoridades les preocupaba que los datos de producción de los robots salieran del país y se usaran para entrenar modelos de IA. La Comisión Europea ya había aprobado la venta.",
+        "ABB y SoftBank dicen que siguen \"en diálogo estrecho\" y trabajando \"de forma constructiva\" en la operación, pero no explicaron si el resto de la compra puede cerrarse sin la parte china ni si SoftBank volverá a pedir la aprobación."
+      ],
+      "por_que_importa": "Muestra que los datos que generan las máquinas en las fábricas ya se tratan como un recurso estratégico, como la energía o los minerales, y que eso puede frenar operaciones industriales enteras.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "SWI swissinfo.ch", "url": "https://www.swissinfo.ch/eng/swiss-industry/china-blocks-abbs-sale-of-its-robotics-division-to-softbank/92331115", "tipo": "medio"},
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Boston Dynamics presenta Stretch Gen 2, un robot que descarga camiones con visión artificial y menos fallas",
+      "titulo_corto": "Stretch Gen 2",
+      "categoria": "Robótica",
+      "veracidad": "confirmada",
+      "breve": "Presentado esta semana: la segunda versión de Stretch, el robot de Boston Dynamics que descarga cajas de camiones, llega a 1.000 cajas por hora, tiene 81% menos cables internos y usa un sistema de visión preentrenado que mejora con actualizaciones.",
+      "detalle": [
+        "Boston Dynamics presentó Stretch Gen 2, la segunda generación de su robot móvil para descargar contenedores y camiones en depósitos. Puede mover hasta 1.000 cajas por hora (el ritmo real depende del peso y de cuán ordenadas estén) y su ventosa tiene una válvula y un sensor por cada copa, lo que le permite levantar varias cajas en un solo movimiento del brazo y ahorrar energía en la bomba de vacío.",
+        "El rediseño apunta a la confiabilidad, a partir de más de 100.000 horas de uso real: eliminaron el 81% del cableado interno (unos 800 metros de cable), una fuente típica de fallas eléctricas intermitentes, y usaron conectores de calidad automotriz que aguantan vibraciones, con ayuda de Hyundai. Las articulaciones ahora giran sin tope, y cambiar un módulo de tracción completo lleva una hora en lugar de hasta un día. La batería dura dos turnos y se carga al 90% en unos 75 minutos.",
+        "La IA está en la percepción: un sistema de visión preentrenado reconoce la mayoría de las cajas sin programarlo para cada cliente, y las actualizaciones de software, que llegan en promedio una vez por mes, mejoran la detección, la planificación de movimientos y la elección de qué caja tomar en toda la flota. Según The Robot Report, la última actualización subió 24% la velocidad de descarga en los robots ya instalados."
+      ],
+      "por_que_importa": "Es un buen caso de estudio de diseño para mantenibilidad: menos cables, conectores robustos y módulos fáciles de cambiar, combinados con IA que mejora el rendimiento por software sin tocar la mecánica.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/", "tipo": "medio"},
+        {"nombre": "engineering.com", "url": "https://www.engineering.com/boston-dynamics-unveils-upgraded-stretch-gen-2-robot/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "El crudo del día no estaba a las 6:40 ni después de git pull; se generó con scripts/recolectar.py (1 error: feed de Microsoft con HTTP 503; 0 videos de Jon) y no se commitea. El feed de YouTube de Jon, abierto a mano, solo trae cortos (último del 6 de noviembre), sin video NOTICIAS IA nuevo: no hay sección de Jon. METR se verificó en su propio blog y en la nota de AP (vía Click2Houston); The Verge se usó solo con el texto de su feed. CAISSI se apoya solo en AP (fuentes anónimas), por eso va sin_confirmar. Lo de Nvidia/New Matrix y el memo de espionaje es investigación del New York Times relevada por TechCrunch (leída) y The Verge (feed); se omitió a propósito la afirmación del memo sobre la vida personal de Huang. Claude Code: solo The Hacker News (no se pudo abrir el blog de Apiiro, 403). Reuters sobre ONG ambientales: leída vía The Star. SoftBank-ABB: la parte de que estudian separar el negocio chino (Bloomberg vía Reuters) no se pudo leer en una fuente original, así que no se incluyó. Stretch Gen 2: la fecha exacta de presentación no se confirmó en una fuente leída (The Robot Report dice 'esta semana'). Quedaron afuera: Marvell-Lumentum (2 de noviembre, viejo), informe de uso de ChatGPT de OpenAI (de agosto), Wood Mackenzie sobre metales (22 de octubre), Audi con humanoides (21 de octubre), Siemens NVH (sin IA), Honeywell refrigeración (sin datos), DeepSeek V5 en chips Huawei (una sola fuente indirecta del 3 de noviembre), demanda de Elvis/Eminem contra Suno (no se pudo verificar; lo que aparece es una demanda contra Anthropic de octubre), cierre de AI Frontiers en Microsoft Research (blog personal de John Langford) y la visita del Papa a Uruguay (solo titular de El País). No se encontraron textos con instrucciones sospechosas."
+}
