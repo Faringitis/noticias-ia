@@ -1,0 +1,1129 @@
+{
+  "fecha": "2026-11-09",
+  "generado": "2026-11-09T16:43-03:00",
+  "ventana_horas": 30,
+  "jon_videos": [
+    {
+      "id": "nO-j7px_4BY",
+      "titulo": "NOTICIAS IA: El terremoto político en USA que amenaza el futuro de la IA",
+      "url": "https://www.youtube.com/watch?v=nO-j7px_4BY",
+      "publicado_utc": "2026-11-09T19:00+00:00",
+      "es_noticias": true,
+      "ya_cubierto": false,
+      "minutos": [
+        {
+          "segundo": 0,
+          "marca": "00:00",
+          "tema": "Introducción"
+        },
+        {
+          "segundo": 21,
+          "marca": "00:21",
+          "tema": "Terremoto político en EE. UU.: Trump y la IA"
+        },
+        {
+          "segundo": 190,
+          "marca": "03:10",
+          "tema": "Los demócratas quieren frenar la IA"
+        },
+        {
+          "segundo": 334,
+          "marca": "05:34",
+          "tema": "Polémica por los centros de datos en España"
+        },
+        {
+          "segundo": 835,
+          "marca": "13:55",
+          "tema": "Una ciudad de EE. UU. prohíbe la superinteligencia"
+        },
+        {
+          "segundo": 1050,
+          "marca": "17:30",
+          "tema": "Hostinger: crea tu web con IA"
+        },
+        {
+          "segundo": 1163,
+          "marca": "19:23",
+          "tema": "España alerta sobre ciberseguridad"
+        },
+        {
+          "segundo": 1411,
+          "marca": "23:31",
+          "tema": "OpenAI presenta GPT-6 Cyber"
+        },
+        {
+          "segundo": 1491,
+          "marca": "24:51",
+          "tema": "Delaware plantea empresas creadas por IA"
+        },
+        {
+          "segundo": 1585,
+          "marca": "26:25",
+          "tema": "Musk elimina límites de Grokbot"
+        },
+        {
+          "segundo": 1707,
+          "marca": "28:27",
+          "tema": "Google presiona a los colegios para usar IA"
+        },
+        {
+          "segundo": 1830,
+          "marca": "30:30",
+          "tema": "Apple recorta gasto en IA: ¿burbuja?"
+        },
+        {
+          "segundo": 1985,
+          "marca": "33:05",
+          "tema": "Shinkei: la IA revoluciona la pesca"
+        }
+      ],
+      "links_fuentes": [
+        {
+          "texto": "Elecciones de medio mandato",
+          "url": "https://www.bbc.com/news/articles/cmr4y92rgd9po"
+        },
+        {
+          "texto": "Senador advierte sobre IA",
+          "url": "https://x.com/clashreport/status/2118051741031678009"
+        },
+        {
+          "texto": "Abdul El-Sayed propone parar IA",
+          "url": "https://x.com/linasbeliunas/status/2117981316230578665"
+        },
+        {
+          "texto": "Sanders propone una moratoria",
+          "url": "https://x.com/The_Tradesman1/status/2118920192927662392"
+        },
+        {
+          "texto": "Protestas en Zaragoza",
+          "url": "https://www.eldiario.es/aragon/economia/rechazo-centros-datos-colapsa-zaragoza-no-generan-empleo-no-pagan-impuestos-quedan-recursos_1_13646599.html"
+        },
+        {
+          "texto": "Empleo en data centers",
+          "url": "https://dcgeeks.com/jobs-data-center-create/"
+        },
+        {
+          "texto": "Agua en data centers",
+          "url": "https://www.fwpcoa.org/content.aspx?page_id=5&club_id=859275&item_id=130961"
+        },
+        {
+          "texto": "Consumo equivalente a restaurantes",
+          "url": "https://www.pcmag.com/news/microsoft-ceo-new-data-centers-use-the-same-amount-of-water-as-a-restaurant"
+        },
+        {
+          "texto": "Exención fiscal para datacenters",
+          "url": "https://masllp.com/tax-holiday-for-data-centres-in-india-till-2047-explained/"
+        },
+        {
+          "texto": "Ciberespacio español alerta",
+          "url": "https://efe.com/espana/2026-11-04/mando-ciberespacio-preparacion-peor-escenario-posible/"
+        },
+        {
+          "texto": "OpenAI lanza modelo ciberseguridad",
+          "url": "https://openai.com/es-ES/index/introducing-gpt-6-cyber/"
+        },
+        {
+          "texto": "Delaware permitirá empresas IA",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+        },
+        {
+          "texto": "GrokBOT reduce uso disponible",
+          "url": "https://x.com/elonmusk/status/2116992258520064397?s=48"
+        },
+        {
+          "texto": "Google condiciona búsquedas escolares",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+        },
+        {
+          "texto": "Apple recorta presupuesto IA",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+        },
+        {
+          "texto": "IA para sacrificar peces",
+          "url": "https://shinkei.systems/"
+        },
+        {
+          "texto": "IA para sacrificar peces",
+          "url": "https://youtu.be/5gVIWKDNw88?t=539"
+        }
+      ],
+      "resumen_plaud_url": "https://www.jonhernandez.education/noticias-ia/centros-datos-ia-elecciones-eeuu/",
+      "copete": "¡Buenas a todos! Semana superimportante en la política de Estados Unidos por cómo afectará a la IA. Sabéis que creo que hay que regularla, pero pararla no es el camino; además, no construir centros de datos es dispararse en el pie. Mientras tanto, los ataques de ciberseguridad están liándola parda. Ojo también a Delaware, que propone permitir empresas dirigidas por IA sin humanos. ¡Esto y mucho más en el vídeo de hoy!"
+    }
+  ],
+  "notas": [
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "fecha_utc": "2026-11-09T18:58+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "Claude can design electronic prototypes from start to finish",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5",
+      "fecha_utc": "2026-11-09T18:58+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Anthropic",
+      "nivel": "oficial",
+      "titulo": "- Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KRGtydS1HeXl6RnFVVXllZTdpei1xaGkyNVBuV1hXNHpXQW1uLVk3ZGpjeEpSWDFFdXRvb2dweFd4TTVqQWlUWVVmOXhWWE1QS0JPeWFQajg4UEJEN1J4SF9VTmNTVkEyZDJOVg?oc=5",
+      "fecha_utc": "2026-11-09T18:59+00:00",
+      "resumen": "",
+      "medio": "Anthropic",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Hugging Face",
+      "nivel": "oficial",
+      "titulo": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "fecha_utc": "2026-11-09T12:34+00:00",
+      "resumen": ""
+    },
+    {
+      "fuente": "Hugging Face",
+      "nivel": "oficial",
+      "titulo": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "fecha_utc": "2026-11-09T15:05+00:00",
+      "resumen": ""
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "fecha_utc": "2026-11-09T05:00+00:00",
+      "resumen": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With […]"
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "fecha_utc": "2026-11-09T05:00+00:00",
+      "resumen": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]"
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "fecha_utc": "2026-11-09T05:00+00:00",
+      "resumen": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes […]"
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "fecha_utc": "2026-11-09T05:00+00:00",
+      "resumen": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing […]"
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "fecha_utc": "2026-11-09T08:00+00:00",
+      "resumen": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with […]"
+    },
+    {
+      "fuente": "NVIDIA",
+      "nivel": "oficial",
+      "titulo": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "fecha_utc": "2026-11-09T14:00+00:00",
+      "resumen": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in […]"
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "fecha_utc": "2026-11-09T08:00+00:00",
+      "resumen": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
+    },
+    {
+      "fuente": "OpenAI",
+      "nivel": "oficial",
+      "titulo": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "fecha_utc": "2026-11-09T19:00+00:00",
+      "resumen": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "fecha_utc": "2026-11-09T15:23+00:00",
+      "resumen": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair."
+    },
+    {
+      "fuente": "Ars Technica",
+      "nivel": "medio",
+      "titulo": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "fecha_utc": "2026-11-09T17:24+00:00",
+      "resumen": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared."
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "fecha_utc": "2026-11-09T13:00+00:00",
+      "resumen": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…"
+    },
+    {
+      "fuente": "MIT Technology Review",
+      "nivel": "medio",
+      "titulo": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "fecha_utc": "2026-11-09T17:05+00:00",
+      "resumen": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…"
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
+      "fecha_utc": "2026-11-08T15:12+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "RBA's Hunter says AI has yet to deliver productivity boost, trigger job losses",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNW9UVDViMV80RXpjYmswQ1lNQ0pMVG02UDEwcUVINjZRNTI5R2cydUxFYm9nMEI2YVUtNm5KT2xzdUwyNW93cGpldzBudzJkSWU0dEg2NU5LN1UyVW9tVW0zbDJ6Z0JmVl84UVc5ZEdBakZUcGhDMjNFX1ZhX2JfM0NIanRJM0tuYnVSZHZrTU5lSVNSSVZJZVdmZjRIclNic2UyYjZacE40cUxWMnJVeFg5RGNlUkdxSGRPVnBDdUZhV3UtT2hZ?oc=5",
+      "fecha_utc": "2026-11-08T22:43+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Trump says AI risks can be managed, signals openness to guardrails",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0pjQ3BqWnFTMHRZQTVMM0NKR0FIN3RFUnZadVNsY0N5cGV2VkEzeFRtSUhhOEtZLUNyVDBMa05vZDdIS05Qa0s2QUhNWTRJZ3F1OE11SG53RFYtY1pPeWFIQ1d3YTJkNFNyaS11aUJ5UU1zU3pWQ08wNXJ2N2lVajJnblJSLUh4Zks2TTdaaXRVWFpKdEJRMTM3c2hPRy11aXpDTlM3cw?oc=5",
+      "fecha_utc": "2026-11-09T00:29+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Indian rupee tracks AI volatility, oil; inflation data next test for bonds",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZUJncUFJYWZ3Z1JsUjB6SFJfakZ2SmVEVU1MbGpYVDNOQ3hTSTQ0c0QtUDRuUEQwdmFobUNpTjliaUhMZlEzTXBjZ20wb002Q2pDcWY1SjFIWUJEeHdmVDlLb1drV2NkRklMaWlkRjNnS3FmOG1SZ3Nza2dyWV9KcGJUMEhvVVZfLXN1QXVYRmtvYjh1Uk1yRXpZdVR4aEtxSFZfWmVHdTRibDNQU2RwVkdBMmZPWWM?oc=5",
+      "fecha_utc": "2026-11-09T01:34+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "UBS CEO says AI investors had been pricing for 'perfection' until sector's sharp correction",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFY4Y0d2eFRORUl6QUN3enk4b3JhdVFzWlJEbzlWN05qVFA0QXNWZzA2QmdqY1lzZ1A0d0lGalo0R0RmMTRYY0RQLV9YR3pjTDBtaDRoVlFkZGZ2ZXM5UXZScGttSG1adFR1eU9HeFpaM09PT3NhYWlDXzBrelZfU1cxanJuN0dQS1VobWRYRWJMYTh6M21hS0JZX0J0SFRpaFRhXzNETlJPTnI5UDlvX2RUclM4QUNtZ20tbWpzSnk5cXhn?oc=5",
+      "fecha_utc": "2026-11-09T02:43+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGhBSG5USUdjc1BWelIxb215ZlBXRjhSbGZiLVRGYzZWaE9nYXhUdHU5alNZa0xhRFZ4QnlnTnhRb0s1Z3NDTTVTV1ZMdm82N0lYMVhpb2I1VlRqeUZkVFJ1WnpPNTd1VFRjX3dvZE1MZmxwc29seXBhT3RHUnA1MlYyTjZSWVhscHpCQlBKSXRoRVFvMWtWdnZCQzB6RTJhczVvVQ?oc=5",
+      "fecha_utc": "2026-11-09T04:51+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Morning Bid: Fragile calm after AI whiplash",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fNFFqYzRzRm1EWVdXeFFaRUtfazI2a2dQVEFKVlVBcGt0S3pMN19wNmVuR1Vwal9yeHJQSFVYeU80SjdWc0hsM1V1ZDhGUjJZbDJ4Zlo3SVM0eHAxWEVTZGdFRHdRdnZsRTF2ZC1GM19ZTi1SWUYwZGtiSjkwTFE?oc=5",
+      "fecha_utc": "2026-11-09T05:45+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "AI power rush sends data centres hunting for used turbines and jet engines",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbFFRQWRkVjczS1ZIelZTc0pKUVhEVzFLaWFDSS1GcnNCMEZld21WVEM3UDJ5U2h5MDhwdDVPLTliSnhjX1lfUi1XR3VhQ0tJS3hscF9PbXpLMjY5dm1FWDhiOGtnUERDNUZ4NjdEZXI1bEszeFpPVThMQTJiRkRRQzNpWGpQcjBMZFJVY2FFTUFwajFlbWZOX2MwNTZXWmNQRGFiV0F1RUVnRmo0eWdTdzF2MUVzSkxhUlBweXZJZC1WMkZwRkZRSQ?oc=5",
+      "fecha_utc": "2026-11-09T06:13+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "SoftBank to face scrutiny of AI strategy at second-quarter earnings after selloff",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnVnMXhRbnJHdFlrTVpLZ1ZhTFR3VmJGeWx3MlFURk9aT1R5TXU2NEtacHY3U2JpUWpTYWJhRkZHdUJVLWFoNTNPMU51QWhxbVJ0RkxCRzY4MC1iU1VVTE9KclFXcGdSeE13SV9lM1hIemdLNFJuWXVLUkFBeDdUaTNqMEVFWUxzUHNKVmZzRG5sM2oyVmZwRl9xeVl5UDlReDQ1QWZZalJvV3piSVhiQVRqUlM5QXNWLXdtdWhDbU5zRGo2bE9QVzhGRQ?oc=5",
+      "fecha_utc": "2026-11-09T08:09+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Apple Intelligence AI service registers with Chinese regulator for use on tablets, laptops",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQanptRUNhdmdrV2x6Y01qWFNCU3BlRTZTN1FyZ2hubTNralRKUE8yWWVpNUd0NERlVngtNS00dG1JYmd0bzVobkNjcDl4X0lXUFdKdnhwQU5ZbW1mMWh1dGZHS3N4Mmk5UGozTzdBdEpwZi1lNl9HUEJXUFYxaGtua2cyUWNVNC1EQjE4M2FJQURmQU4xUjhzR281UkpZa3V2VTVXRmhJOHNFRjJXS1VpUENObEpId0x6VFFSUjh6c01jdEFCUGhVM0xwaEZtM2NG?oc=5",
+      "fecha_utc": "2026-11-09T12:54+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Norway reins in data centre industry amid AI boom",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT05FUC1sekc0MnhMSDFLWmVMRFQzRDFQNVUyMy15anVMbGVpZlJqY19KZ3I3WDZRNDdlT3dtTkJjU09BLXNPOHpUZEc1U0JDQ1pJTW9rZ21kUzFmR3pLc2FMTVVIRXN2cWpYMEo4SDh6cWJYV0NHWGk4LWgzTnhBZ3RTaG5ZZHFCN190b1RYSVQ5QmxsLVU4UkJ1SGpPZFc0ZlFkZm9WNmZhZm1BaFloNkhUX0tNWUt6cUlrVHB3Y0t0ZFNYSVE?oc=5",
+      "fecha_utc": "2026-11-09T13:08+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Disney, Adobe to co-develop custom AI models tailored for media giant",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORlk2TV9jQUFndDhlTS1XZzhXZjJFTERQaGIxamc0c09Xcnl4TlRaeDFuZ2FoTVd3Y0ZMdnVVZktNcDRzdGwxdDlnQXhFWkhUcFA0YUNIREZYTmpoTU9xV1pzeGVycHZRemRkLU1ES2pxU0NpeFVmbkVwYWVZemVJTWU0MHhiRG43b3IzNVgzZTB0bzFLN0VBUE9lZ0JKSEJ1NHdCNVJyYW84eHZyQ3NHTTJacHUtY1AwTHRiLQ?oc=5",
+      "fecha_utc": "2026-11-09T13:09+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Google unveils new AI chip variants as cloud demand surges",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1JDNDVNcnh0MU5wSzdrUVhVY3FpSklfazJZVWEtbGwyUkxydzhTcUVhV2F5aHdHV29OUE9Ea1JkZm93d2xVcU1VMEdEZE1xamt3RlktMVlqLUNGRVlIalpNd3ZRS2Z2LVN3b24yNUcyV1lkQm01MmJ3eHJLZVk3a3ZDSkhHcllvVHVxX1c1d3YtRHV3Q1g5d241UGNpLXJpSXRwTUYzcEdPcUhmN2FqdnBRNVZUYlM1WmJF?oc=5",
+      "fecha_utc": "2026-11-09T15:24+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Wall St brokerages say AI selloff overdone, downplay Democratic regulation risks",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRENQMlVnSU1PdXZ1cHhWUU9kRnhzSXRLaXBNZWZlR1RRV0xtZmo4aW05SjVnbXRlblJFaW9UUGxaWXE0QzVYcno2QUJuUGY4SHlUbmFzazRfMjc2Mmh5Umk1M292djBpVG9EY1FjVHJZZDlGVVAtNFdUQjFNcnZWZF9Zdl9pQWxMM0ZHQTNTSlhtRWVFQjloaUROZkJ4QUtLYkNOdkhrYXNOM3FYZ1cycTFDai1vd2FveVVBdW9xQ3FqeklOcEVfdUhn?oc=5",
+      "fecha_utc": "2026-11-09T15:43+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Banks, investors grow wary of AI debt, spooked by market selloff",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUktuREpUZjNlTWxZaER3aXVBUlJvazI5Q2d6STdNekNFVjk0UDYydFNlYS1zQzBlOFdzdk9waFZOeFBvLUhKUG5YOURmWE1xTkFvcFhqTmdTa3dvZ2NFTW12VW15XzA0MW9LWmlDb3BCTGc3ZllkWS1FMU9lbS1JbllDV0FhVGs3elh3azhtYWx0WkVpYnk2eDVSU1NtU2hZQXc4UUJJdkdELXNuVW1mZWJDLWFtZw?oc=5",
+      "fecha_utc": "2026-11-09T16:22+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Tech set to still sway US stock market's course despite AI-driven swoon",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOXdISHo5SVE3RnA1bXZ4V05tYlAzSk5ZcUgwRUpycnVmOHlPeHQwbURpeHF2am5xQjU3ZVhMY0tweVVndXNjMUVpQUdCcXEyZlg5a1ZFVW9TNkkxdGJLaGllT3ZiM3pqLUxYVnRaNDVWZG1USmItMlJkU0pnc3Z0U2Zwd0l3UnowbDQ0UVN5cEJDQU9nS3FxbDFEc2RJRjV3NkpSeEdUNDEwWXJIUkVwR2ZB?oc=5",
+      "fecha_utc": "2026-11-09T16:55+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "'No ordinary CEO': Why the AI race cannot do without Nvidia's Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMERscVA0bmtmSTlEYWRSTzV1bzVFVnFOQnR4ZjMtMzgyR0o0aFpzVmZDTklKMjUxZ2ptTTU2ZlA3UzRiNU1HUFIzd2gycHliSlo3ZkpOMk93akxqcjdQX05iSWZuQU9ZWlV2Q2o5cV80TTBqckFzOFlOREtOTHR4dVpFb29ZRkRTbDl3RGJrN0FrNEp1aGdTeVN2bkR3UlNYa0padDRqTTNINlNNdzVzTG9CcjlZV2tUaFV2SHlxcENUS28?oc=5",
+      "fecha_utc": "2026-11-09T18:09+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Reuters",
+      "nivel": "medio",
+      "titulo": "Anthropic must face lawsuit over Claude subscription marketing",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1ZtZzZWNUh2ejlBRmZIQ2prdlNzWnlNTFFkOFZXRWJCaXpBdzVtaUk3cDBXZG1uUXdEaEdqZHNtSWF5N2o4Ni1xdjkzVHp0azBKQTFZb0k0ZVpDYU5id2l3ZTdtNlltZVJyNUhRZjIxWDluWHd4TW5YLXhCcHNlejNyamFlZjZUbWJsaS1yb0VGZDJFQnJXZUhaNmNoUEJjM2s3TWltbFREMmNMVkdDbkNLaXNJQQ?oc=5",
+      "fecha_utc": "2026-11-09T18:19+00:00",
+      "resumen": "",
+      "medio": "Reuters",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "fecha_utc": "2026-11-08T21:00+00:00",
+      "resumen": "In a memo to the company, Huang admitted that he had an affair."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "fecha_utc": "2026-11-09T05:26+00:00",
+      "resumen": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "fecha_utc": "2026-11-09T14:00+00:00",
+      "resumen": "Automattic aims to compete with the likes of Lovable with Spacefast."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "fecha_utc": "2026-11-09T16:12+00:00",
+      "resumen": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "fecha_utc": "2026-11-09T16:56+00:00",
+      "resumen": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "fecha_utc": "2026-11-09T18:00+00:00",
+      "resumen": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "fecha_utc": "2026-11-09T18:09+00:00",
+      "resumen": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market."
+    },
+    {
+      "fuente": "TechCrunch",
+      "nivel": "medio",
+      "titulo": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "fecha_utc": "2026-11-09T19:24+00:00",
+      "resumen": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users."
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "fecha_utc": "2026-11-08T20:22+00:00",
+      "resumen": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "fecha_utc": "2026-11-08T22:54+00:00",
+      "resumen": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Jonathan Kanter is using AI to take on Big Tech",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "fecha_utc": "2026-11-09T14:30+00:00",
+      "resumen": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust Division chief Doha Mekki, Kanter recently launched a […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Hold up — I had a great time talking to the RIAA guy",
+      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "fecha_utc": "2026-11-09T15:30+00:00",
+      "resumen": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, which set […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Disney and Adobe are building generative AI tools together",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "fecha_utc": "2026-11-09T15:38+00:00",
+      "resumen": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "fecha_utc": "2026-11-09T15:50+00:00",
+      "resumen": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "fecha_utc": "2026-11-09T17:36+00:00",
+      "resumen": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "fecha_utc": "2026-11-09T18:07+00:00",
+      "resumen": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "fecha_utc": "2026-11-09T19:00+00:00",
+      "resumen": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable […]"
+    },
+    {
+      "fuente": "The Verge",
+      "nivel": "medio",
+      "titulo": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "fecha_utc": "2026-11-09T19:09+00:00",
+      "resumen": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]"
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "fecha_utc": "2026-11-09T08:00+00:00",
+      "resumen": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "fecha_utc": "2026-11-09T11:00+00:00",
+      "resumen": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind."
+    },
+    {
+      "fuente": "Wired",
+      "nivel": "medio",
+      "titulo": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+      "fecha_utc": "2026-11-09T14:30+00:00",
+      "resumen": "The Nvidia CEO began working with consultants from Heller as early as October 2025, around the same time he was first linked to a suspected Chinese spy."
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "fecha_utc": "2026-11-08T22:26+00:00",
+      "resumen": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns…"
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "fecha_utc": "2026-11-09T04:25+00:00",
+      "resumen": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes…"
+    },
+    {
+      "fuente": "Simon Willison",
+      "nivel": "especialista",
+      "titulo": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "fecha_utc": "2026-11-09T04:32+00:00",
+      "resumen": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB)…"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china",
+      "url": "https://elpais.com/us/2026-11-08/nvidia-abre-una-investigacion-a-su-ceo-sobre-posible-espionaje.html",
+      "fecha_utc": "2026-11-09T02:37+00:00",
+      "resumen": "Jensen Huang ha reconocido haber sido infiel a su mujer en un comunicado a los empleados de la compañía tecnológica"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "De la generación indignada a la generación inquilina",
+      "url": "https://elpais.com/opinion/2026-11-09/de-la-generacion-indignada-a-la-generacion-inquilina.html",
+      "fecha_utc": "2026-11-09T04:30+00:00",
+      "resumen": "Entre el 15-M y el 26-S, el contexto económico, social, político, ideológico y tecnológico ha mutado"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Contra los centros de datos",
+      "url": "https://elpais.com/opinion/2026-11-09/contra-los-centros-de-datos.html",
+      "fecha_utc": "2026-11-09T04:30+00:00",
+      "resumen": "La contestación contra las tecnológicas es un movimiento democrático que demanda la protección de los derechos civiles de todos frente a media docena de Calígulas"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "El director financiero de Binance abandona la empresa tras el hackeo histórico",
+      "url": "https://elpais.com/economia/2026-11-09/el-director-financiero-de-binance-abandona-la-empresa-tras-el-hackeo-historico.html",
+      "fecha_utc": "2026-11-09T09:21+00:00",
+      "resumen": "Kaiser Ng deja el cargo después del robo de criptomonedas por valor de 6.000 millones de dólares"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Akima, modelo y víctima de suplantación con IA: “Es violento que un hombre use la tecnología para sexualizar tu cuerpo”",
+      "url": "https://elpais.com/mexico/2026-11-09/akima-modelo-y-victima-de-suplantacion-con-ia-es-violento-que-un-hombre-use-la-tecnologia-para-sexualizar-tu-cuerpo.html",
+      "fecha_utc": "2026-11-09T09:30+00:00",
+      "resumen": "La actriz colombiana acusa al fotógrafo mexicano Mauricio Sierra y a dos de sus productoras de crear múltiples identidades digitales con sus rasgos con el propósito de comercializarlas en mercados internacionales de lujo"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "El ‘boom’ exportador de la inteligencia artificial y el alza de la inversión dan un nuevo impulso a la economía mexicana",
+      "url": "https://elpais.com/mexico/economia/2026-11-09/el-boom-exportador-de-la-inteligencia-artificial-y-el-alza-de-la-inversion-dan-un-nuevo-impulso-a-la-economia-mexicana.html",
+      "fecha_utc": "2026-11-09T09:30+00:00",
+      "resumen": "Las exportaciones de México a Estados Unidos crecieron un 20% en los primeros nueve meses de 2026 y alcanzaron el récord de 481.586 millones de dólares"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "El ‘hacker’ fantasma de Kim Jong-un: Park Jin-hyok y las conexiones exteriores del cibercrimen norcoreano",
+      "url": "https://elpais.com/tecnologia/2026-11-09/el-hacker-fantasma-de-kim-jong-un-park-jin-hyok-y-las-conexiones-exteriores-del-cibercrimen-norcoreano.html",
+      "fecha_utc": "2026-11-09T12:07+00:00",
+      "resumen": "El robo a Binance devuelve la atención sobre las redes informáticas de Pyongyang y uno de sus presuntos integrantes, aunque su participación en este ataque no ha sido señalada"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Nvidia sufre en Bolsa tras iniciar una investigación por la relación de su consejero delegado con una supuesta espía",
+      "url": "https://elpais.com/economia/2026-11-09/nvidia-se-desploma-en-bolsa-tras-confirmar-una-investigacion-sobre-la-relacion-extramatrimonial-de-su-ceo-con-una-presunta-espia-china.html",
+      "fecha_utc": "2026-11-09T17:05+00:00",
+      "resumen": "Los títulos llegan a caer más de un 8% ante las dudas sobre el futuro de Jensen Huang, mayor figura actual de la industria tecnológica y clave en el éxito de la compañía en los últimos años"
+    },
+    {
+      "fuente": "El País",
+      "nivel": "espanol",
+      "titulo": "Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
+      "url": "https://elpais.com/internacional/2026-11-09/alice-huang-la-espia-china-de-pasado-misterioso-que-llego-hasta-el-consejero-delegado-de-nvidia.html",
+      "fecha_utc": "2026-11-09T17:53+00:00",
+      "resumen": "Pekín califica de “calumnias” las informaciones sobre el espionaje de la empresaria y rechaza que actuara a sueldo de sus servicios de inteligencia"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "\"Debo una disculpa a mi familia\": Jensen Huang confiesa su infidelidad mientras Nvidia investiga un posible espionaje chino",
+      "url": "https://www.xataka.com/empresas-y-economia/debo-disculpa-a-mi-familia-jensen-huang-confiesa-su-infidelidad-nvidia-investiga-posible-espionaje-chino",
+      "fecha_utc": "2026-11-08T22:46+00:00",
+      "resumen": "Una confesión personal y una investigación por posible espionaje chino han colocado a Jensen Huang en el centro de una noticia inesperada. El cofundador y CEO de Nvidia ha reconocido públicamente su infidelidad en un mensaje a sus empleados que comienza con una disculpa a su familia. Al mismo tiempo, el consejo de administración ha anunciado una investigación independiente para esclarecer las informaciones que señalan que Huang habría sido objetivo de una operación de inteligencia extranjera .…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Claude Code guardaba tu correo para saber quién eres. Algunas webs acabaron recibiéndolo",
+      "url": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo",
+      "fecha_utc": "2026-11-09T11:01+00:00",
+      "resumen": "Iniciar una herramienta con el correo electrónico es lo habitual, ya que, como ocurre en el caso de Claude Code , este lo necesita para identificar la cuenta. Lo esperable es que dicho correo se utilice solo como identificación, el problema llega cuando se descubre que la IA lo comparte con algunas páginas web. Así dejaron constancia en el repositorio de Claude Code . El problema . Cada vez que un navegador llama a la puerta de una página web, se identifica mediante una cadena de texto que se…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Anthropic pidió frenar el desarrollo de la IA, pero su IA está avanzando el doble de rápido que el año pasado",
+      "url": "https://www.xataka.com/robotica-e-ia/anthropic-pidio-frenar-desarrollo-ia-su-ia-esta-avanzando-doble-rapido-que-ano-pasado",
+      "fecha_utc": "2026-11-09T12:31+00:00",
+      "resumen": "A mediados de septiembre, Dario Amodei , CEO de Anthropic, lanzó un curioso mensaje : nos estamos pasando de frenada con la IA. Ya en su día comentamos que quizá no era una llamada a la responsabilidad, sino a relajar unas cuentas que podían empezar a no salir . El tiempo pone cada cosa en su lugar y un estudio independiente con acceso a datos internos de la compañía estima que los modelos de Anthropic están mejorando casi al doble de velocidad que antes. ¿La clave? El impulso de la IA para…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "En un puerto de Hong Kong esperan 600.000 chips avanzados de Nvidia tras el portazo chino a las exportaciones de EEUU",
+      "url": "https://www.xataka.com/robotica-e-ia/puerto-hong-kong-esperan-600-000-chips-avanzados-nvidia-portazo-chino-a-exportaciones-eeuu",
+      "fecha_utc": "2026-11-09T14:01+00:00",
+      "resumen": "No están siendo los mejores días para una Nvidia que lleva meses de escalada gracias a su papel en la industria de la IA. La compañía liderada por Jensen Huang protagonizó uno de los batacazos del cierre de bolsa del 5 de noviembre , el propio Jensen está siendo investigado por la junta de Nvidia debido a la supuesta trama de espionaje chino y, para añadir más picante, una exclusiva de Reuters apunta a 600.000 chips avanzados de Nvidia \"muertos\" en un almacén de Hong Kong. Hay bastante tela que…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "El empleo en programación y consultoría informática marca máximo histórico en la EPA: por ahora no llega la temida caída por la IA",
+      "url": "https://www.xataka.com/empresas-y-economia/empleo-programacion-consultoria-informatica-marca-maximo-historico-epa-ahora-no-llega-temida-caida-ia",
+      "fecha_utc": "2026-11-09T14:31+00:00",
+      "resumen": "Que la IA va a suponer un cambio de paradigma en el mercado laboral a nivel global no es ningún secreto. Distintos estudios apuntan a que se producirá un desplazamiento masivo de puestos de trabajo (no siempre una destrucción ), que obligará a los empleados a reciclar sus conocimientos profesionales para ocupar nuevos puestos . Sin embargo, las previsiones son eso, números hipotéticos. La realidad cuenta otra cosa. Aunque los datos de empleo de la EPA del primer trimestre encendieron las…"
+    },
+    {
+      "fuente": "Xataka",
+      "nivel": "espanol",
+      "titulo": "Quería quitar las aplicaciones que Android no me deja borrar. Así que le pedí a la IA mi propio desinstalador: en media hora lo tenía",
+      "url": "https://www.xataka.com/robotica-e-ia/queria-quitar-aplicaciones-que-android-no-me-deja-borrar-asi-que-le-pedi-a-ia-mi-propio-desinstalador-media-hora-tenia",
+      "fecha_utc": "2026-11-09T16:31+00:00",
+      "resumen": "Cada vez que compro un móvil, o analizo uno, este viene con un buen montón de aplicaciones que no necesito . La primera configuración suele ser larga, porque me dedico a iniciar sesiones, ordenar los escritorios y siempre quito app por app las que no necesito. El problema es que hay unas cuantas que no se dejan ni eliminar ni deshabilitar. Son las aplicaciones de sistema. Android facilita la personalización en mayor medida que iOS . Esta brecha se ha ido reduciendo con el paso del tiempo,…"
+    }
+  ],
+  "notas_ingenieria": [
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "TDK Showcases Technologies Enabling the AI Ecosystem At electronica 2026",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHM3aktueGlVN0VLaFkwSDh4YVN4NWIwNTZKUzMwS1VmV0c5dU5BRGJ4NHBuQkpQbmE5NmxGWVhzWDVtNE9pY01vNWY1TlhlUDFqbUs3My10a0k4WlFGd3hqbHQxdWV3dVoxeGhSUlFjeDFoZktZSTdMU3lSNlMxZHZ3VG9EV0tQY2U0OG5zUGpsTXd4ZFhGZnd0MFhIRjRTVzRyTmRYMm0xQzlWTnVLNEZNS0JRUQ?oc=5",
+      "fecha_utc": "2026-11-08T07:49+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "NewswireToday",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "How AI Is Transforming Manufacturing Businesses Across Texas",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbzhQMy1ZSVlsaEEyXzhpNmFuOFlnc3VsNlRSXzAzV1pKakllQkRKeE5OdmlGTWRsQ1pLT2lidHhyVWRfM1lXSUgxdWwzY3kxWUJWRG9QaXVOYTFMdWMtOThHZnd5UV8tZkVRQ2NaTFN0V0JuWnJpanZZUnZBUGU2dWpqWFVZcnVMVXNlQnQ5SVo5OVVvaGhSX3NOOHgybUtZV3dPLUZ3?oc=5",
+      "fecha_utc": "2026-11-09T08:25+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Business News This Week",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Sparc AI Inc. (SPAI.CN) stock price, news, quote and history",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hNnA1Y0dYZzVtSVNJN2lnM2FsM0ZHejhHZW5YaFkwdU41ZDFFNFNWMFUxelZOSVBZVVZWRE1IZXdXMFgyT20xWktiX1dJVnF4RjQwbnl3?oc=5",
+      "fecha_utc": "2026-11-09T09:42+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Yahoo Finance Singapore",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "How AI and machine learning are transforming energy pipelines",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPanpUZnNMbndZZjJjenFfdS1janRUcjltck5ObzhkSDlpalZ1UHpMWkh2ODZkZHpPRTZjWG5KWldDQjBtT09CYXFNT3VZY2xVbWFyaUluWW5JUlB3aWJlXzZVWkNfRUF6X3hid0s4NTNDX1hXUWtBZjJ2TVc4UVE2VFFEVWRuZFI5U3FOb0NKVWlST1JtWno3MWhKWVhRZ0psNWc?oc=5",
+      "fecha_utc": "2026-11-09T14:49+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Costain",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Evonik Oxeno deploys AI-based process models in live plant operations",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVmljUklWS3VLNGEzQ2VZMjQ5cmYyVFBDMGw3Zm5HeGp6NmNrVmdiS29yMENUdnRmbFo5SWFaVHFiV2hJVkpwaXV4bW40dUJDeHRZTW9SS2JZOW1Bc29lYVVicHJIb19HRzlnZHpTWUI2aVlTQXkwMWx0UjQzOTlHelJEY2lkSWdvT0NvLXBtLUhGeGhFUXJCUlBEbzhBX1NRRkE?oc=5",
+      "fecha_utc": "2026-11-09T15:02+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "ChemEngOnline",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Geminus Secures Strategic Investment From Bapco Energies, Signs Three-Year AI Partnership",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVW5RdWZPRl9QcDJKRVF0VkxaR0hveG5pV2FpMGpXODJiWmd5Qm5MVDRFNW5FMXgtOXltNVZjLVRMb29EUU1XU29kUnpvZjNXdGlzWHRPLUVsR0ZsbS1GZmwyY1V4ZHFiQklWVld2QU5nWWNtQmRvdXVrNUpNYUNxN3ljbGJ2Q1ZMSVNMdXFXNzVLaG5qdXpCZnA0MzJKMnJHVXMwUDlaM1hJTkZ5ZUFjX1B6NzNqWk1yVUxwRy02eG1jSGI1MUE?oc=5",
+      "fecha_utc": "2026-11-09T16:44+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "citybiz",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (CAD y simulación)",
+      "nivel": "medio",
+      "titulo": "Siemens and NVIDIA advance AI-powered PCB inspection",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBidHQzQUV3U0k1TUxHV1lYOGdzMzBZN1pjM2owS29YM3Nqa2Z0amZycWtkbUtkenlGckotUnFpd29vRzA2cy1aUTNNV3JXTWtfbFE?oc=5",
+      "fecha_utc": "2026-11-09T17:21+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "SA Instrumentation & Control",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Oportunidades de cooperación estratégica entre Vietnam e Italia en el desarrollo de la robótica y la tecnología de inteligencia artificial.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQejd4LXRMRmZkNVNXaHNmMmpKOVlBMHUyeTF0cl82RUVFR0VUUUJ1S3o5Z2VmbVBFeWx0ampmMFpLdjlXby00MkhQSHhGTExONUxwOTY1aHlnRURHRmJoX0RERnc1TDZITFlRZTBVLVY2TFdtZk9PVXJtVmx5emgtMXk0dFlKVFB4VjBjRjU4VHFfdXhBODM2Qk9nOHJubDFsY3JXZ3NYUE4?oc=5",
+      "fecha_utc": "2026-11-06T12:44+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Vietnam.vn",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "FIME prepara maestría de IA y la aplica en sus cuatro ingenierías",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc2VObGQzQWxFbjJELTlJc2xpeGcydk1NSFkyU1Q4OVY3OUVqdkFpU3RSeUFVNTZuQUZrLXQ0SVhCaFFVVWowRlp5TVB4Tm1LNWRBX1M0RVpCakY0N3ZUUmVfbEJVUVVZWnVlUExVMjBGcGxGVkJFbVZINjB5UzUwWURrSWFLQkdOOTlZdmg1N2kxbThiME1RcmJWMW5SdzNOMWpsVURrdzRxUdIBngFBVV95cUxOOE83SE1Fc1JHM2FPeG5iWjRHMzJuek53VGlSTjFwSExWRUc3SmxVcHJ2a1NHRWpwV1VLMVUyNnROMHdrV1ZWT0lRTXRJYzJMc3J5RmtZSmF2OFpHV1JsTkhmaTJyUzhBWW5oMEZVWUo5by1XWWx2QnZDRS1PUlpCN3BmakkwOGNQNXFISy1fMllhTjNZU0I4VzRpUXNkZw?oc=5",
+      "fecha_utc": "2026-11-07T19:55+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "eltiempomx.com",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "Firma de un acuerdo conjunto en materia de inteligencia artificial entre la Universidad Tecnológica Amirkabir de Irán y la Universidad Islámica de Nayaf",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQdVBlVkN4Z2R3S2Z3VzMtM2x3dTMxZEcwTk1YQllQSWZyd1JvQ3Q5MVA3eHNDYUgzNjhNbnd3YVcyTnBMZ2gxRGRqRHBYenUweWhKcjR6eEdjU2ExNGxsUmhvYXBvM3VrVHB1RzlFVGdUelpBVlpsUFFhWGhiVE0zVE9TV2o4WTZvd0xhaDZiNEh2RVJoc3NONUZLRjNXM01uWGczZ0E0bGNLUF9Yd2tYcTFLa3NPUXZfR3hkWHNCem1yUkpRNE1Mc2wzOU9kcHowcC1MVmIweXQ2Q1paSS1TYXczb09scnRhbmEyaGtBVkRoel9pelEycTZSeWZoem1xd0ZoS1o4enVFelV1TFdrRW5TU0FTdl8wc0J5ZF9iQ19XVEpkWUhaa2FxVGZla1NES1E?oc=5",
+      "fecha_utc": "2026-11-09T11:03+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Pars Today",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (en español)",
+      "nivel": "medio",
+      "titulo": "UIS explora cooperación en inteligencia artificial e innovación",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSndzLWtRTkI3c0RFQVlRWHo0Z2xGRVpCbjBpZzNudHRlZzVyTDdHVm85bDNKejlaanVrQ2FTXy1uT28xX3UxVzFBMlpoNUREaEctQkRNSENLSjY4b0xzZkFQTng2WTd2QTd1OUQxaDY3aG1ZXzlmSnpYdnIwUml0eEFB?oc=5",
+      "fecha_utc": "2026-11-09T16:14+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Universidad Industrial de Santander",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Robot - Automation, AI, Programming",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VaElRai1vVDMtUi1OaWFwMWVNVjlaRm1tME5fdk9PV3VJTmVJWGhWYm01QWpwU3NlOXEyVXZ4SnctZG14QUVKV2Z2WHZiSjJwZVdjcTJRLWpYSzVxekFad3BtUTdMRUd2R2pxcHBPSlcwcERaaUhKYkFkUjU?oc=5",
+      "fecha_utc": "2026-11-07T10:07+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Britannica",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Students Conquer 3-Hour AI-Free Essay Challenge at Chosun Baekiljang",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmdmakh0TDdqLUJiSG1oV1B4NXJZTm1rRjd1UTJ0eE9pN2ZsSUlKd0NhSV9LQmdpYkJmRW1ZR1VsNlo4UVowcktCc3E2YjE2YTd2cFRGR0hZY2RrRElkbURuTHdzcE13a1FiSDVRWmplZ054OWtlVHp3RFFrS2gxSGJRMjBIVW5B?oc=5",
+      "fecha_utc": "2026-11-09T04:47+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "조선일보",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Iran’s Amirkabir University and Iraq’s Islamic University of Najaf sign joint AI agreement",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVzZkOEhuMEUxLVJ1QU1xdWhpUFFWUWZpR3J5RUJBYWozX3BxeWgzVGp0UUJLdHVpX2JUbmdXY3lEbUZCSEg2cllEZS10U1hoMGVOQkI3eXBLVG1lVUViZ1IzbTBTcjNCTU55enRlWlpZUm9ac2dnWFlFYlRUTjFxOXdfWnJXenBXQmpldHo3UFBNeVF3enZrSTMzUmR6RHZmeE9yQjQtNkxXN1RKTTl2REF0NUNxVF9PODVTal9XOEZOV3BMaU1BY2hadGFvYzVqZUZBXzVlTVF5dkM5YjdsNjl3?oc=5",
+      "fecha_utc": "2026-11-09T08:18+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Pars Today",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Yale-led project uses AI coding agents to teach robots complex tasks",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0UtTzNhbnJMYzZLYml0NDU3QzlsOFZoN0x2Unk1bGd3TUp5dmdPUlBDQzNZZmlaaG5ybzA2eEs2STdKV1ZkNTl3TDFUUTRWWmRCY1pEaGNsTjBkN01GVVU0UnQ4Vk9jeE1pdHV1cFlsbFpFY3JBVVF1cDlJUnpNUkFYejA3dTltcWVpMm9jVkVtV3hJTWVvV1hnc3JOTjR2SmxBZEhB?oc=5",
+      "fecha_utc": "2026-11-09T08:20+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Yale Daily News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Goa Engineering Colleges Partner with Sirena Technologies to Establish Physical AI and Robotics Centres",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXNYTDZuNjBlcDhGTHJTOHB1d0VyVE1kNXFhMk5EWXpnaFg3YzBIbkhvNEY5UHVSQTRRQk9CYk1lSnlIcnRybkxjbkVfYzVENW9waEd6RWZBLUxaVTZTLTAwbzhTM3RzbUZKemtpTXRZTEZidjhqbEF4dnVPRlR5LTBnQkI2bTRaMDdzaS1jQm92MTdzYVBreHAzYUkyV0lWc2Z1RVBOOFlOeVl2Y3BYVHJVcw?oc=5",
+      "fecha_utc": "2026-11-09T11:06+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Prittle Prattle News",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "Google Noticias (ingeniería mecánica)",
+      "nivel": "medio",
+      "titulo": "Iranian, Iraqi universities to expand cooperation through joint AI degree",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRk5ka3Jma0xHMkdCeVNXSXZaVWwtc2djTXdXMHd5SGk3RmkwTG1MRm9SYTFhSTQ3YW9pM3BOR2dhTDM4ajBWUVRxXzVuYjVIZUlsVmJPYjdjTmlfUEtzbDJJZUUwVXRZZ3haTWc5VVV3bGxtS3lKMlVmbWZZOVNwRmU5OGhjekRsSlhOTkpVRDR5bk1xa004THE0RDNCN1ZfTWhzRg?oc=5",
+      "fecha_utc": "2026-11-09T12:07+00:00",
+      "resumen": "",
+      "seccion": "ingenieria",
+      "medio": "Tehran Times",
+      "aviso": "Link de Google Noticias: buscar la URL original antes de citar."
+    },
+    {
+      "fuente": "IEEE Spectrum",
+      "nivel": "medio",
+      "titulo": "AI Agents Are Testing the Limits of Zero-Trust Security",
+      "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+      "fecha_utc": "2026-11-09T16:25+00:00",
+      "resumen": "This article is brought to you by Queen’s University Belfast . Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and creating applications to support risk assessment, client profiling, match making, and information yield with a slight overview of decision making. One of the important components for these agents is to ensure that the logs are managed and historic relevance is not being used to avoid skewing towards same decision…",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "Manufacturing Dive",
+      "nivel": "medio",
+      "titulo": "Manufacturing bills to watch for the rest of the 119th Congress",
+      "url": "https://www.manufacturingdive.com/news/manufacturing-bills-watch-119th-congress-2026-ndaa-baaja-robotics/874102/",
+      "fecha_utc": "2026-11-09T17:37+00:00",
+      "resumen": "Several bills may pass before the end of the year, including a permitting bill and the National Defense Authorization Act. Additional bills include those pertaining to robotics, chips, chemicals and other areas of interest.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore IA",
+      "nivel": "medio",
+      "titulo": "AI agents test and improve robot code in virtual worlds before deployment",
+      "url": "https://techxplore.com/news/2026-11-ai-agents-robot-code-virtual.html",
+      "fecha_utc": "2026-11-09T14:11+00:00",
+      "resumen": "In recent months, artificial intelligence agents that can reason, plan and use external tools to accomplish multistep tasks have already reshaped computer coding, online shopping, dinner reservations and cyberattacks.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore IA",
+      "nivel": "medio",
+      "titulo": "FLEX approach helps robots reason beyond literal commands",
+      "url": "https://techxplore.com/news/2026-11-flex-approach-robots-literal.html",
+      "fecha_utc": "2026-11-09T17:40+00:00",
+      "resumen": "Humans are intuitive by nature. We can sense meaning beyond the literal words that we encounter. Now, a new artificial intelligence–assisted learning platform developed by MIT engineers is enabling robots to read larger meaning into a human's natural language commands.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "TechXplore Ingeniería",
+      "nivel": "medio",
+      "titulo": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+      "url": "https://techxplore.com/news/2026-11-ai-simulates-behavior-substances-sand.html",
+      "fecha_utc": "2026-11-09T17:20+00:00",
+      "resumen": "Today, a scientist who wants to simulate a physical process must pick the right tool for that one job, such as a solver built for flowing water or another designed to model the way a protein folds. Each one is hand-coded around the specific equations that dictate how that process behaves.",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+      "url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+      "fecha_utc": "2026-11-06T20:41+00:00",
+      "resumen": "China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts. The post Industry experts discuss China blocking SoftBank acquisition of ABB Robotics appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+      "url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+      "fecha_utc": "2026-11-06T21:34+00:00",
+      "resumen": "Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years. The post Boston Dynamics built Stretch Gen 2 for reliable, consistent performance appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "How Point One turned GPS accuracy into a robotics platform",
+      "url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
+      "fecha_utc": "2026-11-06T21:47+00:00",
+      "resumen": "Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments. The post How Point One turned GPS accuracy into a robotics platform appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Robot integration brings high-precision production to midmarket manufacturers",
+      "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+      "fecha_utc": "2026-11-07T13:32+00:00",
+      "resumen": "Properly integrated industrial and collaborative robots can help midmarket manufacturers, according to a columnist. The post Robot integration brings high-precision production to midmarket manufacturers appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "ARM Institute consortium grows to more than 500 organizations",
+      "url": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
+      "fecha_utc": "2026-11-08T13:00+00:00",
+      "resumen": "The ARM Institute reached the milestone as it prepares to host its 10th annual member meeting in Pittsburgh. The post ARM Institute consortium grows to more than 500 organizations appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+      "url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+      "fecha_utc": "2026-11-09T15:40+00:00",
+      "resumen": "Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics. The post How to minimize Wi-Fi roaming interruptions for autonomous mobile robots appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "The Robot Report",
+      "nivel": "medio",
+      "titulo": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+      "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+      "fecha_utc": "2026-11-09T18:34+00:00",
+      "resumen": "Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas. The post Boston Dynamics adds wheels to Atlas humanoid to test whole-body control appeared first on The Robot Report .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Capgemini to lead EU consortium assessing advanced AI risks",
+      "url": "https://www.engineering.com/capgemini-to-lead-eu-consortium-assessing-advanced-ai-risks/",
+      "fecha_utc": "2026-11-09T11:14+00:00",
+      "resumen": "The initiative will develop cyber risk evaluation tools and compliance methods to support enforcement of the EU AI Act. The post Capgemini to lead EU consortium assessing advanced AI risks appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "Mondelēz and Accenture apply agentic AI to Order-to-Cash",
+      "url": "https://www.engineering.com/mondelez-and-accenture-apply-agentic-ai-to-order-to-cash/",
+      "fecha_utc": "2026-11-09T11:21+00:00",
+      "resumen": "The initiative aims to accelerate cash collections, improve working capital and streamline customer service and finance operations. The post Mondelēz and Accenture apply agentic AI to Order-to-Cash appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "engineering.com",
+      "nivel": "medio",
+      "titulo": "NVIDIA, Rebellions and SK Telecom advance Korea’s sovereign AI",
+      "url": "https://www.engineering.com/nvidia-rebellions-and-sk-telecom-advance-koreas-sovereign-ai/",
+      "fecha_utc": "2026-11-09T11:32+00:00",
+      "resumen": "The collaboration will integrate Korean-designed R200 processors with NVIDIA's NVLink Fusion and MGX rack architecture for AI deployment. The post NVIDIA, Rebellions and SK Telecom advance Korea’s sovereign AI appeared first on Engineering.com .",
+      "seccion": "ingenieria"
+    },
+    {
+      "fuente": "3DPrint.com",
+      "nivel": "especialista",
+      "titulo": "3D Printing News Briefs, November 7, 2026: Repair, Acquisition, 3D Models, AI, & More",
+      "url": "https://3dprint.com/336334/3d-printing-news-briefs-11-7-2026/",
+      "fecha_utc": "2026-11-07T13:30+00:00",
+      "resumen": "We’re starting off this weekend’s 3D Printing News Briefs with military news, then on to business and compliance. We’ll end with a 3D model partnership. Read on for all the...",
+      "seccion": "ingenieria"
+    }
+  ],
+  "errores": [
+    {
+      "fuente": "Import AI (Jack Clark)",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}
