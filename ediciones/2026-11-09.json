@@ -1,0 +1,183 @@
+{
+  "fecha": "2026-11-09",
+  "intro": "Nvidia abre una investigación sobre su CEO, Jensen Huang, por su relación con una supuesta espía china y la acción cae antes de la apertura. Además: Anthropic compra generadores a gas, Trump se abre a ponerle límites a la IA y Elvis y Eminem demandan a Suno.",
+  "noticias": [
+    {
+      "titulo": "Nvidia investiga a su CEO, Jensen Huang, por su relación con una presunta espía china",
+      "titulo_corto": "Nvidia investiga a Huang",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El directorio de Nvidia abrió el domingo 8 de noviembre una investigación independiente sobre Jensen Huang, que admitió una infidelidad. La acción caía cerca de 5% antes de la apertura del lunes, según CNBC.",
+      "detalle": [
+        "El domingo 8 de noviembre, el directorio de Nvidia anunció una investigación independiente sobre su CEO y cofundador, Jensen Huang, después de que se conociera que habría sido blanco de una operación de espionaje china. La investigación la llevan directores independientes con abogados externos. El directorio dijo que no tiene motivos para creer que se hayan filtrado secretos de la empresa ni información de seguridad nacional, y que sigue confiando en Huang.",
+        "El mismo día, Nvidia publicó un mensaje de Huang a sus empleados en el que reconoce haberle sido infiel a su esposa y pide disculpas a su familia y a la empresa. No nombra a la otra persona, pero según TechCrunch y Xataka se trata de Alice Huang, ex directiva de Megaspeed, una empresa de centros de datos de Singapur que compra chips de Nvidia y que está bajo sospecha en EE. UU. por ayudar a China a conseguir tecnología restringida. Un memorando de inteligencia estadounidense, citado por varios medios, sostiene que ella habría sido reclutada por el Ministerio de Seguridad del Estado chino. Ese documento no es público.",
+        "Según CNBC, la acción de Nvidia bajaba alrededor de 5% en las operaciones previas a la apertura del lunes 9. Trump defendió a Huang y lo llamó \"un tipo honorable\", y la cancillería china calificó de infundada la historia del espionaje. Según Xataka, tres comisiones del Congreso pidieron una reunión a puerta cerrada con Huang para el 18 de noviembre.",
+        "Por ahora no hay pruebas públicas de que se haya filtrado información, y la empresa dice que Huang sigue al frente."
+      ],
+      "por_que_importa": "Nvidia fabrica la mayoría de los chips con los que se entrena y se usa la IA, y Huang, su cofundador, es la cara de la empresa. Cualquier duda sobre su continuidad o sobre filtraciones a China mueve el mercado y la discusión sobre los controles de exportación de chips.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/", "tipo": "medio"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/empresas-y-economia/debo-disculpa-a-mi-familia-jensen-huang-confiesa-su-infidelidad-nvidia-investiga-posible-espionaje-chino", "tipo": "medio"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según el Financial Times, Anthropic compró generadores a gas por US$3.400 millones para sus centros de datos",
+      "titulo_corto": "Anthropic compra generadores",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el Financial Times, Anthropic aseguró a fines de septiembre 1,7 gigavatios de generadores a gas de la empresa texana OnePWR Solutions. Ni Anthropic ni OnePWR respondieron, y Reuters no pudo confirmarlo.",
+      "detalle": [
+        "El Financial Times informó el domingo 8 de noviembre, citando a una persona al tanto, que Anthropic (la empresa que hace Claude) compró a fines de septiembre compromisos por 1,7 gigavatios de generadores pesados a gas a OnePWR Solutions, un proveedor de equipos de San Antonio, Texas. El acuerdo rondaría los US$3.400 millones.",
+        "Según el FT, sería la mayor compra individual de equipos de generación eléctrica hecha por un laboratorio de IA. La idea es tener energía propia en los centros de datos sin depender de la red eléctrica, que en EE. UU. tarda años en sumar conexiones nuevas.",
+        "Reuters y CNBC reprodujeron la nota, pero aclararon que no pudieron verificarla por su cuenta; Anthropic y OnePWR no respondieron. El dato llega mientras Anthropic prepara su salida a la Bolsa y en plena carrera de las empresas de IA por conseguir electricidad (ver la nota sobre las turbinas usadas)."
+      ],
+      "por_que_importa": "Muestra que el límite de la IA ya no son solo los chips sino la energía: las empresas empiezan a comprar sus propias usinas. Eso tiene costos ambientales (generadores a gas) y abre trabajo para ingenieros en generación y térmica.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC (Reuters, citando al Financial Times)", "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html", "tipo": "medio"},
+        {"nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-08/anthropic-buys-power-for-ai-data-centres-in-3-4b-deal-ft-says", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Trump dice que los riesgos de la IA se pueden manejar y que no le molestan los límites",
+      "titulo_corto": "Trump y los límites a la IA",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "En una entrevista con el programa 60 Minutes de CBS, Trump dijo que no le molestan los \"guardrails\" (límites o salvaguardas) para la IA y que trabajaría con los demócratas, según Reuters. Es un cambio de tono.",
+      "detalle": [
+        "Según Reuters, en una entrevista con el programa 60 Minutes de la cadena CBS emitida el domingo 8 de noviembre, a Trump le preguntaron si EE. UU. tiene que aceptar los riesgos de la IA para no quedar detrás de China. Respondió que esos peligros se pueden manejar, que \"no le molestan los guardrails\" (salvaguardas o límites legales) y que estaría dispuesto a trabajar con los demócratas en eso.",
+        "Puso una condición: no quiere reglas que dejen a EE. UU. en \"un lejano segundo lugar\" detrás de China, que según él no tiene ese tipo de restricciones. No dijo qué medidas concretas apoyaría.",
+        "El tono contrasta con lo que venía diciendo: en septiembre había calificado de \"engaño\" los temores sobre la IA y había dicho que el único control que necesita es un presidente fuerte. El cambio llega después de las elecciones de medio término, tras las que los demócratas preparan leyes sobre IA para cuando controlen el Congreso.",
+        "La única fuente que leímos es Reuters; la entrevista completa de CBS no estaba disponible."
+      ],
+      "por_que_importa": "Si el gobierno y la oposición se ponen de acuerdo, EE. UU. podría tener sus primeras reglas federales sobre IA, y lo que se decide allá suele marcar cómo funcionan las herramientas que se usan en todo el mundo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Yahoo)", "url": "https://www.yahoo.com/news/politics/articles/trump-says-ai-risks-managed-002858735.html", "tipo": "medio"},
+        {"nombre": "Reuters (vía U.S. News)", "url": "https://www.usnews.com/news/top-news/articles/2026-11-08/trump-says-ai-risks-can-be-managed-signals-openness-to-guardrails", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "La IA busca electricidad: los centros de datos compran turbinas usadas y motores de avión adaptados",
+      "titulo_corto": "Turbinas usadas para la IA",
+      "categoria": "Hardware",
+      "veracidad": "sin_confirmar",
+      "breve": "Un análisis de Reuters cuenta que, como una turbina de gas nueva tarda en promedio 6 años en llegar en EE. UU., los centros de datos de IA compran equipos usados y turbinas basadas en motores de avión.",
+      "detalle": [
+        "Según un análisis de Reuters publicado el 9 de noviembre, la demanda de electricidad de la IA saturó a los fabricantes de turbinas de gas. Una analista de Wood Mackenzie le dijo a la agencia que en EE. UU. una turbina nueva tarda en promedio seis años en entregarse. Los pedidos mundiales superan los 100 gigavatios, contra una capacidad de producción de 60 a 70. Siemens Energy, GE Vernova y Mitsubishi Heavy Industries dicen que el auge de la IA llevó los pedidos por encima de lo que pueden fabricar.",
+        "Por eso aparece un mercado de segunda mano: según la consultora Origin Partners, una turbina usada bien mantenida cuesta entre US$1,5 y 1,7 millones por megavatio, contra US$2 a 2,5 millones de una nueva. Otra opción son las turbinas \"aeroderivadas\" (motores de avión adaptados para generar electricidad): en abril, Crusoe pidió 13 de estas, basadas en motores de GE Aerospace, por 650 megavatios. La finlandesa Wärtsilä vendió unos 3 gigavatios en motores a gas, una alternativa a las turbinas.",
+        "Hay dudas: no está claro si los motores de avión aguantan funcionar sin parar como generadores, y los equipos usados pueden tener historial de mantenimiento incierto. Un analista de Enverus cree que este mercado no alcanza para cubrir las demoras, que también vienen de permisos ambientales y conexiones a la red."
+      ],
+      "por_que_importa": "Es un tema de ingeniería mecánica puro: turbinas, ciclos térmicos, mantenimiento y vida útil. La IA está generando demanda de ingenieros que sepan de generación eléctrica y de repotenciar equipos viejos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Investing.com)", "url": "https://www.investing.com/news/stock-market-news/analysisai-power-rush-sends-data-centres-hunting-for-used-turbines-and-jet-engines-5010537", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Los dueños de los derechos de Elvis y la editorial de Eminem demandan a Suno, la IA que hace canciones",
+      "titulo_corto": "Elvis y Eminem vs. Suno",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Suno, la app que genera canciones con IA, enfrenta dos demandas nuevas: una de los titulares de los derechos de Elvis Presley y otra de la editorial de varios de los grandes temas de Eminem.",
+      "detalle": [
+        "Según The Verge y Variety, un grupo de titulares de los derechos de la música de Elvis Presley y la editorial que maneja algunos de los temas más conocidos de Eminem presentaron dos demandas separadas contra Suno. Acusan a la empresa de generar ilegalmente música y letras que imitan a esos artistas.",
+        "Suno es una de las herramientas más usadas para crear canciones a partir de una descripción escrita: uno pide \"un rock de los 50 sobre un auto\" y la IA compone la música, la letra y la voz. Para lograrlo se entrenó con enormes cantidades de música grabada, y ahí está la discusión: los dueños de los derechos dicen que se usaron sus obras sin permiso y que el resultado compite con ellas.",
+        "No son las primeras demandas: las grandes discográficas ya habían demandado a Suno por lo mismo. Ningún tribunal resolvió todavía si entrenar una IA con música protegida es legal. Los montos reclamados y la respuesta de Suno no estaban en las fuentes que pudimos leer."
+      ],
+      "por_que_importa": "Estos juicios van a definir si las empresas de IA pueden entrenar con obras ajenas sin pagar. Lo que se resuelva para la música probablemente se aplique también a textos, imágenes y código.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit", "tipo": "medio"},
+        {"nombre": "Variety", "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Nvidia amplía su alianza con el gobierno de Corea del Sur e invertirá en startups de IA coreanas",
+      "titulo_corto": "Nvidia y Corea del Sur",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "Nvidia y el Ministerio de Ciencia de Corea del Sur ampliaron su colaboración en chips, centros de datos, formación y modelos propios. Nvidia anunció inversiones en cuatro startups coreanas, sin decir montos.",
+      "detalle": [
+        "Nvidia publicó el 8 y 9 de noviembre una serie de anuncios con Corea del Sur. Con el Ministerio de Ciencia y TIC amplía la colaboración en lo que llaman \"IA soberana\" (que un país tenga sus propios modelos e infraestructura): chips, centros de datos, capacitación y certificaciones, startups, modelos, agentes y seguridad. Empresas coreanas que diseñan chips propios para IA podrán sumarse a NVLink Fusion, la tecnología de Nvidia para conectar chips de distintos fabricantes.",
+        "En un foro con más de 20 startups en Seúl, Nvidia anunció una inversión en Point2 (conexiones entre chips) y planes de invertir en Motif Technologies, RLWRLD (robótica) y Upstage. No informó los montos. También publicó \"recetas\" para correr de forma más eficiente cuatro modelos abiertos coreanos (de SK Telecom, LG, Upstage y Motif) con su software Dynamo, que según la empresa duplican el rendimiento en sus chips B200.",
+        "Los anuncios coincidieron con el escándalo por la investigación a Jensen Huang. Son comunicados de la propia empresa, sin cifras de inversión."
+      ],
+      "por_que_importa": "Cada vez más países quieren su propia IA en lugar de depender de EE. UU. o China, y Nvidia se posiciona como proveedor de todos. Es un modelo que países como Argentina miran para atraer centros de datos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/", "tipo": "oficial"},
+        {"nombre": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/", "tipo": "oficial"},
+        {"nombre": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "El MIT presenta WorldParticle, una sola IA que simula fluidos, arena y sólidos deformables",
+      "titulo_corto": "WorldParticle del MIT",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Investigadores del MIT y la Universidad de British Columbia crearon un modelo de IA que simula con partículas seis tipos de fenómenos físicos distintos, en vez de usar un simulador diferente para cada uno.",
+      "detalle": [
+        "El MIT presentó el 9 de noviembre WorldParticle, un modelo de aprendizaje profundo desarrollado con la Universidad de British Columbia y otras instituciones. Representa cada material como miles o millones de partículas en 3D (lo que se llama un enfoque lagrangiano, que sigue a cada pedazo de materia en su movimiento) y predice dónde va a estar cada partícula en el paso siguiente, parecido a cómo ChatGPT predice la próxima palabra.",
+        "Lo distinto es que no se le programa una ecuación para cada caso: aprende el comportamiento a partir de datos. Así simula seis fenómenos con la misma arquitectura, entre ellos sólidos deformables, materiales granulares como la arena y fluidos. Uno de los ejemplos es un líquido que golpea contra una válvula elástica dentro de un tanque; otro, robots blandos que se mueven sobre suelo granular. Según los autores, fue más preciso que los métodos numéricos con los que lo compararon, y en proteínas fue unas 100 veces más rápido.",
+        "Es una investigación, no un programa listo para usar. El paper está publicado en arXiv y se presentará en SIGGRAPH Asia. Los autores lo describen como un primer paso hacia un \"modelo base\" para simulación, y reconocen que escalar a millones de partículas exigió mucho cómputo."
+      ],
+      "por_que_importa": "Hoy, para simular un fluido y un sólido que interactúan hacen falta programas y métodos distintos acoplados. Si estos modelos maduran, un solo simulador con IA podría cubrir casos como el chapoteo en tanques, que se estudian en mecánica de fluidos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "MIT News", "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Samsung usa IA para acelerar 1.600 veces una simulación térmica y mecánica de chips",
+      "titulo_corto": "Samsung simula con IA",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Según Nvidia, Samsung redujo de unas 18 horas a 41 segundos un análisis térmico y mecánico a escala de chip, usando una técnica de IA y placas de video. LG mostró su robot CLOiD trabajando en una fábrica real.",
+      "detalle": [
+        "En un anuncio del 8 de noviembre sobre la \"IA física\" en Corea del Sur, Nvidia contó que Samsung Electronics aplicó una técnica de \"homogeneización\" con IA para el análisis térmico y mecánico de chips. La homogeneización consiste en reemplazar una estructura con muchísimo detalle por un material \"promedio\" equivalente, para poder calcular con una malla más gruesa.",
+        "El resultado informado: la simulación pasó de unas 18 horas, resolviendo una malla fina en un procesador de 32 núcleos, a 41 segundos con una malla gruesa en placas de video (GPU), unas 1.600 veces más rápido. Samsung también aceleró hasta 5 veces cálculos químicos para investigar materiales.",
+        "En el mismo anuncio, LG Electronics mostró a su robot CLOiD haciendo tareas de manipulación en un entorno de fabricación real, entrenado con modelos de Nvidia y datos sintéticos generados por simulación. Las cifras son de Nvidia y no detallan cuánto error introduce la malla gruesa frente a la fina."
+      ],
+      "por_que_importa": "Muestra hacia dónde va la simulación por elementos finitos: usar IA para pasar de horas a segundos y poder probar muchas más variantes de diseño. Conviene saber qué es la homogeneización y cuándo se puede confiar en un modelo simplificado.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "MIT y NYU crean FLEX, un sistema para que los robots entiendan la intención detrás de una orden",
+      "titulo_corto": "FLEX: robots que deducen",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "FLEX usa un modelo de lenguaje para que un brazo robótico que recibe la orden \"no derrames sobre mi laptop\" también evite otros aparatos electrónicos y objetos frágiles. Por ahora se probó solo en simulación.",
+      "detalle": [
+        "Investigadores del MIT y la Universidad de Nueva York presentaron FLEX, un sistema para planificar movimientos de robots a partir de órdenes en lenguaje común. El trabajo lo dirigió Andreea Bobu, profesora de aeronáutica y astronáutica del MIT, y se presenta en la Conferencia de Aprendizaje de Robots (CoRL).",
+        "Funciona en tres pasos que tardan unos cinco segundos. Primero agrega a una lista de cosas a evitar el objeto nombrado en la orden. Después un modelo de lenguaje (GPT-4o) generaliza la idea: si hay que cuidar una laptop, también conviene cuidar otros electrónicos. Por último, la visión del robot saca de la lista lo que ya no está en el ambiente, para que no crezca sin control.",
+        "En las pruebas, un brazo virtual llevó una taza de café, una vela y una bola de bowling. Con órdenes como \"no derrames sobre mi laptop\", evitó también electrónicos, objetos inflamables y frágiles, por ejemplo un teléfono que nadie había mencionado. Todo fue en simulación y el MIT no publicó cifras de desempeño."
+      ],
+      "por_que_importa": "La planificación de trayectorias es un tema central de la robótica industrial. Sumar \"sentido común\" con modelos de lenguaje podría hacer más seguros a los robots que trabajan cerca de personas, aunque falta probarlo en robots reales.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "MIT News", "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "El crudo de hoy no estaba a las 6:41; lo generé con scripts/recolectar.py (86 notas, 0 errores, 0 videos de Jon), así que no hay video de Jon hoy. elpais.com y variety.com bloquearon la lectura automática: Suno se apoya en el texto del feed de The Verge y el titular de Variety (los montos y cantidades de canciones que circulan solo aparecían en sitios menores, no los usé). Anthropic: todas las fuentes citan al FT, por eso sin_confirmar. Trump: solo leí el cable de Reuters. Turbinas: análisis de Reuters leído en Investing.com. Descartadas: exportaciones récord de México por IA (solo El País, bloqueado), Siri agéntica (columna de Gurman sin acceso), Siemens NVH (sin IA real), Honeywell enfriamiento (sin datos). No encontré textos con instrucciones sospechosas."
+}
