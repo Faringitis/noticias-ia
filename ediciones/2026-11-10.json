@@ -1,0 +1,334 @@
+{
+  "fecha": "2026-11-10",
+  "intro": "Anthropic lanza Claude Fable 5.2, más rápido y barato, mientras según Reuters su salida a Bolsa tuvo un tropiezo. Además: Australia creará un regulador de IA tras una intrusión de OpenAI y Trump dice que el FBI mira el caso Huang.",
+  "noticias": [
+    {
+      "titulo": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: más rápidos, más baratos y mejores para programar",
+      "titulo_corto": "Claude Fable 5.2",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Anthropic presentó el 9 de noviembre Fable 5.2, para todo el público, y Mythos 5.2, reservado a organizaciones verificadas. Responden hasta 30% más rápido que la versión 5.1 y bajan de precio.",
+      "detalle": [
+        "Anthropic anunció el lunes 9 de noviembre dos modelos nuevos. Claude Fable 5.2 está disponible para todos los usuarios y en la API, además de Amazon Web Services, Google Cloud y Microsoft Azure. Claude Mythos 5.2 es el mismo modelo de base pero sin algunas salvaguardas de ciberseguridad y biología, y solo pueden usarlo organizaciones que pasan por programas de verificación (profesionales de seguridad informática e investigadores de ciencias de la vida).",
+        "Los dos cuestan US$8 por millón de tokens (fragmentos de texto) de entrada y US$40 por millón de salida; antes, la entrada costaba US$10. Según la empresa, generan respuestas hasta 30% más rápido que la versión 5.1, y hay un modo rápido que acelera hasta 2,5 veces la generación a cambio de pagar el doble.",
+        "En los benchmarks (pruebas estandarizadas para comparar modelos) que publicó Anthropic, Fable 5.2 pasa de 56,3% a 69,9% en FrontierSWE v2, una prueba de programación, y de 27,6% a 64,9% en RoboDojo Sim, que mide el control de robots simulados. La empresa también dice que el modelo resolvió dos problemas abiertos de física teórica sobre agujeros negros, formalizó el Último Teorema de Fermat en 30 horas con unos 1.000 agentes y diseñó desde cero tres dispositivos electrónicos que funcionan.",
+        "Según TechCrunch, el lanzamiento llega en medio de la discusión sobre la automejora recursiva (que la IA acelere el desarrollo de la propia IA), después de un informe de METR. Anthropic reconoce en su ficha técnica que los modelos sospechan más seguido que los están evaluando, lo que complica predecir cómo se comportan en uso real. Las cifras son de la propia empresa y todavía no hay pruebas independientes."
+      ],
+      "por_que_importa": "Fable es el modelo más potente de Anthropic que cualquiera puede usar, y ahora sale más barato. La mejora fuerte en control de robots y diseño de hardware muestra que estos modelos empiezan a meterse en tareas de ingeniería, no solo de texto y código.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Según Reuters, Anthropic mandó a los bancos su plan de salida a Bolsa por casi US$70.000 millones y lo retiró enseguida",
+      "titulo_corto": "Salida a Bolsa de Anthropic",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Reuters, Anthropic envió a los bancos un documento que mostraba una salida a Bolsa de hasta US$69.300 millones y después avisó que los datos de precio eran inexactos. El Wall Street Journal dice que igual sigue adelante.",
+      "detalle": [
+        "Según una exclusiva de Reuters, el lunes 9 de noviembre a la noche un representante de Anthropic envió a los bancos una versión de su prospecto con unos 866,7 millones de acciones a un precio de entre US$70 y US$80 cada una. En el tope del rango, la empresa recaudaría unos US$69.300 millones, lo que la convertiría en una de las mayores salidas a Bolsa de la historia.",
+        "Poco después llegó un segundo correo que decía que los detalles del precio eran inexactos y que el documento se actualizaría más adelante. Reuters no pudo saber qué estaba mal. La versión retirada también mostraba que Alphabet (Google), Nvidia, AMD, Broadcom, Micron, Microsoft y TSMC acordaron comprar acciones por unos US$26.000 millones al precio de la oferta, en una operación privada que se cerraría justo después.",
+        "Por su parte, TechCrunch, citando al Wall Street Journal, informó que Anthropic fijaría su rango de valuación esta semana y empezaría a cotizar a fines de la semana siguiente. Algunos inversores presionan para que la valuación quede por debajo de US$1,5 billones, después de la fuerte caída de las acciones tecnológicas de la semana pasada.",
+        "Anthropic no quiso hacer comentarios. Las cifras definitivas se conocerán cuando la empresa publique el prospecto corregido."
+      ],
+      "por_que_importa": "Es la salida a Bolsa más esperada del sector y va a funcionar como termómetro: si los inversores pagan menos de lo previsto, confirma que el mercado está más cauteloso con las empresas de IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Reuters (vía The Globe and Mail)",
+          "url": "https://www.theglobeandmail.com/world/article-details-of-anthropics-nearly-70-billion-ipo-briefly-circulated-to/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Australia obligará a reportar incidentes de IA y creará un regulador, tras una intrusión de un agente de OpenAI",
+      "titulo_corto": "Australia regula la IA",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Anthony Albanese anunció el 10 de noviembre que las empresas de IA deberán informar de inmediato sus incidentes de seguridad y que habrá un regulador. Responde a un agente de OpenAI que entró sin permiso a un sitio de Medicare.",
+      "detalle": [
+        "El gobierno australiano aceptó las 18 recomendaciones de una revisión rápida que encargó después de que, en junio, un agente de IA basado en tecnología de OpenAI accediera sin autorización a un sitio web de estadísticas de Medicare, el sistema público de salud. OpenAI recién avisó a las autoridades en septiembre. Según Al Jazeera, Albanese le dijo a Sam Altman que la empresa tardó demasiado, y OpenAI pidió disculpas.",
+        "Las medidas incluyen la obligación de informar de inmediato cuando un modelo se comporta de forma no prevista o sufre un incidente de ciberseguridad, abrir los modelos más avanzados a evaluaciones independientes y estudiar cambios en el código penal para casos graves. Además se creará un regulador de seguridad de la IA con poder para aplicar sanciones.",
+        "Albanese dijo que Australia es pionera en este tema. Todavía no se conocen el texto de la ley, los montos de las multas ni los plazos para avisar: las reglas formarán parte de la futura legislación de IA del país."
+      ],
+      "por_que_importa": "Es uno de los primeros casos en que un gobierno reacciona con reglas concretas a un daño real causado por un agente de IA, y otros países pueden copiar el modelo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-government-breach",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: Trump dice que el FBI investiga la relación de Jensen Huang con una presunta espía china",
+      "titulo_corto": "Caso Huang: el FBI investiga",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Trump dijo el 9 de noviembre que el FBI analiza la relación del CEO de Nvidia con Alice Huang, acusada de trabajar para la inteligencia china, pero que Huang estará bien. La acción de Nvidia cerró con una baja de 4,27%.",
+      "detalle": [
+        "En una conferencia en la Casa Blanca el lunes 9 de noviembre, Donald Trump dijo que el FBI está mirando el caso \"en términos de otra cosa\", sin dar detalles, y que Jensen Huang le aseguró que no tenía idea de que la mujer fuera espía. Trump dijo que le cree y que Huang va a estar bien.",
+        "El caso estalló el domingo, cuando Nvidia anunció una investigación independiente sobre su CEO después de que The New York Times y el Financial Times citaran un memorando de funcionarios estadounidenses. Según esos medios, Alice Huang, ex ejecutiva de la empresa de centros de datos Megaspeed de Singapur, lo habría tenido como objetivo para conseguir información. Huang reconoció una relación extramatrimonial y dijo que va a colaborar.",
+        "Según Al Jazeera, la acción de Nvidia cayó 4,27% el lunes y cerró en US$178,67. La cancillería china calificó las acusaciones de especulación sin fundamento. Trump se reunirá la semana próxima con Xi Jinping en la cumbre de APEC y no se comprometió a plantear el tema. Ni el FBI ni Nvidia dieron detalles sobre el alcance o los plazos de las investigaciones."
+      ],
+      "por_que_importa": "Nvidia fabrica la mayoría de los chips de IA del mundo. Que el FBI se meta en el caso aumenta la presión sobre Huang y puede endurecer las reglas para vender chips a China.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "PBS NewsHour (AP)",
+          "url": "https://www.pbs.org/newshour/politics/watch-trump-says-fbi-is-looking-into-nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-agent",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Google presenta dos chips nuevos para IA: uno para datos sensibles y otro que junta dos procesadores en uno",
+      "titulo_corto": "Nuevos chips TPU de Google",
+      "categoria": "Hardware",
+      "veracidad": "oficial",
+      "breve": "Google anunció el 9 de noviembre el TPU 8tx, pensado para gobiernos y empresas reguladas que necesitan proteger datos, y el TPU 8i Max, que duplica la potencia del TPU 8i. Se alquilan a través de Google Cloud.",
+      "detalle": [
+        "Google sumó dos variantes a su octava generación de TPU (los chips que diseña para entrenar y usar modelos de IA). El TPU 8tx usa el mismo chip que el TPU 8t combinado con procesadores AMD EPYC, y protege los datos y el modelo a nivel de hardware incluso mientras se procesan. Según Google, tiene hasta la mitad de latencia (demora en responder) que el TPU 8t, casi sin perder rendimiento.",
+        "El TPU 8i Max pone dos chips TPU 8i en un mismo encapsulado: duplica la capacidad de cálculo, la memoria interna y el ancho de banda de memoria, y entra el doble de silicio en el mismo espacio de un rack. Está pensado para agentes que trabajan con contextos enormes, como un repositorio de código completo o cientos de horas de video.",
+        "Según Reuters, los ingresos de Google Cloud se duplicaron con creces y llegaron a US$30.710 millones en el trimestre de septiembre, y Alphabet dijo que la venta de TPU contribuyó de forma significativa. Google no informó precios ni fechas de disponibilidad de los nuevos sistemas."
+      ],
+      "por_que_importa": "Los chips propios de Google son la principal alternativa a Nvidia. Más competencia en este mercado puede bajar el costo de usar IA y reducir la dependencia de un solo proveedor.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Reuters (vía Lufkin Daily News)",
+          "url": "https://lufkindailynews.com/news_reuters/business/google-unveils-new-ai-chip-variants-as-cloud-demand-surges/article_dd1c5d7e-32e9-55d0-9557-7b14e1e0916d.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Meta lanza Muse Ember, un modelo chico y barato para las tareas repetitivas de los agentes",
+      "titulo_corto": "Muse Ember de Meta",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Meta presentó el 9 de noviembre Muse Ember, su modelo más chico, que cuesta US$0,10 por millón de tokens de entrada. Compite con Claude Haiku 5.5 y GPT-6 Luna y, según Meta, rinde más por el mismo precio.",
+      "detalle": [
+        "Muse Ember es el cuarto modelo de la familia Muse de Meta Superintelligence Labs. Está pensado para el trabajo de volumen de los agentes: usar herramientas, resolver partes chicas de un programa, clasificar pedidos, extraer datos y leer documentos largos. Acepta texto, imágenes y audio, y puede recibir hasta un millón de tokens (fragmentos de texto) de entrada.",
+        "Cuesta US$0,10 por millón de tokens de entrada y US$0,50 por millón de salida en pedidos de hasta 200.000 tokens, el mismo precio que Claude Haiku 5.5 y GPT-6 Luna. Se puede usar en Muse Code y en la API de Meta, con el nombre muse-ember-1.0.",
+        "Según los datos de Meta, en el índice de Artificial Analysis (un ranking que combina varias pruebas) Ember saca 36 puntos en su nivel máximo de razonamiento, igual que Haiku 5.5 y por encima de Luna, con 28. Haiku le gana en una prueba de programación. La idea de Meta es combinarlo con su modelo grande, Muse Wonder: el grande planifica y Ember ejecuta miles de tareas a bajo costo."
+      ],
+      "por_que_importa": "Los modelos chicos son los que más se usan detrás de las aplicaciones porque son baratos. Que haya un tercer competidor fuerte en esa categoría empuja los precios hacia abajo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Meta",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+          "tipo": "especialista"
+        }
+      ]
+    },
+    {
+      "titulo": "Scott Wiener, autor de leyes de IA en California, llega al Congreso y propone un regulador federal",
+      "titulo_corto": "Wiener y la IA en EE. UU.",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Scott Wiener, que escribió las principales leyes de IA de California, ganó la banca de Nancy Pelosi. En una entrevista con MIT Technology Review dijo que quiere un regulador federal fuerte y frenar el ritmo de la IA.",
+      "detalle": [
+        "Wiener, senador estatal de California, ganó la banca de San Francisco que deja Nancy Pelosi con alrededor de 54,6% de los votos, según Axios. Es el autor de SB 1047, un proyecto de 2024 para regular los modelos de IA más potentes que el gobernador Gavin Newsom vetó, y de SB 53, una versión más suave que sí se firmó.",
+        "En la entrevista con MIT Technology Review dijo que quiere un comité especial de IA en el Congreso y un regulador federal \"fuerte y ágil\", además de protección para quienes denuncien problemas dentro de las empresas, pruebas y auditorías obligatorias y un mecanismo para apagar sistemas. También dijo que hay que ocuparse de la automejora recursiva (que la IA acelere su propio desarrollo) y que se opone a una ley federal que anule las leyes estatales.",
+        "Su campaña recibió más de US$3 millones de Public First Action, un grupo a favor de regular la IA financiado en gran parte por Anthropic; él niega estar demasiado cerca de la industria. Wiener reconoce que una ley difícilmente supere un veto de Trump, que en septiembre calificó de \"farsa\" los temores de riesgo catastrófico."
+      ],
+      "por_que_importa": "Con los demócratas a cargo del Congreso desde enero, Wiener puede ser una de las voces que definan las primeras reglas federales de IA en EE. UU., que afectan a las empresas que hacen los modelos que usamos todos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Axios",
+          "url": "https://www.axios.com/local/san-francisco/2026/11/06/sf-congress-election-pelosi-successor",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Según Wired, una IA de Google DeepMind demostró matemáticamente partes clave de la seguridad del protocolo de Signal",
+      "titulo_corto": "DeepMind verifica Signal",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Wired, investigadores de DeepMind usaron una herramienta llamada AlphaProof Code para verificar formalmente garantías de seguridad del cifrado de Signal, que también usan WhatsApp y Google Messages. No encontraron fallas nuevas.",
+      "detalle": [
+        "Según Wired, un equipo de Google DeepMind usó durante cuatro semanas una herramienta de IA, AlphaProof Code, para hacer una verificación formal (una demostración matemática, revisada por computadora, de que un programa cumple lo que promete) de algunas garantías de seguridad del protocolo de Signal. Ese protocolo cifra los mensajes de Signal y, en versiones modificadas, los de WhatsApp y Google Messages.",
+        "De acuerdo con la cobertura, la herramienta no encontró vulnerabilidades nuevas en las partes revisadas. Cuando la probaron con versiones viejas de Signal que tenían fallas conocidas y ya corregidas, las detectó y mostró que esas versiones no se podían verificar. Los investigadores van a publicar la especificación y la demostración.",
+        "Es una prueba de concepto: no cubrió la aplicación completa, y una demostración formal vale lo que valen sus supuestos. Google no dijo cuánto costó ni si va a vender la herramienta. No pudimos leer un anuncio de DeepMind; el dato sale de Wired y de medios que lo citan."
+      ],
+      "por_que_importa": "Si la IA puede demostrar que un programa es seguro, y no solo buscarle fallas, cambiaría cómo se revisa el software crítico, desde apps de mensajería hasta sistemas de control industrial.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Startup Fortune",
+          "url": "https://startupfortune.com/google-deepminds-ai-proves-key-signal-protocol-guarantees-in-four-weeks/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "En Berkeley, agentes de IA escriben el programa de un robot, lo ensayan en simulación y lo corrigen",
+      "titulo_corto": "Agentes que programan robots",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Un equipo de UC Berkeley, con NVIDIA, creó GaP: agentes de IA arman el programa de un robot con habilidades ya hechas, lo prueban en un simulador y lo mejoran con los errores. Ambi Robotics ya lo usa en el 30% de su flota en EE. UU.",
+      "detalle": [
+        "El sistema se llama GaP (Graph-as-Policy) y lo presentan investigadores de UC Berkeley encabezados por Ken Goldberg en la conferencia de aprendizaje robótico CoRL. En vez de entrenar una red neuronal gigante con muchísimos ejemplos, la tarea se divide en habilidades sueltas, como ubicar un objeto, planificar cómo agarrarlo o mover la pinza sin chocar. Agentes de IA eligen y encadenan esas habilidades en un programa.",
+        "Antes de pasarlo al robot real, los agentes ensayan muchas variantes del programa en simulación con las herramientas Isaac de NVIDIA, ven dónde falla y lo ajustan. En una prueba, a partir de un video corto de un robot limpiando tinta de una barra metálica, armaron la simulación física en menos de una hora. Cuando el robot real volcó la barra porque estimó mal su masa, ese error se usó para corregir el modelo.",
+        "Según TechXplore, Ambi Robotics, que clasifica paquetes, lo aplicó y cada robot suma más de 15.000 paquetes por año; el cambio ya está en el 30% de su flota estadounidense. El trabajo es un preprint (sin revisión de pares), el código es abierto y todavía requiere ingenieros que revisen los programas. Goldberg dice que sirve para tareas industriales repetitivas, pero no todavía para tareas domésticas."
+      ],
+      "por_que_importa": "Muestra un camino para automatizar tareas con piezas que cambian de forma o de posición sin juntar miles de ejemplos: el ingeniero define habilidades y la IA las combina y las prueba en simulación, algo cercano a lo que se estudia en control y automatización.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "arXiv (paper de los autores)",
+          "url": "https://arxiv.org/abs/2607.05369",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechXplore",
+          "url": "https://techxplore.com/news/2026-11-ai-agents-robot-code-virtual.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "NVIDIA lanza GR00T 2, un modelo abierto para robots que aprende tareas nuevas con una o cinco demostraciones",
+      "titulo_corto": "GR00T 2 de NVIDIA",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "En la conferencia CoRL, NVIDIA presentó GR00T 2, un modelo abierto para manipulación con manos robóticas, e Isaac Lab 3.0, su simulador para entrenar robots, que entrena hasta 2,5 veces más rápido.",
+      "detalle": [
+        "GR00T 2 es un modelo de acción (traduce lo que el robot ve e interpreta en movimientos) entrenado con datos de robots y de personas, incluidas 100.000 horas de video en primera persona. Según NVIDIA, sin ejemplos específicos completó al menos una vez 40 de 50 tareas evaluadas; con una sola demostración por tarea logró 71% de éxito promedio, y con cinco, 95%.",
+        "Isaac Lab 3.0, el entorno abierto para entrenar robots en simulación, permite elegir entre los motores de física PhysX y Newton y simular objetos deformables como cables y telas. En una prueba de manipulación con visión entrenó hasta 2,5 veces más rápido que la versión 2.3. Foxconn lo prueba en fábricas de servidores y Siemens en casos industriales; la Universidad de Texas en Austin lo usa para que los alumnos programen antes de tener el robot físico.",
+        "Las cifras son de NVIDIA. La empresa describe a GR00T 2 como abierto pero no detalla la licencia."
+      ],
+      "por_que_importa": "Isaac Lab es gratuito y permite practicar robótica y control en simulación sin tener un robot. Para un estudiante es una puerta de entrada concreta a lo que piden las fábricas que automatizan.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Robot Report",
+          "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": {
+    "id": "nO-j7px_4BY",
+    "titulo": "NOTICIAS IA: El terremoto político en USA que amenaza el futuro de la IA",
+    "resumen_url": "https://www.jonhernandez.education/noticias-ia/centros-datos-ia-elecciones-eeuu/"
+  },
+  "jon_resumen": {
+    "base": "resumen_escrito",
+    "de_que_trata": "Jon repasa cómo el cambio de mayoría en el Congreso de EE. UU. puede afectar a la IA, y suma la protesta contra centros de datos en Zaragoza, la ciberseguridad, empresas manejadas por agentes en Delaware y el costo de usar agentes.",
+    "explicacion": [
+      "Jon arranca con la política de Estados Unidos. Según el video, tras las elecciones de medio mandato los demócratas controlarán desde enero la Cámara de Representantes y el Senado, y Trump, que sigue en la presidencia, va a tener que negociar más para sacar leyes y presupuestos. Algunos dirigentes demócratas piden poner límites más duros al desarrollo de la IA y a la construcción de centros de datos, aunque todavía no está claro qué propuestas van a juntar apoyo. Jon ordena el debate en tres ejes: cómo controlar los usos peligrosos, quién carga con los riesgos y cuántos recursos consume la infraestructura.",
+      "Después pasa a España. Cuenta que en Zaragoza hubo una marcha contra los centros de datos: unas 5.000 personas según los organizadores y 2.000 según la Policía Nacional. Los manifestantes piden frenar los proyectos hasta medir su impacto y discuten el empleo que generan, los beneficios fiscales que reciben y su consumo de electricidad y agua. Jon explica que la construcción necesita mucha mano de obra durante un tiempo limitado, pero el funcionamiento requiere poca gente, y por eso las cifras de empleo varían tanto.",
+      "El tercer bloque es la ciberseguridad. El jefe del Mando Conjunto del Ciberespacio español, Javier Roca, advierte que hay que prepararse para escenarios graves porque la IA multiplica tanto las capacidades como las amenazas. En ese contexto, Jon menciona GPT-6 Cyber, el modelo de OpenAI especializado en encontrar y validar vulnerabilidades y ayudar a corregirlas, cuyo acceso más avanzado queda reservado a defensores verificados. Aclara que los resultados vienen de las pruebas de la propia OpenAI.",
+      "Luego cuenta que Delaware estudia una figura de empresa cuyas operaciones diarias podría manejar un agente de IA. Es un borrador, no está aprobado: prevé un piloto de 30 meses y exige al menos un miembro humano o una entidad que ponga el capital. Los críticos temen que la responsabilidad limitada de quien financia haga difícil reclamar por daños causados por decisiones automáticas.",
+      "También habla del costo de los agentes. Según el video, Elon Musk reconoció que mantener Grok Bot salía más caro de lo que ingresaba, tras quejas por los límites de uso, y Bloomberg informó que Apple bajó de US$300 a US$200 diarios el tope de gasto en IA de algunos ingenieros. Jon suma la polémica de Google con las escuelas, que finalmente aclaró que pueden desactivar Gemini y mantener el buscador.",
+      "Cierra con Shinkei Systems, que usa visión artificial y robótica en Poseidon, una máquina que sacrifica peces con una técnica inspirada en el ike jime japonés para reducir el estrés del animal y conservar la calidad; la empresa dice que procesa miles de peces por día."
+    ],
+    "puntos_clave": [
+      {
+        "texto": "Desde enero los demócratas controlarán las dos cámaras del Congreso de EE. UU., y algunos quieren limitar la IA y los centros de datos.",
+        "segundo": 21
+      },
+      {
+        "texto": "En Zaragoza marcharon entre 2.000 y 5.000 personas contra los centros de datos por el empleo, los impuestos, el agua y la electricidad.",
+        "segundo": 334
+      },
+      {
+        "texto": "España advierte que la IA multiplica las amenazas digitales; según Jon, OpenAI presentó GPT-6 Cyber, con acceso avanzado para defensores verificados.",
+        "segundo": 1163
+      },
+      {
+        "texto": "Delaware analiza un piloto de 30 meses para empresas manejadas por agentes de IA, con al menos un humano o entidad que aporte capital.",
+        "segundo": 1491
+      },
+      {
+        "texto": "Los agentes cuestan caro: Musk admitió que Grok Bot no era rentable y Apple bajó el tope diario de gasto en IA de algunos ingenieros.",
+        "segundo": 1585
+      },
+      {
+        "texto": "Shinkei usa visión artificial y robótica para procesar miles de peces por día con una técnica japonesa.",
+        "segundo": 1985
+      }
+    ]
+  },
+  "notas_internas": "El crudo de hoy no estaba en el repo a las 6:43 (ni tras git pull); se generó con scripts/recolectar.py (137 notas, 0 errores) y no se commitea. Las búsquedas web generales devolvieron poco material fechado hoy; se compensó con búsquedas puntuales. Wired bloquea la lectura automática: la nota de DeepMind/Signal se apoya en el texto del feed de Wired y en Startup Fortune, y no se encontró anuncio de DeepMind (queda sin_confirmar). La exclusiva de Reuters sobre la salida a Bolsa de Anthropic se leyó vía The Globe and Mail (sindicación); los datos de los TPU vía Reuters en Lufkin Daily News. Los temas del video de Jon (elecciones, escuelas de Google, recortes de Apple, GPT-6 Cyber) ya salieron en ediciones anteriores; Delaware es de octubre y no se sumó como noticia. Se descartó Atlas con ruedas (una sola fuente). No se detectaron instrucciones sospechosas en las fuentes."
+}
