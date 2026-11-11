@@ -1,0 +1,254 @@
+{
+  "fecha": "2026-11-11",
+  "intro": "Anthropic arranca su salida a Bolsa con una valuación de hasta US$1,4 billones, Google abre Gemini 4 Carbon a todos los que pagan y Nueva York empieza a registrar a las grandes empresas de IA. Además: Claude se mete en las reuniones.",
+  "noticias": [
+    {
+      "titulo": "Actualización: Anthropic lanza su salida a Bolsa a US$70-78 por acción y una valuación de hasta US$1,4 billones",
+      "titulo_corto": "Anthropic sale a Bolsa",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "Un día después del documento retirado, Anthropic anunció oficialmente su salida a Bolsa: ofrece 825 millones de acciones a entre US$70 y US$78. En el tope, la empresa valdría unos US$1,4 billones y recaudaría hasta US$64.350 millones.",
+      "detalle": [
+        "El 10 de noviembre Anthropic empezó el \"roadshow\" (la gira de presentaciones a inversores antes de salir a Bolsa). Según su anuncio, ofrece 825 millones de acciones Clase A a un precio esperado de entre US$70 y US$78: unas 801 millones las vende la empresa y unas 23,6 millones, accionistas actuales. Va a cotizar en el Nasdaq con el símbolo \"ANT\", y los bancos que lideran la operación son Goldman Sachs y Morgan Stanley.",
+        "Según TechCrunch, que leyó el prospecto presentado ante la SEC (el regulador bursátil de EE. UU.), la empresa recaudaría entre US$57.750 y US$64.350 millones, y en el tope del rango valdría US$1,404 billones, contra US$965.000 millones en su ronda de mayo. Además, AMD, Broadcom, Google, Micron, Microsoft, Nvidia y TSMC comprarían acciones sin voto por US$26.000 millones al mismo precio. Las acciones empezarían a cotizar cerca del 19 de noviembre.",
+        "El prospecto también muestra los números del negocio: ingresos anualizados de US$81.000 millones a fines de octubre, US$17.000 millones de ingresos en el tercer trimestre y una pérdida neta de US$104.000 millones en nueve meses. Cada uno de los siete cofundadores vendería unas 3,4 millones de acciones, cerca de US$250 millones cada uno, y entre todos conservarían algo más de la mitad de los votos gracias a una clase especial de acciones.",
+        "Falta saber el precio final, que se fija al terminar la gira y podría quedar fuera del rango si la demanda es muy alta o muy baja."
+      ],
+      "por_que_importa": "Sería una de las salidas a Bolsa más grandes de la historia y la primera de un gran laboratorio de IA: el precio final va a mostrar cuánto confían los inversores en el negocio de la IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "TechCrunch (fundadores)",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: Google abre Gemini 4 Carbon, su modelo más potente, a desarrolladores, empresas y AI Ultra",
+      "titulo_corto": "Gemini 4 Carbon para todos",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Dos semanas después de dárselo solo a expertos en ciberseguridad, Google habilitó Gemini 4 Carbon en su API paga, en productos para empresas y para los suscriptores de AI Ultra. Llega con un modo que reparte una tarea entre varios agentes.",
+      "detalle": [
+        "Google anunció el 10 de noviembre que Gemini 4 Carbon, presentado a fines de octubre solo para defensores de ciberseguridad, ya está disponible en la API paga de Gemini (Google AI Studio y Android Studio), en sus productos para empresas y, de a poco, en la app de Gemini, el Modo IA del buscador y Antigravity (su entorno de programación con agentes) para quienes pagan Google AI Ultra.",
+        "Google lo apunta a tareas largas y difíciles: programación, ciberseguridad, ciencia y flujos de muchos pasos. Para el trabajo de todos los días recomienda seguir usando Gemini 4 Argon. Dice que Carbon queda primero en varios benchmarks (pruebas estandarizadas para comparar modelos) de agentes y programación, con un costo por tarea más de dos veces menor que el siguiente modelo externo.",
+        "La novedad práctica es /swarm (enjambre), en vista previa dentro de Antigravity: a partir de una sola orden arma un equipo de agentes; Carbon hace de coordinador y auditor, y modelos más livianos trabajan en paralelo mientras otros agentes revisan cada cambio.",
+        "El precio de lanzamiento es US$2 por millón de tokens de entrada y US$10 por millón de salida (los tokens son los pedacitos de texto que procesa el modelo). Desde el 30 de noviembre sube a US$4 y US$20. Todas las cifras de rendimiento son de Google o de sus socios, no de pruebas independientes."
+      ],
+      "por_que_importa": "Pone a Google de nuevo en la pelea por el mejor modelo, apenas un día después de que Anthropic lanzara Fable 5.2, y la competencia suele traducirse en mejores modelos y precios más bajos para quienes los usan.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Xataka",
+          "url": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Anthropic suma planillas, pizarras y un Claude que participa de las videollamadas de Google Meet",
+      "titulo_corto": "Claude: planillas y Meet",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Anthropic presentó Claude Sheets (planillas), Claude Whiteboards (pizarras compartidas) y Claude Meetings, que mete a Claude en reuniones de Google Meet para armar planes y responder preguntas en vivo. Todo está en beta.",
+      "detalle": [
+        "El 10 de noviembre Anthropic lanzó en beta, para todos los planes pagos y en web, escritorio y celular, dos herramientas nuevas: Claude Sheets, que arma y edita planillas con pestañas, fórmulas y menús desplegables y anota cada cambio que hace, y Claude Whiteboards, una pizarra compartida donde el equipo tira ideas y Claude las ordena en un cronograma con responsables y fechas. También pasó a disponibilidad general Claude Data, que arma tableros a partir de bases de datos.",
+        "Según TechCrunch, la empresa presentó además Claude Meetings, en beta para los planes Team y Enterprise: Claude entra a una videollamada de Google Meet como un participante visible, va escribiendo el plan que se discute, responde en el chat de la reunión y busca datos en las aplicaciones conectadas. Al terminar deja notas y tareas. Por privacidad, avisa que está presente y se retira si entra alguien de fuera de la empresa, salvo que un administrador lo autorice.",
+        "Anthropic aclara que Sheets todavía es básico: para funciones completas de Excel hay que exportar el archivo o usar Claude dentro de Excel. Con esto, Claude empieza a parecerse a un paquete de oficina propio, compitiendo con Microsoft, Google y OpenAI."
+      ],
+      "por_que_importa": "Muestra hacia dónde van los asistentes: dejar de ser solo un chat y hacer el trabajo dentro de las planillas, documentos y reuniones de todos los días.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Claude (Anthropic)",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "OpenAI deja que las empresas creen perfiles verificados y agentes propios dentro de ChatGPT",
+      "titulo_corto": "Empresas en ChatGPT",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI lanzó en beta un espacio para que las empresas manejen cómo aparecen en ChatGPT: perfiles verificados, estadísticas y \"agentes de empresa\" que responden preguntas de los usuarios sobre sus productos.",
+      "detalle": [
+        "OpenAI presentó el 10 de noviembre una herramienta para empresas dentro de ChatGPT, en beta. Las compañías pueden crear un perfil verificado con datos de sus productos y servicios, parecido a la ficha de un negocio en Google, y ver estadísticas básicas: cuántas veces se vio el perfil, cuántas veces las mencionó ChatGPT y cuántos clics llegaron a su sitio.",
+        "Las empresas habilitadas también pueden crear un agente propio que responde consultas de los usuarios sobre la marca, por ejemplo para comparar productos antes de comprar. Según The Verge, al principio está disponible para comercios electrónicos y servicios en línea de EE. UU. que cumplan ciertos requisitos.",
+        "OpenAI no explicó del todo cómo funciona la verificación: según su vicepresidente de monetización, depende del tipo de negocio y del país. TechCrunch recuerda que OpenAI ya había intentado convertir a ChatGPT en un centro de compras con un sistema de pago con comisión, que abandonó en marzo de 2026. No se informaron precios ni fechas para otros países."
+      ],
+      "por_que_importa": "ChatGPT busca ser el lugar donde la gente descubre negocios y productos, como hoy lo es Google; para las empresas, aparecer bien ahí puede volverse tan importante como el buscador.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "tipo": "oficial"
+        }
+      ]
+    },
+    {
+      "titulo": "Nueva York abre el registro obligatorio para las grandes empresas de IA, como OpenAI y Anthropic",
+      "titulo_corto": "Ley de IA de Nueva York",
+      "categoria": "Regulación",
+      "veracidad": "oficial",
+      "breve": "El estado de Nueva York empezó a aplicar la ley RAISE: las desarrolladoras de IA de punta que facturan más de US$500 millones al año deben registrarse, publicar sus prácticas de seguridad y avisar incidentes graves en 72 horas.",
+      "detalle": [
+        "Según TechCrunch, el 10 de noviembre Nueva York abrió el portal donde las grandes desarrolladoras de modelos de IA tienen que registrarse, y empresas como OpenAI y Anthropic deben hacerlo antes del 1 de enero de 2027. La ley, llamada RAISE Act, alcanza a las que facturan más de US$500 millones al año, y la aplica una oficina nueva dentro del Departamento de Servicios Financieros del estado, llamada DIGIT.",
+        "Las obligaciones, que rigen desde enero de 2027 según el anuncio de la gobernadora Kathy Hochul, son: publicar en su sitio sus planes de seguridad, informar los incidentes de seguridad graves dentro de las 72 horas, presentar evaluaciones periódicas de riesgos catastróficos y pagar una tasa para financiar a la oficina. Según TechCrunch, las multas llegan a US$1 millón por infracción y a US$3 millones si se repite.",
+        "Es parecida a la ley SB 53 de California, vigente desde enero, pero más estricta en un punto: California da 15 días para reportar un incidente grave y Nueva York, solo 72 horas. El estado también creó un centro en la Universidad de Binghamton que evaluará los sistemas de IA de forma independiente."
+      ],
+      "por_que_importa": "Mientras EE. UU. no tiene una ley nacional de IA, los estados grandes ponen las reglas, y lo que se exige ahí termina afectando a los modelos que usa todo el mundo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Gobernación de Nueva York",
+          "url": "https://governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+          "tipo": "oficial"
+        }
+      ]
+    },
+    {
+      "titulo": "Adobe abre Photoshop, Premiere e Illustrator a agentes de IA externos como ChatGPT, Claude y Gemini",
+      "titulo_corto": "Adobe y los agentes de IA",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "En su conferencia MAX, Adobe anunció un servidor MCP que deja que asistentes como ChatGPT, Claude o Gemini usen funciones de Photoshop, Illustrator, After Effects y Premiere, además de un asistente propio que trabaja siempre en segundo plano.",
+      "detalle": [
+        "El 10 de noviembre, en Adobe MAX (Miami), la empresa presentó un servidor MCP local. MCP (Model Context Protocol) es un estándar para que un asistente de IA pueda usar otras aplicaciones: con esto, ChatGPT, Claude o Gemini pueden ejecutar funciones de Illustrator, Photoshop, After Effects y Premiere. Según TechCrunch, Adobe todavía está decidiendo qué funciones abrir y lo va a definir según lo que pidan los usuarios.",
+        "Su propio asistente también cambia: pasa a estar siempre activo, junta contexto sobre lo que estás haciendo y propone acciones rápidas, como quitar un fondo o generar la miniatura de un video.",
+        "Hubo además novedades en las apps: herramientas para borrar objetos y distracciones en Photoshop, Lightroom y Premiere, una función para cambiar la iluminación de una foto y un nuevo sistema de color en Premiere. En Firefly, su plataforma de IA generativa, presentó Builder, una herramienta para armar prototipos que compite con Figma y que por ahora está en beta privada. Adobe no dio fechas de disponibilidad para la mayoría de las funciones."
+      ],
+      "por_que_importa": "Que un programa profesional se pueda manejar desde cualquier asistente marca una tendencia: en el futuro muchas tareas se pedirán en lenguaje natural en vez de hacerse clic por clic, y algo así puede llegar a programas de diseño como SolidWorks.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Ring, de Amazon, presenta un dron que vigila la casa y un robot de seguridad para empresas, ambos guiados por IA",
+      "titulo_corto": "Dron y robot de Ring",
+      "categoria": "Hardware",
+      "veracidad": "confirmada",
+      "breve": "Ring, la marca de cámaras de Amazon, lanzó Ring Drone Cam, un dron que vuela dentro de la casa cuando salta una alarma, y Ring Rover Cam, un robot con ruedas que patrulla oficinas. Los dos usan un sistema de IA para orientarse solos.",
+      "detalle": [
+        "Ring presentó el 10 de noviembre sus primeros productos de robótica. Ring Drone Cam es una cámara voladora para interiores: si se activa un sensor, por ejemplo el de la puerta trasera, vuela hasta ese lugar para mostrar qué pasa, y también puede hacer recorridos programados. Graba en 2K y descansa en una base cuando no se usa. Sale el 27 de enero de 2027; TechCrunch informa un precio de US$270 y The Verge, de US$249,99.",
+        "Ring Rover Cam es un robot con ruedas para negocios que sigue rutas fijas, transmite video 4K, empieza a grabar cuando detecta a una persona y tiene una cámara tipo periscopio que sube para ver por encima de obstáculos. Según TechCrunch, cuesta US$1.000 y sale el 16 de diciembre.",
+        "Ambos usan un sistema propio llamado AI Pilot, que combina modelos de visión, sensores y procesamiento en la nube, y arman solos un mapa del lugar recorriéndolo. El dron se había anunciado por primera vez en 2020 y nunca llegó a venderse en forma masiva. Ring dice que la privacidad está protegida con cifrado, pero la marca viene siendo criticada por facilitar redes de vigilancia a las que accede la policía."
+      ],
+      "por_que_importa": "Es un ejemplo de IA que sale de la pantalla y se mueve en el mundo físico, dentro de casas y oficinas, con las dudas de privacidad que eso trae.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "DeepMind presenta Gemini Robotics 2.5: un humanoide armó kits de autopartes en Mercedes-Benz con 96% de éxito",
+      "titulo_corto": "Gemini Robotics 2.5",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Gemini Robotics 2.5, el nuevo modelo de DeepMind que convierte lo que ve y lo que le piden en movimientos, mejora entre 30% y 100% la tasa de éxito en tareas de manipulación. Con Mercedes-Benz, un humanoide preparó kits de piezas con 96% de éxito.",
+      "detalle": [
+        "Google DeepMind presentó el 10 de noviembre Gemini Robotics 2.5, un modelo VLA (visión-lenguaje-acción: recibe imágenes y órdenes en lenguaje común y devuelve los movimientos del robot). Se probó en el humanoide Apollo 2 de Apptronik, con una mano de cinco dedos y 22 grados de libertad, y en un sistema Franka de dos brazos con pinzas. Según la empresa, en 200 tareas distintas logró entre 30% y 100% más éxito que la versión anterior y terminó entre 20% y 30% más rápido.",
+        "Algunos ejemplos que da DeepMind: cerrar la tapa de una caja de herramientas pasó de 0% a 93% de éxito; empacar masas con pinzas, de 5% a 100%; y doblar pantalones, de 0% a 40%. En una prueba piloto con Apptronik y Mercedes-Benz, Apollo 2 hizo kitting (juntar las piezas que necesita cada puesto de la línea) en plantas de Hungría y Alemania, con 96% de éxito. Ahí un modelo planifica el flujo de trabajo y Gemini Robotics 2.5 controla manos y brazos.",
+        "DeepMind también publicó ASIMOV-Jailbreak, una prueba abierta para medir si un robot se deja engañar con pedidos peligrosos disfrazados. Por ahora el modelo solo llega a sus socios de robótica, y todas las cifras son de la propia empresa, con un único piloto industrial."
+      ],
+      "por_que_importa": "Para un ingeniero mecánico, muestra que la manipulación con manos de muchos grados de libertad empieza a funcionar en líneas reales de la industria automotriz; entender cómo se combinan cinemática, sensores e IA va a pesar cada vez más en el diseño de celdas de producción.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "El crudo de hoy no estaba en el repo a las 6:40 (ni tras git pull); se generó con scripts/recolectar.py (155 notas, 0 errores) y no se commitea. El único video de Jon del crudo ya estaba cubierto (ya_cubierto: true), así que no hay sección de Jon. Ars Technica y The Verge bloquean la lectura automática: se usó el texto de sus feeds y se confirmó con otras fuentes. Precio del dron de Ring: TechCrunch dice US$270 y The Verge US$249,99; se dejaron ambos. Voto de los fundadores de Anthropic: dos notas de TechCrunch dan 50,1% y 51,1%; se escribió 'algo más de la mitad'. Las cifras del prospecto de Anthropic se tomaron de TechCrunch (que leyó el S-1) y del anuncio oficial. Descartadas: filtración de Grok Build (solo Ars, sin poder leerla), pérdidas de OpenAI según WSJ (no se encontró fuente legible), estudio OpenAI-Upwork (solo el título del feed), Atlas con ruedas (una sola fuente seria), escándalo de Nvidia (ya cubierto). No se detectaron instrucciones sospechosas en las fuentes."
+}
