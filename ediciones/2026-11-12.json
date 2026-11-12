@@ -1,0 +1,216 @@
+{
+  "fecha": "2026-11-12",
+  "intro": "El directorio de Nvidia se reunió para decidir si echa a Jensen Huang, y OpenAI habría superado por primera vez los US$10.000 millones en un trimestre. Además: TSMC invertirá en Anthropic y OpenAI, y United prohíbe que los agentes de IA compren pasajes.",
+  "noticias": [
+    {
+      "titulo": "Actualización: el directorio de Nvidia se reunió para decidir si despide a Jensen Huang tras una segunda relación",
+      "titulo_corto": "Nvidia decide sobre Huang",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Según The Wall Street Journal, Nvidia se prepara para sacar a su CEO, después de que The New York Times revelara otra relación, esta vez con una vicepresidenta de la empresa. El directorio se reunió el 11 de noviembre y hasta el jueves no anunció nada.",
+      "detalle": [
+        "El miércoles 11 de noviembre The Wall Street Journal publicó que el directorio de Nvidia se preparaba para destituir a Jensen Huang, fundador y CEO desde hace 33 años. Ese mismo día The New York Times informó que Huang tuvo una relación con Kimberly Powell, vicepresidenta de salud de la empresa, que le reportaba directamente. Esto llega días después de que admitiera un romance con Alice Huang, una ejecutiva de Megaspeed que la inteligencia de EE. UU. considera espía de China.",
+        "CNBC confirmó que el directorio se reunió esa noche. Según The Next Web, hasta la mañana del jueves en Europa no había decisión. Los estatutos permiten que la mayoría de los 11 directores remueva al CEO \"con o sin causa\", pero sacarlo del directorio requiere un voto de los accionistas. Bloomberg informó que la junta trabaja con una consultora para buscar reemplazos, y algunos analistas mencionan a la directora financiera, Colette Kress, como posible interina.",
+        "La acción cayó más de 9% fuera de horario tras la nota del WSJ, según CNBC. Además, dos comités de la Cámara de Representantes le pidieron a Huang una reunión a puertas cerradas sobre el caso y amenazan con citarlo de forma obligatoria si no responde. Nvidia presenta resultados el 17 de noviembre."
+      ],
+      "por_que_importa": "Nvidia diseña los chips más usados para entrenar y correr modelos de IA; un cambio abrupto de conducción en plena disputa con China puede afectar precios, suministro y la política de exportaciones.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html", "tipo": "medio"},
+        {"nombre": "The Next Web", "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según Bloomberg, OpenAI facturó más de US$10.000 millones en un trimestre por primera vez",
+      "titulo_corto": "OpenAI pasa los US$10.000M",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI habría ingresado más de US$10.000 millones entre julio y septiembre, casi 50% más que el trimestre anterior. Igual sigue perdiendo plata y factura menos que Anthropic, que está por salir a Bolsa.",
+      "detalle": [
+        "Según Bloomberg, citado por TechCrunch, los ingresos de OpenAI en el tercer trimestre superaron por primera vez los US$10.000 millones, frente a US$6.700 millones del segundo: un salto de casi 50%. El ritmo anualizado de ingresos (lo que facturaría en un año si siguiera igual) sería de US$50.000 millones. El País presentó la cifra como un anuncio de la empresa en respuesta a Anthropic.",
+        "La compañía sigue en rojo: su margen operativo ajustado habría mejorado de -150% a -109%, es decir que todavía gasta más de lo que ingresa. OpenAI dice tener más de mil millones de usuarios, aunque la mayoría usa la versión gratis o los planes más baratos.",
+        "La comparación inevitable es con Anthropic, que según su prospecto facturó unos US$17.000 millones en el mismo trimestre y se adelantó en el negocio con empresas. TechCrunch aclara que las dos cuentan sus ingresos de forma distinta: Anthropic suma lo que venden sus socios de la nube y OpenAI solo su parte de algunas de esas ventas."
+      ],
+      "por_que_importa": "Muestra que el negocio de ChatGPT crece rápido pero sigue lejos de ser rentable, y que la carrera entre OpenAI y Anthropic ahora también se mide en plata.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-11/openai-responde-a-anthropic-y-anuncia-un-aumento-secuencial-de-los-ingresos-del-50.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "TSMC, el gigante taiwanés de los chips, invertirá hasta US$1.000 millones en Anthropic y OpenAI",
+      "titulo_corto": "TSMC invierte en IA",
+      "categoria": "Hardware",
+      "veracidad": "oficial",
+      "breve": "El directorio de TSMC aprobó comprar hasta US$500 millones en acciones de Anthropic, al precio de su salida a Bolsa, y otros US$500 millones en acciones preferidas de OpenAI.",
+      "detalle": [
+        "En una presentación ante la SEC (el regulador bursátil de EE. UU.), la taiwanesa TSMC informó que su directorio aprobó el 10 de noviembre dos inversiones: hasta US$500 millones en acciones comunes de Anthropic, al precio por acción de su oferta pública inicial, y hasta US$500 millones en acciones preferidas de OpenAI. También aprobó otros US$500 millones para crear una empresa que invierta en la industria de semiconductores.",
+        "En la misma reunión aprobó unos US$40.900 millones de inversiones en capacidad de fabricación, empaquetado avanzado y nuevas plantas. TSMC no informó cuántas acciones comprará ni cuándo se cerrarán las operaciones.",
+        "Ars Technica lo presenta como otro ejemplo del financiamiento circular del auge de la IA: el que fabrica los chips invierte en sus propios clientes, que a su vez compran esos chips. La inversión en Anthropic depende de que su salida a Bolsa se concrete; según El País, el debut en el Nasdaq está previsto para el 19 de noviembre."
+      ],
+      "por_que_importa": "Que el gran fabricante de chips del que dependen muchas empresas tecnológicas apueste plata propia en los dos laboratorios de IA más grandes muestra cuánto se entrelazan las empresas del sector, y también cuánto riesgo comparten si el boom se frena.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TSMC (presentación ante la SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000797/tsm-boardx202611xx.htm", "tipo": "oficial"},
+        {"nombre": "Ars Technica", "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google DeepMind presenta AlphaGenome 2, que predice cómo los cambios en el ADN afectan a cada tipo de célula",
+      "titulo_corto": "AlphaGenome 2",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "El nuevo modelo analiza un tramo de un millón de letras de ADN y predice cómo una variante cambia la actividad de los genes en un tejido o tipo de célula concreto. Encuentra casi el doble de variantes relevantes que la herramienta anterior.",
+      "detalle": [
+        "Google DeepMind lanzó el 11 de noviembre AlphaGenome 2, sucesor del primer AlphaGenome. Recibe una secuencia de ADN de un millón de letras y una condición biológica (un tejido, un tipo de célula o un estado) y predice cómo se regulan los genes ahí: cuánto se expresan, cómo está empaquetado el ADN y, como novedad, la metilación (unas marcas químicas que encienden o apagan genes).",
+        "Según DeepMind, identifica casi el doble de variantes que cambian la expresión de genes que el mejor modelo anterior. En un conjunto de datos de 28 tipos de células inmunes encontró la variante causal en 30% de los casos, contra 16% de las herramientas previas. Se entrenó con muestras humanas y de ratón que cubren 68 tejidos y más de 100 millones de perfiles de células individuales, y puede adaptarse a un tipo de célula nuevo con una muestra de unas pocas decenas de células, sin reentrenarlo.",
+        "Ya está disponible por API para investigación no comercial; el uso comercial está en prueba privada. DeepMind aclara que es solo para investigación y que no está validado para diagnósticos clínicos."
+      ],
+      "por_que_importa": "Muchas enfermedades dependen de pequeñas variantes del ADN cuyo efecto no se entiende; un modelo que señale cuáles importan y en qué células puede acortar años de trabajo de laboratorio.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/", "tipo": "oficial"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "United prohíbe que los agentes de IA compren o cambien pasajes en su nombre",
+      "titulo_corto": "United frena agentes de IA",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "La aerolínea cambió sus condiciones para prohibir que asistentes de IA reserven, modifiquen o gestionen pasajes, incluso a través de agencias de viaje. Dice que lo hace por seguridad de los datos de los clientes.",
+      "detalle": [
+        "United Airlines actualizó el 11 de noviembre su contrato de transporte (las reglas que acepta quien compra un pasaje) para incluir entre las prácticas prohibidas usar \"agentes de IA\" para hacer, modificar o gestionar un pasaje o comprar cualquier servicio. Define agente de IA de forma amplia: cualquier programa que actúe solo o casi solo, con o sin aprobación de una persona, para buscar, reservar o administrar productos de United.",
+        "La empresa argumenta que darle las claves de la cuenta a un asistente externo puede exponer datos sensibles, y que el agente podría hacer compras no deseadas, cambiar la cuenta o gastar millas sin querer. Según The Verge, que cita al Wall Street Journal, United dice que todavía ve pocos clientes usando agentes para reservar. La regla alcanza también a los agentes que entren por agencias de viaje o comparadores.",
+        "No está claro desde cuándo rige ni cómo va a detectar a un agente. El blog especializado One Mile at a Time sospecha que detrás también hay motivos comerciales, como evitar intermediarios y cuidar sus datos de precios."
+      ],
+      "por_que_importa": "Los asistentes que hacen trámites por vos son la gran promesa de este año; si las empresas grandes empiezan a cerrarles la puerta, su utilidad real puede quedar bastante más limitada de lo que se anuncia.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents", "tipo": "medio"},
+        {"nombre": "One Mile at a Time", "url": "https://onemileatatime.com/news/united-airlines-bans-ai-agents-protect-customers/", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Google lanza una API que toma decisiones rápidas y dice cuán segura está de cada respuesta",
+      "titulo_corto": "Gemini Decisions API",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Gemini Decision 1 no escribe texto: elige entre opciones (sí/no, una lista o una escala) y devuelve probabilidades en unos 200 milisegundos. Cobra US$0,10 por millón de tokens de entrada y nada por la salida.",
+      "detalle": [
+        "Google presentó el 11 de noviembre la Gemini Decisions API, basada en un modelo nuevo, Gemini Decision 1. En lugar de redactar una respuesta, puntúa opciones definidas de antemano y devuelve la probabilidad de cada una y un nivel de confianza de 0 a 1. Acepta tres tipos de preguntas: sí o no, elegir entre 2 y 255 opciones, o calificar con una escala.",
+        "Puede recibir texto, imágenes, audio, video y PDF, y responder hasta 1.000 preguntas sobre la misma entrada en una sola consulta. Google dice que tarda entre 150 y 250 milisegundos y que cuesta US$0,10 por millón de tokens (fragmentos de texto) de entrada, sin cobrar la salida. Está disponible en la API de Gemini y en Google AI Studio, con un nivel gratuito para pruebas.",
+        "Sirve para tareas internas de las aplicaciones: decidir qué herramienta usa un agente, qué modelo responde una consulta o si un contenido cumple una regla. Simon Willison señala que es casi idéntica a productos similares de OpenAI y de la startup Jev, que sigue siendo más barata."
+      ],
+      "por_que_importa": "Muchas apps con IA hacen miles de pequeñas decisiones por segundo; un modelo barato y rápido para eso, que además avisa cuando duda, permite mandar a una persona solo los casos difíciles.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/", "tipo": "oficial"},
+        {"nombre": "Simon Willison", "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Según Reuters, empresas chinas de IA buscan alquilar chips de Nvidia en el exterior por miedo a nuevas restricciones",
+      "titulo_corto": "China y los chips de Nvidia",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Reuters, firmas chinas buscan reservar capacidad de cómputo con chips de Nvidia en centros de datos fuera de China, por temor a que el escándalo de Huang acelere una ley de EE. UU. que limite ese acceso remoto.",
+      "detalle": [
+        "Reuters informó el 12 de noviembre, citando a tres personas al tanto, que un gran proveedor chino de servicios en la nube discutió internamente asegurarse capacidad con chips de Nvidia en el exterior, y que laboratorios de IA más chicos están consultando a empresas de cómputo en alquiler del sudeste asiático. No nombró a las compañías.",
+        "Hoy EE. UU. prohíbe exportar a China los chips más avanzados de Nvidia, pero no impide usarlos a distancia alquilando servidores en otros países. Una ley llamada Remote Access Security Act, que la Cámara de Representantes aprobó en enero por 369 a 22 y espera tratamiento en el Senado, le daría al Departamento de Comercio poder para regular ese acceso. Las empresas temen que el caso de Alice Huang, vinculada a Megaspeed, le dé impulso.",
+        "Reuters también describe un mercado gris donde intermediarios acumulan chips restringidos. China niega que Alice Huang sea espía, y Megaspeed niega haber desviado chips de forma ilegal. Nvidia y el Departamento de Comercio no respondieron."
+      ],
+      "por_que_importa": "Muestra cómo el escándalo personal de un CEO puede terminar cambiando quién accede a la potencia de cálculo de la IA, que es hoy el recurso más disputado entre EE. UU. y China.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía 102.7 WBOW)", "url": "https://1027wbow.com/2026/11/12/exclusive-chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google, Meta y TikTok se oponen a la reforma de Indonesia que obligaría a pagar por noticias y regularía la IA",
+      "titulo_corto": "Indonesia y el copyright",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "En una audiencia en el Parlamento indonesio, las tres empresas criticaron un proyecto de ley de derechos de autor que obligaría a las plataformas a pagarles a los medios y sumaría reglas para la IA.",
+      "detalle": [
+        "El 11 de noviembre, Meta y TikTok se sumaron a Google en una audiencia del Parlamento de Indonesia para cuestionar la reforma de la ley de derechos de autor de 2014. El proyecto obligaría a las plataformas a compensar a los medios por mostrar sus noticias e incluiría reglas sobre IA; si se aprueba, Indonesia sería el primer país del sudeste asiático en meter la IA en su ley de copyright, según Reuters.",
+        "Google dijo que cobrar por los enlaces a noticias limitaría el acceso de la población a la información. Meta advirtió que los medios podrían perder lectores e ingresos. TikTok pidió que la obligación de avisar cuándo un contenido se hizo con IA no alcance a los casos en que la IA solo ayuda, y que se mantenga la protección de las plataformas, porque no pueden verificar quién tiene los derechos de cada contenido.",
+        "El proyecto sigue en debate y no hay fecha de votación. Indonesia ya empujaba acuerdos entre plataformas y medios con un decreto de 2024; la ley lo convertiría en obligación."
+      ],
+      "por_que_importa": "Indonesia sería el primer país del sudeste asiático en llevar la IA a su ley de derechos de autor; lo que decida sobre IA y derechos de autor puede servir de modelo para otros países, incluidos los de América Latina.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Yahoo)", "url": "https://www.yahoo.com/news/world/articles/meta-tiktok-join-google-push-121705041.html", "tipo": "medio"},
+        {"nombre": "The Next Web", "url": "https://thenextweb.com/news/indonesia-ai-copyright-bill-meta-tiktok-google", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "TU Graz libera CLARA, una herramienta que acelera hasta 10.000 veces las simulaciones de fluidos de biorreactores",
+      "titulo_corto": "CLARA acelera la CFD",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Investigadores de la Universidad Técnica de Graz usan aprendizaje automático para convertir una simulación de fluidos pesada en un modelo de 5 a 50 zonas que corre hasta 10.000 veces más rápido. Es de código abierto.",
+      "detalle": [
+        "Un equipo de la Universidad Técnica de Graz (Austria), liderado por Stefan Radl, publicó en la revista Chemical Engineering Science la herramienta CLARA. Parte de simulaciones de CFD (dinámica de fluidos computacional, que calcula cómo se mueven líquidos y gases punto por punto) y usa aprendizaje automático no supervisado para agrupar millones de puntos en entre 5 y 50 zonas conectadas, llamadas compartimentos.",
+        "El resultado es un modelo de orden reducido (una versión simplificada que conserva lo esencial) que corre hasta 10.000 veces más rápido. Según la universidad, sigue mostrando zonas muertas con mala mezcla, zonas de alto esfuerzo de corte y el intercambio entre gas y líquido, y los algoritmos garantizan que se conserve la masa. Una CFD completa de un proceso de días o semanas puede llevar meses de cálculo.",
+        "CLARA ya se usa en una tesis doctoral y en una empresa derivada de la universidad, y se publicó como código abierto en un repositorio público. Los autores la proponen para fermentación, reactores que capturan CO2, fabricación de celdas de batería y gemelos digitales (copias virtuales que siguen a una planta en tiempo real). La universidad no publicó márgenes de error detallados."
+      ],
+      "por_que_importa": "Es una técnica que sirve para cualquier equipo con flujo y mezcla, no solo biorreactores: muestra cómo la IA puede volver usable en tiempo real una CFD que hoy tarda días, y al ser libre se puede descargar y probar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TU Graz", "url": "https://www.tugraz.at/news/artikel/bioreaktoren-ki-tool-clara", "tipo": "oficial"},
+        {"nombre": "TechXplore", "url": "https://techxplore.com/news/2026-11-ai-toolbox-bioreactor-simulations.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "PRISM, de la Universidad de Michigan: robots que aprenden mejor cómo interactúan fuerzas y movimiento",
+      "titulo_corto": "PRISM para robots",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Un cambio en la primera capa de la red neuronal que controla al robot hizo que un humanoide simulado no se cayera en 92,5% de las pruebas, contra 51% con el método común, y que un brazo real acertara 94% de las veces.",
+      "detalle": [
+        "Seung Hyun Lee y Stella Yu, de la Universidad de Michigan, presentaron PRISM en la conferencia de aprendizaje robótico CoRL 2026. Las redes que controlan robots suelen ser perceptrones multicapa (redes neuronales estándar), que suman variables pero no las multiplican directamente. En física, en cambio, muchas relaciones son productos: la fuerza depende de masa por aceleración, el roce de la carga, y así.",
+        "PRISM reemplaza solo la primera capa de la red por una que aprende esas multiplicaciones entre sensores, acciones previas y órdenes. En simulación, un humanoide caminó sin caerse en 92,5% de las pruebas, contra 51% de una red común del mismo tamaño. Con cambios de roce, masa y carga que no vio al entrenar, mantuvo 92,3% en terreno plano contra 78,3%. Un brazo robótico real SO-101 levantó un rollo de cinta en 94% de 50 intentos, contra 68%.",
+        "Como reemplaza una sola capa, se puede sumar a sistemas existentes de aprendizaje por refuerzo o por imitación. Los resultados son de los autores y todavía no fueron replicados por otros grupos."
+      ],
+      "por_que_importa": "Muestra que meter en la red neuronal la estructura de la física (productos entre variables, como en las ecuaciones de dinámica) mejora el control de robots, una idea que conecta directo con lo que se ve en Mecánica y Dinámica.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "arXiv (paper de los autores)", "url": "https://arxiv.org/abs/2607.23473", "tipo": "oficial"},
+        {"nombre": "TechXplore", "url": "https://techxplore.com/news/2026-11-prism-robots-motion-interact.html", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "HWijk9dFptU", "titulo": "Nuevo Fable 5.2 de Anthropic: la IA no tiene techo", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Jon analiza Fable 5.2, el nuevo modelo de Anthropic, que para él es el mejor del mundo pero muy caro, y sostiene que lo que más va a cambiar las cosas es cómo usamos la IA, sobre todo con agentes personales.",
+    "explicacion": [
+      "Según la descripción del video, Jon presenta Fable 5.2 como el mejor modelo de inteligencia artificial del mundo, pero avisa que no hay que esperar un cambio que se note en el uso de todos los días. Lo describe como increíblemente bueno y, a la vez, muy costoso de usar.",
+      "El video está ordenado en cuatro partes después de la introducción. Primero compara Fable 5.2 con Gemini, Opus y GPT-6 Astra. Después explica en qué consiste el gran salto del modelo y por qué cuesta tanto. Luego repasa la disponibilidad, los planes y las ventajas para probarlo.",
+      "El cierre es su idea central: para Jon, lo importante ya no es tanto qué modelo se usa sino cómo se usa la IA, y cree que los agentes personales (asistentes que hacen tareas por uno) van a tener más impacto que el modelo en sí. La descripción no da cifras de rendimiento ni precios, así que esos detalles quedan para quien vea el video."
+    ],
+    "puntos_clave": [
+      {"texto": "Jon considera a Fable 5.2 el mejor modelo de IA del mundo, aunque no espera que cambie el uso cotidiano.", "segundo": 0},
+      {"texto": "Lo compara con Gemini, Opus y GPT-6 Astra.", "segundo": 157},
+      {"texto": "El salto de calidad viene con un costo de uso muy alto.", "segundo": 392},
+      {"texto": "Repasa en qué planes está disponible y cómo probarlo.", "segundo": 640},
+      {"texto": "Su conclusión: importa más cómo usás la IA que qué modelo usás; los agentes personales van a pesar más.", "segundo": 753}
+    ]
+  },
+  "notas_internas": "El crudo de hoy no estaba en el repo a las 6:41 (ni tras git pull); se generó con scripts/recolectar.py (135 notas, 0 errores) y no se commitea. Video de Jon: el único sin cubrir es el análisis de Fable 5.2 (es_noticias: false, sin resumen Plaud), así que la base es la descripción; Fable 5.2 ya salió como noticia el 10 de noviembre y no se repite. Ars Technica, The Verge, Wired y El País bloquean la lectura automática: se usó el texto de sus feeds. Cifras de OpenAI: TechCrunch cita a Bloomberg; El País lo presenta como anuncio de la empresa, no se pudo leer un comunicado oficial. La exclusiva de Reuters sobre chips se leyó en una reproducción (102.7 WBOW) porque el link del crudo es de Google Noticias; lo mismo con Indonesia (Yahoo). PRISM: la nota oficial de Michigan dio 403; se verificó con el paper en arXiv y TechXplore. Descartadas: Wired sobre una adolescente y Gemini (no se pudo leer), ronda de US$720 millones de Fractile (una sola fuente leída), Workday y demanda colectiva (sin fuente original legible), Atlas con ruedas (otra vez una sola fuente seria), salida a Bolsa de Anthropic para minoristas (ya cubierta ayer), instituto de IA de fluidos de UW (no se encontró la nota original). No se detectaron instrucciones sospechosas en las fuentes."
+}
