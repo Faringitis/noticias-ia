@@ -89,7 +89,8 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Enviar por Telegram y mail
-        if: steps.control.outputs.hay == 'si'
+        # always(): el informe sale aunque falle la actualización de la página (pasó el 05/11).
+        if: always() && steps.control.outputs.hay == 'si'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -104,7 +105,7 @@ jobs:
           python3 scripts/enviar.py --fecha "$F"
 
       - name: Respaldo si a las 8 no hay edición
-        if: steps.control.outputs.hay == 'no' && github.event_name == 'schedule'
+        if: always() && steps.control.outputs.hay == 'no' && github.event_name == 'schedule'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
