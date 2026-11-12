@@ -1,9 +1,8 @@
-# 6:07 (Argentina): junta las noticias de las fuentes y el video de Jon, y las deja en datos/crudo/.
+# Solo manual: junta las noticias de las fuentes y el video de Jon, y las deja en datos/crudo/.
+# Ya no corre a horario: GitHub lo disparaba con horas de atraso, así que la rutina las junta sola.
 name: 1 · Recolectar noticias
 
 on:
-  schedule:
-    - cron: "7 9 * * *"   # 09:07 UTC = 06:07 Argentina (lejos de la hora en punto, la más cargada)
   workflow_dispatch:
 
 permissions:

@@ -114,6 +114,8 @@ jobs:
           MAIL_DESTINO: ${{ secrets.MAIL_DESTINO }}
         run: |
           if [ "$(TZ=America/Argentina/Buenos_Aires date +%H)" -ge 8 ]; then
+            # Los titulares del respaldo salen de las fuentes, recién leídas.
+            python3 scripts/recolectar.py || true
             python3 scripts/enviar.py --respaldo
           else
             echo "Todavía es temprano: espero a la corrida de las 8:07."

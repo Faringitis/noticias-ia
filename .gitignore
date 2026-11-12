@@ -1,4 +1,6 @@
 _sitio/
+# Lo genera la rutina cada mañana; no se sube.
+datos/crudo/
 __pycache__/
 *.pyc
 .env

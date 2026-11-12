@@ -24,10 +24,10 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
 1. **Fecha.** Calculá la fecha de hoy en Argentina: `python -c "import sys; sys.path.insert(0,'scripts'); import comun; print(comun.hoy_ar())"`.
    Si `ediciones/FECHA.json` ya existe, la edición ya está hecha: terminá sin hacer nada.
 
-2. **Materia prima.** Leé `datos/crudo/FECHA.json` (lo deja GitHub cerca de las 6:07).
-   - Si no existe, hacé `git pull` una vez. Si sigue sin existir, corré `python scripts/recolectar.py`.
-     Si eso también falla (sin internet para scripts), seguí solo con tu búsqueda web (paso 3) y
-     anotalo en `notas_internas`.
+2. **Materia prima.** Corré `python scripts/recolectar.py` y leé el `datos/crudo/FECHA.json` que genera.
+   Juntarla es parte normal de tu trabajo: GitHub ya no la prepara antes, porque sus horarios llegan
+   con horas de atraso. El archivo queda fuera del repositorio a propósito: no lo subas.
+   - Si el script falla, seguí solo con tu búsqueda web (paso 3) y anotalo en `notas_internas`.
    - Mirá `errores`: si una fuente importante falló, compensá buscando en la web.
    - Hay dos listas: `notas` (IA en general) y `notas_ingenieria` (IA y ingeniería mecánica, de los
      últimos 3 días).
@@ -172,5 +172,8 @@ en `ediciones/AAAA-MM-DD.json`. Todo lo demás (página web, mensaje de Telegram
    volvé a correrlo hasta que diga OK. Después corré `python scripts/publicar.py --fecha FECHA --solo-mensaje`
    y leé el mensaje de Telegram que va a salir: tiene que entenderse solo, sin abrir nada.
 
-10. **Guardar.** `git add ediciones/FECHA.json` y `git commit -m "Edición FECHA"`. Después `git push`.
+10. **Avisos.** No mandes notificaciones por cosas que resolviste solo: anotalas en `notas_internas`.
+    Avisá solo si no pudiste publicar la edición.
+
+11. **Guardar.** `git add ediciones/FECHA.json` y `git commit -m "Edición FECHA"`. Después `git push`.
     Si no te deja empujar a `main`, empujá a una rama `claude/edicion-FECHA`: GitHub la toma igual.
