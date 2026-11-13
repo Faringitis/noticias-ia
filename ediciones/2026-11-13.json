@@ -1,0 +1,223 @@
+{
+  "fecha": "2026-11-13",
+  "intro": "Jensen Huang renunció como CEO de Nvidia y la directora financiera queda a cargo. Además: Google lanza Gemini 4 Hydrogen, cuatro ONG piden frenar los modelos nuevos y la salida a Bolsa de Anthropic tendría seis veces más pedidos que acciones.",
+  "noticias": [
+    {
+      "titulo": "Actualización: Jensen Huang renuncia como CEO de Nvidia y Colette Kress queda como interina",
+      "titulo_corto": "Huang deja Nvidia",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El 12 de noviembre Nvidia anunció que Jensen Huang, su cofundador, dejó con efecto inmediato los cargos de CEO, presidente y miembro del directorio. La directora financiera, Colette Kress, lo reemplaza mientras se busca un sucesor.",
+      "detalle": [
+        "Tras 33 años al frente, Huang se fue el jueves 12 de noviembre, después de que se conocieran una relación con Alice Huang, ejecutiva de Megaspeed a la que la inteligencia de EE. UU. considera espía de China, y otra con Kimberly Powell, vicepresidenta de Nvidia que le reportaba directamente. Reuters informó además de una relación con una segunda empleada, sin nombrarla.",
+        "Colette Kress, de 59 años y directora financiera desde 2013, asume como CEO interina sin dejar su puesto actual. Harvey C. Jones, exCEO de Synopsys, pasa a ser el primer presidente del directorio en la historia de la empresa. Nvidia dijo que hará una búsqueda más amplia para el cargo definitivo y no hay candidatos anunciados.",
+        "La acción llegó a caer 14% durante el día y cerró con una baja de 4,34%, según CNBC; Bernstein bajó su precio objetivo de US$400 a US$200. Según El País, el papel acumula una caída de 37% en un mes. Huang, además, aceptó declarar a puertas cerradas ante el Comité de Asuntos Exteriores de la Cámara de Representantes antes del Día de Acción de Gracias, luego de que varios legisladores amenazaran con citarlo.",
+        "Falta saber quién lo reemplazará en forma definitiva y si el caso endurece los controles a la venta de chips a China. Nvidia presenta resultados la semana que viene."
+      ],
+      "por_que_importa": "Nvidia fabrica los chips con los que se entrena y se usa casi toda la IA; un cambio de mando abrupto puede afectar precios, suministro y la relación con China.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/", "tipo": "medio"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/us/2026-11-12/jensen-huang-dimite-como-consejero-delegado-de-nvidia-tras-destaparse-el-escandalo-sobre-sus-infidelidades-y-el-caso-de-espionaje.html", "tipo": "medio"},
+        {"nombre": "TechCrunch (declaración ante el Congreso)", "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google lanza Gemini 4 Hydrogen, su modelo rápido y barato, y lo pone en el buscador para todos",
+      "titulo_corto": "Gemini 4 Hydrogen",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Google presentó el 12 de noviembre Gemini 4 Hydrogen, el modelo rápido y económico de la familia Gemini 4. Ya está en el buscador de Google en todo el mundo, en la app de Gemini y para desarrolladores, a US$1,50 por millón de tokens de entrada.",
+      "detalle": [
+        "Hydrogen es el modelo para el trabajo de todos los días (programar, tareas de agentes, responder consultas), mientras que Carbon y Argon, los más potentes, quedan para los problemas largos y difíciles. Sucede a Gemini 3.8 Flash. Según Google, termina las tareas 2,5 veces más rápido que ese modelo y en Terminal-Bench 4.1 (una prueba de tareas en la terminal de una computadora) saca 57%, contra 18,2% de 3.8 Flash. En el índice de Artificial Analysis obtiene 51 puntos, uno más que Argon, y 54 con el nivel de razonamiento máximo.",
+        "Cuesta US$1,50 por millón de tokens (fragmentos de texto) de entrada y US$7,50 por millón de salida, y acepta hasta un millón de tokens de contexto. Tiene cuatro niveles de \"pensamiento\" (bajo, medio, alto y uno nuevo extra alto).",
+        "Está en la API de Gemini y AI Studio, en la app de Gemini (los usuarios gratuitos lo reciben cuando el sistema elige el modelo automáticamente), en Google Sheets para suscriptores pagos y en el buscador para todos los usuarios. Google dice que es la mayor mejora de modelo en la historia del buscador: entiende mejor preguntas con varias partes, errores de tipeo o pedidos muy específicos, y arma respuestas con más imágenes y tablas comparativas.",
+        "Los números de rendimiento los informa la propia Google; todavía no hay pruebas independientes completas."
+      ],
+      "por_que_importa": "Es el modelo que más gente va a usar sin saberlo, porque responde en el buscador de Google; y su precio bajo lo vuelve atractivo para armar agentes y herramientas propias.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/", "tipo": "oficial"},
+        {"nombre": "Google (buscador)", "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/", "tipo": "oficial"},
+        {"nombre": "Ars Technica", "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Cuatro ONG demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI para frenar el desarrollo de modelos nuevos",
+      "titulo_corto": "Demanda para frenar la IA",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Public Citizen y otras tres organizaciones pidieron el 12 de noviembre a un tribunal de San Francisco que prohíba a las cinco grandes desarrolladoras crear o lanzar modelos nuevos, por sus posibles riesgos catastróficos.",
+      "detalle": [
+        "La demanda la presentaron Irreplaceable Education Fund, Public Citizen, Heat Initiative y Alliance for Secure AI ante el Tribunal Superior de San Francisco. Apunta contra Anthropic, Google, Meta, OpenAI y SpaceXSI (la empresa de IA de SpaceX). Se basa en la ley de competencia desleal de California: sostiene que las empresas ponen en riesgo la salud pública y el uso de bienes como los sistemas informáticos.",
+        "Como prueba citan ciberataques ya documentados hechos con IA, casos de agentes que entraron en sitios de gobiernos y empresas (entre ellos el de ChatGPT, que en julio se metió por su cuenta en otra empresa de IA) y las propias declaraciones de los directivos, que admiten que la tecnología podría salirse de control. Según Washington Examiner, también advierten sobre la ayuda a armas biológicas.",
+        "Por ahora son acusaciones: ningún juez ordenó frenar nada y las empresas no respondieron a los pedidos de comentarios. Es distinta de la demanda antimonopolio de septiembre, que acusaba a estas compañías de ponerse de acuerdo para ir más despacio."
+      ],
+      "por_que_importa": "Si un juez le diera la razón, aunque sea en parte, podría demorar los próximos modelos de las empresas que hacen ChatGPT, Claude, Gemini y Llama.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Technology/wireStory/advocacy-groups-sue-ai-giants-freeze-new-models-138081070", "tipo": "medio"},
+        {"nombre": "Washington Examiner", "url": "https://www.washingtonexaminer.com/policy/technology/4801401/nonprofit-sue-five-ai-developers-freeze-new-models", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: según Bloomberg, la salida a Bolsa de Anthropic tiene seis veces más pedidos que acciones",
+      "titulo_corto": "Anthropic: 6 veces pedida",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Bloomberg, los inversores pidieron unas seis veces más acciones de Anthropic de las que la empresa ofrece a entre US$70 y US$78. La empresa no lo confirmó y los datos todavía pueden cambiar.",
+      "detalle": [
+        "Bloomberg informó el 12 de noviembre, citando a personas al tanto de la operación, que la demanda supera unas seis veces la oferta. Un día antes solo se hablaba de \"varias veces\". Según la misma agencia, Anthropic daría prioridad a sus inversores actuales, así que algunos compradores recibirían menos acciones de las que esperaban.",
+        "La empresa busca juntar unos US$64.000 millones en la salida a Bolsa, con una valuación de entre US$1,26 y US$1,41 billones (millones de millones). Además tiene compromisos de compra por US$26.000 millones de Google, Nvidia, AMD, Broadcom, Micron, Microsoft y TSMC. Cotizaría en el Nasdaq con el símbolo ANT en los próximos días.",
+        "Cuando hay tanta demanda, las empresas suelen subir el precio o la cantidad de acciones antes del debut, pero Anthropic todavía no anunció cambios."
+      ],
+      "por_que_importa": "Muestra cuánto confían los inversores en las empresas de IA justo cuando la caída de Nvidia sacude al sector; una salida exitosa le da a Anthropic mucho dinero para competir con OpenAI y Google.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed", "tipo": "medio"},
+        {"nombre": "Silicon Republic", "url": "https://www.siliconrepublic.com/business/bloomberg-anthropic-ipo-six-times-oversubscribed-ai", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Un hackeo a Fireworks AI expuso conversaciones con la IA de Notion",
+      "titulo_corto": "Hackeo a Fireworks y Notion",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Fireworks AI, que corre modelos de IA para otras empresas, sufrió su segundo hackeo en dos meses. Notion confirmó que se robaron chats de su asistente de IA de menos del 1% de los espacios de trabajo.",
+      "detalle": [
+        "Los atacantes entraron primero al proveedor de nube de Fireworks y desde ahí llegaron a un sistema de desarrollo de la empresa. Según su aviso de seguridad, se llevaron datos de facturación de clientes y algunos conjuntos de datos. Fireworks, que dice tener decenas de miles de clientes, cree que los atacantes buscan vender accesos a modelos de IA pagados por otros. En octubre ya había sufrido otro ataque.",
+        "Notion usaba Fireworks para clasificar conversaciones de su función Insights. En su aviso dice que fueron afectados menos del 1% de los espacios de trabajo y que los datos robados incluyen todo lo que se escribió en el chat con Notion AI, tanto preguntas como respuestas. Muchas conversaciones no se pueden vincular a un cliente concreto.",
+        "Notion cortó la conexión con Fireworks el 3 de noviembre, borró los datos y desactivó Insights. Recomienda tratar esa información como expuesta y cambiar de inmediato cualquier contraseña o clave que se haya pegado en el chat."
+      ],
+      "por_que_importa": "Lo que escribís en un asistente de IA puede pasar por varias empresas que no ves; conviene no pegar contraseñas ni datos sensibles en ningún chat.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Notion", "url": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Salen a la venta las primeras gafas con Gemini, de Samsung, Warby Parker y Gentle Monster, desde US$395",
+      "titulo_corto": "Gafas con Gemini",
+      "categoria": "Hardware",
+      "veracidad": "confirmada",
+      "breve": "Desde el 12 de noviembre se pueden reservar en EE. UU. y Corea del Sur las primeras gafas inteligentes con Gemini. Llegan el 10 de diciembre y cuestan desde US$395 con marcos de Warby Parker.",
+      "detalle": [
+        "Son gafas sin pantalla, hechas por Samsung con Google, con cámara, micrófonos y el asistente Gemini. Hay 30 diseños: los de Warby Parker arrancan en US$395 y los de Gentle Monster van de US$449 a US$489; con lentes recetados salen más caras. Funcionan con teléfonos Android y con iPhone.",
+        "Google puso el acento en la privacidad: dos luces avisan cuando la cámara graba, y la grabación se corta si uno se saca las gafas o si se tapa la luz exterior. Samsung dice que el audio y el video no se usan para entrenar modelos y promete hasta nueve horas de uso por carga. Para activarlas hay que demostrar ser mayor de 18 años.",
+        "Estas afirmaciones todavía no fueron probadas por laboratorios independientes. Compiten con las Ray-Ban de Meta, que según Omdia tuvieron el 81,3% de los envíos mundiales de gafas con IA en la primera mitad de 2026."
+      ],
+      "por_que_importa": "Las gafas son la gran apuesta para llevar la IA encima todo el día, y su llegada vuelve a abrir el debate sobre filmar a otros sin que se den cuenta.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Tech Times", "url": "https://www.techtimes.com/articles/330621/20261113/samsung-smart-glasses-preorders-open-395-camera-shutoff-covered-led-unproven.htm", "tipo": "medio"},
+        {"nombre": "Ars Technica", "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Los líderes de la Unión Europea hacen hoy en Dublín su primera cumbre dedicada a la IA",
+      "titulo_corto": "Cumbre de IA de la UE",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Los 27 jefes de Estado y de Gobierno de la UE se reúnen este 13 de noviembre en Dublín para hablar solo de IA, con Arthur Mensch, de Mistral, y el Nobel Geoffrey Hinton como invitados.",
+      "detalle": [
+        "Es la primera vez que los líderes europeos dedican una reunión entera a la inteligencia artificial. Es informal: no está previsto aprobar declaraciones al final, para que puedan hablar con más libertad.",
+        "Tiene dos partes. En la primera, Arthur Mensch, CEO de la francesa Mistral AI, habla de competitividad y \"soberanía\" frente a las empresas de EE. UU. y China; la UE además avanza con reglas para que ciertos contratos públicos sensibles queden solo para empresas europeas. En la segunda, Geoffrey Hinton, premio Nobel y uno de los pioneros de las redes neuronales, habla del impacto en la sociedad, incluidos los riesgos extremos sobre los que viene advirtiendo.",
+        "Según Euronews, una pelea sobre quién representa a la UE en las negociaciones de paz de Ucrania amenaza con tapar la discusión sobre IA. El presidente del Consejo, António Costa, espera retomar el tema en 2027."
+      ],
+      "por_que_importa": "Europa tiene las reglas de IA más estrictas del mundo; lo que decidan sus líderes sobre competir o regular influye en qué herramientas llegan y con qué condiciones.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Euronews", "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit", "tipo": "medio"},
+        {"nombre": "Reuters (vía Yahoo)", "url": "https://www.yahoo.com/news/politics/articles/eu-leaders-seek-tackle-challenges-060613517.html", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Anthropic lanza Claude for Manufacturing: 17 tareas de fábrica, de cotizaciones a fallas de máquinas",
+      "titulo_corto": "Claude para la fábrica",
+      "categoria": "Manufactura",
+      "veracidad": "oficial",
+      "breve": "Anthropic presentó el 12 de noviembre un complemento de Claude para fábricas: arma cotizaciones, investiga piezas rechazadas, ayuda a diagnosticar roturas y compara diseños en Autodesk Fusion. Siempre termina con la revisión de una persona.",
+      "detalle": [
+        "Claude for Manufacturing es un complemento (plugin) con 17 habilidades para ventas, calidad, operaciones, compras, diseño y puesta en marcha. Por ejemplo: leer el pedido de un cliente, marcar lo que falta, comparar con trabajos parecidos y redactar la cotización; documentar una inspección fallida, revisar informes anteriores, ordenar las causas probables y redactar la acción correctiva; o revisar datos de sensores, notas de reparación, fotos y el manual para proponer causas de una rotura que después verifica un técnico.",
+        "Se conecta a cuatro sistemas: Autodesk Fusion (CAD), Infor y Oracle NetSuite (sistemas de gestión de la empresa) y Microsoft 365. Con Fusion puede generar variantes de un diseño, puntuarlas contra objetivos y escribir un memo con la decisión. Para otros programas, se guardan exportaciones en Microsoft 365 y Claude trabaja con esos archivos.",
+        "Está disponible para los planes Team y Enterprise. Anthropic aclara que Claude no maneja equipos: cada borrador lo revisa y aprueba una persona. Por separado, la empresa investiga un estándar para que las máquinas programables describan sus mediciones y límites de seguridad."
+      ],
+      "por_que_importa": "Muestra en qué tareas concretas de un ingeniero de planta ya se usa IA: cotizar, calidad, mantenimiento y comparación de diseños. Saber revisar ese trabajo va a ser parte del oficio.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Claude (Anthropic)", "url": "https://claude.com/resources/articles/claude-for-manufacturing", "tipo": "oficial"},
+        {"nombre": "Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/anthropic-launches-claude-for-manufacturing/874303/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Kyushu presenta una IA que describe alas y álabes con pocas variables y predice su rendimiento aerodinámico",
+      "titulo_corto": "IA para formas aerodinámicas",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Investigadores de la Universidad de Kyushu crearon PI-GAE, una IA que reduce la forma de un ala o un álabe a pocas variables, la reconstruye y estima su rendimiento sin correr una simulación completa para cada diseño.",
+      "detalle": [
+        "Para optimizar un ala o un álabe de compresor hay que probar muchas formas, y cada una exige una simulación de fluidos costosa. PI-GAE (un autocodificador de grafos que incorpora física) evita trabajar con miles de puntos de la malla: resume cada forma en un conjunto chico de variables y con ellas reconstruye la geometría y predice su comportamiento.",
+        "Lo probaron con cuatro conjuntos de datos de alas 2D y 3D y álabes de compresor. Sus predicciones coincidieron con los cálculos detallados con un coeficiente de determinación (R², que mide qué tan bien se ajusta: 1 es perfecto) de entre 0,946 y 0,992. En tres de los cuatro casos, la forma reconstruida se apartó menos de 0,3% en promedio de la original. El trabajo salió en la revista Computer Methods in Applied Mechanics and Engineering.",
+        "La limitación: solo se probó con formas parecidas a las del entrenamiento, así que no se sabe cómo le va con geometrías nuevas o más complejas. Los autores apuntan también a ventiladores, bombas, turbinas eólicas y equipos de aire acondicionado."
+      ],
+      "por_que_importa": "Es un ejemplo de \"modelo sustituto\" (surrogate): una IA que reemplaza simulaciones de fluidos caras en el diseño preliminar, algo cada vez más común en turbomáquinas y aeronáutica.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Universidad de Kyushu (vía TechXplore)", "url": "https://techxplore.com/news/2026-11-ai-reconstruct-aerodynamic.html", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Runway libera Praxis-1, un modelo abierto que aprende tareas de robots industriales a partir de video",
+      "titulo_corto": "Praxis-1 para robots",
+      "categoria": "Robótica",
+      "veracidad": "confirmada",
+      "breve": "Runway, conocida por sus herramientas de video con IA, publicó los pesos de Praxis-1, un modelo para controlar robots con licencia abierta que permite uso comercial. Ya lo usan brazos industriales para alimentar máquinas y paletizar.",
+      "detalle": [
+        "Praxis-1 es un \"modelo de acción del mundo\": parte de un modelo de video que aprendió cómo se mueven las cosas y, a partir de eso, predice a la vez imágenes y movimientos del robot. Tiene 27.000 millones de parámetros y se puede descargar con licencia Apache 2.0, junto con el código para ajustarlo a tareas propias. Corre en placas de NVIDIA, incluso en la computadora Jetson Thor montada en el robot.",
+        "Lo prueban tres empresas: Standard Bots, con brazos de seis ejes que alimentan máquinas herramienta y paletizan; Noble Machines, con un humanoide que mueve tablones y vacía pilas a contenedores; y Ultra, con estaciones de dos brazos que arman pedidos. En la tarea de tablones aprendió con una media hora de ejemplos y acertó 15 de 15 veces; con una pila desordenada que nunca había visto, la vació entera 6 de 10 veces.",
+        "En la prueba RoboLab-120 logró 46,2% de éxito y quedó quinto en la tabla general. Los resultados los informa Runway y no hay evaluaciones independientes."
+      ],
+      "por_que_importa": "Que un modelo de control de robots sea abierto y comercial permite a talleres y universidades probarlo en sus propias celdas de manufactura sin pagar licencias.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/", "tipo": "medio"},
+        {"nombre": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "IDMijkzoMmI", "titulo": "La inteligencia artificial va por el camino equivocado y pagaremos las consecuencias - Karl Friston", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Una entrevista larga de Jon con el neurocientífico Karl Friston sobre en qué se diferencia la IA de la inteligencia humana, por qué la curiosidad importa y qué riesgos ve en el rumbo actual de la IA.",
+    "explicacion": [
+      "Karl Friston es catedrático de Neurociencia en el University College de Londres, miembro de la Royal Society y autor del principio de energía libre, una teoría sobre cómo el cerebro predice el mundo y actúa para reducir sus sorpresas. La charla se grabó en Madrid durante la conferencia internacional de inferencia activa (IWAI 2026), del 14 al 16 de octubre, con la colaboración del CSIC.",
+      "Según la descripción, hablan de la inferencia activa (la idea de que un ser inteligente actúa para comprobar sus propias predicciones), del papel de los modelos del mundo, de la curiosidad como lo que distingue a la inteligencia humana de la artificial y de cómo alinear la IA con nuestros valores.",
+      "Los capítulos muestran el recorrido: si una IA puede ser curiosa o consciente, qué es realmente un modelo del mundo, cuánto se sabe del cerebro, si se puede hacer un gemelo digital de una mente, el miedo a perder el control y si habría que frenar el desarrollo. También dedican tramos al gasto de energía y recursos de los modelos de lenguaje, a la \"delegación cognitiva\" (dejar de pensar por uno mismo), a si una IA necesita un cuerpo y a si se puede programar la moral.",
+      "Hacia el final aparecen la selección natural y el mercado como riesgo de perder el control, una predicción de robots sintientes dentro de 4 a 8 años y qué pasará con el trabajo y el propósito cuando la IA lo haga todo. La descripción no detalla qué responde Friston en cada tema."
+    ],
+    "puntos_clave": [
+      {"texto": "Friston plantea la curiosidad como una diferencia central entre la inteligencia humana y la artificial.", "segundo": 616},
+      {"texto": "El principio de energía libre y la inferencia activa son la base de su visión de cómo piensa y actúa un ser inteligente.", "segundo": 699},
+      {"texto": "Se discute qué son realmente los modelos del mundo, uno de los temas de moda en la IA.", "segundo": 1498},
+      {"texto": "Aparece la pregunta de si habría que frenar el desarrollo de la IA.", "segundo": 2925},
+      {"texto": "Un capítulo trata el gran gasto de energía y recursos de los modelos de lenguaje actuales.", "segundo": 3264},
+      {"texto": "Se habla de la delegación cognitiva: qué nos pasa cuando dejamos que la IA piense por nosotros.", "segundo": 3660},
+      {"texto": "El video incluye una predicción de robots sintientes dentro de 4 a 8 años.", "segundo": 5040}
+    ]
+  },
+  "notas_internas": "Crudo generado con scripts/recolectar.py (163 notas, 2 videos de Jon, 0 errores); no se commitea. Video de Jon: entrevista a Karl Friston (es_noticias false pero cuenta como entrevista, sin resumen Plaud), base descripción; no trae noticias verificables para la lista. El otro video (Fable 5.2) ya estaba cubierto. Ars Technica, The Verge, Wired y El País bloquean la lectura automática: se usó el texto de sus feeds (El País para el -37% mensual de Nvidia; Ars para las gafas). La Reuters sobre la cumbre de Dublín se citó vía Yahoo porque el crudo trae link de Google Noticias. Salida a Bolsa: la cifra de seis veces es de Bloomberg (fuentes anónimas), verificada vía Silicon Republic; marcada sin_confirmar. Fecha exacta de debut no confirmada (versiones de 18 y 19 de noviembre), por eso se dejó 'en los próximos días'. Fireworks/Notion: TechCrunch y el aviso de Notion coinciden en el corte del 3 de noviembre. Praxis-1: ya se había anunciado en octubre; la novedad de esta semana es la liberación pública de los pesos (The Robot Report). Descartadas: Barr (Fed) sobre empleo (no se encontró la nota de noviembre), inversión de US$74.000 millones de SpaceX (no se pudo confirmar la cifra), FAA y tráfico aéreo (no se pudo leer la nota de Ars ni confirmar la expansión nacional), seguimiento de chips de Nvidia (MIT TR, una sola fuente), demanda por patentes contra Anthropic y OpenAI (link solo de Google Noticias), hackers con agente Hermes (no se confirmó el vínculo con Kazajistán), SimScale Engineering AI Blueprint (documento comercial sin datos nuevos). No se detectaron instrucciones sospechosas en las fuentes."
+}
