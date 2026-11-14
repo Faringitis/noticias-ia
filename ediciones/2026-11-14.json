@@ -1,0 +1,203 @@
+{
+  "fecha": "2026-11-14",
+  "intro": "OpenAI deja que sus agentes paguen compras con ChatGPT Wallet y la Reserva Federal ubica a la IA como el riesgo más citado para el sistema financiero. Además: modelos chinos con huellas de chips prohibidos y la IA de la FAA llega a todo EE. UU.",
+  "noticias": [
+    {
+      "titulo": "OpenAI lanza ChatGPT Wallet: los agentes de ChatGPT ya pueden pagar compras con tu tarjeta",
+      "titulo_corto": "ChatGPT Wallet",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "OpenAI presentó el 13 de noviembre una billetera para que sus agentes completen compras por el usuario, que aprueba cada pago con huella o Face ID. Por ahora es solo para suscriptores Pro en EE. UU.",
+      "detalle": [
+        "ChatGPT Wallet guarda una o más tarjetas para que los agentes de OpenAI (los dots, además de ChatGPT Work y Codex, según el anuncio) puedan terminar una compra sin que el usuario vuelva a cargar los datos de pago. Antes de pagar, la persona ve los productos, el total y la tarjeta elegida, y confirma con una verificación de seguridad como Face ID o la huella digital.",
+        "El cobro se hace con un token de pago (un número sustituto de la tarjeta real), así que ni el agente ni el comercio reciben los datos de la tarjeta. El agente sí le pasa al vendedor lo necesario para el envío, como la dirección y el contacto. Las compras conservan los beneficios y protecciones de la tarjeta, por ejemplo la posibilidad de desconocer un cargo.",
+        "Arranca de a poco: solo para suscriptores de ChatGPT Pro mayores de 18 años, con dirección de facturación en EE. UU. y tarjetas emitidas allí (Visa, Mastercard, American Express y Chase). OpenAI dice que más adelante sumará límites de gasto, controles por categoría o período y compras preaprobadas para que el agente actúe con más autonomía.",
+        "Lo que falta saber es en cuántas tiendas funciona: OpenAI no publicó una lista de comercios y, según TechCrunch, por ahora las compras hechas por agentes son pocas. Amazon, por ejemplo, bloquea a los agentes externos en su sitio."
+      ],
+      "por_que_importa": "Es un paso para que los asistentes de IA no solo recomienden qué comprar sino que hagan la compra. Pagar es donde más importan la seguridad y el control, por eso vale mirar cómo se resuelve.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/introducing-chatgpt-wallet", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "La Reserva Federal de EE. UU. dice que la IA es hoy el riesgo más citado para el sistema financiero",
+      "titulo_corto": "La Fed y el riesgo de la IA",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "En su informe de estabilidad financiera del 13 de noviembre, la Fed cuenta que la IA pasó al primer lugar entre los riesgos que mencionan bancos y fondos, y que la deuda para construir centros de datos ya supera los US$680.000 millones este año.",
+      "detalle": [
+        "La Reserva Federal publica dos veces por año un informe sobre la estabilidad del sistema financiero. Incluye una encuesta de la Fed de Nueva York a 23 contactos del mercado (bancos, fondos de inversión, agentes de bolsa y asesores), hecha en septiembre y octubre. Esta vez la IA fue el riesgo más mencionado; en la encuesta de primavera había quedado tercera, detrás de los riesgos geopolíticos y el shock del petróleo.",
+        "Los encuestados ven tres frentes: que las acciones ligadas a la IA estén demasiado caras y caigan si las ganancias no llegan; ataques informáticos más sofisticados gracias a la IA, o daños causados por los propios modelos de punta; y formas complicadas de financiar la construcción de infraestructura de IA.",
+        "El informe trae un recuadro sobre ese último punto. La deuda emitida para infraestructura de cómputo avanzado superó los US$680.000 millones hasta octubre de 2026, unas cinco veces los US$130.000 millones de todo 2023, y ya es cerca del 31% de la deuda de empresas con grado de inversión (en 2023 era menos del 6%). La deuda pública vigente ligada a ese rubro se estima en más de US$1,1 billones.",
+        "La Fed aclara que la encuesta refleja la opinión de los consultados y no la de la institución. Compara además el ritmo de inversión actual con el de las telecomunicaciones a fines de los 90 y advierte que pronto podría superarlo."
+      ],
+      "por_que_importa": "Cuando el banco central más importante del mundo marca a la IA como su principal preocupación, el tema deja de ser solo tecnológico: una caída fuerte en ese sector podría afectar la economía real.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reserva Federal (informe de estabilidad financiera, noviembre 2026)", "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Un análisis encuentra huellas de chips Nvidia prohibidos en los modelos chinos más potentes",
+      "titulo_corto": "Chips prohibidos en China",
+      "categoria": "Hardware",
+      "veracidad": "sin_confirmar",
+      "breve": "Según un análisis del investigador Will DePue, publicado el 12 de noviembre, modelos de DeepSeek, Moonshot, MiniMax y Ant Group habrían arrancado su entrenamiento en chips Blackwell, cuya venta a China está prohibida.",
+      "detalle": [
+        "Will DePue, exinvestigador de OpenAI que dirige la organización sin fines de lucro Unemployment Labs, estudió los pesos (los números que forman un modelo de IA) de seis modelos chinos abiertos. Los valores iniciales de esos pesos dependen de cómo el chip reparte el trabajo, y eso deja una especie de huella digital. Según su informe, hay evidencia de chips Blackwell de Nvidia en DeepSeek-V4-Flash y V4-Pro, Kimi K3 y K3.1-Pro de Moonshot, MiniMax-M3 y un modelo de Ant Group.",
+        "Para comprobarlo, reprodujo esos valores en chips reales: un B300 replicó bit a bit 445 de 469 filas elegidas de DeepSeek-V4-Flash, y un GB200 alquilado reprodujo las 13 filas probadas de Kimi K3. Los modelos anteriores de las mismas empresas coinciden con chips de la generación previa (Hopper).",
+        "Hay límites importantes: la huella muestra cómo se crearon los valores iniciales, no dónde estaban los chips ni quién los tenía. Podrían estar en centros de datos fuera de China, como en Malasia, una vía habitual. Por eso el análisis no prueba que se haya violado la ley, y las notas no incluyen respuestas de las empresas.",
+        "El tema llega en mal momento para Nvidia: su fundador Jensen Huang renunció esta semana tras conocerse su relación con Alice Huang, ejecutiva de Megaspeed, una empresa investigada por el posible contrabando de chips prohibidos."
+      ],
+      "por_que_importa": "Si se confirma, mostraría que las restricciones de EE. UU. no están frenando el acceso de China a los mejores chips, algo que puede llevar a controles más duros.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/", "tipo": "medio"},
+        {"nombre": "WinBuzzer", "url": "https://winbuzzer.com/2026/11/13/deepseek-ai-model-files-point-to-nvidia-blackwell-chips-xcxwbn", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "DeepSeek suma búsqueda web, lectura de archivos y voz a su API para desarrolladores",
+      "titulo_corto": "DeepSeek amplía su API",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "La empresa china agregó el 13 de noviembre a su modelo deepseek-flash búsqueda en internet, búsqueda con razonamiento, lectura de PDF, archivos de Office e imágenes, apertura de links y un control de seguridad.",
+      "detalle": [
+        "DeepSeek publicó en su registro de cambios un paquete de funciones para quienes usan sus modelos a través de la API (la conexión que usan los programadores para meter un modelo en sus propias apps). Con la herramienta de búsqueda activada, el modelo busca en la web o en imágenes cuando lo necesita y cita de dónde sacó la información. Con el modo de razonamiento encendido, puede buscar y leer páginas en varios pasos antes de responder.",
+        "También acepta archivos (PDF, documentos de Office, imágenes y otros formatos), que se procesan y se suman al contexto, y puede abrir los links que aparezcan en un mensaje. Un nuevo parámetro revisa lo que entra y sale y marca la respuesta como rechazada si detecta un riesgo.",
+        "Además ofrece por separado servicios de búsqueda, reconocimiento de texto en imágenes, voz a texto y texto a voz, y liberó como código abierto una app de chat de ejemplo que puede importar el historial de la app de DeepSeek.",
+        "Son funciones que la competencia ya tenía; la diferencia es que DeepSeek suele cobrar bastante menos. El registro no menciona precios nuevos para estas herramientas."
+      ],
+      "por_que_importa": "Hace más fácil y barato armar asistentes que buscan información actualizada y leen documentos, algo útil para quien quiera construir herramientas propias con IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "DeepSeek (registro de cambios de la API)", "url": "https://api-docs.deepseek.com/updates.md", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "La FAA extiende a todo EE. UU. su herramienta de IA para ordenar el tráfico aéreo",
+      "titulo_corto": "IA en el tráfico aéreo",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Anunciado el 10 de noviembre: SMART, el sistema de IA que sugiere rutas para evitar congestiones, pasa de Washington a los 22 centros de control del país. El sindicato de controladores dice que no participó en su diseño.",
+      "detalle": [
+        "La Administración Federal de Aviación (FAA) empezó a usar SMART el 21 de septiembre en el espacio aéreo de Washington. Es una plataforma en la nube que cruza unas 200 fuentes de datos, como clima, planes de vuelo, capacidad de los aeropuertos y personal disponible, para anticipar dónde se va a congestionar el tráfico y proponer desvíos antes del despegue.",
+        "Según la FAA, desde entonces se reprogramaron unos 180 vuelos, con un ahorro promedio de unos 10 minutos y casi 80 galones de combustible por vuelo. Gizmodo informa un costo de US$875 millones; la empresa elegida para el sistema es Air Space Intelligence.",
+        "La IA no controla aviones: especialistas de la FAA validan cada sugerencia, que luego pasa al centro de comando, y cada instalación decide si la acepta. Los controladores siguen a cargo de separar los aviones.",
+        "El sindicato de controladores (NATCA) dice que no tuvo papel en el diseño ni en las pruebas, y legisladores demócratas pidieron pausar la expansión y revisar las pruebas de seguridad. La FAA no explicó cómo calculó los ahorros. El 13 de noviembre hubo una suspensión nacional de despegues, pero nadie la vinculó con SMART."
+      ],
+      "por_que_importa": "Es uno de los usos de IA más visibles en infraestructura crítica: muestra cómo se combina la predicción automática con la decisión humana en un sistema donde los errores cuestan caro.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Ars Technica", "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/", "tipo": "medio"},
+        {"nombre": "Gizmodo", "url": "https://gizmodo.com/the-faa-is-rolling-out-its-ai-air-traffic-tool-nationwide-2000839347", "tipo": "medio"},
+        {"nombre": "Airways Magazine", "url": "https://www.airwaysmag.com/new-post/faa-smart-nationwide-22-centers", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Según Reuters, Amazon planea un catálogo de casi todos los productos del mundo para frenar a los agentes de compra",
+      "titulo_corto": "Amazon y su catálogo global",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según un documento interno que vio Reuters, Amazon armaría el \"World Product Graph\", con datos de productos que ni siquiera vende, para que la gente y los agentes de IA no busquen en otro lado. Amazon dice que es un borrador viejo.",
+      "detalle": [
+        "Reuters leyó un documento interno que describe el proyecto: juntar información de casi todos los artículos que se venden en el mundo, los tenga Amazon o no. Los datos vendrían de marcas y comercios que los compartan, y también de rastrear sitios de otros vendedores. El documento dice que Coca-Cola y Bayer ya aceptaron aportar datos y fija como meta de lanzamiento el 1 de octubre de 2027.",
+        "El objetivo sería que los compradores no se vayan a Google o a sitios de reseñas para investigar, mejorar las respuestas de Alexa for Shopping (el buscador con IA de Amazon, que según el documento a veces se equivoca) y convertir a Amazon en el lugar donde los agentes de IA de otras empresas encuentran productos. Según Morgan Stanley, en 2025 el 57% de los compradores empezaba sus búsquedas en Google y el 16% en Amazon.",
+        "Amazon respondió que los borradores desactualizados dan una imagen incompleta. Reuters no pudo confirmar si el plan se va a concretar, y no está claro si Amazon pediría permiso para leer los sitios de terceros."
+      ],
+      "por_que_importa": "Muestra cómo los agentes de IA que compran solos amenazan a los gigantes del comercio electrónico, y cómo estos intentan quedarse con los datos para no perder el control.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Jerusalem Post)", "url": "http://www.jpost.com/business-and-innovation/article-914813", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "llama.cpp, un programa clave para correr IA en la propia computadora, llega a su versión 1.0",
+      "titulo_corto": "llama.cpp 1.0",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Tras unos tres años y medio de desarrollo, llama.cpp y su biblioteca ggml lanzaron la versión 1.0, con el compromiso de avisar claramente cuando un cambio rompa la compatibilidad con las apps que dependen de ellas.",
+      "detalle": [
+        "llama.cpp es un programa de código abierto que permite usar modelos de lenguaje en computadoras comunes, sin conectarse a un servicio en la nube. Muchas apps para usar IA localmente se apoyan en él. Su equipo anunció el 13 de noviembre, en el blog de Hugging Face, la versión 1.0 de llama.cpp y de ggml, la biblioteca de cálculo sobre la que funciona.",
+        "El cambio principal es de reglas: desde ahora usan versionado semántico (un sistema de numeración que indica qué tan grande es cada cambio), así que solo subirá el primer número cuando algo deje de ser compatible para los programas que lo usan. Ya se instala desde los gestores de paquetes habituales de Windows, macOS y Linux, y también en Android e iOS.",
+        "Soporta más de 150 variantes de modelos y corre en chips de Nvidia, AMD, Intel, Qualcomm, Arm e IBM, que aportan equipos para probar cada cambio. También existen apps de escritorio para macOS y Windows hechas por el equipo de llama.cpp y Hugging Face."
+      ],
+      "por_que_importa": "Correr IA en tu propia computadora es gratis y privado: tus archivos no salen de tu máquina. Una versión estable hace más confiables las herramientas que se construyen encima.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Hugging Face (blog de ggml-org)", "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "MIT crea un copiloto de IA que deja al ingeniero corregir la optimización topológica mientras se calcula",
+      "titulo_corto": "Copiloto para diseño (MIT)",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Un equipo del MIT presentó un sistema que, mientras el algoritmo genera una pieza, marca las zonas que el diseñador probablemente querría cambiar y le pide su opinión. Mejoró 39% la fabricabilidad o la carga de pandeo.",
+      "detalle": [
+        "La optimización topológica es un método en el que el software decide dónde poner material para que una pieza sea lo más liviana y resistente posible; se usa en piezas de aviones ultralivianos o de autos de Fórmula 1. El problema es que es lenta, el ingeniero recién ve el resultado al final, y a veces sale algo difícil de fabricar, como nodos donde se juntan ocho o más barras.",
+        "El sistema del MIT, publicado en Communications Engineering, usa aprendizaje automático para predecir qué regiones del diseño querría modificar una persona. Fue entrenado con miles de diseños y respuestas simuladas sobre estética, rendimiento y facilidad de fabricación. Mientras el algoritmo trabaja, muestra esas zonas y el diseñador puede pedir que se engrosen o se afinen.",
+        "Según el trabajo, así se mejoró 39% la fabricabilidad o la carga crítica de pandeo lineal (la carga a la que una estructura esbelta se flexiona de golpe), sumando solo unos 15 segundos al tiempo total frente al método automático. Por ahora solo permite engrosar o afinar; el equipo planea agregar más opciones. La nota no dice si el programa estará disponible para el público."
+      ],
+      "por_que_importa": "Si usás el estudio de topología de SolidWorks, este es el próximo paso: que el ingeniero intervenga durante el cálculo en lugar de corregir a mano un resultado que no se puede fabricar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "MIT News (vía TechXplore)", "url": "https://techxplore.com/news/2026-11-ai-copilot-algorithms.html", "tipo": "oficial"},
+        {"nombre": "arXiv (artículo de los autores)", "url": "https://arxiv.org/html/2601.10859v1", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Berkeley, NVIDIA y Bosch liberan herramientas para que agentes de IA programen robots industriales",
+      "titulo_corto": "Agentes que programan robots",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Presentado el 11 de noviembre: equipos de agentes de IA escriben, prueban en simulación y corrigen programas de robots legibles, sin datos de entrenamiento previos. En robots reales acertaron 25 de 25 pedidos de supermercado.",
+      "detalle": [
+        "El laboratorio de Ken Goldberg en UC Berkeley, junto con NVIDIA y Bosch, presentó en la conferencia CoRL 2026 Graph-as-Policy (GaP). La idea: en vez de entrenar un robot con miles de demostraciones, un grupo de agentes de IA divide la tarea en pasos (ver el objeto, decidir cómo agarrarlo, moverse sin chocar), elige entre 51 habilidades ya hechas, las conecta y ensaya el programa en un simulador hasta que funciona.",
+        "El resultado es código en Python legible que usa los módulos del fabricante del robot (por ejemplo KUKA) para el control de bajo nivel, y se puede pasar a ROS 2 (el sistema más usado para programar robots). Según los autores, en robots reales completó 25 de 25 pedidos de supermercado y 28 de 30 tareas de embalaje, y en simulación tuvo entre 93% y 99% de éxito.",
+        "También liberaron VABAR, una prueba con seis tareas de manipulación (como encastrar engranajes o pasar cables), y RoboSimStudio, que facilita ajustar el simulador de física Newton. Todo es código abierto. El límite reconocido: los tiempos de ciclo siguen por encima de los cerca de 7 segundos por pieza del estándar industrial."
+      ],
+      "por_que_importa": "Programar robots industriales es hoy un trabajo lento y especializado; si los agentes pueden generar programas revisables por un ingeniero, cambia cómo se automatiza una celda de trabajo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Graph-as-Policy (página del proyecto)", "url": "https://graph-robots.github.io/gap", "tipo": "oficial"},
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "QRkUktKZNAg", "titulo": "No podemos seguir el ritmo de la IA", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Una reflexión de Jon, grabada al llegar a Bogotá, sobre por qué las personas y la sociedad somos el cuello de botella que frena la adopción de la IA, y si ese freno nos protege o terminará cediendo.",
+    "explicacion": [
+      "Jon cuenta que viajó a Colombia en un vuelo sin wifi y que eso le dio tiempo para pensar. El video arranca con esa anécdota: por qué todavía no hay internet en todos los aviones, aunque la tecnología exista hace años.",
+      "De ahí pasa a su idea central: los humanos somos el cuello de botella de la inteligencia artificial. Según la descripción, aunque la tecnología ya esté lista, a la sociedad le cuesta ponerla en práctica, y la IA avanza más rápido de lo que somos capaces de adoptarla.",
+      "Los capítulos muestran que repasa el impacto real de la IA en el empleo, todo lo que la IA ya puede hacer y todavía no se usa, y el caso de la medicina, donde habría tecnología disponible que aún no se aplica.",
+      "En la parte final se pregunta si la IA podría terminar rompiendo ese cuello de botella humano, y habla de la regulación, de la AGI (inteligencia artificial general, una IA capaz de hacer cualquier tarea intelectual humana) y de por qué el cambio podría tardar mucho más de lo esperado. Cierra con la pregunta del título: si esa lentitud nos da tiempo para digerir el cambio y nos protege, o si acabará reventando. La descripción no adelanta su respuesta."
+    ],
+    "puntos_clave": [
+      {"texto": "Según Jon, el freno principal de la IA no es la tecnología sino las personas: nos cuesta adoptarla aunque ya esté lista.", "segundo": 206},
+      {"texto": "La IA avanza más rápido de lo que la sociedad puede incorporarla.", "segundo": 328},
+      {"texto": "Analiza el impacto real de la IA en el empleo.", "segundo": 359},
+      {"texto": "Pone a la medicina como ejemplo de tecnología disponible que todavía no se aplica.", "segundo": 438},
+      {"texto": "La regulación y el camino a la AGI podrían hacer que el cambio tarde mucho más de lo esperado.", "segundo": 704},
+      {"texto": "La pregunta abierta: si ese cuello de botella nos protege o terminará reventando.", "segundo": 759}
+    ]
+  },
+  "notas_internas": "Recolección sin errores (118 notas). Video de Jon elegido: QRkUktKZNAg (reflexión, sin resumen Plaud; base descripción). Fed verificada en el PDF oficial del informe. DeepSeek verificado en su registro de cambios. Amazon: Reuters leído vía reproducción en The Jerusalem Post; Amazon lo niega parcialmente, va como sin_confirmar. Chips en China: análisis de una sola persona (Will DePue), va como sin_confirmar. Ars Technica y The Verge bloquean la lectura automática: se usó el texto del crudo y otros medios. Descartadas: LangChain a US$3.000 millones (solo TechCrunch, no lo pude confirmar), cumbre de la UE en Dublín (sin conclusiones publicadas), seguimiento del caso Nvidia (ya cubierto) y caídas de Claude y Microsoft 365. No se encontraron instrucciones sospechosas en las fuentes."
+}
