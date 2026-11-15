@@ -1,0 +1,148 @@
+{
+  "fecha": "2026-11-15",
+  "intro": "El Gobierno de EE. UU. descarta que la IA de la FAA causara la parada nacional de vuelos, y el mejor puntaje de un examen de contadores en Corea confesó que hizo trampa con IA. Además: una petición pide que Jensen Huang vuelva a Nvidia.",
+  "noticias": [
+    {
+      "titulo": "Actualización: el Gobierno de EE. UU. descarta que la IA de la FAA causara la parada nacional de vuelos",
+      "titulo_corto": "FAA: no fue la IA",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "El 13 de noviembre todos los despegues en EE. UU. se frenaron por más de cuatro horas, tres días después de que la FAA extendiera su IA de rutas a todo el país. El Gobierno dice que la causa fue una falla de red, no la IA.",
+      "detalle": [
+        "El viernes 13 de noviembre la Administración Federal de Aviación (FAA) ordenó una suspensión de despegues en todo el país por una falla de comunicaciones entre los centros de control de tráfico aéreo. Duró más de cuatro horas y se levantó alrededor de las 20:30 (hora de Nueva York). Según la consultora Cirium, citada por TechCrunch, se cancelaron más de 8.200 vuelos el viernes y al menos 3.000 más el sábado.",
+        "Como la FAA acababa de extender a sus 22 centros de control a SMART, su herramienta de IA que sugiere rutas para evitar congestiones, el secretario de Seguridad Nacional, Markwayne Mullin, dijo que su departamento estaba revisando si la IA había tenido algo que ver. La empresa que desarrolla SMART, Air Space Intelligence, negó cualquier relación.",
+        "Al día siguiente, el secretario de Transporte, Sean Duffy, atribuyó la falla a un trabajo de mantenimiento: L3Harris, contratista de la FAA, reemplazó cable de cobre por fibra óptica en un sitio remoto y un router (el equipo que dirige el tráfico de datos en una red) saturó un sistema de comunicación clave. El administrador de la FAA, Bryan Bedford, dijo que no hay \"ninguna evidencia\" de que la IA haya intervenido.",
+        "Falta el análisis de causa raíz: Duffy dijo que todavía no saben si fue un error del instalador, del usuario o un router defectuoso. L3Harris dijo que ya completó más del 70% del cambio de cobre a fibra y que colabora con la investigación."
+      ],
+      "por_que_importa": "Muestra la desconfianza que despierta la IA en infraestructura crítica: ante una falla grave, fue la primera sospechosa. Esta vez la causa habría sido un equipo de red común, un recordatorio de que los sistemas viejos también fallan.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide", "tipo": "medio"},
+        {"nombre": "The Register", "url": "https://www.theregister.com/offbeat/2026/11/13/faa-blames-ground-stop-on-faulty-copper-wiring/5309912", "tipo": "medio"},
+        {"nombre": "KPRC Click2Houston", "url": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "El primer puesto del examen nacional de contadores tributarios de Corea del Sur confiesa que hizo trampa con IA",
+      "titulo_corto": "Trampa con IA en Corea",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Un hombre de 34 años que sacó 397,5 sobre 400 en el examen para contadores tributarios admitió el 15 de noviembre que fotografiaba las preguntas con una microcámara, se las pasaba a una IA y leía las respuestas en el celular.",
+      "detalle": [
+        "Han Won-seok, de 34 años, fue el mejor puntaje del 63.º examen de habilitación para contadores tributarios de Corea del Sur. En la primera ronda acertó 159 de 160 preguntas de opción múltiple; en derecho tributario sacó 100, cuando el promedio de casi 17.000 aspirantes fue de 30 y tres de cada cuatro no llegaron al mínimo para aprobar.",
+        "Ese resultado despertó sospechas. El domingo 15 confesó en un video publicado en el canal de YouTube de su abogado: sacaba fotos de las preguntas con una cámara diminuta, las mandaba a una herramienta de IA generativa (no se informó cuál) y miraba las respuestas en su celular. Dijo que también lo hizo en la primera ronda del examen de contador público de marzo y que entregó una confesión escrita a la policía de Seúl.",
+        "Según Reuters, la oficina presidencial considera el caso \"muy grave\" y prepara medidas; ese mismo día había una reunión de emergencia. Los dos supervisores del examen no reportaron nada raro.",
+        "El escándalo llega días antes del examen nacional de ingreso a la universidad, el jueves 19, uno de los más importantes del país."
+      ],
+      "por_que_importa": "Los exámenes presenciales eran la respuesta de muchas instituciones a la IA, y este caso muestra que una cámara chica y un celular alcanzan para burlarlos. Va a obligar a repensar cómo se controla y cómo se evalúa, también en las universidades.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Star)", "url": "https://www.thestar.com.my/tech/tech-news/2026/11/15/top-scorer-on-south-korean-tax-exam-confesses-to-cheating-with-ai", "tipo": "medio"},
+        {"nombre": "The Korea Herald", "url": "https://www.koreaherald.com/article/10937374", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: más de 115.000 firmas, entre ellas la de Elon Musk, piden que Jensen Huang vuelva a Nvidia",
+      "titulo_corto": "Petición por Jensen Huang",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Una petición en internet pide al directorio de Nvidia que reponga a Jensen Huang mientras se investiga el caso. Mientras, Corea del Sur, Taiwán y Japón dicen que sus proyectos con la empresa siguen en pie.",
+      "detalle": [
+        "Jensen Huang, cofundador de Nvidia, renunció el 12 de noviembre como CEO tras admitir una relación con una ejecutiva que la inteligencia estadounidense sospecha que es espía china; la directora financiera, Colette Kress, quedó como CEO interina. La petición \"Stand with Jensen\" superaba las 115.000 firmas el sábado 14 a la tarde, según TechCrunch. El sitio dice que entre los firmantes hay unos 6.000 empleados actuales de Nvidia y más de 60.000 accionistas, cifras que no se pueden comprobar.",
+        "Entre quienes la apoyaron están Elon Musk (Tesla y SpaceX), Tobi Lütke (Shopify), Tim Sweeney (Epic Games) y Garry Tan (Y Combinator). El texto pide que Huang vuelva mientras una investigación independiente establece los hechos. Nvidia no comentó, y solo su directorio puede nombrar al CEO.",
+        "Varios gobiernos de Asia reaccionaron. El Ministerio de Ciencia de Corea del Sur dijo que Nvidia le confirmó que mantiene la entrega de 260.000 chips avanzados. El ministro de Economía de Taiwán opinó que la salida no cambiará mucho el crecimiento de la IA y la ciudad de Taipéi dijo que la futura sede de Nvidia sigue en marcha. Japón dijo que seguirá de cerca a la empresa.",
+        "China, en cambio, rechazó que la mujer vinculada a Huang sea espía y calificó las acusaciones como una difamación. Singapur informó que sigue investigando a la empresa Megaspeed y a otras seis personas."
+      ],
+      "por_que_importa": "Nvidia fabrica los chips con los que se entrena casi toda la IA, así que lo que pase con su conducción afecta a gobiernos y empresas de todo el mundo. La petición no obliga a nada, pero muestra la presión sobre el directorio.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch (petición)", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/", "tipo": "medio"},
+        {"nombre": "TechCrunch (gobiernos de Asia)", "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/", "tipo": "medio"},
+        {"nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Thinking Machines, la empresa de Mira Murati, libera los pesos de su modelo Inkling 2 Small",
+      "titulo_corto": "Inkling 2 Small abierto",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 12 de noviembre: cualquiera puede descargar y modificar Inkling 2 Small, un modelo grande de una empresa estadounidense, con una licencia que permite el uso comercial. Necesita varias placas de video de las más caras.",
+      "detalle": [
+        "Thinking Machines Lab, fundada por Mira Murati (exdirectora de tecnología de OpenAI), lanzó Inkling 2 Small el 5 de noviembre en su plataforma Tinker, con los pesos (los números que forman el modelo entrenado) guardados mientras terminaban las pruebas de seguridad externas. El 12 de noviembre los publicó en Hugging Face con licencia Apache 2.0, que permite usarlo, modificarlo y venderlo.",
+        "Es un modelo de \"mezcla de expertos\" (se divide en muchas subredes y para cada palabra usa solo algunas): tiene 594.000 millones de parámetros, pero activa unos 17.000 millones por vez, lo que lo hace más barato de correr. Lee texto e imágenes, responde en texto y acepta hasta un millón de tokens (fragmentos de texto) de contexto.",
+        "La empresa publica puntajes altos en benchmarks (pruebas estandarizadas) de programación, ciencia y razonamiento, pero son medidos por ella misma. Pesa unos 394 GB y necesita al menos 500 GB de memoria de video, por ejemplo dos placas Nvidia B300 o cuatro H200: no corre en una computadora personal.",
+        "Según la ficha del modelo, las evaluaciones previas no encontraron que sume riesgos más allá de lo que ya ofrecen otros modelos abiertos. Desaconseja usarlo para decisiones médicas, legales o de seguridad sin ajustes y supervisión humana."
+      ],
+      "por_que_importa": "Los mejores modelos abiertos venían sobre todo de China (DeepSeek, Qwen, Kimi). Uno estadounidense con licencia permisiva da a empresas y universidades otra opción para correr IA en sus propios equipos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Thinking Machines en Hugging Face", "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small", "tipo": "oficial"},
+        {"nombre": "byteiota", "url": "https://byteiota.com/inkling-2-small-open-weights/", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "OpenAI y Databricks conectan ChatGPT y Codex con los datos internos de las empresas",
+      "titulo_corto": "OpenAI y Databricks",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Databricks presentó el 13 de noviembre tres formas de usar ChatGPT, Codex y los modelos GPT sobre los datos de una empresa, sin que cada empleado vea más de lo que ya tiene permitido.",
+      "detalle": [
+        "Databricks es una plataforma donde muchas empresas guardan y analizan sus datos. Según su anuncio, un empleado puede preguntarle algo a ChatGPT, como las ventas del trimestre, y un complemento llamado Genie consulta los datos de la empresa con las definiciones internas de cada indicador y devuelve gráficos con links a la fuente. Cada persona solo ve los datos a los que ya tiene acceso.",
+        "Para los programadores, Codex (el agente de programación de OpenAI) se conecta con una credencial de Databricks: la clave de OpenAI queda en un sistema central que registra cada pedido y deja a los jefes fijar presupuestos por equipo y elegir qué modelo GPT usa cada tarea. También se pueden armar agentes propios con modelos GPT, incluidos los abiertos gpt-oss, sin manejar claves aparte.",
+        "La alianza entre las dos empresas existe desde septiembre de 2025. El anuncio no informa precios, regiones ni si todo está disponible para todos los clientes. Greg Brockman, presidente de OpenAI, dijo que una IA sin los datos de la empresa es como contratar a alguien con 20 doctorados y nunca invitarlo a una reunión."
+      ],
+      "por_que_importa": "El gran freno para usar IA en empresas es conectarla con datos internos sin filtrar información. Estas integraciones apuntan a eso, y anticipan cómo se va a trabajar con IA en muchas oficinas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Databricks", "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "ElevenLabs presenta ElevenAI, una app que toma notas de reuniones y dicta texto para equipos de trabajo",
+      "titulo_corto": "ElevenAI de ElevenLabs",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 11 de noviembre: ElevenLabs, conocida por sus voces sintéticas, abrió el acceso anticipado gratis a una app que escucha reuniones, incluso presenciales, y envía a cada asistente un resumen con las tareas.",
+      "detalle": [
+        "ElevenLabs presentó ElevenAI en su conferencia de Nueva York. La app escucha conversaciones, también reuniones cara a cara, y las convierte en notas y próximos pasos; al terminar, manda a cada participante un resumen con tareas. También puede ayudar en vivo durante una llamada, por ejemplo recordando qué se dijo en una reunión anterior.",
+        "Además funciona como dictado: transforma lo que uno habla en texto prolijo en cualquier aplicación, en más de 90 idiomas según TechCrunch. Todo usa Scribe v3, el nuevo modelo de transcripción de la empresa, que reconoce vocabulario de cada industria. La empresa dice que pide el consentimiento de los presentes y avisa cuando está grabando.",
+        "Por ahora es una vista previa con lista de espera y está pensada para empresas, donde compite con Granola, Fireflies y Wispr Flow. No se informaron precios. En el mismo evento ElevenLabs anunció un modelo de transcripción especializado en medicina y otro para finanzas en desarrollo."
+      ],
+      "por_que_importa": "Tomar notas y transcribir reuniones es uno de los usos de IA más prácticos y extendidos en el trabajo. Que entre un jugador fuerte en voz suma competencia y mejora la calidad de la transcripción, también en español.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "ElevenLabs", "url": "https://elevenlabs.io/blog/nyc-summit", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Un laboratorio de ingeniería mecánica en EE. UU. recibe US$4,2 millones para fábricas con gemelos digitales e IA",
+      "titulo_corto": "Gemelos digitales en SMU",
+      "categoria": "Manufactura",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 9 de noviembre: la Universidad Metodista del Sur (SMU) armará un laboratorio donde una IA convierte instrucciones en lenguaje común e imágenes en planes para robots, que se prueban antes en un gemelo digital.",
+      "detalle": [
+        "El Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST) otorgó US$4,2 millones a la escuela de ingeniería de SMU, en Dallas, para un proyecto de dos años dirigido por Nader Jalili, profesor de ingeniería mecánica. Se creará un Laboratorio de Tecnología de Gemelos Digitales (copias virtuales de un sistema físico que se actualizan con datos reales), desarrollado junto a Mitsubishi Electric y enfocado en la fabricación de semiconductores.",
+        "El equipo construirá herramientas de IA que toman instrucciones en lenguaje común e imágenes de cámaras y las convierten en planes de acción para robots. Antes de ejecutarse, cada plan se verifica contra las restricciones físicas y contra el gemelo digital. También usarán datos sobre la atención y el estado físico de cada operario para que los robots ajusten cómo trabajan a su lado y avisen antes de un posible accidente.",
+        "El laboratorio tendrá un sistema de automatización de cinco celdas con estaciones robóticas, cintas transportadoras y puestos de inspección, y usará obleas de aluminio en lugar de silicio para que los estudiantes practiquen sin sala limpia. El objetivo declarado es mejorar la eficiencia entre 10% y 20%, pero todavía no hay resultados."
+      ],
+      "por_que_importa": "Combina en un solo lugar varias cosas que un ingeniero mecánico va a ver en la industria: gemelos digitales, robots colaborativos e IA que planifica tareas. Además suma cursos y becas para estudiantes, un modelo que otras facultades podrían imitar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "SMU", "url": "https://www.smu.edu/news/research/advancing-ai-driven-manufacturing-and-workforce-training", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Recolección sin errores (83 notas). Los dos videos de Jon del crudo ya estaban cubiertos: hoy no hay video. Día flojo (fin de semana): 6 noticias y 1 de ingeniería. FAA: TechCrunch, The Register y Click2Houston; Washington Times y Wired bloquearon la lectura. Corea: Reuters leído vía The Star (el crudo trae link de Google Noticias) y Korea Herald; no se nombra al primer ministro porque las fuentes escriben distinto su nombre. Nvidia: las cifras de empleados y accionistas son del propio sitio de la petición; se omitió que Huang declararía ante el Congreso (una sola fuente). Inkling: los benchmarks son de la empresa. Descartadas: Wired sobre ransomware con IA (no se pudo leer), Mercor (10 de noviembre), Microsoft y Oracle (6 de noviembre), Kitesurf de Cloudflare (agosto), compras de CrowdStrike (3 de noviembre), AMD y Meta (octubre), premios de música con IA (sin resultados publicados), salida a Bolsa de Anthropic (ya cubierta, sin novedades confirmadas). Ingeniería descartadas: prueba de robots AGIBOT (contenido patrocinado), Rhoda AI (sin datos), IA para láseres de Stanford y SLAC (física, no mecánica), artículo de la Design Society (sin fecha ni texto completo). No se encontraron instrucciones sospechosas en las fuentes."
+}
