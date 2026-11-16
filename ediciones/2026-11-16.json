@@ -1,0 +1,152 @@
+{
+  "fecha": "2026-11-16",
+  "intro": "Según el Wall Street Journal, EE. UU. nombraría a más de veinte empresas de IA como \"campeones nacionales\", y Alibaba lanza Qwen4-Max. Además: Corea revisará los anteojos en su gran examen y Apple estudia cómo usamos la IA para la salud.",
+  "noticias": [
+    {
+      "titulo": "Según el Wall Street Journal, EE. UU. nombrará \"campeones nacionales\" a más de veinte empresas de IA",
+      "titulo_corto": "Campeones nacionales de IA",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el Wall Street Journal, el gobierno de Trump planea darle ese título a más de veinte empresas de IA, entre ellas Nvidia, Amazon, Microsoft, OpenAI y Anthropic, para ayudarlas a crecer en el exterior. Ni el gobierno ni las empresas lo confirmaron.",
+      "detalle": [
+        "El Wall Street Journal publicó el domingo 15 de noviembre, citando a personas al tanto del plan, que la administración Trump va a designar como \"campeones nacionales\" a más de dos docenas de empresas estadounidenses de IA. Entre las nombradas están Nvidia, Amazon, Microsoft, OpenAI y Anthropic. El objetivo sería ayudarlas a expandirse fuera de EE. UU. y competir con rivales de otros países.",
+        "Todavía no se sabe qué beneficios concretos traería el título. En otros países, \"campeón nacional\" suele significar trato preferencial del Estado para empresas que el gobierno considera estratégicas. CoinDesk y Forbes, que levantaron la nota, aclaran que no pudieron verificarla por su cuenta.",
+        "La noticia llega en un mal momento para el sector en la Bolsa. Según CoinDesk, la acción de Nvidia cerró a US$162,85, alrededor de un 33% por debajo de su máximo del 6 de octubre, y un fondo cotizado de empresas de IA cayó un 33% desde su récord de junio. Nvidia, además, sigue sin CEO definitivo tras la renuncia de Jensen Huang y presenta sus resultados trimestrales el martes 17 de noviembre.",
+        "Falta saber la lista completa, cuándo se anunciaría oficialmente y si el título viene con plata, permisos de exportación más rápidos u otras ventajas."
+      ],
+      "por_que_importa": "Si se confirma, el gobierno de EE. UU. pasaría a respaldar abiertamente a un grupo de empresas de IA frente a las de China y otros países, lo que puede influir en qué herramientas llegan al resto del mundo y en qué condiciones.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions", "tipo": "medio"},
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/siladityaray/2026/11/16/scandal-hit-nvidia-among-trumps-planned-ai-national-champions-report-says/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Alibaba lanza Qwen4-Max, su nuevo modelo principal, con más controles de seguridad y menor costo por tarea",
+      "titulo_corto": "Qwen4-Max de Alibaba",
+      "categoria": "Modelos",
+      "veracidad": "confirmada",
+      "breve": "Alibaba presentó el 15 de noviembre Qwen4-Max, que según la empresa resuelve mejor tareas profesionales y científicas que su modelo anterior, gasta menos y tiene más protecciones contra usos peligrosos. Desde el 16 está disponible por API.",
+      "detalle": [
+        "Alibaba presentó el domingo 15 de noviembre Qwen4-Max, el modelo más potente de su familia Qwen, según informó Reuters. TechNode agrega que desde el lunes 16 está disponible para todos a través de QwenCloud, la plataforma de pago de Alibaba para desarrolladores, después de una prueba limitada que empezó el 11 de noviembre. También se puede usar en sus productos Qwen Studio, QwenWork y Qoder.",
+        "Según TechNode, es un modelo de \"mezcla de expertos\" (una arquitectura que solo activa una parte del modelo en cada paso, para gastar menos cómputo) con 2,4 billones de parámetros, que acepta imágenes y puede manejar hasta un millón de tokens (unidades de texto) de contexto. Alibaba dice que supera a Qwen3.8-Max, lanzado en agosto, usando menos tokens: en su propia prueba interna, el costo promedio por tarea bajó de 26,58 a 11,16 yuanes, alrededor de un 58% menos.",
+        "La empresa destacó la seguridad: durante el entrenamiento sumó controles para que el código que escribe tenga menos fallas como inyección de código o accesos mal protegidos, y reforzó los bloqueos contra el uso para ciberdelitos o materiales peligrosos. Dice que sus pruebas internas no encontraron capacidades de alto riesgo.",
+        "Todos estos datos son de Alibaba y no hay evaluaciones independientes. Los pesos de Qwen4-Max no se publicaron; la empresa promete liberar versiones más chicas de Qwen4, sin fecha."
+      ],
+      "por_que_importa": "Muestra que los modelos chinos siguen compitiendo con fuerza en precio, y que las empresas de ese país empiezan a publicar más información de seguridad, un tema que hasta hace poco dominaban los laboratorios de EE. UU.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Standard)", "url": "https://www.thestandard.com.hk/finance/article/348615/Alibaba-unveils-new-flagship-AI-model-with-safety-upgrades", "tipo": "medio"},
+        {"nombre": "TechNode", "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: Corea del Sur revisará los anteojos de todos los alumnos en su examen de ingreso a la universidad",
+      "titulo_corto": "Corea revisa anteojos",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Tras la confesión del primer puesto del examen de contadores, que hizo trampa con IA, el gobierno coreano anunció el 16 de noviembre que en el examen de ingreso universitario de esta semana se revisarán los anteojos de cada alumno en cada turno.",
+      "detalle": [
+        "El ministro de Educación de Corea del Sur, Choi Kyo-jin, le dijo al Parlamento el lunes 16 de noviembre que en el CSAT (el examen nacional de ingreso a la universidad, que se toma esta semana) se van a revisar todos los anteojos de los alumnos en cada parte de la prueba. Los supervisores buscarán cámaras incorporadas, marcos demasiado gruesos, pantallas, puertos de carga y botones de encendido.",
+        "Cada sede tendrá al menos una persona dedicada solo a detectar dispositivos inteligentes y habrá una línea directa con el ministerio para casos dudosos. A quien lo descubran se le anulará el examen y no podrá rendir al año siguiente; el gobierno quiere llevar esa prohibición a entre 3 y 10 años. El ministerio descartó postergar el examen.",
+        "La medida responde al caso que contamos ayer: el hombre que sacó el mejor puntaje en el examen de contadores tributarios admitió que fotografió las preguntas con una microcámara, se las mandó a una IA y leyó las respuestas en un celular. Según el Korea Herald, en octubre ya se habían detectado dos intentos con anteojos inteligentes en exámenes de las universidades de Seúl y Yonsei.",
+        "Los detectores de señales de radio se descartaron este año porque dieron errores en las pruebas; se estudiarán para el próximo."
+      ],
+      "por_que_importa": "Muestra cómo la IA en dispositivos que se usan encima obliga a repensar los exámenes presenciales, algo que tarde o temprano también van a enfrentar las universidades argentinas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Star)", "url": "https://www.thestar.com.my/tech/tech-news/2026/11/16/south-korea-to-inspect-glasses-worn-by-exam-candidates-after-ai-cheating-scandal", "tipo": "medio"},
+        {"nombre": "The Korea Herald", "url": "https://www.koreaherald.com/article/10902433", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: según el FT, Jensen Huang evalúa volver a Nvidia y el Congreso apunta a la exportación de chips",
+      "titulo_corto": "Huang y Nvidia: novedades",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el Financial Times, Huang habló con gente de confianza sobre volver a dirigir Nvidia y sus aliados presionan al directorio. Mientras, legisladores de ambos partidos piden endurecer la venta de chips de IA al exterior.",
+      "detalle": [
+        "El Financial Times publicó el 15 de noviembre, citando a varias fuentes, que Jensen Huang, que renunció como CEO de Nvidia el 12 de noviembre, conversó con personas cercanas sobre la posibilidad de volver. Un aliado le dijo al diario que están armando un grupo de ejecutivos de Silicon Valley para presionar al directorio y buscar apoyo de la Casa Blanca, y que Huang está de acuerdo. El mismo diario dice que el directorio contactó a Rene Haas, CEO de Arm, como posible reemplazo. Ni Huang ni Nvidia lo confirmaron.",
+        "Un vocero de Nvidia dijo a CNBC que la empresa está eligiendo una consultora para buscar CEO, que todavía no contactó formalmente a ningún candidato y que especular con nombres es prematuro. La petición para que Huang vuelva ya supera las 170.000 firmas, según CNBC, aunque los datos de quienes firman no están verificados.",
+        "En paralelo, según The Verge, demócratas y republicanos en el Congreso respaldan distintos proyectos para restringir más la exportación de chips de IA y pidieron que Huang y otros directivos de Nvidia declaren. El escándalo empezó por la relación de Huang con una mujer sospechada de trabajar para la inteligencia china.",
+        "Nvidia presenta sus resultados trimestrales el martes 17 de noviembre, los primeros sin Huang al frente."
+      ],
+      "por_que_importa": "Nvidia fabrica la mayoría de los chips con los que se entrenan y usan los modelos de IA. Quién la dirija y qué reglas de exportación se aprueben afecta el precio y la disponibilidad de la IA en todo el mundo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/us/2026-11-15/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-silicon-valley.html", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Apple lanza una app para estudiar cómo la gente usa la IA para preguntas de salud",
+      "titulo_corto": "Estudio de salud de Apple",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Apple abrió el 15 de noviembre en EE. UU. un estudio de más de un año con hasta 200.000 personas: los participantes le hacen preguntas de salud a una IA de OpenEvidence y califican si las respuestas les sirvieron.",
+      "detalle": [
+        "Apple presentó el 15 de noviembre el Apple Health AI Usage Study, un estudio para entender cómo la gente usa asistentes de IA para temas de salud y qué tan útiles son sus respuestas. Lo hace junto con OpenEvidence, una plataforma de IA clínica que usan médicos y que arma sus respuestas a partir de revistas como The New England Journal of Medicine, JAMA y Nature.",
+        "Los participantes usan una app nueva donde hacen preguntas de salud cotidianas, como en un chat, y después califican las respuestas y completan encuestas mensuales. Si quieren, pueden compartir datos de la app Salud del iPhone (pulso en reposo, actividad, sueño o análisis) para recibir respuestas más personalizadas. La app también ayuda a preparar consultas médicas y deriva a un profesional si detecta algo preocupante.",
+        "Según TechCrunch, el estudio durará más de 12 meses y busca hasta 200.000 participantes. Solo pueden sumarse personas en EE. UU. mayores de 21 años con iPhone 15 o posterior y Apple Intelligence activado. Apple dice que los datos se anonimizan, que no se usarán para entrenar modelos de IA y que OpenEvidence borra preguntas y respuestas a las 24 horas.",
+        "Por ahora no hay planes anunciados para otros países ni para un producto comercial."
+      ],
+      "por_que_importa": "Mucha gente ya le pregunta a la IA por síntomas y tratamientos, pero se sabe poco sobre si esas respuestas ayudan. Un estudio de este tamaño puede marcar cómo se diseñan los futuros asistentes de salud.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "OpenAI abre un blog de ciencia y cuenta cómo GPT-6 Astra ayudó en una prueba de física de partículas",
+      "titulo_corto": "GPT-6 Astra y la física",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "OpenAI lanzó el 15 de noviembre un blog de ciencia. El primer artículo es de un físico que publicó en octubre una propuesta para describir el Modelo Estándar en una grilla, y dice que GPT-6 Astra escribió la demostración detallada.",
+      "detalle": [
+        "OpenAI estrenó el 15 de noviembre un blog dedicado a ciencia, donde investigadores van a contar resultados y métodos de trabajo con IA. El primer artículo es de Nathaniel Craig, físico teórico de la Universidad de California en Santa Bárbara que además es científico visitante en OpenAI.",
+        "Craig publicó el 6 de octubre en arXiv (un repositorio de artículos científicos antes de su revisión formal) un trabajo que propone una forma de definir el Modelo Estándar (la teoría que describe las partículas elementales) sobre una \"red\" o grilla de puntos, en lugar de un espacio continuo. Eso es lo que permite simular esas teorías en computadoras, y para el tipo de partículas que incluye el Modelo Estándar era un problema abierto desde hace décadas. El trabajo viene acompañado de una verificación formal en Lean, un programa que comprueba demostraciones matemáticas paso a paso.",
+        "Según Craig, él tenía la estrategia, pero fue GPT-6 Astra el que la convirtió en una construcción concreta y escribió la demostración detallada. Él mismo aclara que es una respuesta \"en principio\": todavía faltan pasos para usarla en simulaciones reales.",
+        "El reparto de méritos entre el físico y la IA se apoya en su propio relato. Tres especialistas revisaron el trabajo en privado, pero todavía no hay una evaluación independiente publicada."
+      ],
+      "por_que_importa": "Es uno de los ejemplos más concretos de una IA aportando la parte matemática dura de una investigación de frontera, y no solo resumiendo o programando. También muestra que OpenAI quiere posicionar sus modelos como herramientas para científicos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/step-toward-defining-the-standard-model", "tipo": "oficial"},
+        {"nombre": "OpenAI", "url": "https://openai.com/index/our-new-blog-for-science", "tipo": "oficial"},
+        {"nombre": "arXiv (Nathaniel Craig)", "url": "https://arxiv.org/abs/2610.09093", "tipo": "especialista"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Un estudio prueba a GPT-6 Astra en CAD: ayuda en casi todo el flujo, pero sus piezas no siempre son válidas ni editables",
+      "titulo_corto": "GPT-6 Astra en CAD",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Investigadores evaluaron a GPT-6 Astra en cuatro tareas de CAD: entender, generar, editar y evaluar modelos. Logra piezas con geometría compleja, pero suele fallar en formas libres, relaciones entre parámetros y ensambles.",
+      "detalle": [
+        "Un equipo encabezado por Qiang Zou publicó en arXiv un estudio que mide qué puede hacer un modelo de IA de uso general, GPT-6 Astra de OpenAI, en diseño asistido por computadora (CAD). La primera versión es del 17 de octubre y la revisaron el 13 de noviembre. Probaron cuatro tareas básicas: entender un modelo existente, generar uno nuevo, editarlo y evaluarlo, con casos de distinta complejidad y requisitos de ingeniería.",
+        "El resultado es mixto. El modelo puede ayudar en varias etapas del trabajo y resolvió casos con geometría no trivial, por lo que los autores le ven valor práctico en la mayoría de los pasos. Pero muchas veces produce algo que se ve bien y no es un modelo válido, funcional y editable.",
+        "Los errores se repiten en tres lugares: superficies de forma libre, dependencias entre parámetros (por ejemplo, que una cota dependa de otra) y la forma en que se vinculan las piezas de un ensamble (lo que en SolidWorks son las relaciones de posición). Dejar que el modelo trabaje como agente y se corrija solo mejora los resultados, pero no arregla de forma confiable los errores graves. Además, tarda mucho en completar las tareas.",
+        "Es un preprint (todavía sin revisión formal de otros investigadores) y evalúa un solo modelo."
+      ],
+      "por_que_importa": "Para un estudiante que usa SolidWorks, marca dónde conviene apoyarse en la IA (bocetos, primeras versiones, revisar diseños) y dónde todavía hace falta controlar a mano: árbol de operaciones, cotas que dependen entre sí y ensambles.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "arXiv (Zou y otros)", "url": "https://arxiv.org/abs/2610.24451", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Recolección sin errores (46 notas). El único video de Jon del crudo ya estaba cubierto: hoy no hay video. Día flojo (fin de semana): 6 noticias y 1 de ingeniería. No se pudieron decodificar los links de Google Noticias con un script (permiso denegado); las URL originales salieron de búsquedas web. Campeones nacionales: nota del WSJ (no leída directamente), verificada vía CoinDesk; Forbes bloqueó la lectura (403), su link sale de la búsqueda. Qwen4-Max: Reuters vía The Standard y TechNode; no se encontró el blog oficial de Qwen; precios por millón de tokens omitidos (fuentes no leídas). Corea: Reuters vía The Star; el Korea Herald es de octubre y se usó para los antecedentes. Nvidia: The Verge y El País bloquean la lectura, se usó el texto de sus feeds; los nombres de los proyectos de ley y la fecha de declaración de Huang se omitieron (fuente secundaria, fechas contradictorias); la cifra de 170.000 firmas es de CNBC. OpenAI: openai.com bloquea, se usó el texto del feed más arXiv y AI Weekly para los detalles (revisores, Lean). Descartadas: inyección de US$10.000 millones de Nvidia en la salida a Bolsa de Anthropic (solo El País, sin texto), Nvidia y memoria propia con TSMC (filtración), Bharat Semi (ronda chica), caída de acciones de IA (mercado, mencionada en contexto). Ingeniería descartadas: Manufacturing Dive sobre automotrices (panel sin datos), IA para láseres de Stanford/SLAC (física, no mecánica, ya descartada ayer), AGIBOT (patrocinado), artículo de la Design Society (sin texto completo), servicio japonés de CAD a video (no se encontró la fuente). No se encontraron instrucciones sospechosas en las fuentes."
+}
