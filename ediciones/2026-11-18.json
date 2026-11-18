@@ -1,0 +1,206 @@
+{
+  "fecha": "2026-11-18",
+  "intro": "OpenAI lanza GPT-6.2 Astra y Sol, Nvidia presenta ventas récord en plena crisis y deja de vender chips H200 a China, y Microsoft convierte a Copilot en el centro de Office. Hoy Anthropic fija el precio de su salida a Bolsa.",
+  "noticias": [
+    {
+      "titulo": "OpenAI lanza GPT-6.2 Astra y GPT-6.2 Sol: más capacidad para trabajo profesional y Astra un 20% más barato",
+      "titulo_corto": "GPT-6.2 Astra y Sol",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "OpenAI presentó GPT-6.2 Astra, su modelo más potente, y GPT-6.2 Sol, el eficiente para el día a día. Ya están en ChatGPT Work, Codex y la API, y Astra baja de precio respecto de la versión anterior.",
+      "detalle": [
+        "OpenAI anunció el martes 17 de noviembre dos modelos nuevos. GPT-6.2 Astra es el de punta, pensado para los proyectos más difíciles; GPT-6.2 Sol es el más eficiente, para el trabajo cotidiano. Según el anuncio, mejoran en documentos profesionales, programación y uso de la computadora (cuando la IA maneja programas por vos), con menor costo. Están disponibles en ChatGPT Work, en Codex (su herramienta para programar) y en la API (el acceso para desarrolladores).",
+        "Según el programador Simon Willison, que los probó, Astra cuesta US$8 por millón de tokens (pedazos de texto) de entrada y US$40 de salida: un 80% de lo que costaba Astra 6. Sol se mantiene en US$2 y US$10, la mitad que la generación GPT-5.6. Microsoft, por su lado, anunció que GPT-6.2 llegará a su plataforma Foundry.",
+        "OpenAI afirma, según El País, que Astra supera a Claude Fable 5.2, el modelo más avanzado de Anthropic. Willison, en cambio, dice que en varios benchmarks (pruebas estandarizadas) Astra no llega a los puntajes de Fable 5.2, y que en una prueba propia de dibujo animado ninguno de los dos superó a Fable 5.2 ni a Gemini 4 Carbon de Google. Las primeras opiniones de usuarios son mixtas: algunos se quejan de un estilo de respuesta confuso."
+      ],
+      "por_que_importa": "Si usás ChatGPT o Codex para estudiar o programar, este es el modelo que vas a tener por defecto en las próximas semanas. Y llega justo cuando Anthropic sale a Bolsa, así que la pelea por quién tiene el mejor modelo se pone más dura.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol", "tipo": "oficial"},
+        {"nombre": "Simon Willison", "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/", "tipo": "especialista"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-17/openai-presiona-a-anthropic-en-plena-salida-a-bolsa-con-su-nueva-version-de-astra.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Nvidia duplica sus ventas en plena crisis por la salida de Huang y deja de vender sus chips H200 a China",
+      "titulo_corto": "Récord de Nvidia y China",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "En su primer informe sin Jensen Huang, Nvidia facturó US$115.800 millones en el trimestre, un 103% más que hace un año. Su CEO interina, Colette Kress, dijo que ya no venderá los chips H200 en China.",
+      "detalle": [
+        "Nvidia presentó el martes 17 de noviembre los resultados de su tercer trimestre fiscal: ingresos de US$115.800 millones, por encima de los US$108.000 millones que había anticipado y un 103% más que un año atrás. Para el trimestre que viene espera unos US$130.000 millones (con un margen de 3% para arriba o para abajo) y subió su previsión de crecimiento para el próximo año fiscal al 75%. Además gastó US$28.100 millones en recomprar sus propias acciones.",
+        "Fue la primera presentación con Colette Kress, la directora financiera, como CEO interina. Según TechCrunch, Kress dijo que Nvidia ya no venderá sus chips H200 en China, un acuerdo que había negociado Huang con Donald Trump y que China ya venía rechazando. También aseguró que las nuevas reglas de EE. UU., que prohíben que centros de datos de otros países den servicio a clientes chinos, no afectarán sus ingresos porque hay pedidos atrasados de chips más avanzados. El mismo día, la empresa creó un comité del directorio para vigilar temas de seguridad nacional y control de exportaciones.",
+        "No todos lo ven tan simple: el banco Jefferies calcula que esas reglas podrían recortarle entre US$44.000 y US$62.000 millones de ingresos de centros de datos el año que viene. Según El País, Nvidia también será más selectiva para financiar a otras empresas, algo que Huang hacía con mucha frecuencia."
+      ],
+      "por_que_importa": "Nvidia fabrica casi todos los chips con los que se entrena la IA: si sigue vendiendo récords, la inversión en IA no se frena. Que deje China confirma que la IA ya es un tema geopolítico.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-18/nvidia-no-necesita-a-jensen-huang-queremos-nombrar-al-nuevo-ceo-lo-antes-posible-pero-queremos-a-la-persona-idonea.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Microsoft mete Office dentro de Copilot y lo presenta como \"el nuevo sistema operativo del trabajo\"",
+      "titulo_corto": "Copilot: Office adentro",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "En su conferencia Ignite, Microsoft anunció que todas las funciones de Office ya viven dentro de Copilot, sumó un agente que trabaja solo las 24 horas y lanzó modelos propios para programar y para ciberseguridad.",
+      "detalle": [
+        "En la conferencia Ignite, en San Francisco, el CEO de Microsoft, Satya Nadella, dijo que Copilot es \"el nuevo sistema operativo del trabajo\", el lugar que antes ocupaba Windows. Según la empresa, todo Office está ahora integrado en Copilot, que junta en un mismo lugar el chat, Cowork (tareas de varios pasos), Code (para armar aplicaciones y tableros propios) y Autopilot, un agente que sigue trabajando solo, día y noche, en los espacios del equipo.",
+        "También presentó modelos propios: Code 2, su familia principal para programar con agentes, y Code 2 Flash, más rápido y barato, ambos ya disponibles en GitHub Copilot. Sumó Cyber 2 Flash, para seguridad informática. Nadella afirmó que su nueva familia Copilot Fusion supera a Claude Opus 5.5 de Anthropic en la prueba Terminal Bench a menos de la mitad del costo, un dato de la propia empresa sin verificación independiente.",
+        "Nadella abrió la charla pidiendo disculpas por la caída mundial de Microsoft 365 de la semana pasada y prometió recuperar la confianza. Microsoft no informó precios de las novedades."
+      ],
+      "por_que_importa": "Si en la facultad o en el trabajo usás Word, Excel o PowerPoint, la forma de usarlos va a pasar cada vez más por pedirle cosas a Copilot en lugar de abrir cada programa.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Microsoft", "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/", "tipo": "oficial"},
+        {"nombre": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594", "tipo": "medio"},
+        {"nombre": "Ars Technica", "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: Anthropic fija hoy el precio de su salida a Bolsa y revela que Amazon y Google tendrán casi el 30%",
+      "titulo_corto": "Anthropic sale a Bolsa",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "La creadora de Claude fija esta noche el precio de sus acciones y empezaría a cotizar el jueves 19 en el Nasdaq. Sus documentos muestran que Amazon tendrá un 14,7% y Google un 13,7%.",
+      "detalle": [
+        "Según CNBC, Anthropic ofrece 825 millones de acciones a entre US$70 y US$78 cada una: podría juntar hasta US$64.350 millones y quedar valuada en hasta US$1,4 billones (millones de millones). El precio se fija hoy 18 de noviembre y las acciones empezarían a operar mañana en el Nasdaq con el símbolo ANT. Alrededor del 20% iría a pequeños inversores, mucho más que lo habitual.",
+        "Lo nuevo es que el martes la empresa detalló sus acuerdos con sus dos grandes socios. Según TechCrunch, Amazon quedará con el 14,7% y podría llegar a cerca del 23,8% si convierte todos sus préstamos en acciones; Google tendrá el 13,7%. En ambos casos son acciones sin derecho a voto. Anthropic se comprometió además a gastar más de US$100.000 millones en la nube de Amazon en la próxima década.",
+        "Sus cuentas muestran un crecimiento enorme pero con pérdidas: US$33.240 millones de ingresos en nueve meses y una pérdida de US$104.000 millones, sobre todo por cambios contables en el valor de sus préstamos convertibles. El debut llega en un mal momento para las acciones de IA, que vienen cayendo en Wall Street."
+      ],
+      "por_que_importa": "Es la salida a Bolsa más grande del sector y una prueba de cuánto cree el mercado en las empresas de IA. Que Amazon y Google tengan casi un tercio muestra cuánto dependen los laboratorios de los gigantes de la nube.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: Huang dice que volvería a Nvidia, pero el directorio lo descarta y la SEC investigaría a la empresa",
+      "titulo_corto": "Huang, la junta y la SEC",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Jensen Huang dijo que sería un honor volver como CEO. Horas después, el presidente del directorio afirmó que no piensan restituirlo, y según el Wall Street Journal la SEC abrió una investigación sobre Nvidia.",
+      "detalle": [
+        "El martes, Huang publicó en X que recibió una ola de pedidos de empleados, inversores y clientes para que vuelva, y que sería un honor regresar si el directorio lo considera lo mejor para la empresa y para EE. UU. Fue su primera declaración pública desde que renunció el 12 de noviembre por su relación con una presunta espía china.",
+        "La respuesta llegó en la presentación de resultados: Harvey Jones, presidente del directorio, dijo que la junta \"no tiene intención\" de restituirlo y que busca un CEO definitivo entre candidatos de adentro y de afuera de la empresa. Esto pese a la presión de Trump, Elon Musk y otros empresarios que pedían su regreso.",
+        "Además, según el Wall Street Journal, citado por TechCrunch, la SEC (el regulador de la Bolsa de EE. UU.) abrió una investigación civil para ver si Nvidia engañó a los inversores con su información pública. Y según The Verge, los departamentos de Justicia y de Comercio confirmaron que investigan a Megaspeed, la empresa de Singapur ligada al caso y sospechada de desviar chips a China. La acción de Nvidia cae más de 10% desde la salida de Huang."
+      ],
+      "por_que_importa": "El caso deja de ser un escándalo personal: ahora hay investigaciones oficiales sobre la empresa que provee casi todos los chips de IA, y eso puede cambiar cómo vende y a quién.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/", "tipo": "medio"},
+        {"nombre": "Wired", "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google hace gratis Tasks, su agente que llama a negocios y paga compras, y cambia la privacidad de Gemini",
+      "titulo_corto": "Gemini Tasks, gratis",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Tasks, el agente de Gemini que reserva turnos, revisa facturas y compra por vos, pasa a ser gratis en seis países. Además, Google guardará dos meses los chats temporales y deja elegir si tus charlas entrenan su IA.",
+      "detalle": [
+        "Google anunció que Tasks (antes llamado Spark, según The Verge) es gratis en EE. UU., Japón, Corea del Sur, Canadá, Australia e India. Funciona con Gemini 4 Hydrogen y usa las apps de Google conectadas (Gmail, Calendar, Maps, Google Pay y más de 60 aplicaciones) para hacer tareas de varios pasos: agendar turnos, analizar facturas de servicios, armar el pedido del súper y pagarlo. En EE. UU. suma llamadas a comercios, pagos con límite de gasto y la opción de mandarle mensajes o reenviarle mails. Pide confirmación antes de pasos críticos como comprar.",
+        "Por otro lado, según TechCrunch, Google cambió su política de privacidad: los chats temporales o hechos con el historial apagado se guardarán unos dos meses, en lugar de 72 horas, por motivos de seguridad. A cambio, separa dos opciones que antes iban juntas: ahora podés conservar tu historial sin permitir que tus conversaciones se usen para entrenar sus modelos. El cambio llegará a todo el mundo en las próximas semanas.",
+        "Argentina no está entre los países con Tasks gratis, y Google advierte que el agente puede fallar en algunas tareas."
+      ],
+      "por_que_importa": "Los asistentes que hacen cosas por vos, no solo responden, empiezan a ser gratis. Y si usás Gemini, conviene revisar la nueva opción para que tus chats no se usen para entrenar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "California saca a los autos sin conductor de Waymo de las autopistas por considerarlos un \"peligro inminente\"",
+      "titulo_corto": "Waymo fuera de autopistas",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "El DMV de California prohibió a Waymo circular y hacer pruebas sin conductor en autopistas, tras varios casos en que sus autos entraron a obras en curso. Waymo frenó también ese servicio en el resto de EE. UU.",
+      "detalle": [
+        "El Departamento de Vehículos Motorizados (DMV) de California ordenó que los robotaxis de Waymo, la empresa de autos autónomos de Alphabet, dejen de operar y de hacer pruebas sin conductor en todas las autopistas del estado. Dijo que esas operaciones \"representan un peligro inminente para la seguridad pública\".",
+        "Citó casos concretos: tres Waymo entraron en un tramo cerrado por obras en la ruta 101, cerca de Burlingame, y otro intentó pasar a patrulleros de la policía de caminos que frenaban el tránsito en la autopista 280, en San Francisco. Según el DMV, los problemas siguieron pese a una restricción y a correcciones aplicadas tras incidentes parecidos el 18 de mayo. La prohibición seguirá hasta que Waymo demuestre que sus autos detectan y responden bien a obras y vehículos de emergencia.",
+        "Waymo dijo que los casos de la ruta 101 no causaron heridos ni choques y que su servicio en calles comunes sigue, con más de medio millón de viajes por semana. Aclaró que también pausó las autopistas en sus otras ciudades para revisar su funcionamiento y que seguirá probando con especialistas a bordo."
+      ],
+      "por_que_importa": "Muestra el límite actual de la conducción autónoma: funciona bien en lo habitual, pero las situaciones raras, como una obra o un control policial, todavía la complican, y los reguladores empiezan a frenarla.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/", "tipo": "medio"},
+        {"nombre": "The San Francisco Standard", "url": "https://sfstandard.com/2026/11/17/california-dmv-bans-waymo-from-freeways/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Un estudio muestra que los grandes modelos de IA marcan civiles como blancos militares si les dicen que es un juego",
+      "titulo_corto": "IA, juegos y blancos",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según un estudio de la empresa Vals publicado por TechCrunch, modelos de OpenAI, Anthropic, Google y DeepSeek señalaron posibles blancos en imágenes de guerra, incluidos civiles, y casi no se negaron.",
+      "detalle": [
+        "Vals, una empresa de San Francisco que evalúa modelos de IA, probó si los modelos comerciales más avanzados podían ser manipulados para ayudar en una guerra autónoma. Les pidió marcar posibles blancos en imágenes de drones y satélites, algunas generadas y otras reales de Ucrania e Irán. Cuando se negaban, les decían que era un juego.",
+        "Según TechCrunch, los modelos marcaron con frecuencia posibles blancos, incluidos civiles y soldados que se rendían; ningún pedido fue bloqueado por los filtros de seguridad y las negativas fueron raras. En una imagen de una escuela iraní junto a un complejo militar, Claude Opus 5.5 la eligió como blanco en el 69% de los intentos normales y en el 72% de los presentados como juego. Vals dice que los modelos de Anthropic fueron los que peor salieron, aunque ninguno salió bien.",
+        "Anthropic dijo que esos resultados no son aceptables, que van contra sus reglas y que ya bloqueó usuarios por esto. OpenAI dijo que prohíbe estos usos y prepara más protecciones. Vals aclara que el riesgo principal no es guiar un dron en vivo, sino usar estos modelos para etiquetar videos de combate en masa y entrenar sistemas de ataque autónomos."
+      ],
+      "por_que_importa": "Muestra que las protecciones de los modelos que usamos todos los días se pueden saltar con trucos simples, algo clave ahora que la IA se usa cada vez más en temas militares.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Genesis AI junta US$500 millones para su robot Eno, que aprende a manipular piezas con guantes que copian la mano humana",
+      "titulo_corto": "Genesis AI y su robot Eno",
+      "categoria": "Robótica",
+      "veracidad": "confirmada",
+      "breve": "La startup Genesis AI, con sede en París, recibió US$500 millones, con una valuación de US$3.500 millones, para fabricar a Eno, un robot de dos brazos para fábricas y logística entrenado con datos de trabajadores reales.",
+      "detalle": [
+        "Genesis AI anunció el 17 de noviembre una ronda de US$500 millones que la valúa en US$3.500 millones. La lideraron Khosla Ventures, Premji Invest y Eclipse, con participación de Nvidia, AMD, Bpifrance y Samsung, entre otros. En julio de 2025 había juntado US$105 millones.",
+        "Su robot, Eno, no tiene forma humana: son dos brazos sobre una base con ruedas que gira. El cerebro es GENE, un modelo de base (una IA general que después se adapta a tareas concretas) para manipular objetos con destreza. Para entrenarlo, más de 100 personas trabajan con guantes con sensores y cámaras en la cabeza: el guante replica uno a uno los movimientos de la mano robótica, así el robot aprende de gente haciendo su trabajo real. Antes de pasar al mundo real, prueba cada habilidad en millones de escenarios en su simulador, Genesis World.",
+        "Ya fabricaron entre 30 y 40 unidades, las prueban con algunos clientes y con la coreana LG CNS en manufactura y logística, y un fabricante empezará la producción en serie en EE. UU. el año que viene. El punto débil, según su CEO, son las manos: duran solo unas semanas de trabajo antes de reemplazarlas."
+      ],
+      "por_que_importa": "Muestra hacia dónde va la robótica industrial: menos programar cada movimiento y más aprender de datos humanos y simulación. Y que el cuello de botella sigue siendo mecánico, el desgaste de las manos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Next Web", "url": "https://thenextweb.com/news/genesis-ai-500m-series-a-3-5bn-valuation-eno-robot", "tipo": "medio"},
+        {"nombre": "Robotics 24/7", "url": "https://www.robotics247.com/article/genesis-ai-announces-500m-series-a-at-3.5b-valuation", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "El humanoide Atlas de Boston Dynamics hará sus primeras pruebas fuera de la industria automotriz, en fábricas de chips",
+      "titulo_corto": "Atlas, a fábricas de chips",
+      "categoria": "Robótica",
+      "veracidad": "confirmada",
+      "breve": "GlobalFoundries, fabricante de semiconductores, probará el humanoide Atlas desde principios de 2027 y amplía el uso de los robots Spot, que ya hicieron más de 90.000 inspecciones en su planta de Singapur.",
+      "detalle": [
+        "Boston Dynamics y GlobalFoundries ampliaron su acuerdo: la fabricante de chips será el primer cliente fuera del sector automotor en probar Atlas, desde principios de 2027. Van a buscar qué tareas puede hacer un humanoide en una fábrica de semiconductores y empezar a entrenarlo; todavía no dijeron cuántos robots ni qué tareas.",
+        "GlobalFoundries ya usa a Spot, el robot de cuatro patas, para inspeccionar equipos en plantas de EE. UU., Alemania y Singapur. En Singapur, dos Spot recorrieron casi 900 km y completaron más de 90.000 inspecciones desde abril, con 99% de misiones exitosas.",
+        "La IA está en el centro de Atlas: según The Robot Report, Google DeepMind trabaja para integrar sus modelos Gemini Robotics al robot, su control del cuerpo se basa en aprendizaje por refuerzo (la IA aprende por prueba y error, sobre todo en simulación) y su nueva mano de cuatro dedos, con 13 grados de libertad, se diseñó pensando en ese entrenamiento. Hyundai, su principal cliente, lo entrena para mover y ordenar piezas en su planta de Georgia."
+      ],
+      "por_que_importa": "Los humanoides empiezan a salir de las pruebas en autos hacia otras industrias. Para un ingeniero mecánico, el dato de Spot muestra el valor real hoy: inspección y mantenimiento automatizados.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "engineering.com", "url": "https://www.engineering.com/boston-dynamics-expands-robotics-partnership-with-globalfoundries/", "tipo": "medio"},
+        {"nombre": "The Robot Report", "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Recolección sin errores (141 notas). El único video de Jon (7V1UmcQmxxQ) ya estaba cubierto: sin sección de Jon hoy. Las búsquedas web generales no trajeron resultados del día; el panorama sale del crudo. openai.com, wired.com, theverge.com y arstechnica.com bloquearon la lectura: se usó el texto de sus feeds del crudo (GPT-6.2 en ChatGPT Work/Codex/API, Spark rebautizado Tasks, investigación del DOJ a Megaspeed, junta de Nvidia). El dato de que Kress dejará de vender H200 en China sale solo de TechCrunch (atribuido). Waymo: The Robot Report fecha la orden del DMV el 11/11 y SF Standard dice que se emitió el martes 17; no puse fecha de emisión. El estudio de Vals solo lo publica TechCrunch y no encontré el informe original: va como sin_confirmar. Descartadas: Isomorphic Labs US$5.000 millones (solo TechCrunch, no encontré confirmación oficial ni de otro medio), Grok Bot con acciones no aprobadas (Ars bloqueado, sin otra fuente), exclusiva de Reuters sobre China entrenando con modelos de EE. UU. (solo link de Google Noticias), licencias para China (ya cubierto el 17/11), bloques de MIT para construcción (sin IA), metasuperficie de tungsteno con ML (resultados simulados, ya descartada ayer), Stratasys H550 (sin IA). No se encontraron instrucciones sospechosas en las fuentes."
+}
