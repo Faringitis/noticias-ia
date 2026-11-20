@@ -1,0 +1,220 @@
+{
+  "fecha": "2026-11-20",
+  "intro": "Anthropic debutó en el Nasdaq: abrió a US$111,50 y cerró a US$97,17. La UE confirma un ciberataque hecho con IA, Gemini ya maneja la Mac y Apple prepara su propio agente.",
+  "noticias": [
+    {
+      "titulo": "Actualización: Anthropic debuta en el Nasdaq, abre 34% arriba y cierra a US$97,17, un 17% sobre el precio de salida",
+      "titulo_corto": "Anthropic cierra +17%",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Anthropic empezó a cotizar el 19 de noviembre con el código ANT. Abrió a US$111,50, llegó a valer unos US$2 billones y cerró a US$97,17, un 17% arriba de los US$83 de la colocación, con un valor cercano a US$1,75 billones.",
+      "detalle": [
+        "La empresa que hace Claude salió a cotizar el jueves 19 de noviembre en el Nasdaq. La acción, que se había vendido a US$83 en la oferta pública inicial (la primera venta de acciones al público), abrió a US$111,50, un 34% más. Con ese precio de apertura, la valuación de la empresa superó brevemente los US$2 billones (millones de millones), según TechCrunch y The National.",
+        "Con el correr de la tarde la acción fue perdiendo parte de la suba y cerró a US$97,17, un 17% por encima del precio de colocación. Según The National, eso equivale a unos US$1,75 billones contando todas las acciones posibles, o unos US$1,27 billones si se cuentan solo las que ya están en circulación. El analista de PitchBook Harrison Rolfes estimó que los pedidos de compra fueron unas seis veces las acciones disponibles.",
+        "Antes del toque de campana, el CEO Dario Amodei dijo que tener más espalda financiera refuerza el compromiso de la empresa de hacer las cosas bien y volvió a hablar de una \"carrera hacia arriba\": mostrar que la seguridad y el éxito comercial pueden ir juntos. El estreno no contagió al resto del mercado: los principales índices de EE. UU. cayeron ese día y, según El País, las dudas sobre la IA siguieron pesando sobre empresas como Nvidia."
+      ],
+      "por_que_importa": "El precio de Anthropic ahora se mide todos los días en la Bolsa, y eso funciona como termómetro público de cuánto creen los inversores en el negocio de la IA. Lo que pase con la acción va a influir en cómo salen OpenAI y otras empresas del sector.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/", "tipo": "medio"},
+        {"nombre": "The National", "url": "https://www.thenationalnews.com/business/markets/2026/11/20/anthropic-share-price-today-ant-listing/", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-19/anthropic-se-estrena-con-fuertes-subidas-en-la-mayor-salida-a-bolsa-de-la-historia.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "La Comisión Europea confirma que sufrió en octubre un ciberataque hecho con herramientas de IA",
+      "titulo_corto": "Ciberataque con IA a la UE",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "Un vocero de la Comisión Europea confirmó que el ataque detectado el 22 de octubre se hizo con herramientas de IA. Obligó a apagar varias aplicaciones internas y algunas siguen fuera de servicio. Es la primera vez que la UE reporta un ataque así.",
+      "detalle": [
+        "Thomas Regnier, vocero de la Comisión Europea, confirmó el 19 de noviembre que el ciberataque que el organismo detectó el 22 de octubre \"se hizo con herramientas de IA\". Contó que tuvieron que apagar temporalmente varias aplicaciones y que la mayoría ya volvió a funcionar, aunque algunas herramientas digitales seguían caídas. Según AP, es la primera vez que la Unión Europea informa un ataque de este tipo.",
+        "El medio Politico había publicado que el ataque duró al menos 10 días y afectó herramientas de traducción y de reintegro de gastos, además de bases de datos de sueldos y horas trabajadas. Regnier no quiso confirmar esos detalles. Sí dijo que no encontraron pruebas de una filtración de datos que afecte al personal en general, y explicó que las herramientas de IA pueden usarse, y sobre todo mal usarse, para encontrar vulnerabilidades (fallas de seguridad en el software).",
+        "No se sabe quién estuvo detrás ni qué herramienta de IA se usó, y la investigación sigue abierta. Reuters también publicó la confirmación de la Comisión."
+      ],
+      "por_que_importa": "Muestra que la IA ya se usa para atacar a instituciones grandes y bien protegidas, no solo en experimentos. Buscar fallas de seguridad se volvió más rápido y barato, y eso obliga a todos a reforzar sus sistemas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía ABC News)", "url": "https://abcnews.com/International/wireStory/cyberattack-artificial-intelligence-targeted-eu-october-official-138284407", "tipo": "medio"},
+        {"nombre": "Global News", "url": "https://globalnews.ca/news/12157729/eu-ai-cyberattack/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Una cadena de caídas tecnológicas en EE. UU. reabre el debate sobre el papel de la IA en la seguridad de los sistemas",
+      "titulo_corto": "Caídas y parches por IA",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "En una semana fallaron la FAA, Microsoft, JPMorgan Chase, Apple y la NSA. El gobierno dice que no hay ataque ni conexión entre los casos, pero parte de los problemas vendría de parches apurados contra fallas que la IA ayudó a descubrir.",
+      "detalle": [
+        "AP y TechCrunch repasaron la seguidilla: una falla de red de la FAA (el organismo que controla la aviación en EE. UU.) frenó todos los vuelos del país más de cuatro horas el 13 de noviembre; Microsoft tuvo caídos Outlook, Teams y Copilot; un error de software demoró transacciones de JPMorgan Chase; Apple Music y el App Store fallaron por una actualización interna; y una red interna de la NSA se cortó durante un mantenimiento. Las empresas atribuyen cada caso a problemas técnicos.",
+        "El gobierno de Trump dijo que no hay ningún indicio de que las caídas estén conectadas ni de que haya delincuentes detrás. Pero el director de Inteligencia Nacional, Jay Clayton, reconoció que los parches (actualizaciones de seguridad) aplicados tras una alerta sobre PHP, un lenguaje muy usado en la web, impidieron que algunos sistemas de la NSA volvieran a arrancar bien. Esas fallas de PHP habían salido a la luz con ayuda de la IA.",
+        "Los expertos no se ponen de acuerdo. El inversor Dave DeWalt cree que la IA encuentra fallas viejas tan rápido que las empresas corren a parchear y eso genera cortes. Justin Cappos, de la Universidad de Nueva York, dice que la IA ayuda más a atacar que a reparar. Anusha Iyer, de Corsha, sostiene que el problema de fondo es conectar sistemas viejos con nuevos sin medir el riesgo. Ninguna causa común está confirmada."
+      ],
+      "por_que_importa": "La IA acelera tanto la búsqueda de fallas que el mantenimiento de los sistemas no da abasto. Para cualquiera que trabaje con software o con máquinas conectadas, actualizar con apuro también es un riesgo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía WRAL)", "url": "https://www.wral.com/news/ap/0c0f0-tech-outages-are-piling-up-and-ai-is-raising-the-stakes-could-this-be-the-new-normal/", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Un comité del Congreso revela que EE. UU. aprobó 879.000 chips de IA para China y California cita a Nvidia",
+      "titulo_corto": "Chips de IA para China",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Según el Comité de Asuntos Exteriores de la Cámara de Representantes, Comercio autorizó 879.000 chips de Nvidia y AMD para China en seis meses. Además, el fiscal de California investiga si chips de Nvidia llegaron a China violando las restricciones.",
+      "detalle": [
+        "El Comité de Asuntos Exteriores de la Cámara de Representantes, que preside el republicano Brian Mast, difundió los datos de licencias: entre diciembre de 2025 y mayo de 2026, el Departamento de Comercio aprobó la venta de 879.000 chips avanzados de IA (los H200 de Nvidia y los MI325X de AMD) a compradores chinos, sobre más de 3,4 millones pedidos. Entre los aprobados figuran 150.000 para Tencent, 75.000 para Alibaba, 43.000 para Baidu y 4.000 para BYD, empresas que el Pentágono vincula con las fuerzas armadas chinas.",
+        "No está claro cuántos de esos chips llegaron a enviarse. Nvidia dijo que las aprobaciones tenían condiciones estrictas y volúmenes limitados, y que ya dejó de mandar H200 a China. AMD dijo que cumple las leyes de exportación.",
+        "Por otro lado, el fiscal general de California, Rob Bonta, envió el 19 de noviembre una citación a Nvidia para saber si sus chips terminaron en China en contra de las restricciones de EE. UU. y si la empresa engañó a sus inversores sobre ese riesgo. La investigación toca a Megaspeed, una empresa de Singapur investigada por desviar chips, y llega después de la salida de Jensen Huang como CEO. Bonta dijo que hay \"señales de alarma muy claras\". Nvidia no había respondido."
+      ],
+      "por_que_importa": "Los chips son el insumo clave de la IA, y quién puede comprarlos define la carrera entre EE. UU. y China. Los números muestran que las restricciones fueron más flexibles de lo que se decía.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía AsiaOne)", "url": "https://www.asiaone.com/world/us-signed-sales-nearly-900000-ai-chips-china-6-months-house-committee-says", "tipo": "medio"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Gemini en la Mac ya puede usar la computadora por vos: ordena archivos, completa formularios y arma presentaciones",
+      "titulo_corto": "Gemini maneja la Mac",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Google sumó \"uso de computadora\" a la app de Gemini para Mac: el asistente hace tareas de varios pasos en archivos, programas y la web. Por ahora es solo en inglés, en EE. UU. y para suscriptores pagos.",
+      "detalle": [
+        "Google agregó a la app de Gemini para macOS la función de uso de computadora: le pedís una tarea y Gemini la hace solo, moviéndose entre archivos locales, programas de la Mac y la web. Google sugiere usarlo para completar formularios, repetir una misma tarea sobre un lote de archivos, ordenar carpetas según un criterio o armar presentaciones a partir de archivos o datos de un panel online.",
+        "El agente trabaja en una vista previa dentro del chat, así que la pantalla y el cursor quedan libres para seguir haciendo otra cosa. El usuario puede pausarlo, frenarlo y aprobar sus acciones antes de que las haga.",
+        "Por ahora está disponible en inglés, en EE. UU., y requiere una suscripción Google AI Plus, Pro o Ultra. Google no dijo cuándo llegará a otros países ni a otras plataformas. TechCrunch remarca que Google llega tarde: OpenAI, Anthropic y Meta ya ofrecen agentes parecidos para el escritorio."
+      ],
+      "por_que_importa": "Los asistentes están pasando de contestar preguntas a hacer el trabajo en tu computadora. Que Google se sume confirma que ese va a ser el modo normal de usar la IA en los próximos meses.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Apple busca un responsable para crear su propio agente de IA que use la computadora como una persona",
+      "titulo_corto": "Apple prepara un agente",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Según un aviso de empleo que detectó Bloomberg, Apple quiere un agente que navegue la web, use apps, escriba código y llame servicios. El proyecto estaría en etapa temprana y podría salir a fines del año que viene.",
+      "detalle": [
+        "Bloomberg encontró un aviso de empleo en el que Apple busca un gerente de ingeniería senior para liderar la creación de un \"agente de IA que pueda usar una computadora\". El aviso describe un sistema que navega la web, trabaja entre aplicaciones, ejecuta comandos, escribe y corrige código y usa servicios externos, eligiendo la herramienta adecuada para cada paso y cuidando la privacidad.",
+        "Según Bloomberg, Apple evalúa lanzarlo recién a fines del año que viene y el desarrollo está en una etapa temprana. Al mismo tiempo, Apple le pone más trabas a los agentes de otras empresas: macOS 27.3 va a advertir a los usuarios antes de darles control total de la Mac. Apple no respondió a TechCrunch.",
+        "Lo que se sabe sale de un aviso de empleo y de fuentes de Bloomberg, no de un anuncio oficial: no hay nombre, fecha ni detalles de funcionamiento."
+      ],
+      "por_que_importa": "Apple controla el sistema donde corren estos agentes. Si hace el suyo y restringe a los demás, puede cambiar qué herramientas de IA se pueden usar a fondo en una Mac o un iPhone.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Muse, el agente de Meta, mezcló conversaciones de distintos usuarios y habría mostrado datos privados, según Reuters",
+      "titulo_corto": "Fallas de privacidad de Muse",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "Según más de dos docenas de mensajes internos que revisó Reuters, Muse mostró saldos bancarios ajenos, inventó compras y hasta reservó un Airbnb sin permiso. Meta habla de \"incidentes aislados\" y alucinaciones ya corregidas.",
+      "detalle": [
+        "Una investigación de Reuters del 18 de noviembre, basada en más de dos docenas de mensajes internos de empleados de Meta, describe fallas de Muse, su agente de IA lanzado en septiembre y con más de 10 millones de descargas. Un empleado recibió saldos de cuentas bancarias que no eran suyas; otros vieron mensajes sobre pedidos de cuidado de chicos o compras que nunca hicieron, algo que uno llamó una posible \"filtración de contexto entre cuentas\". También inventó precios y, según un empleado, reservó un Airbnb no reembolsable sin permiso.",
+        "Una empleada recibió un recordatorio para contestarle a su hermana en Signal sin haberle dado acceso a esa app. Reuters, con Signal y el AI Now Institute, reprodujo cómo Muse podía leer esos mensajes en Android (a través de las notificaciones) y en Mac (con herramientas de accesibilidad y capturas de pantalla). En iPhone no funcionó, y Apple cerró el camino en Mac esa misma semana.",
+        "Meta dice que fueron incidentes aislados, que muchas mezclas fueron alucinaciones (respuestas inventadas) ya corregidas y que Muse solo entra a las apps que el usuario habilita. Reuters no pudo determinar si los saldos ajenos eran reales o inventados."
+      ],
+      "por_que_importa": "Un agente que puede leer y actuar en tus apps necesita mucho más cuidado que un chat. Conviene darle a estos asistentes solo los permisos imprescindibles.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/11/18/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface", "tipo": "medio"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "ChatGPT transcribe mientras hablás con el nuevo Dictado en vivo y ya no corta a los 10 minutos",
+      "titulo_corto": "Dictado en vivo en ChatGPT",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI lanzó Live Dictation: el texto aparece en el cuadro de mensaje a medida que hablás, en vez de esperar a que termines. Llega a todos los planes, en web, escritorio, iOS y Android, y elimina el límite de 10 minutos.",
+      "detalle": [
+        "ChatGPT estrenó el Dictado en vivo (Live Dictation): cuando le hablás por el micrófono, las palabras se van escribiendo en el cuadro de mensaje mientras hablás. Antes había que terminar de grabar y esperar la transcripción. Tocando la onda de audio se puede mostrar u ocultar el texto.",
+        "Según iThinkDiff, que cita las notas de versión de OpenAI del 18 de noviembre, también desaparece el límite de 10 minutos de grabación, así que se pueden dictar textos largos sin cortar. The Verge informa que se está habilitando en todo el mundo en todos los planes de ChatGPT, en la web, la app de escritorio y las apps de iOS y Android.",
+        "Como todo despliegue gradual, puede tardar en aparecer en cada cuenta. Las fuentes no dicen qué idiomas funcionan mejor."
+      ],
+      "por_que_importa": "Dictar es más rápido que tipear, sobre todo desde el celular. Ver el texto mientras hablás permite corregir al toque, y sin límite de tiempo sirve para dictar consignas largas o borradores de informes.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation", "tipo": "medio"},
+        {"nombre": "iThinkDiff", "url": "https://www.ithinkdiff.com/?p=356942", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Nvidia muestra agentes de IA que arman simulaciones de ingeniería desde CAD, de una suspensión a una turbina de gas",
+      "titulo_corto": "Agentes que simulan",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Nvidia mostró 18 proyectos en los que modelos como GPT-6 Astra o Claude, con sus bibliotecas Omniverse, convierten CAD en simulaciones físicas, prueban robots y comparan escenarios. Varias herramientas son de código abierto.",
+      "detalle": [
+        "Nvidia publicó el 19 de noviembre una serie de ejemplos en los que desarrolladores le piden a agentes de IA (GPT-6 Astra, GPT-6 Sol, Claude Code y Claude Opus 5.5, entre otros) que armen simulaciones con las bibliotecas Omniverse, que aportan física, renderizado y sensores simulados acelerados por placa de video. El usuario da indicaciones en lenguaje común y revisa el resultado.",
+        "Varios casos son de ingeniería mecánica. En uno, el agente modeló una suspensión de auto en Onshape (un CAD en la nube), la llevó al simulador Isaac Sim y, con lo que mostró la simulación, se rediseñó una llave para llegar a los bulones y desmontar una pieza. En otro, armó una app para ver qué pasa en una turbina de gas al cambiar carga, temperatura ambiente y composición del combustible, comparando potencia, rendimiento y consumo, con fallas simuladas como una válvula trabada. La empresa Falkor convierte datos de CAD en gemelos digitales (copias virtuales) de plantas enteras para revisar holguras antes de ir al lugar.",
+        "También convirtió el CAD del robot ABB YuMi en un modelo listo para simular, aunque con propiedades físicas estimadas, no medidas en el robot real. Es una vidriera de Nvidia sin comparaciones independientes; la biblioteca SimReady Central (más de 2.000 modelos en Hugging Face) y varias herramientas son de código abierto."
+      ],
+      "por_que_importa": "Muestra hacia dónde va el trabajo con CAD y simulación: describir el ensayo en palabras y que la IA arme el modelo. Para un estudiante, sirve para ver qué partes ya se automatizan y dónde sigue haciendo falta criterio de ingeniero, como validar propiedades físicas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "NVIDIA", "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Mitsubishi Electric prueba una celda de mecanizado donde una IA coordina una máquina CNC y un robot humanoide",
+      "titulo_corto": "CNC + humanoide con IA",
+      "categoria": "Manufactura",
+      "veracidad": "oficial",
+      "breve": "Anunciado el 21 de octubre y detallado ahora por engineering.com: un planificador con IA recibe pedidos por voz, genera el programa CNC y coordina a un humanoide que carga y descarga piezas. Mitsubishi apunta a usarlo hacia 2030.",
+      "detalle": [
+        "Mitsubishi Electric presentó el 21 de octubre, y mostró en la feria JIMTOF 2026 de Tokio, un sistema con tres partes: un planificador de tareas con IA que recibe instrucciones del operario en lenguaje común y genera las tareas de mecanizado, una máquina CNC con \"IA física\" (IA que controla operaciones en el mundo real) y un robot humanoide de uso general. Ambas IA salen de Maisart, la tecnología propia de la empresa.",
+        "Según engineering.com, en la demo el operario pidió por voz grabar un texto en una chapita y el sistema generó el programa de mecanizado; otra IA revisa el plan antes de ejecutarlo. El planificador habla con la CNC mediante MCP (un estándar para conectar IA con herramientas) y con el robot mediante ROS (el sistema operativo de robots). El humanoide, de Galaxea Dynamics, monta la pieza en el dispositivo de sujeción, la retira al final y reintenta si falla el agarre. Cada paso físico, como arrancar el mecanizado o cambiar parámetros, necesita aprobación humana.",
+        "Está en etapa de investigación: si una pieza queda mal ubicada, el sistema da la alarma pero todavía no se corrige solo, y los humanoides no sirven para piezas pesadas. Mitsubishi no dio datos de tiempos ni ahorro."
+      ],
+      "por_que_importa": "Es un ejemplo concreto de cómo la IA puede entrar al taller: no reemplaza a la máquina, sino que traduce pedidos en programas y coordina carga y descarga. Para quien estudia mecanizado, muestra qué tareas del operario se buscan automatizar primero.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Mitsubishi Electric", "url": "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/", "tipo": "oficial"},
+        {"nombre": "engineering.com", "url": "https://www.engineering.com/mitsubishi-electric-cnc-work-cell-uses-ai-and-humanoid-robots/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "-bjWk792uYI", "titulo": "ChatGPT tiene un problema que ni miles de millones pueden resolver", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Entrevista de Jon con Gary Marcus, uno de los críticos más conocidos de los modelos de lenguaje, sobre sus límites, la IA neurosimbólica, la productividad real y el negocio de OpenAI y Anthropic.",
+    "explicacion": [
+      "El invitado es Gary Marcus, profesor emérito de la Universidad de Nueva York y, según la descripción del video, fundador de Geometric.AI, una empresa que compró Uber. La charla, de una hora y media, se grabó en la Librería Científica del CSIC, el principal organismo público de investigación de España.",
+      "Según la descripción y el índice del video, la primera parte se centra en qué critica realmente Marcus: los límites de los modelos de lenguaje (los LLM, como el que usa ChatGPT), sus alucinaciones (respuestas inventadas que suenan convincentes) y los agentes. Después explica qué es la IA neurosimbólica, que combina redes neuronales con reglas y lógica explícitas, y habla del problema de los modelos del mundo (que la IA entienda cómo funciona la realidad física), y de si hace falta reinventar la IA.",
+      "La segunda parte va a temas prácticos y de negocio: si la IA mejora de verdad la productividad, los peligros de aprender con IA, los riesgos de los agentes autónomos, si se está malgastando plata en IA, la guerra de precios entre empresas, si OpenAI y Anthropic están perdiendo o terminarán compradas, y el futuro de los modelos que corren en la computadora propia.",
+      "Al final, Marcus opina sobre Sam Altman, Dario Amodei, Demis Hassabis y Elon Musk, habla de si hay que temerle a la IA y de la idea de una explosión de inteligencia, y cierra con una predicción para 2027. La descripción no dice cuál es esa predicción ni qué responde en cada tema."
+    ],
+    "puntos_clave": [
+      {"texto": "El eje de la charla son los límites de los modelos de lenguaje y sus alucinaciones, las críticas más conocidas de Marcus.", "segundo": 381},
+      {"texto": "Marcus explica la IA neurosimbólica, que suma reglas y lógica a las redes neuronales.", "segundo": 910},
+      {"texto": "Se discute el problema de los modelos del mundo: que la IA entienda cómo funciona la realidad.", "segundo": 1031},
+      {"texto": "Analizan si la IA mejora de verdad la productividad y qué riesgos tiene aprender con IA.", "segundo": 1806},
+      {"texto": "Debaten si OpenAI y Anthropic están perdiendo, la guerra de precios y si podrían terminar compradas.", "segundo": 2800},
+      {"texto": "Marcus opina sobre Altman, Amodei, Hassabis y Musk.", "segundo": 3970},
+      {"texto": "Cierra con su gran predicción para 2027, que la descripción no adelanta.", "segundo": 5283}
+    ]
+  },
+  "notas_internas": "Recolección con 1 error: TechXplore Ingeniería (404); se compensó con búsquedas web de ingeniería. Video de Jon (entrevista a Gary Marcus) sin resumen Plaud: base descripcion; se ignoraron los segmentos de publicidad (Viterbit/InfoJobs, Dell, Plaud). La búsqueda web general no trajo nada grande fuera de los feeds. elpais.com, theverge.com y reuters.com no se leyeron directo: se usó el texto del feed (El País para cierre de Anthropic y California-Nvidia; The Verge para Gemini, Apple y Dictado) y copias de Reuters en The Star y AsiaOne. Fecha de difusión de los datos del comité del Congreso: AsiaOne dice 16 de noviembre y otras copias el 19, por eso no la puse. La parte del ciberataque a la UE sobre sistemas afectados es de Politico vía AP, no confirmada por la Comisión. Muse queda sin_confirmar: una sola investigación original (Reuters), aunque Meta respondió. La cadena de caídas: no se usó la atribución de The Week a un medio 'Washington Sun' que no pude verificar. Descartadas: alza de Lenovo y Alibaba (resultados sin novedad de IA de fondo), Fed/Goolsbee (opinión sin hechos nuevos), Google Tool Retrieval y chats en la portada (menores), Doritos y alerta de armas (una sola fuente), mercado laboral de El País (solo el copete del feed), aleaciones VASt de Sandia (descartadas el 19/11), Boston Dynamics-GlobalFoundries (Atlas ya cubierto el 18/11). No se encontraron instrucciones sospechosas en las fuentes."
+}
