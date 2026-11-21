@@ -1,0 +1,301 @@
+{
+  "fecha": "2026-11-21",
+  "intro": "Un matemático de Anthropic dice haber demostrado con Claude la hipótesis de Riemann, uno de los grandes problemas abiertos de la matemática. Además: cae la acción de Anthropic, Signal frena a los agentes de IA y Trump amenaza a quien construya centros de datos afuera.",
+  "noticias": [
+    {
+      "titulo": "Un matemático de Anthropic asegura haber demostrado la hipótesis de Riemann con ayuda de Claude",
+      "titulo_corto": "Riemann resuelto con Claude",
+      "categoria": "Investigación",
+      "veracidad": "confirmada",
+      "breve": "Levent Alpöge, matemático que trabaja en Anthropic, anunció el 20 de noviembre que encontró junto a Claude una prueba de la hipótesis de Riemann, planteada en 1859. La publicó como prueba formal en Lean y todavía falta que la comunidad la entienda y la acepte.",
+      "detalle": [
+        "La hipótesis de Riemann es una conjetura de 1859 sobre cómo se distribuyen los números primos, y es uno de los siete problemas del Milenio del Instituto Clay. Alpöge, matemático empleado por Anthropic, publicó un texto corto en su sitio en el que dice que, trabajando con Claude, descubrió una prueba, y que el método se extiende a la versión generalizada de la hipótesis. Cuenta que él guió el camino general y que en el tramo final el modelo lo superó con ideas que no esperaba.",
+        "No publicó un artículo tradicional sino una demostración escrita en Lean (un lenguaje en el que una computadora puede chequear paso a paso que una prueba es correcta). Según TechCrunch, Andrew Sutherland, del MIT, y otras personas lograron compilarla, es decir, la computadora la aceptó como válida, y la discusión sigue en el foro de la comunidad de Lean.",
+        "El propio Alpöge reconoce que la prueba es larguísima y que todavía nadie, ni él, la domina en detalle: se comprometió a escribir una versión que se pueda leer y entender. El mismo día, Ravi Vakil, presidente de la Sociedad Matemática Estadounidense, difundió otra propuesta de prueba, hecha sin IA por Alessandro Masullo, de Stanford, que todavía no está verificada.",
+        "Lo que falta saber: que los especialistas revisen la formalización (por ejemplo, que el enunciado en Lean sea realmente la hipótesis de Riemann) y que la comunidad la acepte."
+      ],
+      "por_que_importa": "Si se confirma, sería la primera vez que una IA participa de forma central en resolver uno de los problemas más famosos de la matemática, y muestra que los modelos ya pueden aportar ideas originales en investigación de punta, no solo ayudar con tareas rutinarias.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/us/2026-11-21/un-matematico-de-anthropic-asegura-haber-resuelto-la-hipotesis-de-riemann-el-mayor-enigma-de-las-matematicas-con-ayuda-de-la-ia.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Texto de Levent Alpöge",
+          "url": "https://alpo.ge/remark.pdf",
+          "tipo": "especialista"
+        },
+        {
+          "nombre": "Ravi Vakil (prueba de Masullo)",
+          "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+          "tipo": "especialista"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: la acción de Anthropic cae 8,5% en su segundo día y Wall Street entra en corrección por el miedo a la IA",
+      "titulo_corto": "Anthropic cae 8,5%",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El viernes 20 de noviembre la acción de Anthropic bajó 8,5% desde los US$97,17 del debut, aunque siguió arriba del precio de salida de US$83. Nvidia y AMD perdieron más de 13% y el S&P 500 y el Dow Jones entraron en corrección.",
+      "detalle": [
+        "Un día después de su estreno en el Nasdaq, la acción de Anthropic cayó 8,5% respecto del cierre del jueves, que había sido de US$97,17. Así quedó cerca de US$89, todavía por encima de los US$83 a los que se vendió en la oferta pública inicial. Según CNBC e InvestmentNews, la caída fue parte de una venta masiva de acciones ligadas a la IA: Nvidia y AMD bajaron más de 13% cada una.",
+        "Según InvestmentNews, el S&P 500 y el Dow Jones entraron oficialmente en corrección (una caída de al menos 10% desde el último máximo) el viernes a la mañana. El País informó que Nvidia acumuló una baja de 22,9% en cinco sesiones, su peor racha desde octubre de 2008, tras conocerse una posible investigación de la SEC (el regulador bursátil de EE. UU.) sobre su contabilidad.",
+        "CNBC menciona como causas la decepción porque el debut de Anthropic no reanimó al sector, la salida de Jensen Huang de Nvidia, el creciente rechazo a los centros de datos y el temor a que tasas de interés más altas encarezcan la construcción de infraestructura para IA. Falta ver si es una corrección pasajera o el comienzo de un ajuste más largo."
+      ],
+      "por_que_importa": "La plata que financia los modelos que usás todos los días depende de que los inversores sigan apostando a la IA. Una caída fuerte y sostenida puede frenar inversiones en centros de datos y encarecer o demorar nuevos productos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "InvestmentNews",
+          "url": "https://www.investmentnews.com/equities/anthropic-stock-sinks-85-as-ai-selloff-swamps-record-setting-ipo/269120",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Signal bloquea las capturas de pantalla para impedir que Gemini y Siri lean tus mensajes",
+      "titulo_corto": "Signal frena agentes de IA",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Signal anunció el 20 de noviembre que va a impedir que los asistentes de IA integrados en los celulares lean lo que aparece en su pantalla. En iPhone bloquea las capturas y en Android activa su protección de pantalla cuando detecta un asistente.",
+      "detalle": [
+        "La app de mensajería cifrada explicó en su blog que los agentes de IA que vienen dentro de los sistemas operativos (como Gemini en Android o Siri en iPhone) analizan lo que hay en la pantalla para responder preguntas, y que eso puede sacar el contenido de los chats fuera del control de Signal. Su presidenta, Meredith Whittaker, lo calificó como una amenaza existencial para la app.",
+        "En iOS 27, Signal bloquea las capturas de pantalla dentro de la app y suma un ajuste llamado \"Block Siri AI\". En Android, como no puede detectar las capturas de forma confiable en todas las versiones de los fabricantes, activa automáticamente su función de \"seguridad de pantalla\" cuando nota que un asistente intenta leerla. También menciona a Muse, el agente de Meta, que usa los permisos de accesibilidad del teléfono para leer otras apps.",
+        "La protección se puede desactivar, aunque Signal advierte que eso expone las conversaciones propias y las de los contactos. Además reconoce que no es completa: en Mac no puede bloquear las capturas, y no impide otros accesos, como leer archivos guardados en el equipo. Signal pide a Apple, Google y Microsoft una forma documentada para que las apps puedan quedar fuera del alcance de estos agentes."
+      ],
+      "por_que_importa": "Los agentes que \"miran\" tu pantalla son cada vez más comunes, y este choque muestra el costo en privacidad: lo que ves en el celular puede terminar procesado por una IA aunque la app esté cifrada.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Signal",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "METR actualiza su gráfico más citado: la IA ya completa tareas de unas 40 horas, pero falla donde hace falta criterio",
+      "titulo_corto": "METR: tareas de 40 horas",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "La organización METR publicó el 20 de noviembre su nueva medición del \"horizonte temporal\" de la IA: GPT-6 Astra y Opus 5.5 rondan las 40 horas de trabajo humano y esa cifra se duplica cada 3,6 meses, pero tienen peor juicio que los expertos.",
+      "detalle": [
+        "METR es una organización sin fines de lucro que evalúa modelos de IA. Su gráfico de \"horizonte temporal\" mide qué tan largas son las tareas que un modelo completa con éxito la mitad de las veces, usando como escala lo que tardaría una persona experta. En la actualización, GPT-6 Astra llega a unas 40 horas y Opus 5.5 a unas 39, aunque con márgenes de error enormes.",
+        "Según el informe, ese horizonte se duplica aproximadamente cada 3,6 meses, un ritmo parecido al que ya se había medido. Una extrapolación simple ubica a los modelos en tareas de 200 horas hacia julio de 2027. METR sumó tareas mucho más largas y otras más abiertas, donde no hay una respuesta que se pueda chequear rápido.",
+        "En esas tareas de criterio los modelos rinden peor que los expertos humanos. Además, cuando un modelo evalúa a otro igual de fuerte, tiende a ponerle mejor nota que una persona. Ninguna de las pruebas de evaluación que diseñaron agentes de IA fue lo bastante buena para que METR la usara.",
+        "Hay límites importantes: solo cerca del 9% de los tiempos humanos se midieron de verdad (el resto son estimaciones) y hay pocas tareas de criterio, así que esa tendencia es menos sólida, como explica MIT Technology Review."
+      ],
+      "por_que_importa": "Es una de las mediciones más usadas para saber qué tan rápido avanza la IA. Sugiere que delegar trabajos largos y bien definidos va a ser cada vez más común, pero que las decisiones que requieren juicio siguen necesitando a una persona.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "METR",
+          "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Trump amenaza con un \"impuesto tremendo\" a las empresas de EE. UU. que construyan centros de datos de IA en otros países",
+      "titulo_corto": "Trump vs. datos afuera",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Donald Trump dijo el 20 de noviembre que no va a permitir que las empresas estadounidenses construyan centros de datos fuera del país y prometió un \"impuesto tremendo\" para quien lo haga, aunque no explicó cómo lo aplicaría.",
+      "detalle": [
+        "Durante un acto público, el presidente de EE. UU. afirmó que su gobierno no va a dejar que las empresas del país instalen centros de datos (los edificios llenos de servidores donde se entrenan y funcionan los modelos de IA) en el exterior, y amenazó con gravarlas fuertemente si lo hacen, según The Verge y El País.",
+        "La advertencia llega en un momento en que varios estados y ciudades de EE. UU. están poniendo restricciones a nuevos pedidos para construir estos centros, por su consumo de electricidad y agua y por el rechazo de los vecinos. Trump, en cambio, animó a las comunidades a aceptarlos.",
+        "No dio detalles sobre cómo funcionaría el impuesto, a quién alcanzaría ni si necesitaría aprobación del Congreso. Por ahora es una amenaza verbal, no una medida concreta."
+      ],
+      "por_que_importa": "Dónde se construyen los centros de datos define quién se queda con la inversión, el empleo y la energía que demanda la IA. Una medida así podría afectar proyectos fuera de EE. UU., incluidos los que se discuten en América Latina.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/us/2026-11-20/trump-amenaza-con-sancionar-a-las-empresas-estadounidenses-que-construyan-centros-de-datos-en-otros-paises.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Meta replantea su meta de cero emisiones netas para 2030 tras subir 45% su huella de carbono por los centros de datos",
+      "titulo_corto": "Meta y sus emisiones",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "En su informe de sustentabilidad del 19 de noviembre, Meta reconoció que sus emisiones netas crecieron 45% en 2025 y dijo que está reevaluando los plazos de su objetivo de llegar a cero emisiones netas en 2030.",
+      "detalle": [
+        "Según el informe, la huella de carbono neta de Meta subió 45% en 2025, hasta unos 11,9 millones de toneladas de CO2 equivalente. Su consumo de electricidad creció 35%. Buena parte del aumento viene de lo que la empresa compra para construir y equipar centros de datos, es decir, emisiones indirectas de su cadena de proveedores.",
+        "Dos responsables del área escribieron que la empresa está revisando sus plazos, el orden de sus pasos y sus metas intermedias, incluido el objetivo de 2030. Explicaron que esperaban un crecimiento más previsible y energía limpia más barata, y que la realidad resultó más compleja.",
+        "Meta no dijo qué va a cambiar ni cuándo lo va a decidir: solo prometió contar a dónde llega esa revisión. Ars Technica plantea la duda de si otras grandes tecnológicas harán lo mismo."
+      ],
+      "por_que_importa": "Muestra el costo ambiental concreto de la carrera por la IA: una de las empresas que más invierte en centros de datos admite que no llega a cumplir sus compromisos climáticos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Trellis",
+          "url": "https://trellis.net/article/meta-2026-sustainability-report/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Google suma a su página de inicio una barra lateral con el historial de chats del Modo IA",
+      "titulo_corto": "Google: barra del Modo IA",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "Desde el 19 de noviembre, la portada de Google en computadoras muestra en todo el mundo una barra lateral plegable con las conversaciones recientes del Modo IA. Según Ars Technica, el nuevo diseño además deja de lado el clásico botón de búsqueda.",
+      "detalle": [
+        "Robby Stein, de Google, anunció en un video que la página de inicio del buscador en computadoras suma una barra lateral que se puede esconder. Ahí aparecen las búsquedas recientes hechas con el Modo IA (el modo de Google que responde con un chat en lugar de una lista de links), para retomarlas donde se dejaron.",
+        "Según Search Engine Roundtable, que la había visto en pruebas semanas antes, el despliegue es global. Ars Technica describe la nueva portada como una página que facilita todavía más el acceso a las herramientas de IA y en la que ya no está el botón de búsqueda.",
+        "El cambio sigue la línea de los últimos meses: Google empuja a los usuarios hacia el chat con IA en vez de la búsqueda tradicional. No está claro si el rediseño completo llega igual a todos los países."
+      ],
+      "por_que_importa": "Es la puerta de entrada a internet para casi todos: cada cambio en esa página modifica cómo buscamos información, y también cuánto tráfico reciben los sitios que antes aparecían en los resultados.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-search-rolls-out-ai-mode-sidebar-42580.html",
+          "tipo": "especialista"
+        },
+        {
+          "nombre": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "El MIT logra que la IA simule sistemas caóticos, como el clima o la turbulencia, sin salirse de lo físicamente posible",
+      "titulo_corto": "IA física para el caos",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Investigadores de Ingeniería Mecánica del MIT presentaron en PNAS un método que obliga a las redes neuronales a respetar un límite de energía para que sus simulaciones de sistemas caóticos no den resultados imposibles aunque se las corra mucho tiempo.",
+      "detalle": [
+        "Los modelos de IA que aprenden a predecir sistemas caóticos (como el clima o los flujos turbulentos) suelen funcionar bien a corto plazo, pero en simulaciones largas los pequeños errores se acumulan hasta dar valores que crecen sin límite. Sunbochen Tang, Navid Azizan y Themistoklis Sapsis, del MIT, propusieron una solución publicada en PNAS, con el código abierto.",
+        "El modelo aprende una función parecida a la energía del sistema y una frontera dentro de la cual se mueve el comportamiento caótico. Fuera de esa frontera, la energía tiene que disminuir, lo que empuja a la simulación de vuelta a la zona razonable. Una capa extra corrige cada predicción para que esa condición se cumpla siempre, no solo durante el entrenamiento, y se puede sumar a distintos tipos de redes neuronales.",
+        "Lo probaron en sistemas clásicos, como el atractor de Lorenz (el de la famosa \"mariposa\"), y las predicciones se mantuvieron cerca de las reales mientras otros métodos se desviaban. El artículo del MIT no da cifras de precisión, y el equipo todavía tiene que probarlo en sistemas grandes y realistas, como modelos del clima."
+      ],
+      "por_que_importa": "La simulación de fluidos (CFD) es cara, y la IA promete acelerarla, pero solo sirve si no da resultados imposibles. Garantizar que el modelo respete la física es clave para poder confiar en estas herramientas en ingeniería.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "MIT News",
+          "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+          "tipo": "oficial"
+        }
+      ]
+    },
+    {
+      "titulo": "Sandia predice con IA propiedades de aleaciones de alta entropía a partir de su \"huella electrónica\" y pocos datos",
+      "titulo_corto": "IA para diseñar aleaciones",
+      "categoria": "Materiales",
+      "veracidad": "oficial",
+      "breve": "Un modelo de los Laboratorios Sandia, Georgia Tech y la NASA identifica cada aleación por cómo se distribuyen sus electrones y no por su lista de elementos. Así predice propiedades térmicas y mecánicas con muy pocos datos de entrenamiento.",
+      "detalle": [
+        "Las aleaciones de alta entropía mezclan varios metales en proporciones parecidas y pueden mantenerse resistentes a altas temperaturas, pero hay pocos datos experimentales sobre ellas, y eso hace que los modelos de aprendizaje automático habituales pierdan precisión. El equipo de Matthew Barry, de Sandia, desarrolló VASt (estructura atómica voxelizada), que describe cada material por su densidad de electrones, su \"huella electrónica\".",
+        "Según Sandia, con ese enfoque el modelo predice propiedades termomecánicas (cómo responde el material al calor y a los esfuerzos) entrenándose con apenas decenas de muestras, y puede extrapolar a aleaciones con elementos que no vio. Entre sus hallazgos, el vanadio aumenta la ductilidad (la capacidad de deformarse sin romperse) y el tungsteno, la resistencia. El trabajo se publicó en npj Computational Materials.",
+        "Todavía falta validar las predicciones con experimentos y saber si el método sirve para cualquier aleación o solo para las de alta entropía. Los comunicados no dan cifras de error."
+      ],
+      "por_que_importa": "Elegir el material es una de las decisiones centrales del diseño mecánico. Herramientas así podrían permitir pensar la aleación a medida de la pieza, por ejemplo para turbinas o componentes que trabajan a alta temperatura, en lugar de elegir de un catálogo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Sandia Lab News",
+          "url": "https://www.sandia.gov/labnews/2026/11/19/before-the-forge/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechXplore",
+          "url": "https://techxplore.com/news/2026-11-electron-fingerprints-ai-complex-alloy.html",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": {
+    "id": "T_GCwwYJg2A",
+    "titulo": "Mi mayor miedo sobre la IA acaba de desaparecer",
+    "resumen_url": null
+  },
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Un video más personal en el que Jon, de viaje a Cambridge para grabar un pódcast con Martin Rees, reflexiona sobre qué propósito tendremos las personas en un mundo con superinteligencia y sin necesidad de trabajar.",
+    "explicacion": [
+      "Según la descripción, Jon graba el video mientras viaja a Londres y Cambridge para grabar un pódcast con Martin Rees. El índice muestra que cuenta el encuentro con Rees, recuerda su pasado como fotógrafo y que una parte del video transcurre en la casa de Rees.",
+      "La idea central es la pregunta de cuál va a ser nuestro propósito si llega una superinteligencia capaz de hacer casi todo el trabajo. Jon plantea si podemos vivir sin trabajar y explica que el concepto de \"propósito artificial\" de Nick Bostrom, filósofo conocido por sus ideas sobre los riesgos de la IA, le sacó un peso de encima: la idea de que se puede encontrar sentido a la vida aunque no haya un empleo.",
+      "Según el texto del video, eso lo hace ver el futuro con más optimismo, aunque aclara que la transición hasta ese mundo le sigue preocupando. Cierra con reflexiones sobre el futuro de la humanidad. La descripción no detalla qué argumentos da ni qué dice Rees, así que el contenido exacto de esas partes no se puede resumir acá."
+    ],
+    "puntos_clave": [
+      {
+        "texto": "Jon viaja a Cambridge para grabar un pódcast con Martin Rees.",
+        "segundo": 85
+      },
+      {
+        "texto": "La pregunta central: si la IA hace el trabajo, ¿podemos vivir sin trabajar?",
+        "segundo": 345
+      },
+      {
+        "texto": "El \"propósito artificial\" de Nick Bostrom: encontrar sentido sin tener un empleo.",
+        "segundo": 428
+      },
+      {
+        "texto": "Jon dice que esa idea le quitó su mayor miedo, pero que la transición todavía le preocupa.",
+        "segundo": 658
+      }
+    ]
+  },
+  "notas_internas": "Falló el feed TechXplore Ingeniería (404); se compensó con TechXplore IA y búsqueda web. arstechnica.com, apnews.com y axios.com no se pudieron leer: para Ars se usó el texto del feed y se confirmó con otras fuentes (Trellis, Search Engine Roundtable). La cifra de 13% de caída de Anthropic del título de Reuters parece intradiaria; se usó el 8,5% del cierre (CNBC, InvestmentNews, El País). El cierre ~US$89 se calculó desde 97,17 - 8,5%. No se incluyeron: propuesta de comité del Senado sobre IA (AP, no se pudo leer), acuerdo Trump-Xi sobre IA militar (solo título de Reuters), informe de OpenAI sobre destilación adversaria (solo texto breve del feed). El video de Jon no es de noticias ni tiene resumen Plaud: resumen hecho solo con la descripción e índice. No se detectaron textos con instrucciones sospechosas."
+}
