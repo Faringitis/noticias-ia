@@ -1,0 +1,197 @@
+{
+  "fecha": "2026-11-22",
+  "intro": "Según Reuters, la SEC revisa la contabilidad de Nvidia y la acción se hundió 14%. Además: la comunidad de Lean certifica la prueba de Riemann hecha con Claude, la ONU patea dos años las reglas sobre armas autónomas y un experimento muestra filtraciones en proveedores de IA.",
+  "noticias": [
+    {
+      "titulo": "Actualización: la investigación de la SEC a Nvidia apunta a su contabilidad y la acción cae 14% en un día",
+      "titulo_corto": "Nvidia: SEC y caída del 14%",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Según Reuters, la SEC (el regulador de la Bolsa de EE. UU.) está revisando posibles problemas contables en Nvidia. El viernes 20 de noviembre la acción cayó 14%, su peor día desde enero de 2025.",
+      "detalle": [
+        "El 20 de noviembre, Reuters informó, citando a dos personas al tanto, que el equipo de sanciones de la SEC está analizando posibles problemas contables en Nvidia. No se sabe desde cuándo ni qué cuentas puntualmente mira. El martes, el Wall Street Journal había contado que la investigación incluye si la empresa engañó a los inversores con lo que informaba. La SEC no comentó y Nvidia no respondió.",
+        "Ese viernes la acción cayó 14%, su peor jornada desde el golpe de DeepSeek en enero de 2025 y su séptima baja seguida. Según Yahoo Finance, Nvidia perdió unos US$490.000 millones de valor en el día, casi US$900.000 millones en la semana y cerca de US$2,7 billones desde su récord del 6 de octubre. Después del cierre recuperó casi 4%.",
+        "El trasfondo: inversores y analistas cuestionan la llamada financiación circular, en la que Nvidia ayuda a sus propios clientes a pagar chips y centros de datos, lo que hace difícil medir la calidad de sus ventas. Reuters recuerda además que Nvidia cambió el año pasado la forma de informar sus ventas por país y dejó de mostrar Singapur por separado. La CEO interina, Colette Kress, dijo el martes que la empresa será mucho más selectiva con esos acuerdos.",
+        "Lo que falta saber: una investigación no prueba que haya irregularidades y muchas se cierran sin sanción."
+      ],
+      "por_que_importa": "Nvidia fabrica la mayoría de los chips con los que se entrena y usa la IA; si su contabilidad queda bajo sospecha, se resiente la confianza en todo el negocio de la IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Reuters (vía Investing.com)",
+          "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: las comunidades de Lean y Mathlib certifican como correcta la prueba de Riemann hecha con Claude",
+      "titulo_corto": "Riemann: prueba certificada",
+      "categoria": "Investigación",
+      "veracidad": "confirmada",
+      "breve": "El 21 de noviembre, los responsables de Lean y de su biblioteca matemática, Mathlib, dijeron en un comunicado conjunto que la prueba de la hipótesis de Riemann de Levent Alpöge, hecha con Claude, es correcta. Falta una versión que una persona pueda leer.",
+      "detalle": [
+        "Un día después de que Levent Alpöge, matemático de Anthropic, publicara su prueba, las comunidades de Lean (un lenguaje en el que la computadora chequea cada paso de una demostración) y de Mathlib emitieron un comunicado conjunto, respaldado por Lean FRO y Mathlib Initiative, en el que certifican que tanto el enunciado como la prueba son correctos. Según Scientific American, escribieron que tienen \"plena confianza\" en ella.",
+        "La prueba ocupa unos 17 millones de líneas de código en 175.187 módulos. Andrew Sutherland, del MIT, la compiló por su cuenta sin errores y comprobó que usa solo los tres axiomas (reglas básicas) estándar de Lean. Otras herramientas confirmaron que el teorema demostrado coincide con la definición de la hipótesis de Riemann que ya figuraba en Mathlib, una de las dudas que había planteado Kevin Buzzard, del Imperial College de Londres.",
+        "Lo que falta: la certificación es sobre el archivo formal, no sobre una explicación humana. No existe todavía un texto que los matemáticos puedan leer y entender, y Alpöge admite que el argumento es larguísimo. Según Unite.AI, algunas verificaciones seguían en curso y la versión generalizada no cubre todos los casos posibles."
+      ],
+      "por_que_importa": "Si se confirma del todo, sería la primera vez que una IA participa de forma central en resolver uno de los grandes problemas abiertos de la matemática, y con una prueba que una computadora puede revisar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Unite.AI",
+          "url": "https://www.unite.ai/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "La ONU no logra reglas obligatorias para los \"robots asesinos\" y extiende las conversaciones hasta 2028",
+      "titulo_corto": "ONU y armas autónomas",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "La conferencia de Ginebra sobre armas convencionales terminó el sábado 21 de noviembre sin compromisos obligatorios sobre armas autónomas con IA. Los países solo acordaron seguir hablando y \"elaborar\" un posible instrumento para 2028.",
+      "detalle": [
+        "Del 16 al 20 de noviembre, los países de la Convención sobre Ciertas Armas Convencionales (un tratado de la ONU) se reunieron en Ginebra para su conferencia de revisión. Uno de los temas era empezar a negociar reglas para las armas autónomas, que pueden elegir y atacar objetivos sin que una persona decida. En la madrugada del sábado acordaron solo continuar las conversaciones dos años más y \"elaborar\" un posible acuerdo para 2028, sin decir si será obligatorio.",
+        "Según activistas citados por AP, potencias militares como EE. UU. y Rusia bloquearon un texto más fuerte; la palabra \"negociar\" se cambió por \"elaborar\". El secretario general de la ONU, António Guterres, había pedido arrancar las negociaciones en 2026 y deja el cargo a fin de año. Izumi Nakamitsu, responsable de desarme de la ONU, reconoció que por trabas de procedimiento ni siquiera se pudo hacer la revisión prevista.",
+        "Las reacciones fueron opuestas: la misión de Suiza lo presentó como un paso adelante, mientras que Beatrice Fihn, de la organización Lex International, dijo que se pateó el problema dos años más. Mientras tanto, estas armas avanzan: a principios de noviembre, en un ejercicio militar de EE. UU. en Alemania, un vehículo robótico lanzó 18 drones que hicieron un ataque autónomo."
+      ],
+      "por_que_importa": "La IA ya se usa para decidir ataques en la guerra, y sin reglas internacionales nadie sabe quién es responsable cuando una máquina mata por error.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Gizmodo",
+          "url": "https://gizmodo.com/international-talks-on-autonomous-killer-robots-achieve-historic-deal-to-think-it-over-for-2-more-years-2000843554",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "CGTN (con AP)",
+          "url": "https://newseu.cgtn.com/news/2026-11-21/UN-talks-on-AI-killer-robots-end-without-pledge-to-rein-them-in-1Sg9qdDkcEM/p.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Un experimento con 2 millones de mensajes trampa descubre filtraciones en al menos tres proveedores de IA",
+      "titulo_corto": "Filtraciones en proveedores",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Publicado el 19 de noviembre: la empresa de ciberseguridad Dragos mandó unos 2 millones de pedidos con contraseñas falsas a servicios de IA y detectó que atacantes robaron datos de al menos tres proveedores.",
+      "detalle": [
+        "HD Moore, jefe de investigación de Dragos, contó que entre julio y noviembre su equipo envió unos dos millones de pedidos (prompts) a servicios de IA muy usados: intermediarios que reparten pedidos entre modelos, mercados de reventa y empresas que alojan modelos. Cada pedido llevaba \"canarios\": links y claves de acceso falsas pero únicas, que avisan si alguien las usa.",
+        "El resultado: atacantes robaron datos de al menos tres proveedores de alojamiento, desde mediados de julio. En la filtración más grande se usaron unas doscientas claves de AWS (la nube de Amazon) en decenas de miles de operaciones. Además, vendedores de un mercado de reventa guardaban los pedidos de sus clientes e intentaron entrar a los servidores trampa, y un laboratorio chino abrió los links secretos de más de la mitad de los pedidos, incluso de muchos marcados como \"no guardar datos\".",
+        "Dragos no nombra a casi ninguna empresa y dice que trabaja con una docena de proveedores para avisarles. Recomienda contratar directamente con el proveedor del modelo, evitar los revendedores y no poner nunca claves reales en lo que se le pasa a un agente de IA."
+      ],
+      "por_que_importa": "Lo que le escribís a una IA puede pasar por varias empresas que no ves; si pegás contraseñas o datos sensibles, pueden terminar en manos ajenas aunque el servicio prometa no guardarlos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Dragos",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "tipo": "oficial"
+        }
+      ]
+    },
+    {
+      "titulo": "Thinking Machines lanza Inkling 2 Mini, un modelo abierto que corre en una notebook con 32 GB",
+      "titulo_corto": "Inkling 2 Mini, modelo local",
+      "categoria": "Modelos",
+      "veracidad": "oficial",
+      "breve": "La empresa de Mira Murati publicó el 20 de noviembre Inkling 2 Mini, un modelo de pesos abiertos de 26.400 millones de parámetros que ocupa unos 20 GB y se puede usar sin internet en una computadora potente.",
+      "detalle": [
+        "Thinking Machines Lab, fundada por la ex directora de tecnología de OpenAI Mira Murati, liberó Inkling 2 Mini: cualquiera puede descargarlo de Hugging Face o usarlo con Ollama. Según VentureBeat, la licencia es Apache 2.0 (permite uso comercial), acepta texto e imágenes y maneja hasta un millón de tokens (fragmentos de texto) de contexto.",
+        "Su truco es el diseño \"en bucle\": tiene 24 capas, pero las del medio se repiten tres veces por cada palabra, así que hace el trabajo de un modelo más grande sin ocupar más memoria. De sus 26.400 millones de parámetros usa solo 3.400 millones por paso. Ocupa unos 20 GB y la empresa indica una Mac con al menos 32 GB de memoria.",
+        "Según los números de la propia empresa, en programación supera a Qwen3.8-27B, su rival más directo (79,2% contra 77,8% en SWE-bench Verified, una prueba de arreglar errores de código reales). La evaluadora independiente Artificial Analysis lo ubica empatado con ese modelo en su índice general, pero más barato y rápido por tarea.",
+        "Límites que reconoce la empresa: recuerda menos datos que modelos más grandes, inventa más y sigue peor las conversaciones largas y las instrucciones complicadas."
+      ],
+      "por_que_importa": "Muestra que modelos bastante capaces ya caben en una computadora personal, lo que permite usar IA sin internet ni mandar tus archivos a otra empresa.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "VentureBeat",
+          "url": "https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Claude estrena diseño en el celular y lleva el uso de la computadora a los planes de empresas",
+      "titulo_corto": "Claude: app nueva y Computer",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Desde el 20 de noviembre, Anthropic renueva de a poco la app de Claude para iPhone y habilita en prueba, para los planes Team y Enterprise, que Claude vea la pantalla y trabaje en las aplicaciones de la computadora.",
+      "detalle": [
+        "Según las notas de versión de Anthropic, la app de Claude para el celular tiene un diseño nuevo que llega de forma gradual, empezando por iPhone (hace falta iOS 26 o posterior). Los chats, proyectos y planes no cambian y no hay que activar nada. Según quienes ya la probaron, suma una barra inferior con accesos a chats, proyectos, Code y artefactos.",
+        "En paralelo, el uso de la computadora (computer use, que deja a Claude ver tu pantalla y operar las aplicaciones de escritorio que vos permitas) pasa a estar en beta (prueba) para los planes de empresas, Team y Enterprise, que se habilitan de a poco. Funciona en la app de escritorio y también desde la web y el celular si está activado el acceso a la computadora. Ya estaba disponible para los planes Pro, Max y Ultra.",
+        "Ojo: Anthropic advierte que esta función no aísla a Claude de las aplicaciones que le abrís, así que conviene darle permiso solo a lo necesario."
+      ],
+      "por_que_importa": "Que los planes de empresas sumen este agente muestra que las compañías empiezan a dejar que la IA haga tareas directamente en la computadora, no solo que responda preguntas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Anthropic (notas de versión)",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "tipo": "oficial"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "GlobalFoundries suma el robot Spot a sus fábricas para mantenimiento predictivo y probará el humanoide Atlas",
+      "titulo_corto": "Spot y Atlas en fábricas",
+      "categoria": "Mantenimiento",
+      "veracidad": "confirmada",
+      "breve": "Anunciado el 17 de noviembre: Boston Dynamics llevará su perro robot Spot a las plantas de GlobalFoundries en EE. UU., Alemania y Singapur para hacer inspecciones, y desde principios de 2027 probará ahí su humanoide Atlas.",
+      "detalle": [
+        "GlobalFoundries, uno de los grandes fabricantes de chips, usa Spot (el robot de cuatro patas de Boston Dynamics) desde hace más de cuatro años en su planta de Burlington, Vermont. Ahora lo extiende a Malta (Nueva York), Dresde (Alemania) y Singapur para inspeccionar de forma autónoma equipos e instalaciones, sobre todo en las zonas de servicios bajo la sala limpia, donde están cañerías, tanques de gas y equipos de apoyo.",
+        "Según Interesting Engineering, Spot ya hizo más de 90.000 inspecciones con 99% de misiones exitosas, y dos robots en Singapur recorrieron casi 900 km desde abril. Los datos que junta en miles de puntos de control sirven para pasar de arreglar cuando algo se rompe a anticipar fallas. \"Spot nos ayudó a pasar de un mantenimiento reactivo a uno predictivo\", dijo Pradip Singh, jefe de manufactura de la empresa.",
+        "Además, GlobalFoundries será el primer cliente fuera de la industria automotriz en probar Atlas, el humanoide eléctrico de Boston Dynamics, desde principios de 2027: primero evaluarán para qué sirve y qué cambios necesita la planta. No se informó cuántos robots ni en qué tareas, y las notas no detallan qué modelos de IA analizan los datos."
+      ],
+      "por_que_importa": "Es un caso real y con números de mantenimiento predictivo con robots móviles, un tema central de la ingeniería mecánica en plantas industriales.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Manufacturing Dive",
+          "url": "https://www.manufacturingdive.com/news/boston-dynamics-globalfoundries-expand-robotics-collaboration-spot-atlas/875112/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/atlas-humanoid-semiconductor-manufacturing",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Jon: los dos videos del crudo (T_GCwwYJg2A y -bjWk792uYI) ya estaban cubiertos; no hubo video nuevo. Falló TechXplore Ingeniería (404). Día flojo (domingo): 6 noticias. Nvidia: el pedido de la SEC salió en la edición del 18; hoy la novedad es el foco contable (Reuters) y la caída del 14%. Riemann: actualización por la certificación de Lean/Mathlib; Nature no se pudo leer (pide login). ONU: The Verge bloquea la lectura, se usó su texto del feed; AP y Reuters solo llegaron vía Google Noticias, se usaron Gizmodo y CGTN (que reproduce AP). Inkling 2 Mini: benchmarks de la empresa salvo Artificial Analysis (vía VentureBeat); la página oficial no menciona licencia, Apache 2.0 sale de VentureBeat. Claude: la barra inferior de la app sale de reportes de terceros, solo se mencionó como tal. Ingeniería: se descartó el sensor óptico táctil con IA de WashU (solo se pudo leer TechXplore, no el comunicado ni el paper). Boston Dynamics/GlobalFoundries se anunció el 17, pero no había salido en ediciones anteriores. Descartados: Walmart Agent Gateway (21 de octubre), ChatGPT Wallet (ya cubierto el 14), campaña de agentes de Amazon (16 de noviembre), Shortical y licencias de rostros (una sola fuente, poco relevante), Siemens Simcenter X en Azure (sin fecha ni detalles concretos), demo del reloj de péndulo con GPT-6.2 (solo blogs), Genesis AI (ya cubierto el 18). No se encontraron textos con instrucciones sospechosas."
+}
