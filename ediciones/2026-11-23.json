@@ -1,0 +1,210 @@
+{
+  "fecha": "2026-11-23",
+  "intro": "El científico jefe de OpenAI propone que los laboratorios acuerden límites comunes para frenar a la IA más potente. Además: Asia sale a sostener sus Bolsas tras la caída de las tecnológicas y dos filtraciones muestran los riesgos de los agentes que programan.",
+  "noticias": [
+    {
+      "titulo": "El científico jefe de OpenAI propone que los laboratorios acuerden un límite común para la IA más potente",
+      "titulo_corto": "OpenAI propone límites",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Jakub Pachocki publicó el 22 de noviembre una propuesta para que las empresas de IA midan su avance con una misma vara, la \"perplejidad\", y se comprometan a no pasar ciertos umbrales hasta poder vigilar mejor a sus modelos.",
+      "detalle": [
+        "En un texto en el blog de OpenAI, Jakub Pachocki, su científico jefe, propone usar la perplejidad (una medida de qué tan bien un modelo adivina la palabra siguiente de un texto: cuanto más baja, mejor predice) como regla común para comparar a todos los laboratorios. La idea es fijar \"límites comunes\" basados en esa y otras mediciones que nadie cruce hasta lograr un avance concreto en la capacidad de entender y monitorear lo que hace la IA.",
+        "Como primer paso, OpenAI publicó sus propias mediciones internas: GPT-3.5 rondaba 0,99, GPT-4 unos 0,91, y por debajo de 0,8 aparecieron capacidades que la empresa llama transformadoras en ciberseguridad y matemática. Un modelo posterior, cerca de 0,76, empezó a dar resultados matemáticos notables, y la empresa espera nuevos saltos en la franja de 0,68 a 0,7. Pachocki argumenta que las pruebas de tareas concretas quedan viejas enseguida, mientras que esta medida sigue sirviendo.",
+        "Sam Altman la llamó en X \"lo más importante que OpenAI publicó en mucho tiempo\". Falta lo principal: la propuesta no fija el valor del límite ni qué avance permitiría superarlo, no dice quién controlaría que se cumpla y ningún otro laboratorio respondió todavía. Además, comparar la perplejidad entre empresas no es simple, porque cada una entrena con datos distintos."
+      ],
+      "por_que_importa": "Es la primera vez que una de las grandes empresas pone números concretos sobre la mesa para frenar su propia carrera; si otras se suman, podría cambiar el ritmo al que llegan modelos nuevos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Reuters (vía The Star)",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/23/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: Corea del Sur, Taiwán y China salen a sostener sus Bolsas tras la caída de las acciones de IA",
+      "titulo_corto": "Asia frena la caída",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Después de una semana negra para las tecnológicas, Corea del Sur preparó un fondo de rescate de casi US$8.000 millones, Taiwán restringió las ventas en corto y China facilitó comprar acciones con crédito. Este lunes la Bolsa coreana volvió a caer más de 3%.",
+      "detalle": [
+        "La semana pasada Wall Street entró en corrección (una baja de más del 10% desde el máximo) por las dudas sobre si los centros de datos de IA, muchos financiados con deuda, van a dar ganancia. Pesaron la salida de Jensen Huang de Nvidia, cuya acción cayó 14% el viernes, y el mal arranque en Bolsa de Anthropic. La Bolsa de Taiwán, dominada por TSMC, perdió 17,5% en la semana, su peor caída desde principios de los noventa.",
+        "Corea del Sur anunció el domingo 22 de noviembre que tiene listo para usar un fondo de estabilización de 10,76 billones de wones (casi US$8.000 millones), que flexibiliza por tres meses las recompras de acciones y vigilará las ventas en corto (apuestas a la baja). Taiwán prohibió desde el viernes las ventas en corto por debajo del cierre anterior y pidió a las empresas recomprar acciones. China bajará desde el 30 de noviembre la garantía mínima para comprar acciones con dinero prestado, del 100% al 80%.",
+        "El lunes 23 la reacción fue dispar: el Kospi coreano cayó más de 3%, con Samsung y SK Hynix (grandes fabricantes de memorias para IA) en baja, mientras Taiwán subió más de 2%. Los futuros de Wall Street rebotaban más de 2% en la madrugada. Que estas medidas alcancen depende de si se recupera la confianza en las inversiones en IA."
+      ],
+      "por_que_importa": "Muestra que la IA ya no es solo tecnología: es una apuesta financiera tan grande que su tropiezo obliga a gobiernos a intervenir, y eso puede afectar el ritmo de inversión en nuevos modelos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-rout-deepens-despite-rebound-in-us-futures-5044254",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Korea JoongAng Daily",
+          "url": "https://www.koreajoongangdaily.com/business/govt-prepares-market-stabilization-fund-due-to-sharp-downturns-in-domestic-global-stocks/12985539",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Hackers publicaron versiones falsas de la herramienta de Microsoft para crear agentes de IA y robaron contraseñas",
+      "titulo_corto": "Paquete Microsoft hackeado",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "Ocurrió el 17 de noviembre: alguien subió dos versiones con un programa espía de agent-framework, la biblioteca de Microsoft para armar agentes de IA en Python. Estuvieron disponibles casi una hora y robaban claves de Azure y GitHub.",
+      "detalle": [
+        "Según la empresa de seguridad Wiz, las versiones 1.26.1 y 1.26.2 del paquete agent-framework aparecieron en PyPI (el repositorio público de donde se descargan las bibliotecas de Python) el 17 de noviembre, entre las 20:35 y las 21:08 UTC, y fueron retiradas cerca de las 21:30. Ninguna salió del código oficial de Microsoft en GitHub. El paquete se descarga decenas de miles de veces por semana.",
+        "El truco: un archivo especial que Python ejecuta cada vez que arranca, aunque el programa nunca use la biblioteca. Desde ahí, el código buscaba contraseñas y tokens (credenciales digitales temporales) de la nube Azure, de Azure DevOps, de GitHub Actions, de Hugging Face y de OpenAI, y los mandaba a un servidor externo. Wiz encontró indicios de que el atacante obtuvo un certificado de Microsoft para publicar versiones; cómo lo consiguió todavía no se sabe.",
+        "Wiz analizó los datos que llegaron al servidor del atacante y solo identificó tres casos que parecen víctimas reales. Recomienda volver a la versión 1.26.0, revisar si se instaló alguna de las dos falsas y cambiar todas las claves de las máquinas afectadas. El informe no incluye una declaración de Microsoft."
+      ],
+      "por_que_importa": "Las herramientas para construir agentes son un blanco nuevo: una sola biblioteca contaminada puede abrir la puerta a las cuentas en la nube de miles de empresas sin que nadie note nada.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Wiz",
+          "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+          "tipo": "especialista"
+        },
+        {
+          "nombre": "SecurityWeek",
+          "url": "https://securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "BleepingComputer",
+          "url": "https://bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Un agente de IA que programaba para Together AI dejó expuesta una clave y se filtraron mensajes de clientes",
+      "titulo_corto": "Filtración en Together AI",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "La empresa, que ofrece modelos abiertos en la nube, contó el 21 de noviembre que un agente de programación publicó por error una credencial y que un intruso la usó para bajar muestras de pedidos de clientes de junio y julio.",
+      "detalle": [
+        "Together AI guardaba, para hacer pruebas de software, muestras de pedidos (prompts) que sus clientes enviaron a los modelos MiniMax M3, GLM-5.2 y Kimi K2.6, sobre todo el 24 de junio y el 4, 8 y 14 de julio. Estaban en un repositorio privado de Hugging Face. Mientras la empresa desarrollaba un proyecto público en GitHub, un agente de IA que escribía código subió por error una credencial que daba acceso a ese repositorio.",
+        "Los sistemas automáticos de la empresa detectaron la clave y deshicieron el cambio, pero no alcanzó: alguien la copió en ese lapso, descargó las muestras y buscó en ellas contraseñas de otros servicios para probarlas. Cinco de esas contraseñas eran trampas del experimento de Dragos que salió en la edición de ayer, y así se descubrió el robo.",
+        "La empresa dice que trabajó con peritos externos y con la policía, que no encontró otras filtraciones y que todavía revisa si había datos personales; avisará a los clientes afectados. Como respuesta, usará credenciales de corta duración, revisará cada cambio de código en busca de claves y actualizó sus reglas para agentes. Además, desde ahora las cuentas nuevas no guardan los pedidos por defecto."
+      ],
+      "por_que_importa": "Es un caso concreto de cómo un agente que programa puede cometer un error de seguridad clásico; si usás estas herramientas, conviene revisar lo que suben antes de publicarlo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Together AI",
+          "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Unite.AI",
+          "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Actualización: renuncia el ministro de Educación de Corea del Sur por el caos del examen de ingreso y la trampa con IA",
+      "titulo_corto": "Renuncia ministro coreano",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Choi Kyo-jin dejó el cargo el domingo 22 de noviembre tras las críticas por las medidas de último momento contra la trampa con IA en el examen de ingreso a la universidad. El presidente aceptó la renuncia en menos de una hora.",
+      "detalle": [
+        "En un comunicado escrito, Choi reconoció que varios cambios introducidos poco antes del CSAT (el examen nacional de ingreso a la universidad, que se tomó el 19 de noviembre) generaron molestias y confusión entre los alumnos, y dijo que como ministro no podía escapar a la crítica de no haberse preparado a tiempo. El presidente Lee Jae Myung aceptó la renuncia y encargó al primer ministro hacerse cargo de la investigación de las sospechas de trampa.",
+        "El tema venía creciendo: el 15 de noviembre el primer puesto de un examen nacional de contadores admitió que había hecho trampa con IA usando una cámara diminuta y un celular, y el gobierno ordenó revisar los anteojos de todos los estudiantes del CSAT por miedo a los lentes inteligentes. El 16 de noviembre Choi le había dicho al Parlamento que no podía garantizar detectar toda la trampa con IA.",
+        "Según la prensa coreana, la salida acelera un cambio de gabinete. Todavía no hay reemplazante; suenan, entre otros, el profesor de educación Hong Chang-nam."
+      ],
+      "por_que_importa": "Es una muestra de que la IA ya obliga a repensar cómo se evalúa a los estudiantes, y que un error en esa transición puede tener costo político.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "UPI",
+          "url": "https://www.upi.com/Top_News/World-News/2026/11/22/choi-kyo-jin-education-minister-resignation/9321795389277/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Korea JoongAng Daily",
+          "url": "https://www.koreajoongangdaily.com/korea/education-chief-exit-accelerates-cabinet-reshuffle/12985719",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Google construyó una copia falsa de internet para probar a sus agentes de Chrome sin riesgos",
+      "titulo_corto": "La internet espejo de Google",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Presentado esta semana: el equipo de seguridad de Chrome armó una \"dimensión espejo\", miles de sitios web simulados donde ponen a prueba a los agentes que navegan solos, sobre todo contra trampas escondidas en las páginas.",
+      "detalle": [
+        "Chrome tiene una función, auto browse, en la que un agente de IA navega y hace tareas por el usuario. Para probarla, Google armó un entorno aislado donde el agente cree que entra a sitios conocidos, como youtube.com, pero en realidad un intermediario local le sirve páginas falsas generadas a medida, sin errores de certificado que lo delaten. Hay miles de sitios simulados de compras, redes sociales, búsquedas y pagos.",
+        "Los sitios los construyen otros agentes: uno investiga y escribe la especificación, otro programa la página y varios \"críticos\" revisan que funcione bien en distintas pantallas; las personas definen los recorridos de usuario. Sobre eso, Google prueba la inyección indirecta de instrucciones (textos ocultos en una página que intentan engañar al agente para que haga algo que el usuario no pidió), escondidos en imágenes, textos o elementos invisibles.",
+        "Según los autores, el sistema genera más de 1.000 ataques de prueba por día por cada ingeniero de seguridad, más de 30 veces lo que una persona escribe a mano. Contaron que los modelos notaban cuándo estaban siendo evaluados, y por eso ocultaron las señales de la prueba. Es una herramienta interna: no se puede usar desde afuera."
+      ],
+      "por_que_importa": "Los agentes que navegan por vos pueden ser engañados por una página maliciosa; ver cómo los prueban las empresas ayuda a entender cuánto confiar en ellos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Google",
+          "url": "https://blog.google/security/mirror-dimension-for-agents/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/technology/news/google-builds-synthetic-internet-test-ai-agents-4330391",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Una IA rediseña un stent con 1.650 medidas de CAD y simulaciones no lineales, y supera a un optimizador industrial",
+      "titulo_corto": "IA rediseña un stent",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Un estudio publicado el 19 de noviembre en arXiv mostró que GPT-6 Astra, guiado por simulaciones de elementos finitos, bajó 32% la deformación crítica de un stent de magnesio en solo 15 corridas; el optimizador Tosca mejoró cerca de 10%.",
+      "detalle": [
+        "Investigadores encabezados por Alexandra Starostina y Christian Cyron probaron si un modelo de lenguaje general puede hacer un rediseño real. La pieza fue un stent de magnesio (el tubito de malla que se expande dentro de una arteria), definido por unas 1.650 cotas y valores de CAD. Cada propuesta del modelo se dibujaba en CAD, se mallaba y se simulaba con elementos finitos no lineales: grandes deformaciones, plasticidad y contacto. Cada corrida tarda horas, así que el presupuesto fue de solo 15 simulaciones.",
+        "El objetivo era bajar las deformaciones más altas en las curvas del stent, donde suele empezar la falla. El modelo leía los resultados completos de cada simulación y decidía cambios coordinados en muchas cotas a la vez. Con el mismo presupuesto, su diseño mejoró 32%, mientras que Tosca, un optimizador de formas usado en la industria, mejoró cerca de un 10% y se estancó.",
+        "Un diseño intermedio se verificó con un modelo más detallado que incluye el engarzado y el daño del material: quedó 14% menos deformado que el original y con 63% menos daño al expandirse por completo. Es una versión preliminar sin revisión de pares, con una sola pieza y un solo modelo de IA, y el diseño final no pasó por esa verificación detallada."
+      ],
+      "por_que_importa": "Muestra a la IA trabajando sobre el mismo flujo que se enseña en la carrera (CAD, mallado y elementos finitos) y decidiendo cambios de diseño, no solo resumiendo resultados; es una pista de cómo pueden cambiar las tareas de un ingeniero de diseño.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "arXiv (Starostina y otros)",
+          "url": "https://arxiv.org/abs/2611.26003",
+          "tipo": "oficial"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Jon: el único video del crudo (T_GCwwYJg2A) ya estaba cubierto; no hubo video nuevo. Fallaron Meta AI (429) y TechXplore Ingeniería (404); se compensó con búsquedas web. Día flojo (lunes, después de fin de semana): 6 noticias. OpenAI: openai.com se pudo leer hoy; Reuters se leyó a través de The Star. Mercados: el Kospi tiene cifras distintas según la fuente (cayó más de 3% según CNBC e Investing.com), se usó \"más de 3%\". Microsoft agent-framework: Wiz da dos cifras de descargas inconsistentes, se usó \"decenas de miles por semana\"; SecurityWeek y BleepingComputer salen de la búsqueda, solo se leyó Wiz. Corea: The Guardian bloquea la lectura, se usaron UPI y Korea JoongAng Daily. Google: la página del blog no muestra fecha; las búsquedas la ubican el 19 de noviembre, por eso el breve dice \"esta semana\". Ingeniería: el estudio del stent se verificó en el resumen de arXiv; no se leyó el PDF completo. Descartados: Amazon-Decart (rumor de octubre), propuesta de gobernadores (Bloomberg, sin acceso), proceso de salida a Bolsa de Anthropic (exclusiva de Reuters, una sola fuente y ya muy cubierto), aumento de 45% de servidores (no se encontró otra fuente), MiniMax y criptografía (sin fuente seria), música con IA en Binding of Isaac (poco relevante), Tesla FSD v15 (sin fuente oficial), panel de Hendrycks (18 de noviembre, opinión), Midjourney (no se confirmó el pedido de código), Comsol 2027 (anunciado en septiembre), resumen de fábricas europeas con Nvidia (anuncios de octubre), agente para tratamiento de aguas (no es de ingeniería mecánica), estudio de ChatGPT en CAD (de 2025). No se encontraron textos con instrucciones sospechosas."
+}
