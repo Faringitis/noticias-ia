@@ -1,0 +1,223 @@
+{
+  "fecha": "2026-11-24",
+  "intro": "Jensen Huang vuelve a dirigir Nvidia con el empujón de Trump y la acción vive su mejor día en dos décadas. Además: Anthropic deja que Claude apruebe cambios de código, dos estados demandan a SpaceX por Grok y Amazon compra tecnología de Decart.",
+  "noticias": [
+    {
+      "titulo": "Actualización: Jensen Huang vuelve como CEO de Nvidia tras la intervención de Trump y la acción sube 31%",
+      "titulo_corto": "Huang vuelve a Nvidia",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El directorio de Nvidia devolvió por unanimidad el cargo de CEO a Jensen Huang, menos de dos semanas después de su renuncia. Trump dijo que él convenció a la junta, y la acción cerró con una suba de 31,48%.",
+      "detalle": [
+        "El lunes 23 de noviembre, la junta de Nvidia votó por unanimidad que Jensen Huang, cofundador de la empresa en 1993, vuelva a ser CEO y presidente. Había renunciado a mediados de mes tras admitir relaciones extramatrimoniales, una de ellas con una mujer que el gobierno de EE. UU. sospecha que es una espía china. Colette Kress, que era CEO interina, vuelve a su puesto de directora financiera.",
+        "El giro fue rápido: días antes, el presidente del directorio, Harvey Jones, había dicho que no pensaban recontratarlo y la empresa ya buscaba reemplazo. Según TechCrunch, la junta dijo que consultó a altos funcionarios del gobierno y concluyó que Huang no es un riesgo para la seguridad nacional. Semafor informó que Trump se sumó por teléfono a una reunión del directorio, y el propio Trump le dijo a CNBC: \"Hablé con ellos... y los convencí\".",
+        "El mercado lo festejó: la acción cerró a US$165,05, con una suba de 31,48%, su mejor día en más de veinte años. Según El País, citando al Financial Times, Nvidia ganó unos US$952.000 millones de valor en un día, un récord para cualquier empresa. Aun así, sigue por debajo del precio que tenía antes de la renuncia.",
+        "El caso no está cerrado. Huang debe declarar el 1 de diciembre a puertas cerradas ante tres comités de la Cámara de Representantes, y TechCrunch informa que también habrá una audiencia pública en el Comité Bancario del Senado, que tiene a su cargo los controles de exportación de chips."
+      ],
+      "por_que_importa": "Nvidia fabrica la mayoría de los chips con los que se entrena la IA, y su acción mueve a toda la Bolsa: lo que pase con su conducción afecta el precio y la disponibilidad de la IA que usamos.",
+      "jon_opina": null,
+      "jon_segundo": 64,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/", "tipo": "medio"},
+        {"nombre": "TechCrunch: el rol de Trump", "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/", "tipo": "medio"},
+        {"nombre": "TechCrunch: declaración en el Senado", "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-24/nvidia-gana-952000-millones-de-dolares-en-valor-en-bolsa-nuevo-record-historico-en-un-dia.html", "tipo": "medio"},
+        {"nombre": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Anthropic lanza Claude Ship: agentes que revisan, corrigen y hasta aprueban cambios de código",
+      "titulo_corto": "Claude Ship de Anthropic",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Claude Ship junta varias herramientas para equipos de software: Claude revisa cada cambio propuesto, arregla pruebas que fallan y puede aprobar los cambios de rutina según reglas que escribe el propio equipo.",
+      "detalle": [
+        "Anthropic presentó el 23 de noviembre Claude Ship, un conjunto de agentes para la etapa en la que un cambio de código se revisa antes de sumarse al proyecto (lo que en GitHub se llama pull request). Tiene cuatro partes: Code Review, que revisa los cambios y ya está disponible para todos; PR Steward, en beta, que arregla pruebas automáticas que fallan y conflictos entre versiones; Claude Approvals, en beta, que aprueba cambios rutinarios; y un comando /ship en Claude Code que hace todo el recorrido.",
+        "Las reglas de aprobación las escribe el equipo en lenguaje común, en un archivo dentro del proyecto, y deciden qué cambios puede aprobar Claude y cuáles necesitan a una persona. Anthropic recomienda empezar en modo observación, en el que Claude solo dice qué haría. PR Steward no aprueba ni fusiona cambios, y después de cada arreglo explica qué tocó y cómo deshacerlo.",
+        "Según la empresa, en su propio equipo de Claude Code los cambios aceptados se multiplicaron por más de dos entre junio y septiembre y los que hubo que revertir bajaron más de 40%, aunque aclara que la revisión automática fue solo una parte del proceso. Está disponible en los planes Team y Enterprise, solo para proyectos en GitHub, y se cobra por uso. Anthropic advierte que puede pasar por alto errores o fallas de seguridad."
+      ],
+      "por_que_importa": "La IA ya escribe mucho código, y el cuello de botella pasó a ser revisarlo. Que una IA pueda aprobar cambios sin una persona es un paso grande en cuánto se le delega a estas herramientas en el trabajo real.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Anthropic", "url": "https://claude.com/resources/articles/introducing-claude-ship", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Oregon y Virginia demandan a SpaceX porque Grok genera imágenes sexuales falsas, incluso de menores",
+      "titulo_corto": "Demandas a SpaceX por Grok",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "Son los primeros estados de EE. UU. que demandan a SpaceX, dueña de xAI y de X, por las imágenes sexuales falsas que crea Grok. La acusan de no poner protecciones básicas y de presentar sus productos como seguros.",
+      "detalle": [
+        "Los fiscales generales de Oregon, Dan Rayfield, y de Virginia, Jay Jones, presentaron demandas separadas pero parecidas en tribunales estatales entre el domingo 22 y el lunes 23 de noviembre. El demandado es SpaceX, que hoy controla xAI (la empresa que hace el chatbot Grok) y la red social X.",
+        "Según CNBC y The Verge, los estados acusan a la empresa de no haber puesto salvaguardas para impedir que los usuarios creen y difundan deepfakes (imágenes falsas hechas con IA) de contenido sexual de personas reales, incluido material de abuso sexual infantil. También sostienen que SpaceX engañó al público al describir a Grok y a X como seguros, cuando X admite usuarios desde los 13 años. Se basan en las leyes de defensa del consumidor de cada estado.",
+        "Piden que un juez obligue a poner controles más estrictos, además de multas civiles y la devolución de ganancias; Virginia también reclama compensaciones para los consumidores. Un vocero de SpaceX respondió que, cuando alguien intenta saltear sus protecciones, la empresa suspende cuentas y avisa a la policía. La empresa ya enfrenta otras investigaciones en Reino Unido, España, Irlanda, Francia y California."
+      ],
+      "por_que_importa": "Es el primer intento judicial de estados de EE. UU. de hacer responsable a una empresa de IA por lo que generan sus usuarios. Lo que decidan los jueces puede marcar qué controles deben tener los generadores de imágenes.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html", "tipo": "medio"},
+        {"nombre": "The Verge", "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit", "tipo": "medio"},
+        {"nombre": "Wired", "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Amazon compra la tecnología de Decart para exprimir sus chips de IA antes de venderlos a otras empresas",
+      "titulo_corto": "Amazon compra Decart",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Amazon se queda con el software de optimización de Decart y con sus fundadores e investigadores. Según Bloomberg, paga unos US$7.500 millones. Lo quiere para que sus chips Trainium compitan con los de Nvidia.",
+      "detalle": [
+        "Amazon confirmó el 23 de noviembre que adquiere el Decart Optimization Stack, un software que hace que los modelos de IA corran de forma más eficiente en distintos chips (de Nvidia, de Google y de la propia Amazon), y que suma a los tres fundadores de Decart y a su equipo. No dio el precio: los US$7.500 millones los informó Bloomberg citando a una fuente. El acuerdo todavía necesita aprobación de los reguladores.",
+        "Amazon no compra los modelos de Decart, como Oasis, que genera mundos virtuales interactivos, ni Lucy, que edita video en tiempo real. La operación pasa por Annapurna Labs, la división que diseña sus chips. Según el diario israelí Globes, citado por GeekWire, los fundadores tienen cerca del 64% de Decart y se comprometieron a quedarse cinco años.",
+        "El contexto es la pelea con Nvidia: Amazon usa sus chips Trainium en sus propios centros de datos y se prepara para venderlos a otras empresas. \"Cada salto en la IA empieza por sacarle más a cada chip\", dijo Peter DeSantis, vicepresidente de Amazon a cargo de chips y modelos."
+      ],
+      "por_que_importa": "Si Amazon logra que sus chips sean una alternativa real a Nvidia, puede bajar el costo de entrenar y usar IA, que hoy depende casi de un solo proveedor.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/", "tipo": "medio"},
+        {"nombre": "GeekWire", "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Actualización: el ciberataque con IA a la Comisión Europea filtró datos de usuarios de su plataforma de cursos",
+      "titulo_corto": "Filtración en la UE",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "La Comisión Europea avisó que nombres y correos de usuarios de EU Academy, su plataforma de cursos abierta al público, se filtraron en el ataque hecho con herramientas de IA que había confirmado la semana pasada.",
+      "detalle": [
+        "El lunes 23 de noviembre, el vocero de la Comisión Europea Thomas Regnier confirmó que EU Academy, el sitio donde la Comisión ofrece cursos sobre políticas europeas a personas de afuera de sus instituciones, sufrió una filtración de nombres y direcciones de correo. El sitio quedó desactivado y se pidió a los usuarios que desconfíen de correos sospechosos. El tamaño exacto de la filtración sigue en investigación.",
+        "Es parte de la campaña de ataques detectada el 22 de octubre, que la Comisión reconoció hace una semana como el primer ciberataque hecho con herramientas de IA que admite públicamente. Regnier no quiso decir si el ataque ya está bajo control ni quién está detrás.",
+        "Según AP, CERT-EU (el equipo que cuida la seguridad informática de las instituciones europeas) consideró \"muy probable\" que se haya usado Artex en ataques contra su ámbito, aunque no lo atribuyó oficialmente a este caso. Artex es una herramienta de IA que busca y explota fallas de seguridad por su cuenta, sobre la que el FBI ya había alertado."
+      ],
+      "por_que_importa": "Muestra que los ataques automatizados con IA ya llegan a datos de personas comunes. Si alguna vez te registraste en un sitio de la UE, conviene desconfiar de correos que pidan datos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "AP (vía WSLS)", "url": "https://www.wsls.com/tech/2026/11/23/european-commission-warns-eu-academy-users-of-data-leak-after-ai-driven-cyberattack/", "tipo": "medio"},
+        {"nombre": "The Washington Post", "url": "https://www.washingtonpost.com/business/2026/11/23/european-commission-cyberattack-website-artex-ai/43bdb410-e741-11f1-8db0-6f1e3c389e7c_story.html", "tipo": "medio"},
+        {"nombre": "Xataka", "url": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "OpenAI y Cisco presentan Shirudo, un \"escudo\" abierto para frenar ataques mientras llegan los parches",
+      "titulo_corto": "Shirudo: OpenAI y Cisco",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Shirudo es un programa gratuito y de código abierto para Linux que permite que agentes de IA escriban protecciones temporales contra una falla de seguridad, sin reiniciar el sistema, hasta que se instale el parche definitivo.",
+      "detalle": [
+        "OpenAI y Cisco presentaron el 23 de noviembre Shirudo (\"escudo\" en japonés). Cada protección, llamada shield, es un programa chico que bloquea justo el comportamiento que necesita una falla para ser aprovechada. Usa eBPF, una función de Linux que permite meter código en puntos del sistema operativo mientras sigue funcionando.",
+        "Un operador humano tiene que aprobar cada escudo antes de activarlo, y los escudos van firmados digitalmente y se verifican antes de cargarse. En una prueba de los desarrolladores, Codex (el agente de programación de OpenAI) generó un escudo que frenó un intento de ataque contra un servidor Elasticsearch en funcionamiento, sin apagarlo.",
+        "Está basado en Tetragon, una herramienta de seguridad de Isovalent, empresa que Cisco compró en 2024. Está publicado en GitHub, pero para usarlo en producción hace falta un núcleo de Linux con parches propios de Shirudo y un chip de seguridad TPM 2.0, así que por ahora apunta a equipos especializados."
+      ],
+      "por_que_importa": "La IA está encontrando fallas más rápido de lo que las empresas llegan a parcharlas. Herramientas como esta buscan ganar tiempo sin dejar servicios fuera de línea.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/introducing-shirudo", "tipo": "oficial"},
+        {"nombre": "Isovalent (Cisco)", "url": "https://isovalent.com/blog/post/cisco-openai-shirudo", "tipo": "oficial"},
+        {"nombre": "Help Net Security", "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Google DeepMind usa equipos de agentes de IA para acelerar algoritmos cuánticos, con pruebas matemáticas",
+      "titulo_corto": "DeepMind: algos cuánticos",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "Equipos de agentes con Gemini 4 mejoraron algoritmos cuánticos para simular fusión nuclear y moléculas: en un caso bajaron el costo 11,8 veces. Cada mejora se comprobó con un verificador matemático formal.",
+      "detalle": [
+        "Google DeepMind publicó el 23 de noviembre un trabajo en el que equipos de agentes basados en Gemini 4 buscaron mejoras a algoritmos cuánticos ya conocidos. Cada problema tenía su propio equipo, y cada cuatro horas los equipos hacían una especie de congreso virtual para compartir ideas.",
+        "Como estos circuitos no se pueden probar en computadoras normales ni en las cuánticas actuales, cada idea tenía que demostrarse en Lean, un programa que verifica demostraciones matemáticas, antes de aceptarse. Los resultados: un cálculo para fusión por confinamiento inercial costó 11,8 veces menos y necesitó 4.338 qubits corregidos en vez de 5.650; la simulación de una molécula sensible a la luz salió 8 veces más barata; y la de una enzima del metabolismo de fármacos mejoró 2,5 veces, con 333 qubits en vez de 481.",
+        "Los propios autores aclaran que esas simulaciones todavía necesitarían más recursos de los que tendrán las primeras computadoras cuánticas con corrección de errores, y que las personas siguen eligiendo los problemas y supervisando a los agentes. Publicaron el código y las soluciones verificadas en GitHub."
+      ],
+      "por_que_importa": "Es un ejemplo concreto de IA haciendo ciencia con controles: los agentes proponen y un verificador matemático evita que se cuelen errores, algo clave cuando no hay forma de probar en un experimento.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "El Modo IA del buscador de Google ya puede usar tus datos de Wallet, y pronto los de Drive",
+      "titulo_corto": "Google: Modo IA personal",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Google suma Wallet a la función que personaliza las respuestas del Modo IA con tus datos, y anuncia que en las próximas semanas llegarán Drive y la app de Gemini. Es opcional y se activa app por app.",
+      "detalle": [
+        "Google anunció el 23 de noviembre que la Inteligencia Personal del Modo IA (la versión conversacional del buscador) ya puede conectarse a Google Wallet para mostrar en qué gastás, sugerir cómo ahorrar o sacar más provecho de las tarjetas. Google aclara que puede leer esos datos pero no mover ni invertir dinero.",
+        "En las próximas semanas sumará Google Drive, para usar documentos, planillas y PDF como contexto, y la app de Gemini, de modo que lo que charles en un lado siga en el otro. Ya funcionaba con Gmail, Calendar y Fotos. Cada conexión se activa por separado en la configuración de personalización de la búsqueda, y un ícono debajo de cada respuesta mostrará qué datos usó.",
+        "El anuncio no dice en qué países ni idiomas está disponible."
+      ],
+      "por_que_importa": "Las IA se vuelven más útiles cuanto más saben de vos, pero eso implica darles acceso a datos sensibles como tus gastos. Conviene saber que es opcional y se puede apagar.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Google", "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/", "tipo": "oficial"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Un experimento con estudiantes de mecánica muestra que ChatGPT los hizo más lentos en tareas de CAD puro",
+      "titulo_corto": "ChatGPT y CAD: estudio",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Publicado el 26 de octubre: en la Universidad de Zagreb, parejas de estudiantes modelaron un cigüeñal en CAD con y sin ChatGPT. Con ChatGPT fueron menos eficientes en el modelado, aunque ayudó algo en diseño para forja.",
+      "detalle": [
+        "Investigadores de la Facultad de Ingeniería Mecánica de la Universidad de Zagreb (Croacia) publicaron en la revista Design Science un experimento con 44 estudiantes de ingeniería mecánica, en 22 parejas. La mitad trabajó con ChatGPT y la otra mitad sin él, en Onshape, un CAD colaborativo en la nube. Tenían tres tareas: copiar el modelo de un cigüeñal, armar el conjunto pistón, biela, carcasa y cigüeñal, y rediseñar el cigüeñal para fabricarlo por forja.",
+        "En las tareas de CAD puro, las parejas con ChatGPT rindieron menos. Al modelar el cigüeñal, su eficiencia (cuánto del modelo completaban por minuto) fue menos de la mitad que la de las parejas sin IA, y en el ensamble hicieron unas 15,6 operaciones por minuto contra 24,2. En cambio, en el rediseño para forja, que pide conocimiento de ingeniería, las parejas con ChatGPT fueron algo más eficientes, aunque esa diferencia no fue concluyente.",
+        "Los autores aclaran que es un estudio exploratorio, con pocos participantes y con un uso obligado de ChatGPT en cada decisión. Concluyen que la IA no ayuda automáticamente y que hay que aprender cuándo y cómo consultarla para que complemente al diseñador."
+      ],
+      "por_que_importa": "Para un estudiante que usa SolidWorks, la lección es práctica: parar a cada rato para consultar a ChatGPT puede hacerte perder tiempo en el modelado, mientras que para dudas de diseño y fabricación puede aportar más.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Design Science (Cambridge University Press)", "url": "https://www.cambridge.org/core/journals/design-science/article/artificial-intelligence-support-in-synchronous-collaborative-cad-activities-taskdependent-effects-and-methodological-implications/D76B42D6EC05ED6137F0F2030C440A3A", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Un robot de la TUM aprende a reconocer lo que no sabe hacer: se detiene y pide ayuda",
+      "titulo_corto": "Robot que pide ayuda",
+      "categoria": "Robótica",
+      "veracidad": "oficial",
+      "breve": "Investigadores de la Universidad Técnica de Múnich crearon un modelo de IA que evalúa si puede hacer una tarea. Si duda, frena y espera que una persona lo guíe, y aprende habilidades nuevas sin olvidar las anteriores.",
+      "detalle": [
+        "Un equipo de la Universidad Técnica de Múnich (TUM), liderado por Angela Schoellig, desarrolló un modelo VLA (visión, lenguaje y acción: entiende órdenes habladas, mira con cámaras y mueve el brazo) basado en modelos de lenguaje chicos, como PaliGemma de Google, para que responda rápido.",
+        "La novedad es que el robot calcula si puede hacer lo que se le pide. Si no está seguro, se detiene y espera que una persona le muestre el movimiento. Con esos datos se reentrena solo en las situaciones dudosas, lo que según los autores reduce hasta 20% el entrenamiento necesario. Cada habilidad nueva se guarda en un módulo aparte (un adaptador), así no pisa lo que ya sabía.",
+        "Lo probaron en cinco tareas reales de manipulación con objetos de distintas formas, pesos y movimientos, y lo publicaron en IEEE Robotics and Automation Letters. Las limitaciones: a veces los movimientos aprendidos no son lo bastante precisos, depende de que haya una persona para ayudar y la cantidad de módulos puede crecer mucho."
+      ],
+      "por_que_importa": "Un robot que sabe cuándo frenar es más seguro para trabajar cerca de personas en una planta, y aprender sin olvidar es uno de los grandes problemas de la robótica con IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "TechXplore", "url": "https://techxplore.com/news/2026-11-robot-limitations.html", "tipo": "medio"},
+        {"nombre": "IEEE Robotics and Automation Letters (DOI)", "url": "https://doi.org/10.1109/lra.2026.3693992", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "mAxH12u54-k", "titulo": "NOTICIAS IA: ¡Gemini 4 Neon es una salvajada! Google supera todas las expectativas", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "El repaso semanal de Jon, centrado en Gemini 4 Neon, que según él marca la remontada de Google, más la supuesta prueba de la hipótesis de Riemann con Claude y una ola de problemas de ciberseguridad ligados a la IA.",
+    "explicacion": [
+      "Según la descripción del video, Jon arranca con la noticia de último momento de la vuelta de Jensen Huang a Nvidia. Después dedica el bloque más largo a Gemini 4 Neon: lo describe como una \"salvajada\" y dice que Google está haciendo \"la remontada del siglo\". Entre los links cita la medición de Artificial Analysis, un sitio que compara modelos de forma independiente, bajo el título \"Neon supera a Carbon\", es decir, al modelo más grande de la propia Google.",
+      "Luego habla de la hipótesis de Riemann: según el video, al parecer se resolvió con ayuda de Claude, pero comprobarlo llevará meses. También repasa Tasks, el agente de Gemini que hace trámites por vos.",
+      "El otro eje es la ciberseguridad. Jon plantea que empieza la era de los ataques autónomos y que la IA está encontrando miles de fallas, pero que los errores humanos al arreglarlas están provocando caídas de servicios. Para eso enlaza notas sobre una caída de comunicaciones de seguridad nacional en EE. UU., un frenazo de vuelos ordenado por la FAA, caídas de servicios bancarios y la presión que la cantidad de fallas encontradas por IA pone sobre Microsoft.",
+      "Cierra con modelos nuevos: Qwen 4 Max y GLM 5.4, Inkling 2 Mini y los looped transformers (modelos que pasan varias veces por las mismas capas en lugar de sumar capas nuevas), los avatares en tiempo real de Nuance Labs y ARGOS 29N, una herramienta que verificó afirmaciones del debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo. La descripción no da más detalles de esas partes."
+    ],
+    "puntos_clave": [
+      {"texto": "Jon abre con la vuelta de Jensen Huang a Nvidia como noticia de último momento.", "segundo": 64},
+      {"texto": "Según Jon, Gemini 4 Neon es la remontada de Google, y cita que en Artificial Analysis supera a Gemini 4 Carbon.", "segundo": 116},
+      {"texto": "La hipótesis de Riemann se habría resuelto con ayuda de Claude, pero verificarlo llevará meses.", "segundo": 606},
+      {"texto": "Según el video, la IA encuentra miles de fallas de seguridad y los errores humanos al parcharlas provocan caídas de servicios.", "segundo": 966},
+      {"texto": "Jon dedica un bloque a Inkling 2 Mini y a los looped transformers, una forma distinta de diseñar modelos.", "segundo": 1312},
+      {"texto": "ARGOS 29N se presenta como una herramienta para verificar lo que se dice en un debate político.", "segundo": 1810}
+    ]
+  },
+  "notas_internas": "Recolección con 1 error: TechXplore Ingeniería (404). Búsquedas web generales de 'AI news today' no trajeron resultados del día; se usaron para verificar. arstechnica.com, wired.com, elpais.com, theverge.com y openai.com bloquearon la lectura: se usó el texto del feed y otros medios. Huang: cifra de US$952.000 millones según El País (feed) citando al FT; cierre +31,48% en Motley Fool; fecha de la audiencia en el Senado difiere entre notas de TechCrunch (3 de diciembre en una, sin fecha en otra), por eso no se puso fecha. Grok: CNBC dice que Oregon presentó el domingo y Virginia el lunes. Decart: precio solo de Bloomberg vía TechCrunch y GeekWire; no se encontró el post de Amazon. Shirudo: openai.com bloqueado, verificado en Isovalent (Cisco) y Help Net Security. Estudio CAD: verificado en la revista (Design Science, 26/10); la nota del crudo venía de Bioengineer.org. Video de Jon sin resumen Plaud: base descripcion; se omitió el segmento de publicidad del AcademIA Club. Descartados: Gemini 4 Neon y Tasks (cubiertos el 18-19/11), Qwen4-Max (16/11), Riemann (21-22/11, sin novedad), GLM-5.4 (una sola fuente, sin datos), Godela Godel-1 (Forbes bloqueado, cifras solo de la empresa), Ati/SimScale (no queda claro el rol de la IA), Sierra (ronda de inversión), exclusiva de Reuters sobre bancos (sin acceso a la nota). No se encontraron textos con instrucciones sospechosas."
+}
