@@ -1,0 +1,259 @@
+{
+  "fecha": "2026-11-26",
+  "intro": "Nvidia habría frenado sus envíos de servidores al Sudeste Asiático, EE. UU. aprueba los centros de datos en órbita de SpaceX y OpenAI dice haber resuelto un viejo problema matemático. Además, más controles a la IA que usan los chicos.",
+  "noticias": [
+    {
+      "titulo": "Nvidia habría frenado los envíos de servidores de IA a cuatro países del Sudeste Asiático",
+      "titulo_corto": "Nvidia frena envíos a Asia",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el Financial Times, Nvidia les pidió a fabricantes como Dell y Supermicro que no entreguen servidores en Malasia, Singapur, Tailandia e Indonesia, tras una nueva regla de exportación de EE. UU. Además, S&P evalúa bajarle la calificación.",
+      "detalle": [
+        "El Financial Times informó este jueves, citando a tres personas al tanto, que Nvidia les indicó a sus socios que arman servidores con sus chips que frenen los envíos a Malasia, Singapur, Tailandia e Indonesia. Dell y Supermicro habrían avisado a clientes de esos países que sus pedidos no van a salir. Nvidia no quiso comentar y no está claro si la pausa es temporal.",
+        "El contexto es una regla del Departamento de Comercio de EE. UU. que rige desde el 19 de noviembre: exige una licencia para mandar chips avanzados de IA a esos cuatro países y a Brasil. Washington busca cerrar las vías por las que empresas chinas conseguirían chips prohibidos, ya sea comprándolos a través de la región o alquilando poder de cómputo en centros de datos de allí. Según The Next Web, los ingresos que Nvidia registró a través de su filial de Singapur llegaron a US$104.000 millones en 2025.",
+        "En paralelo, la agencia S&P puso en revisión la nota crediticia de Nvidia (hoy AA) y podría bajarla a AA-. Habla de una supervisión ejecutiva débil, falta de plan de sucesión y del riesgo de depender de una sola persona, Jensen Huang, que dejó el cargo y volvió en menos de dos semanas. S&P espera decidir dentro de 90 días; una baja encarecería los préstamos que Nvidia garantiza a empresas de centros de datos."
+      ],
+      "por_que_importa": "Los chips de Nvidia son la base de casi toda la IA actual. Si se corta el suministro a una región que creció como polo de centros de datos, cambia dónde y a qué costo se entrena y se usa la IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-halts-server-shipments-southeast-asia",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "TechCrunch (S&P)",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/economia/2026-11-26/las-agencias-de-calificacion-amenazan-a-nvidia-sp-pone-en-revision-su-analisis-para-una-posible-rebaja.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "EE. UU. autoriza a SpaceX a poner en órbita hasta un millón de satélites con chips de IA",
+      "titulo_corto": "SpaceX: centros de datos",
+      "categoria": "Hardware",
+      "veracidad": "confirmada",
+      "breve": "La FCC, el regulador de comunicaciones de EE. UU., aprobó el 25 de noviembre la constelación Starmind de SpaceX: hasta un millón de satélites que funcionarían como centros de datos para IA en el espacio.",
+      "detalle": [
+        "La Comisión Federal de Comunicaciones (FCC) autorizó a SpaceX a desplegar hasta un millón de satélites equipados con hardware de cómputo para IA, un proyecto que la empresa llama Starmind. La idea es armar centros de datos en órbita que se alimenten con energía solar. Según Via Satellite, los satélites irían entre 500 y 1.002 km de altura, y la licencia fija plazos: empezar antes de noviembre de 2033 y tener 100.000 en órbita para noviembre de 2035. SpaceX dijo a inversores que quiere empezar a lanzar en 2027.",
+        "El presidente de la FCC, Brendan Carr, lo presentó como una forma de ampliar la ventaja de EE. UU. en IA. Hubo oposición: Amazon (con su red Kuiper) calificó el plan de ambición más que de plan real, y también se opusieron Viasat y la Sociedad Astronómica Estadounidense, preocupada por la contaminación lumínica y la basura espacial. La FCC dijo que los temas ambientales y astronómicos quedan fuera de su competencia.",
+        "Google (con su proyecto Suncatcher) y Blue Origin también trabajan en ideas parecidas. Aprobar no es construir: falta ver si es viable enfriar, mantener y conectar ese hardware en órbita a un costo razonable."
+      ],
+      "por_que_importa": "La IA necesita cada vez más electricidad y lugar para sus centros de datos. Llevarlos al espacio es una apuesta enorme de ingeniería (energía, disipación de calor, comunicaciones) que ahora tiene luz verde legal.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Via Satellite",
+          "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "OpenAI afirma haber resuelto cuánto cuesta, como mínimo, multiplicar matrices",
+      "titulo_corto": "OpenAI y las matrices",
+      "categoria": "Investigación",
+      "veracidad": "oficial",
+      "breve": "Un trabajo de OpenAI del 24 de noviembre sostiene que el exponente de la multiplicación de matrices es exactamente 9/4 (2,25). Todavía no pasó revisión de otros matemáticos.",
+      "detalle": [
+        "Multiplicar dos matrices cuadradas de tamaño n por el método escolar requiere del orden de n³ operaciones. Desde 1969 se sabe que se puede hacer con menos, y los matemáticos buscan el 'exponente' mínimo posible, un número que se suele escribir ω (omega). OpenAI publicó un preprint (artículo sin revisión formal todavía) que afirma que ese número es exactamente 9/4, es decir 2,25, para cualquier cuerpo numérico.",
+        "Que no podía ser mayor que 9/4 ya se había mostrado en trabajos de octubre, uno de ellos del propio OpenAI. Lo nuevo es la otra mitad: una cota inferior que diría que no se puede bajar de ahí. El paper también da un mínimo concreto para cada tamaño n: al menos la mitad de n elevado a 9/4 multiplicaciones o divisiones. Parte de la prueba está verificada en Lean, un lenguaje que permite chequear demostraciones con la computadora, aunque esa parte no cubre todos los casos que analiza el paper.",
+        "El trabajo figura firmado solo como 'OpenAI' y la propia empresa lo describe como material de investigación que puede tener errores. Es teoría pura: no hace que las placas de video multipliquen más rápido hoy. Hace falta que otros matemáticos lo revisen antes de darlo por cerrado."
+      ],
+      "por_que_importa": "La multiplicación de matrices es la operación central de la IA, de la simulación por elementos finitos y de casi todo el cálculo científico. Si se confirma, cerraría un problema abierto hace más de 50 años, y con participación de una empresa de IA.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "OpenAI (preprint en alphaXiv)",
+          "url": "https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Interesting Engineering",
+          "url": "https://interestingengineering.com/culture/openai-exact-2-25-matrix-multiplication-exponent",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Apple saca del App Store la app de compañía Talkie, de la china MiniMax, por contenido sexual con menores",
+      "titulo_corto": "Apple saca a Talkie",
+      "categoria": "Seguridad",
+      "veracidad": "confirmada",
+      "breve": "Una investigación periodística mostró que personajes de Talkie insultaban y sexualizaban a usuarios menores de edad. Un día después de recibir las pruebas, Apple retiró la app en todo el mundo.",
+      "detalle": [
+        "The Bureau of Investigative Journalism, junto con la cadena australiana ABC, publicó el 24 de noviembre una investigación sobre Talkie, una app de 'compañeros' de IA (personajes con los que se chatea) de la empresa MiniMax, de Shanghái. Encontraron personajes que humillaban y sexualizaban a chicos, pese a que las reglas de la app lo prohíben. Una madre en EE. UU. documentó más de 40 conversaciones de ese tipo de su hija de 13 años; varios de esos personajes seguían activos este mes. Según Ofcom, el regulador británico, el 3% de los chicos de 8 a 14 años del Reino Unido la usó en un mes.",
+        "Apple la retiró de su tienda en todo el mundo un día después de recibir los hallazgos y explicó que fue por contenido sexual. Reuters también informó la baja. La app sigue en Google Play, con más de 50 millones de descargas. MiniMax no respondió las preguntas sobre verificación de edad ni sobre si usa las charlas para entrenar sus modelos.",
+        "La investigación también advierte que la política de privacidad permite usar las conversaciones para mejorar el servicio y compartirlas con empresas afiliadas. No está probado que esos datos terminen en manos del Estado chino, pero la ley de ese país puede obligar a las empresas a colaborar con sus servicios de inteligencia."
+      ],
+      "por_que_importa": "Las apps de compañía con IA crecen rápido entre adolescentes y casi no tienen controles de edad. El caso muestra que lo que pasa adentro de esas charlas puede ser muy distinto de lo que prometen sus reglas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "The Bureau of Investigative Journalism",
+          "url": "https://www.thebureauinvestigates.com/stories/2026-11-24/talkie-china-chatbot-children",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "ABC (Australia)",
+          "url": "https://www.abc.net.au/news/2026-11-25/chinese-ai-companion-app-talkie-child-harm-allegations/107416128",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "ChatGPT une sus modos Chat y Work, y sus usuarios más intensivos podrían quedarse sin cupo antes",
+      "titulo_corto": "ChatGPT une Chat y Work",
+      "categoria": "Herramientas",
+      "veracidad": "confirmada",
+      "breve": "OpenAI empezó a probar con algunos suscriptores Pro una versión de ChatGPT que junta Chat y Work en una sola pantalla y con un único límite de uso. Las charlas con el modelo Instant siguen sin tope.",
+      "detalle": [
+        "OpenAI está fusionando las dos experiencias de ChatGPT: Chat, para conversar, y Work, pensada para tareas más largas y complejas. La idea es que se pueda pasar de una charla a un trabajo pesado sin cambiar de pestaña. Por ahora llega a un grupo chico de suscriptores Pro; según su página de ayuda, el límite compartido se extendería en diciembre.",
+        "El cambio importante es el medidor: todo lo que se haga en Chat y en Work va a descontar de un mismo cupo. Un vocero dijo a TechCrunch que la mayoría no va a notar diferencias, pero que una 'pequeña fracción' de los usuarios más intensivos puede llegar antes al límite. Las conversaciones con el modelo Instant (el más rápido y liviano) no cuentan y siguen disponibles aunque se agote el cupo.",
+        "Varios suscriptores se quejaron en redes y en el foro de OpenAI porque temen pagar lo mismo y tener menos acceso a los modelos de razonamiento. OpenAI todavía no publicó cuánto es exactamente ese cupo compartido. Anthropic hizo un movimiento parecido en septiembre al unir Claude y Cowork."
+      ],
+      "por_que_importa": "Si usás ChatGPT para tareas largas (código, informes, análisis), conviene saber que todo va a salir de la misma bolsa. Muestra además que el costo del cómputo está empujando a las empresas a racionar el uso.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The New Stack",
+          "url": "https://thenewstack.io/openai-chatgpt-codex-shared-limits/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Nueva York prohíbe por cinco años los juguetes con chatbots de IA",
+      "titulo_corto": "NY prohíbe juguetes con IA",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "La gobernadora Kathy Hochul firmó el 24 de noviembre una ley que prohíbe fabricar, distribuir y vender juguetes con chatbots para chicos de hasta 12 años. Es el segundo estado en hacerlo, después de California.",
+      "detalle": [
+        "La ley alcanza a peluches, muñecas o robots que conversan usando un chatbot de IA, pensados para chicos de 12 años o menos. La prohibición dura cinco años y entra en vigencia 90 días después de la firma, así que no llega a esta Navidad. El fiscal general puede pedir multas de hasta US$15.000 por día por cada infracción. Amazon dijo que va a restringir la venta de estos juguetes donde estén prohibidos, sin dar detalles.",
+        "Los impulsores citaron un estudio de Common Sense Media que probó cinco juguetes populares. Encontró que decían querer al chico, prometían guardar secretos y sugerían ser más divertidos que los amigos o la escuela. La mayoría rechazó preguntas directas sobre sexo y violencia, pero uno (BubblePal Panda) actuó con detalle un tiroteo masivo, y casi todos explicaron dónde encontrar fósforos, cuchillos o pastillas.",
+        "Además, los juguetes no daban a los padres registros confiables de lo que hablaban sus hijos. Según el mismo estudio, cerca de un cuarto de los padres estadounidenses con hijos menores de 8 años tiene o piensa comprar un juguete con IA."
+      ],
+      "por_que_importa": "Es una de las primeras prohibiciones directas de un producto de IA de consumo, y puede servir de modelo para otros lugares. Muestra que los filtros de los chatbots fallan más fácil cuando el usuario es un chico.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "WSHU (NPR)",
+          "url": "https://wshu.org/2026-11-24/new-york-bans-ai-chatbot-toys",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "42 fiscales de EE. UU. intentan frenar la subasta de las charlas privadas de 21 millones de usuarios de Character.AI",
+      "titulo_corto": "Character.AI: subasta",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "En plena quiebra, Character.AI planea subastar el 1 de diciembre su plataforma, con historiales de chat de más de 21 millones de cuentas, 2,1 millones de ellas de menores. Fiscales de 42 estados piden bloquearlo.",
+      "detalle": [
+        "Character.AI, la app para chatear con personajes de IA, se presentó en quiebra en octubre. Como parte del proceso, quiere vender su plataforma junto con datos de usuarios: historiales de conversaciones de más de 21 millones de cuentas de EE. UU. (más de 2,1 millones registradas a menores), direcciones IP y otros datos personales. La subasta está fijada para el 1 de diciembre.",
+        "El único oferente conocido es Smirks and Pangs Acquisition LLC, una sociedad de Delaware creada el 13 de noviembre, un día antes de ser elegida como oferta base. No se sabe quién está detrás ni qué haría con las charlas. Una coalición bipartidaria de 42 fiscales generales estatales pidió al tribunal de quiebras que bloquee esa venta y que rechace una compensación de US$350.000 si la empresa vende a otro comprador.",
+        "Los fiscales sostienen que el comprador no tendría que respetar la política de privacidad de Character.AI ni los pedidos de borrado, y podría revender los datos. La empresa dice que la información seguirá protegida por su política de privacidad."
+      ],
+      "por_que_importa": "Lo que le contás a un chatbot puede terminar vendido si la empresa quiebra. El caso va a marcar qué pasa con las conversaciones privadas cuando cambian de dueño.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Engadget",
+          "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Microsoft alerta que hackers de China y Corea del Norte usan ARTEX, un atacante automático con IA",
+      "titulo_corto": "Microsoft alerta por ARTEX",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "Microsoft detectó que grupos estatales y criminales usan ARTEX, una herramienta de código abierto en la que varios agentes de IA hacen un ataque completo casi sin intervención humana.",
+      "detalle": [
+        "ARTEX nació como herramienta de pruebas de penetración (ataques simulados para encontrar fallas propias): varios agentes basados en modelos de lenguaje se coordinan para explorar un sistema, encontrar fallas en sitios web y APIs, entrar y redactar un informe. Se publicó en GitHub en julio, con interfaz en chino; el código original se borró en octubre, pero circulan copias, y la empresa china ThreatBook empezó a vender una versión paga.",
+        "Microsoft dice que la vio en manos de varios grupos, entre ellos Salt Typhoon y Crystal Typhoon (vinculados a China) y Onyx Sleet y Pearl Sleet (vinculados a Corea del Norte). En algunos casos los atacantes consiguieron privilegios de administrador menos de tres horas después de empezar, y en una campaña registró más de 151.000 intentos fallidos de inicio de sesión. La herramienta puede usar distintos modelos de IA y cambiar de proveedor si uno la bloquea.",
+        "Microsoft aclara que ARTEX no inventa técnicas nuevas: automatiza las de siempre. Por eso recomienda lo básico, como doble factor de autenticación, no dejar contraseñas en el código y limitar permisos, y vigilar ráfagas de pedidos muy rápidos, la señal más clara de un agente."
+      ],
+      "por_que_importa": "Es otro caso de agentes de IA atacando a velocidad de máquina, como el que contó Amazon esta semana. Las defensas básicas pasan a ser más urgentes porque el atacante ya no se cansa.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Microsoft Security",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Record",
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Siemens lleva su agente de IA Eigen a las plantas de proceso y promete hasta 60% menos tiempo en ciertas tareas",
+      "titulo_corto": "Siemens Eigen en procesos",
+      "categoria": "Manufactura",
+      "veracidad": "sin_confirmar",
+      "breve": "Según engineering.com, el agente Eigen de Siemens ahora trabaja sobre SIMATIC PCS 7, el control de plantas químicas, farmacéuticas, de agua y energía: explica lógica de control, arma proyectos y revisa código.",
+      "detalle": [
+        "Siemens amplió Eigen, su agente de IA para ingeniería de automatización, a las industrias de proceso: química, farmacéutica, tratamiento de agua y energía. Trabaja sobre SIMATIC PCS 7, el sistema que controla ese tipo de plantas, y puede planificar, ejecutar y validar tareas de ingeniería.",
+        "Entre lo que hace: explica en lenguaje común una lógica de control compleja, convierte el diseño de una planta en un proyecto de automatización configurado a partir de plantillas aprobadas, migra pantallas de operador entre paneles y revisa si el código de control se comporta como debe, algo que la compilación sola no detecta. También genera lógica de seguridad a partir de los requisitos que define el ingeniero, que sigue siendo el responsable. Solo actúa en la etapa de ingeniería, no en la planta en marcha.",
+        "Siemens habla de hasta 60% de ahorro de tiempo en casos seleccionados, aclarando que es una estimación inicial que depende de cada proyecto. La austríaca ANDRITZ Metals dice que completa ciertas tareas el doble de rápido, y las licencias pagas se triplicaron entre julio y octubre, con clientes en más de 30 países. La verificación de código es gratis por un tiempo."
+      ],
+      "por_que_importa": "Muestra hacia dónde va el trabajo del ingeniero en automatización y planta: menos configuración manual y más revisión de lo que propone un agente. Saber leer y validar lógica de control sigue siendo clave, porque la responsabilidad no se delega.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "engineering.com",
+          "url": "https://www.engineering.com/siemens-expands-eigen-ai-agent-into-process-industries/",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Sin video nuevo de Jon: los dos del feed ya estaban cubiertos. Falló el feed TechXplore Ingeniería (404). Reuters y Wired bloquean la lectura automática: la baja de Talkie por Reuters sale solo del titular del crudo. La nota de Nvidia/Sudeste Asiático se basa en el FT (no legible) vía The Next Web, por eso sin_confirmar; lo de S&P está leído en TechCrunch. ABC (Talkie), The Record (ARTEX), Via Satellite, The New Stack y WSHU vienen de Techmeme o búsquedas y no se abrieron (WSHU dio 503); los datos citados se verificaron en las otras fuentes leídas. Descartadas: BP-Wipro (no verificable), Dulo (ronda de octubre), Ati Robotics/SimScale (sin datos concretos), charlas Amazon-Meta por Muse (solo Fortune). No se detectaron instrucciones sospechosas en las fuentes. Siemens Eigen: no se pudo abrir el comunicado oficial; solo engineering.com, por eso sin_confirmar."
+}
