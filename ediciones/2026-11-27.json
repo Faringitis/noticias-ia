@@ -1,0 +1,178 @@
+{
+  "fecha": "2026-11-27",
+  "intro": "SAP evalúa recortar al menos 10.000 puestos para reorganizarse alrededor de la IA, el Banco de Inglaterra advierte por la deuda del sector y los laboratorios chinos sentirían el freno de EE. UU. Además, una conversación larga de Jon con el economista Tyler Cowen.",
+  "noticias": [
+    {
+      "titulo": "SAP evalúa eliminar al menos 10.000 puestos para reorganizarse alrededor de la IA",
+      "titulo_corto": "SAP y 10.000 despidos",
+      "categoria": "Trabajo y sociedad",
+      "veracidad": "confirmada",
+      "breve": "Según Bloomberg, la alemana SAP, uno de los mayores fabricantes de software para empresas, prepara un plan para recortar al menos 10.000 de sus más de 110.000 empleos. La cifra no es definitiva y la decisión formal llegaría a comienzos de 2027.",
+      "detalle": [
+        "Bloomberg informó el jueves 26 de noviembre, citando a personas al tanto, que SAP les pidió a todas sus áreas que identifiquen dónde se pueden recortar puestos, con foco en desarrollo de producto, ingeniería y ventas. El número de al menos 10.000 equivale a más del 9% de su plantilla. Una persona le dijo al diario alemán Handelsblatt que podrían llegar a 15.000, mientras que otras fuentes hablan de bastante menos; todo depende además de las negociaciones con los sindicatos.",
+        "Un vocero de SAP dijo que la IA está transformando el negocio y que los roles van a seguir cambiando, pero que no hay decisiones tomadas sobre nuevas medidas. La empresa suele anunciar sus reestructuraciones con los resultados anuales, a fines de enero. Al mismo tiempo sigue contratando desarrolladores e investigadores de IA, y este año compró cuatro empresas, entre ellas Reltio y Prior Labs, para reforzar su apuesta por la IA.",
+        "No es la primera vez: en 2024 SAP ya eliminó alrededor de 10.000 puestos, sobre todo con retiros voluntarios y reentrenamiento, en un programa que costó unos €3.000 millones. CNBC recuerda que, según la consultora Challenger, Gray & Christmas, las empresas de EE. UU. citaron a la IA como motivo en 121.401 anuncios de despidos hasta octubre, alrededor del 20% del total."
+      ],
+      "por_que_importa": "Es una de las señales más claras de que las grandes empresas de software usan la IA para reducir personal, incluso en ingeniería. Muestra qué perfiles se recortan y cuáles se siguen buscando.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html", "tipo": "medio"},
+        {"nombre": "Techzine", "url": "https://www.techzine.eu/news/applications/146104/sap-plans-to-cut-at-least-10000-jobs-as-part-of-its-ai-transition/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Los controles de EE. UU. estarían frenando a los laboratorios chinos: Z.ai demoraría su próximo gran modelo",
+      "titulo_corto": "Freno a la IA china",
+      "categoria": "Regulación",
+      "veracidad": "sin_confirmar",
+      "breve": "Según Reuters, las defensas contra la \"destilación\" y la nueva regla de cómputo de EE. UU. retrasan a la IA china: GLM-5.5 de Z.ai, previsto para noviembre, podría salir recién en 2027, y Moonshot también se demoraría.",
+      "detalle": [
+        "Reuters publicó el 26 de noviembre, citando fuentes anónimas, que GLM-5.5, el próximo modelo insignia de Z.ai (también conocida como Zhipu), con unos 3 billones de parámetros (los valores internos que el modelo ajusta al entrenar), estaba previsto para este mes y no salió. Una de las fuentes atribuye parte del atraso a las protecciones contra la destilación, que es entrenar un modelo propio copiando las respuestas de otro más avanzado. Con la nueva regla de EE. UU., el lanzamiento podría pasar al primer trimestre de 2027 o más tarde. Z.ai no anunció ninguna demora.",
+        "La regla, vigente desde el 19 de noviembre, exige licencia para que empresas chinas alquilen grandes cantidades de cómputo con chips avanzados de EE. UU. en centros de datos fuera de China; el umbral equivale a unos 750 chips H100 de Nvidia. Moonshot, que alquila cómputo sobre todo en el exterior, podría pasar de sacar un modelo grande cada seis meses a uno por año, y su Kimi K4 se iría a mediados de 2027.",
+        "Anthropic dijo en septiembre que detectó casi 200 millones de intercambios con Claude ligados a campañas de destilación de desarrolladores chinos, entre ellos Alibaba, Moonshot y Z.ai. Según Reuters, a medida que copiar a Anthropic y OpenAI se volvió más difícil, Moonshot empezó a destilar modelos de Google y Meta. Todo esto sale de una sola fuente periodística y de personas anónimas."
+      ],
+      "por_que_importa": "Los modelos chinos abiertos y baratos son muy usados en todo el mundo. Si se frenan, podría ampliarse la ventaja de EE. UU. y cambiar qué opciones gratuitas o económicas quedan disponibles.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía Taipei Times)", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "El Banco de Inglaterra advierte que la deuda para construir la IA ya es un riesgo para el sistema financiero",
+      "titulo_corto": "Alerta por deuda de la IA",
+      "categoria": "Empresas",
+      "veracidad": "oficial",
+      "breve": "En su informe de estabilidad financiera, el Banco de Inglaterra calcula que las grandes nubes emitirán más de US$305.000 millones en bonos en 2026 y describe esa financiación como cada vez más compleja, circular y opaca.",
+      "detalle": [
+        "El Banco de Inglaterra publicó el 26 de noviembre su informe de estabilidad financiera. Estima que las hiperescaladoras (las gigantes de la nube que construyen centros de datos, como Amazon, Microsoft o Google) van a emitir más de US$305.000 millones en bonos este año, cerca del 8% de toda la deuda de alta calidad emitida en el mundo, y bastante más si se suma al resto de las empresas de infraestructura de IA.",
+        "El banco señala que esa plata llega por bolsa, bonos, crédito privado y estructuras más complejas, y que algunas empresas de IA financian a otras a cambio de compromisos de compra futura. Por eso la describe como cada vez más compleja, circular y opaca: cuesta ver dónde se concentra el riesgo, y un problema en una parte se puede contagiar al resto. También advierte que las valuaciones de las acciones siguen exigentes después de las caídas que siguieron a las elecciones de medio término en EE. UU.",
+        "Además menciona riesgos operativos: los agentes autónomos siguen siendo difíciles de controlar, los modelos abiertos permiten quitar sus protecciones con facilidad, y las caídas recientes de Google Cloud y Microsoft mostraron cómo la falla de un solo proveedor puede afectar a muchas empresas a la vez."
+      ],
+      "por_que_importa": "Si la deuda de la IA se desarma de golpe, el impacto llegaría a bancos, fondos y precios mucho más allá de las tecnológicas. Es un regulador central diciéndolo por escrito.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Bank of England", "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026", "tipo": "oficial"}
+      ]
+    },
+    {
+      "titulo": "Actualización: el proveedor chino que abría los links secretos de los usuarios era MiniMax",
+      "titulo_corto": "MiniMax abría links",
+      "categoria": "Seguridad",
+      "veracidad": "sin_confirmar",
+      "breve": "El investigador de Dragos que puso trampas en 2 millones de mensajes a servicios de IA le dijo a Reuters que el laboratorio chino que abría los links privados era MiniMax. La empresa admite que su sistema los guardaba y abría para buscar amenazas.",
+      "detalle": [
+        "El 19 de noviembre la empresa de ciberseguridad Dragos publicó un experimento: entre julio y noviembre mandó cerca de 2 millones de mensajes con links secretos y credenciales falsas a servicios de IA, y vigiló quién intentaba usarlos. Encontró que un laboratorio chino había abierto los links de más de la mitad de los mensajes enviados a sus modelos, incluidos unos dos tercios de los que pedían expresamente no guardar datos. Ahora HD Moore, jefe de investigación de Dragos, le dijo a Reuters que ese laboratorio es MiniMax.",
+        "Según Reuters, uno de esos links apareció semanas después en un chat de Feishu (la app de mensajería de ByteDance) y se abrió desde Beijing y Shanghái. Después de que el rastreo de links pareció cortarse el 22 de octubre, hubo intentos de descargar repositorios de código privados mencionados en los mensajes; no se sabe quién fue ni si lo logró.",
+        "MiniMax dijo que su sistema de seguridad guardaba los links de mensajes que llegaban por otros proveedores y abría algunos para revisar amenazas, que ya frenó esa práctica, que no guardaba conversaciones completas y que no encontró pruebas de que se filtraran a terceros. No explicó los intentos de descarga ni lo de Feishu. Atlas Cloud, que revendía sus modelos desde Singapur, cortó el servicio y pidió a sus clientes tratar como expuesto cualquier secreto enviado a los modelos M3, M2.7 o M3.1 Flash."
+      ],
+      "por_que_importa": "Muestra que pedir \"no guarden mis datos\" no alcanza cuando un servicio de IA pasa por intermediarios. Nunca conviene pegar contraseñas o links privados en un chatbot.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Reuters (vía The Standard)", "url": "https://www.thestandard.com.hk/innovation/article/349730/Data-from-Chinese-AI-firm-MiniMax-accessed-by-unidentified-parties-researcher-says", "tipo": "medio"},
+        {"nombre": "Dragos", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens", "tipo": "especialista"}
+      ]
+    },
+    {
+      "titulo": "Musk promete dos acciones de SpaceX a cada chico de EE. UU., en plena ofensiva por sus centros de datos de IA",
+      "titulo_corto": "Musk regala acciones",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "Elon Musk anunció que SpaceX y él darán una acción cada uno a todos los menores de EE. UU., unos US$18.000 millones en total. Llega horas después de que se aprobaran sus satélites para centros de datos de IA en el espacio.",
+      "detalle": [
+        "Musk lo anunció el miércoles 26 de noviembre en X: SpaceX va a emitir una acción nueva para cada cuenta activa del programa Trump Accounts (cuentas de inversión para menores de 18 años, de las que la Casa Blanca dijo haber abierto casi 70 millones) y él va a sumar otra de su bolsillo. Con la acción a US$127,44, el cierre de ese día, el total ronda los US$18.000 millones.",
+        "Según Al Jazeera, las acciones de SpaceX se transferirían el mes próximo y las de Musk cuando venza su período de bloqueo, en junio. En otro mensaje Musk dijo que va a donar una acción más a cada chico de EE. UU. todos los años, aunque los detalles no están claros.",
+        "Reuters lo presentó como una ofensiva para ganarse a la opinión pública: el anuncio llegó horas después de que la autoridad de comunicaciones de EE. UU. aprobara el plan de SpaceX de poner en órbita hasta un millón de satélites para centros de datos de IA, y en un momento de rechazo creciente a los centros de datos. La Sociedad Astronómica Estadounidense se dijo \"desalentada y consternada\" por esa aprobación."
+      ],
+      "por_que_importa": "La pelea por la IA ya no es solo técnica: las empresas buscan apoyo político y social para construir su infraestructura, y este gesto es un ejemplo a una escala inédita.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child", "tipo": "medio"},
+        {"nombre": "El País", "url": "https://elpais.com/economia/2026-11-26/musk-dara-dos-acciones-de-spacex-a-cada-nino-de-estados-unidos-en-una-operacion-de-casi-17000-millones.html", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "La mayor generadora eléctrica de Japón negocia con Anthropic y Meta para levantar centros de datos junto a sus centrales",
+      "titulo_corto": "JERA, Anthropic y Meta",
+      "categoria": "Empresas",
+      "veracidad": "sin_confirmar",
+      "breve": "Según el diario Nikkei, JERA conversa con Anthropic y Meta para construir centros de datos al lado de sus centrales en la zona de Tokio. Su presidente dijo que también habla con Amazon, Microsoft y Google.",
+      "detalle": [
+        "JERA, la mayor generadora de electricidad de Japón (creada por TEPCO y Chubu Electric), está en conversaciones con Anthropic y Meta para construir centros de datos cerca de sus centrales eléctricas del área metropolitana de Tokio, según publicó Nikkei el 27 de noviembre. Su presidente, Yukio Kani, agregó que también está en contacto con Amazon, Microsoft y Google. No hay acuerdo firmado, ni cifras de potencia o plazos, y ninguna de las empresas tecnológicas comentó.",
+        "La idea es aprovechar que esos terrenos ya tienen conexión eléctrica de gran escala, que es lo que más escasea para la IA. El primer proyecto conocido está en una central térmica de Chiba: en octubre JERA firmó un memorando con Dell y la británica RHAELM para un centro de datos de más de US$15.000 millones, que funcionaría hacia 2028, como modelo para replicar en otras centrales."
+      ],
+      "por_que_importa": "La electricidad es hoy el cuello de botella de la IA. Poner centros de datos al lado de las centrales es una solución de ingeniería energética que se está extendiendo en todo el mundo.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "EFE (vía Infobae)", "url": "https://www.infobae.com/america/agencias/2026/11/27/jera-negocia-con-anthropic-y-meta-para-construir-centros-de-datos-en-japon-segun-nikkei/", "tipo": "medio"}
+      ]
+    },
+    {
+      "titulo": "Q.ANT, el chip alemán que usa luz para correr partes de un modelo de IA, promete hasta cinco veces menos energía",
+      "titulo_corto": "Chip de luz de Q.ANT",
+      "categoria": "Hardware",
+      "veracidad": "confirmada",
+      "breve": "La alemana Q.ANT hace cálculos de IA con luz en vez de electricidad. Su jefe le dijo a Wired que en simulaciones ahorran unas cuatro o cinco veces de energía, aunque todavía no lo demostraron en hardware real.",
+      "detalle": [
+        "Q.ANT, de Stuttgart, fabrica un procesador fotónico (que calcula con haces de luz en lugar de corrientes eléctricas) en forma de tarjeta que se enchufa a un servidor común y trabaja junto a las GPU. El 17 de noviembre presentó la versión NPU Gen 2+, que hace transformadas de Fourier (una operación matemática muy usada en señales) con luz en un solo paso. En una demostración junto a una GPU de AMD, esa operación reemplazó a una capa de atención (la parte de un modelo de lenguaje que relaciona las palabras entre sí) y así corrió un modelo de lenguaje.",
+        "En una entrevista con Wired publicada el 27 de noviembre, su director, Michael Förtsch, dijo que en simulación logran una reducción de energía de cuatro o cinco veces, pero que todavía no lo muestran en hardware. Es bastante menos que el 30 veces que la empresa prometía en 2024 a nivel de circuito.",
+        "Por ahora es una prueba piloto: la nube alemana IONOS ofrece acceso gratuito y cerrado a sus chips desde el 9 de noviembre, y los sistemas comerciales llegarían en la segunda mitad de 2027."
+      ],
+      "por_que_importa": "El consumo eléctrico es el gran límite de la IA. Si la computación con luz funciona a escala, podría bajar el costo energético de cada respuesta.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "Wired", "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/", "tipo": "medio"},
+        {"nombre": "The Quantum Insider", "url": "https://thequantuminsider.com/2026/11/17/q-ant-demonstrates-hybrid-photonic-gpu-system-for-language-models/", "tipo": "medio"}
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "Carnegie Mellon publica gratis 33 \"habilidades\" para que un agente de IA haga tareas de ingeniería mecánica",
+      "titulo_corto": "Skills de ingeniería CMU",
+      "categoria": "Diseño y simulación",
+      "veracidad": "oficial",
+      "breve": "Publicado el 3 de noviembre: el laboratorio de Amir Barati Farimani liberó una biblioteca abierta para que agentes como Claude Code o Codex diseñen piezas en CAD, preparen simulaciones de fluidos, calculen elementos de máquinas y planifiquen impresiones 3D.",
+      "detalle": [
+        "El grupo de Amir Barati Farimani, en Carnegie Mellon, presentó en arXiv (repositorio de artículos científicos) y en GitHub una biblioteca de 33 skills, paquetes que combinan instrucciones, herramientas y pasos de verificación que un agente de IA sigue para resolver una tarea. La idea es que el modelo de lenguaje interprete el pedido y reparta el trabajo, pero las cuentas las hagan programas tradicionales, que no inventan resultados.",
+        "Incluye CAD a partir de texto o bocetos (con CadQuery y FreeCAD, no SolidWorks), síntesis de mecanismos, dimensionado de bulones, ejes, rodamientos y engranajes, cadenas de tolerancias, revisión de planos con tolerancias geométricas, análisis estático y modal por elementos finitos, preparación de casos de fluidos en OpenFOAM, selección de materiales y diseño para impresión 3D. También genera problemas tipo libro de texto, diagramas de cuerpo libre y círculos de Mohr.",
+        "En cinco casos de prueba, las predicciones de apogeo de un cohete quedaron dentro del 4% de las de referencia y un ajuste de ecuaciones fue nueve veces más preciso que un polinomio cúbico. Los autores aclaran que todavía no compararon de forma controlada distintos agentes. Se instala con un comando y tiene licencia MIT."
+      ],
+      "por_que_importa": "Es algo que un estudiante puede probar hoy gratis: le da a su asistente de IA herramientas de cálculo verificables para prácticos de elementos de máquinas, mecánica de sólidos o fluidos, en vez de confiar en cuentas que el chatbot hace de memoria.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {"nombre": "arXiv", "url": "https://arxiv.org/abs/2611.05758", "tipo": "oficial"},
+        {"nombre": "GitHub (BaratiLab)", "url": "https://github.com/BaratiLab/mechanical-engineering-skills", "tipo": "oficial"}
+      ]
+    }
+  ],
+  "jon_video": {"id": "ct0wBVFdry4", "titulo": "La IA cambiará el mundo para siempre - Tyler Cowen", "resumen_url": null},
+  "jon_resumen": {
+    "base": "descripcion",
+    "de_que_trata": "Una entrevista larga de Jon con el economista estadounidense Tyler Cowen sobre cómo la IA va a afectar el empleo, el crecimiento económico, Europa y la educación.",
+    "explicacion": [
+      "No es la entrega habitual de noticias sino un podcast. El invitado es Tyler Cowen, catedrático de Economía en la Universidad George Mason, coautor del blog Marginal Revolution y autor del libro The Great Stagnation. La charla se dio porque el Instituto Ostrom, que le entregó a Cowen su Premio al Liderazgo Intelectual, organizó una conferencia suya en Barcelona.",
+      "Según la descripción, hablan del impacto de la IA en el empleo y en el crecimiento económico, de los obstáculos humanos que frenan su adopción, del papel de Europa en la carrera tecnológica y de cómo adaptar la educación a estos cambios.",
+      "Por los capítulos del video, la conversación arranca con los riesgos inmediatos de la IA y la idea de frenarla, con una mención a la apuesta por Anthropic, y sigue con el costo de acelerarla y la soberanía europea en IA. Después pasa a IA, crecimiento y pensiones, longevidad y avances médicos, la AGI (una IA con capacidades generales comparables a las humanas) y cuánto se adopta de verdad, y el futuro del empleo. Cierra con las ventajas profesionales y oportunidades para España, la competencia entre EE. UU. y China en IA y robótica, Anthropic y la IA que se mejora a sí misma, los límites de la AGI y el valor humano, la educación y cómo debería regular y adaptarse Europa.",
+      "La descripción no detalla qué opina Cowen sobre cada tema, así que este resumen solo indica de qué se habla, no sus conclusiones."
+    ],
+    "puntos_clave": [
+      {"texto": "Riesgos inmediatos de la IA y el debate sobre frenarla, con una mención a la apuesta por Anthropic.", "segundo": 121},
+      {"texto": "El costo de acelerar la IA y la soberanía europea en la carrera tecnológica.", "segundo": 637},
+      {"texto": "Qué puede aportar la IA al crecimiento económico y a sostener las pensiones.", "segundo": 1449},
+      {"texto": "La AGI y cuánto se adopta la IA de verdad.", "segundo": 1913},
+      {"texto": "El futuro del empleo con IA.", "segundo": 2238},
+      {"texto": "EE. UU. contra China en IA y robótica.", "segundo": 2902},
+      {"texto": "Anthropic y la IA capaz de mejorarse a sí misma.", "segundo": 3281},
+      {"texto": "Cómo adaptar la educación a la era de la IA.", "segundo": 3877}
+    ]
+  },
+  "notas_internas": "Día flojo por el feriado de Acción de Gracias en EE. UU.: 7 noticias. Video de Jon: entrevista a Tyler Cowen (es_noticias false, sin Resumen Plaud), base descripcion; se ignoraron los segmentos de publicidad (InfoJobs/Viterbit, Rossellimac, ElevenLabs, Black Friday). Falló el feed TechXplore Ingeniería (404). Reuters, Wired, Houston Chronicle (AP), DCD y GlobeNewswire bloquean la lectura automática: Reuters leído vía Taipei Times, The Standard y Al Jazeera; Q.ANT/Wired con el texto del feed más The Quantum Insider y el resumen de Sulat (cita de Förtsch); El País (Musk) cuenta por su feed. JERA: solo Nikkei vía EFE, por eso sin_confirmar. MiniMax: actualización del experimento de Dragos ya cubierto el 22/11; el nombre sale solo de Reuters. Descartadas: Meta/FCA y Muse (solo Wired, ilegible), LAUSD y Google (ya cubierto el 19/11), Congreso de EE. UU. (NYT ilegible), SoftBank-RAI Institute (cierre solo en The Robot Report), estudio de lodos de perforación (artículo de 2025), músculos neumáticos (sin datos), Vention (podcast sin datos), Penn State soldadura (no verificable), Inkling 2 Mini y robots asesinos (ya cubiertos). No se detectaron instrucciones sospechosas en las fuentes."
+}
