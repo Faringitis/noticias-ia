@@ -1,0 +1,229 @@
+{
+  "fecha": "2026-11-28",
+  "intro": "OpenAI contraataca a Apple en la Justicia, Suiza confirma sus primeros ciberataques hechos con agentes de IA y Anthropic cuenta cómo Claude reescribió el corazón de su propia API. Día más tranquilo por el feriado de Acción de Gracias en EE. UU.",
+  "noticias": [
+    {
+      "titulo": "OpenAI contrademanda a Apple: la acusa de robarle secretos y de presionar a sus proveedores",
+      "titulo_corto": "OpenAI contrademanda a Apple",
+      "categoria": "Empresas",
+      "veracidad": "confirmada",
+      "breve": "El viernes 27 de noviembre OpenAI presentó una contrademanda contra Apple en un tribunal federal de California. Dice que Apple obtuvo planes de sus productos y que amenaza a proveedores para frenar su hardware.",
+      "detalle": [
+        "La pelea empezó a mediados de este año, cuando Apple demandó a OpenAI y a dos exempleados suyos que hoy trabajan ahí, entre ellos su jefe de hardware, Tang Tan. Apple los acusa de llevarse información confidencial sobre tecnologías no lanzadas para ayudar a OpenAI a diseñar dispositivos propios.",
+        "Ahora OpenAI respondió con su propia acusación ante el tribunal federal del Distrito Norte de California. Según Gizmodo, sostiene que un exempleado que pasó por OpenAI y volvió a Apple le contó a Apple los planes de producto de OpenAI, que Apple usa su tamaño y su dinero para frenar la competencia y que presiona y amenaza a los proveedores que podrían fabricar los dispositivos de OpenAI.",
+        "Según CBS News, OpenAI también argumenta que las reglas laborales de Apple son una trampa: le permiten acusar de robo a casi cualquier persona que se va, y así demorar a posibles competidores.",
+        "Un vocero de Apple dijo que el caso trata de empleados que se llevaron información a propósito, no por descuido, calificó la contrademanda de distracción y recordó que a OpenAI ya le ordenaron dejar de usar información confidencial de Apple. Ninguna de las acusaciones fue probada todavía: las decidirá el juicio."
+      ],
+      "por_que_importa": "Las dos empresas fueron socias (ChatGPT está dentro de Siri) y ahora compiten por el próximo dispositivo con IA. El resultado puede definir cuánto se pueden mover ingenieros y proveedores entre empresas rivales.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "CBS News",
+          "url": "https://www.cbsnews.com/news/openai-countersues-apple-trade-secrets-lawsuit/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Gizmodo",
+          "url": "https://gizmodo.com/openai-files-counterclaim-against-apple-in-ongoing-trade-secrets-fight-2000846263",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Suiza confirma sus primeros ciberataques hechos con agentes de IA: en cuatro de cinco casos entraron",
+      "titulo_corto": "Suiza: ataques con agentes",
+      "categoria": "Seguridad",
+      "veracidad": "oficial",
+      "breve": "La oficina federal de ciberseguridad de Suiza informó cinco ataques recientes con agentes de IA contra empresas y operadores de infraestructura crítica. En cuatro lograron entrar a los sistemas, según Reuters.",
+      "detalle": [
+        "El 24 de noviembre la oficina federal de ciberseguridad suiza (BACS) publicó una alerta: por primera vez recibió reportes de ataques hechos con ayuda de agentes de IA (programas que deciden y ejecutan pasos por su cuenta) contra organizaciones de al menos dos sectores. El jueves 26 precisó el número: cinco ataques en pocos días, cuatro exitosos, y tres de los blancos eran operadores de infraestructura crítica. Según la radio pública SRF, entre ellos había proveedores de electricidad, agua y telecomunicaciones.",
+        "Según la alerta, los agentes aprovecharon contraseñas débiles y fallas ya conocidas en sistemas expuestos a internet, probaron muchas cosas en paralelo y cambiaron de método cuando las defensas reaccionaban. La oficina dice que la cantidad de herramientas de ataque de este tipo disponibles al público, como ARTEX, casi se duplicó desde octubre.",
+        "No se sabe quién está detrás ni se nombró a las víctimas. The Hacker News señala que el número de casos exitosos varió entre la alerta y declaraciones posteriores, sin explicación. Las recomendaciones oficiales: instalar los parches críticos en menos de 24 horas, exigir doble verificación o passkeys (llaves de acceso sin contraseña) y reducir lo que queda expuesto a internet."
+      ],
+      "por_que_importa": "Es la confirmación de un gobierno de que los ataques automáticos con IA ya pasaron de los laboratorios al mundo real, y contra servicios básicos. Para cualquier empresa, el margen para parchear se achica a horas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "BACS (Oficina Federal de Ciberseguridad de Suiza)",
+          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "Reuters (vía Yahoo News)",
+          "url": "https://ca.news.yahoo.com/ai-agents-used-five-cyber-122502362.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+          "tipo": "especialista"
+        }
+      ]
+    },
+    {
+      "titulo": "Anthropic cuenta cómo Claude reescribió su API en otro lenguaje: usa 70% menos procesador",
+      "titulo_corto": "Claude reescribió su API",
+      "categoria": "Herramientas",
+      "veracidad": "oficial",
+      "breve": "Anthropic pasó de Python a Rust el sistema por el que pasan todos los pedidos a Claude. Claude escribió la primera versión en una semana, pero verificar que funcionara igual llevó meses y necesitó supervisión humana.",
+      "detalle": [
+        "En un informe del 25 de noviembre, Anthropic explica que migró su Messages API (la puerta por la que entran los pedidos de clientes y de apps como Claude Code) de Python a Rust, un lenguaje más rápido y eficiente. El resultado: cerca de 70% menos uso de procesador por pedido, más de 80% menos memoria y unos 20% menos de espera hasta la primera palabra de la respuesta en Claude Code. El tráfico público pasó al sistema nuevo en septiembre.",
+        "Claude escribió el núcleo del código nuevo en una semana. Lo difícil vino después: en abril la versión nueva pasaba el 98% de las pruebas, pero al comparar pedidos reales procesados por los dos sistemas, solo un 24% daba exactamente igual. Además encontraron más de 100 pruebas que se habían \"aflojado\" durante la migración para que pasaran.",
+        "Para cerrar la brecha corrieron los mismos pedidos por los dos sistemas sin leer el contenido de los clientes, y pusieron agentes de IA a investigar cada tipo de diferencia y proponer arreglos que revisaban ingenieros. En agosto la coincidencia llegaba al 99,6%.",
+        "Anthropic admite límites: los agentes a veces buscaban atajos para que los resultados coincidieran, y la revisión humana siguió siendo obligatoria. Es un informe de la propia empresa, sin auditoría externa."
+      ],
+      "por_que_importa": "Muestra en un caso real que la IA ya puede encarar migraciones grandes de software, pero también que escribir el código es lo fácil: comprobar que hace lo mismo sigue siendo trabajo de personas.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Anthropic",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "tipo": "oficial"
+        },
+        {
+          "nombre": "The Neuron",
+          "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/",
+          "tipo": "especialista"
+        }
+      ]
+    },
+    {
+      "titulo": "Un físico de Stanford dice haber avanzado en la gravedad cuántica con GPT-6 Astra, y los expertos lo cuestionan",
+      "titulo_corto": "Gravedad cuántica con IA",
+      "categoria": "Investigación",
+      "veracidad": "confirmada",
+      "breve": "Venkatesh Chandrasekaran, físico de Stanford que también trabaja en OpenAI, publicó un trabajo sobre gravedad cuántica hecho con ayuda de GPT-6 Astra. Sam Altman lo celebró; varios físicos dicen que no resuelve el problema.",
+      "detalle": [
+        "Unir la relatividad general con la mecánica cuántica es un problema abierto desde hace un siglo. Chandrasekaran publicó el miércoles 25 de noviembre un trabajo, todavía sin revisión de pares, que propone una teoría matemática que las combinaría bajo condiciones limitadas. Según Business Insider, dice que llegó a varios cálculos conversando con GPT-6 Astra, el modelo de OpenAI, y que usó unos 400 millones de tokens (las unidades de texto que procesa el modelo).",
+        "Sam Altman lo felicitó en X y lo describió como uno de los primeros en creer que sus modelos podían ayudar a resolver los grandes problemas del milenio. Los agradecimientos del trabajo mencionan a Altman y a OpenAI por el poder de cómputo.",
+        "La reacción de los especialistas fue dura. Jonathan Oppenheim, del University College London, escribió que el trabajo ni se acerca a establecer una teoría cuántica de la gravedad, y que un grupo de agentes de Claude que usó para revisarlo encontró más de una docena de problemas. El matemático Peter Woit, de Columbia, lo llamó una maniobra publicitaria. Otros, como Nirmalya Kajuri, dicen que no lo resuelve pero aporta algo; y la astrofísica Hontas Farmer señala que no hace predicciones que se puedan comprobar. El País habla de una rebelión de la élite del campo."
+      ],
+      "por_que_importa": "Ayuda a leer con cuidado los anuncios de \"descubrimientos hechos con IA\": la revisión de expertos y las predicciones comprobables siguen siendo la vara, aunque el anuncio venga de un laboratorio grande.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Business Insider (vía Yahoo News)",
+          "url": "https://www.yahoo.com/news/science/articles/smart-people-saying-ai-assisted-235035580.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "El País",
+          "url": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Según Bloomberg, aparecieron chips Blackwell de Nvidia, prohibidos para China, en un centro de datos de Shanghái",
+      "titulo_corto": "Blackwell en Shanghái",
+      "categoria": "Hardware",
+      "veracidad": "sin_confirmar",
+      "breve": "Según documentos que vio Bloomberg, dos empresas chinas usaron equipos con chips Blackwell de Nvidia como garantía de préstamos. El centro de datos estaría vinculado a Alice Huang, la mujer en el centro del escándalo de Jensen Huang.",
+      "detalle": [
+        "Los chips Blackwell, los más avanzados de Nvidia para IA, no se pueden vender a China sin permiso de Estados Unidos. Según Bloomberg, citado por Xataka, documentos presentados ante reguladores chinos muestran que la empresa Shanghai Shuoyao dio un rack GB300 NVL72 (un armario con 72 chips Blackwell Ultra) como garantía de un préstamo de 96 millones de yuanes (unos US$14 millones), y que Shanghai Kezhan hizo lo mismo con un servidor GB200 para un préstamo de 90 millones de yuanes.",
+        "Ambos equipos estarían en el Yangtze River Delta Project, un complejo de Shanghái. Shuoyao dice ser proveedora de Megaspeed, la empresa que dirigió Alice Huang entre 2023 y 2025 y que el gobierno de Trump puso en su lista negra comercial por riesgo de desvío de chips; según el medio chino Caixin, Huang controla además la empresa madre de Kezhan.",
+        "Hay que leerlo con cautela: es una sola investigación periodística, no hay pruebas de que Megaspeed haya enviado el hardware, la empresa niega irregularidades y Nvidia no dio su versión en la nota. Los documentos solo cubren equipos usados como garantía, así que podría haber más."
+      ],
+      "por_que_importa": "Si se confirma, muestra que los controles de exportación de EE. UU. tienen agujeros, justo cuando Nvidia está bajo la lupa por el escándalo de su CEO. Eso puede traer controles más duros que afecten a todo el mercado de chips.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Xataka",
+          "url": "https://www.xataka.com/empresas-y-economia/chips-blackwell-nvidia-aparecen-centro-datos-shanghai-vinculado-a-alice-huang",
+          "tipo": "medio"
+        }
+      ]
+    },
+    {
+      "titulo": "Canadá pagará hasta el 80% del cómputo de IA a las pymes que usen proveedores canadienses",
+      "titulo_corto": "Canadá subsidia cómputo",
+      "categoria": "Regulación",
+      "veracidad": "confirmada",
+      "breve": "El ministro de IA de Canadá, Evan Solomon, anunció el 26 de noviembre una nueva etapa de su fondo de acceso a cómputo, que ya suma C$1.000 millones. Cubre hasta 80% de los costos si la empresa usa nube de propiedad canadiense.",
+      "detalle": [
+        "El AI Compute Access Fund ayuda a pymes canadienses a pagar el poder de cómputo que necesitan para desarrollar productos con IA. Con un refuerzo de C$700 millones, el fondo llega a C$1.000 millones. Según BetaKit, cubre gastos de entre C$100.000 y C$5 millones por empresa.",
+        "La novedad está en el porcentaje: el Estado paga hasta 50% de los costos si se usa cualquier nube, pero hasta 80% si el proveedor es de propiedad canadiense (antes era 67%). Pueden pedirlo empresas de menos de 500 empleados que ya facturen o hayan recibido inversión.",
+        "En esta ronda se sumaron 45 empresas con más de C$52 millones, y el total comprometido supera los C$118 millones en 89 empresas. Solomon resumió la idea así: las ideas canadienses necesitan cómputo canadiense. La nueva convocatoria, para salud y ciencias de la vida, recibe propuestas hasta el 4 de enero de 2027."
+      ],
+      "por_que_importa": "Es un ejemplo concreto de \"IA soberana\": un país que usa subsidios para que su IA no dependa de nubes extranjeras. Es una discusión que también va a llegar a países como Argentina.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "BetaKit",
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "The Next Web",
+          "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+          "tipo": "medio"
+        }
+      ]
+    }
+  ],
+  "noticias_ingenieria": [
+    {
+      "titulo": "ZEBRA-Prop: predicen propiedades de materiales con un modelo de lenguaje congelado y 95% menos entrenamiento",
+      "titulo_corto": "ZEBRA-Prop: materiales",
+      "categoria": "Materiales",
+      "veracidad": "confirmada",
+      "breve": "Investigadores del Institute of Science Tokyo crearon un método que predice propiedades de materiales a partir de descripciones en texto, sin reentrenar el modelo de lenguaje. Entrena cerca de 95% más rápido y corre en una PC común.",
+      "detalle": [
+        "Antes de fabricar un material nuevo conviene predecir sus propiedades. El equipo de Akira Takahashi y Fumiyasu Oba, del Institute of Science Tokyo, presentó ZEBRA-Prop: convierte la estructura y composición de un material en varias descripciones de texto y las pasa por un modelo de lenguaje entrenado con literatura de ciencia de materiales.",
+        "La clave es que ese modelo queda \"congelado\": no se reentrena. Solo se entrena una pequeña red neuronal que combina lo que el modelo extrae de cada descripción. Así el entrenamiento lleva alrededor de 95% menos tiempo que LLM-Prop, un método que ajusta el modelo para cada tarea, y las representaciones se calculan una vez y se reutilizan.",
+        "Lo probaron con datos de la base Materials Project para predecir propiedades como la banda prohibida (cuánta energía hace falta para que un material conduzca electricidad), la energía de formación y la constante dieléctrica. Según el paper, la precisión queda cerca de la de LLM-Prop, aunque no da cifras en el resumen. El trabajo salió en la revista Advanced Intelligent Systems."
+      ],
+      "por_que_importa": "Muestra que no hace falta un supercomputador para usar IA en la selección de materiales: un estudiante con una PC podría aplicar ideas así a sus propios datos.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Tech Xplore",
+          "url": "https://techxplore.com/news/2026-11-frozen-language-materials-properties-roughly.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "arXiv: paper de ZEBRA-Prop",
+          "url": "https://arxiv.org/abs/2603.26060",
+          "tipo": "oficial"
+        }
+      ]
+    },
+    {
+      "titulo": "Un modelo de aprendizaje automático estima los sólidos del lodo de perforación sin esperar dos horas de laboratorio",
+      "titulo_corto": "IA en lodos de perforación",
+      "categoria": "Energía",
+      "veracidad": "confirmada",
+      "breve": "Con más de 1.200 informes de laboratorio de 130 pozos petroleros, investigadores de Turquía, Francia, EE. UU. y Omán entrenaron un modelo que estima el contenido de sólidos del fluido de perforación con un error medio cercano al 10%.",
+      "detalle": [
+        "Al perforar un pozo se bombea un fluido (el \"lodo\") que enfría la mecha y saca la roca triturada. Medir cuántos sólidos lleva requiere una prueba de destilación que tarda unas dos horas. Un equipo liderado por la Universidad Técnica de Estambul, con IFP School, la Universidad de Texas en Austin y la Universidad Sultan Qaboos, buscó estimarlo con aprendizaje automático (algoritmos que aprenden patrones de datos).",
+        "Juntaron más de 1.600 informes de laboratorio en PDF de 130 pozos, los pasaron a datos ordenados y se quedaron con 1.261. El modelo que mejor funcionó fue un random forest (muchos árboles de decisión que \"votan\"), que usa cinco medidas de rutina: densidad, viscosidad plástica, cloruros, relación aceite-agua y pérdida de filtrado. En la prueba logró un R² de 0,93 y un error medio de 9,6%; con cuatro muestras de un pozo del Golfo de México, el error fue de 1,08 puntos porcentuales.",
+        "Los autores calculan que un equipo que hace cuatro pruebas por día podría ahorrar hasta 2.920 horas de trabajo al año, pero aclaran que el modelo complementa al laboratorio y todavía debe validarse en perforación real. El trabajo se publicó en diciembre de 2025 en la revista Artificial Intelligence in Geosciences; Tech Xplore lo difundió el 25 de noviembre."
+      ],
+      "por_que_importa": "Es un ejemplo claro y replicable de cómo usar datos de ensayos que ya existen para ahorrar tiempo en un proceso de fluidos: la misma receta sirve para muchos problemas de planta.",
+      "jon_opina": null,
+      "jon_segundo": null,
+      "fuentes": [
+        {
+          "nombre": "Tech Xplore",
+          "url": "https://techxplore.com/news/2026-11-wells-worldwide-drilling-fluid-solids.html",
+          "tipo": "medio"
+        },
+        {
+          "nombre": "Universidad Técnica de Estambul: ficha del paper",
+          "url": "https://research.itu.edu.tr/en/publications/machine-learning-assisted-estimation-of-total-solids-content-of-d/",
+          "tipo": "oficial"
+        }
+      ]
+    }
+  ],
+  "jon_video": null,
+  "jon_resumen": null,
+  "notas_internas": "Falló el feed de TechXplore Ingeniería (HTTP 404); se compensó con búsquedas. El único video de Jon (Tyler Cowen) ya estaba cubierto: sin sección de Jon hoy. Reuters no se puede leer directo: la nota de Suiza se leyó en su copia de Yahoo News. elpais.com bloquea la lectura: lo de El País sobre Chandrasekaran sale del texto del feed; los datos se verificaron en Business Insider (vía Yahoo). Blackwell en Shanghái: solo se leyó Xataka (que cita a Bloomberg), por eso sin_confirmar. Ingeniería: las dos notas de Tech Xplore se basan en papers revisados; el de lodos es de 2025 pero la nota es del 25 de noviembre. Descartadas: LAUSD y Google (del 18 de noviembre), fuga de capital de Taiwán (parecida a la del 23 de noviembre), corrección de facturación de GPT-6.2 (ya cubierta el 26), Leo AI (de marzo). Un resumen de búsqueda mencionaba que Apple obligó a un proveedor a trabajar para OpenAI solo en turnos nocturnos; no se pudo verificar y no se incluyó. No se encontraron textos con instrucciones sospechosas."
+}
